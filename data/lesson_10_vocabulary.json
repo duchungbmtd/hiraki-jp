@@ -1,0 +1,632 @@
+[
+  {
+    "japanese": "プレゼント",
+    "kanji": "",
+    "romanji": "purezento",
+    "vietnamese": "món quà",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "object",
+    "example": "プレゼントを買います。"
+  },
+  {
+    "japanese": "カード",
+    "kanji": "",
+    "romanji": "kaado",
+    "vietnamese": "thẻ",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "object",
+    "example": "カードで払います。"
+  },
+  {
+    "japanese": "えはがき",
+    "kanji": "絵はがき",
+    "romanji": "ehagaki",
+    "vietnamese": "bưu ảnh",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "object",
+    "example": "絵はがきを送ります。"
+  },
+  {
+    "japanese": "せんぱい",
+    "kanji": "先輩",
+    "romanji": "senpai",
+    "vietnamese": "người đi trước, lớp anh chị đi trước",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "person",
+    "example": "先輩に教えてもらいます。"
+  },
+  {
+    "japanese": "こうはい",
+    "kanji": "後輩",
+    "romanji": "kouhai",
+    "vietnamese": "người vô sau, lớp đàn em vô sau",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "person",
+    "example": "後輩を教えます。"
+  },
+  {
+    "japanese": "おちゃ",
+    "kanji": "お茶",
+    "romanji": "ocha",
+    "vietnamese": "trà",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "お茶を飲みます。"
+  },
+  {
+    "japanese": "ネックレス",
+    "kanji": "",
+    "romanji": "nekkuresu",
+    "vietnamese": "dây chuyền, dây đeo cổ",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "clothing",
+    "example": "ネックレスをしています。"
+  },
+  {
+    "japanese": "ネクタイ",
+    "kanji": "",
+    "romanji": "nekutai",
+    "vietnamese": "cà vạt",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "clothing",
+    "example": "ネクタイを締めます。"
+  },
+  {
+    "japanese": "シャツ",
+    "kanji": "",
+    "romanji": "shatsu",
+    "vietnamese": "áo sơ mi",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "clothing",
+    "example": "白いシャツを着ます。"
+  },
+  {
+    "japanese": "おっと",
+    "kanji": "夫",
+    "romanji": "otto",
+    "vietnamese": "chồng tôi",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "family",
+    "example": "夫は会社員です。"
+  },
+  {
+    "japanese": "しゅじん",
+    "kanji": "主人",
+    "romanji": "shujin",
+    "vietnamese": "chồng (người khác)",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "family",
+    "example": "ご主人はお元気ですか。"
+  },
+  {
+    "japanese": "つま",
+    "kanji": "妻",
+    "romanji": "tsuma",
+    "vietnamese": "vợ tôi",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "family",
+    "example": "妻は看護師です。"
+  },
+  {
+    "japanese": "おくさん",
+    "kanji": "奥さん",
+    "romanji": "okusan",
+    "vietnamese": "vợ (người khác)",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "family",
+    "example": "奥さんはお元気ですか。"
+  },
+  {
+    "japanese": "こどもさん",
+    "kanji": "子供さん",
+    "romanji": "kodomosan",
+    "vietnamese": "con (người khác)",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "family",
+    "example": "子供さんは何人ですか。"
+  },
+  {
+    "japanese": "せっけん",
+    "kanji": "石けん",
+    "romanji": "sekken",
+    "vietnamese": "xà phòng",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "object",
+    "example": "石けんで手を洗います。"
+  },
+  {
+    "japanese": "みかん",
+    "kanji": "",
+    "romanji": "mikan",
+    "vietnamese": "quýt",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "みかんを食べます。"
+  },
+  {
+    "japanese": "ちゅうもん",
+    "kanji": "注文",
+    "romanji": "chuumon",
+    "vietnamese": "gọi món (dùng trong nhà hàng, quán ăn), đặt hàng",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "activity",
+    "example": "注文をします。"
+  },
+  {
+    "japanese": "サンドイッチ",
+    "kanji": "",
+    "romanji": "sandoicchi",
+    "vietnamese": "bánh sandwich",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "サンドイッチを食べます。"
+  },
+  {
+    "japanese": "スパゲティ",
+    "kanji": "",
+    "romanji": "supageti",
+    "vietnamese": "mì Ý",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "スパゲティを食べます。"
+  },
+  {
+    "japanese": "ステーキ",
+    "kanji": "",
+    "romanji": "suteeki",
+    "vietnamese": "bít tết",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "ステーキを食べます。"
+  },
+  {
+    "japanese": "はし",
+    "kanji": "",
+    "romanji": "hashi",
+    "vietnamese": "đũa",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "object",
+    "example": "はしで食べます。"
+  },
+  {
+    "japanese": "スプーン",
+    "kanji": "",
+    "romanji": "supuun",
+    "vietnamese": "muỗng, thìa",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "object",
+    "example": "スプーンで食べます。"
+  },
+  {
+    "japanese": "ナイフ",
+    "kanji": "",
+    "romanji": "naifu",
+    "vietnamese": "dao",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "object",
+    "example": "ナイフで切ります。"
+  },
+  {
+    "japanese": "フォーク",
+    "kanji": "",
+    "romanji": "fooku",
+    "vietnamese": "nĩa, xiên",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "object",
+    "example": "フォークで食べます。"
+  },
+  {
+    "japanese": "て",
+    "kanji": "手",
+    "romanji": "te",
+    "vietnamese": "tay",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "body",
+    "example": "手を洗います。"
+  },
+  {
+    "japanese": "レポート",
+    "kanji": "",
+    "romanji": "repooto",
+    "vietnamese": "báo cáo",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "education",
+    "example": "レポートを書きます。"
+  },
+  {
+    "japanese": "こうくうびん",
+    "kanji": "航空便",
+    "romanji": "koukuubin",
+    "vietnamese": "gửi hàng bằng đường máy bay",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "service",
+    "example": "航空便で送ります。"
+  },
+  {
+    "japanese": "にもつ",
+    "kanji": "荷物",
+    "romanji": "nimotsu",
+    "vietnamese": "hành lý",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "object",
+    "example": "荷物を送ります。"
+  },
+  {
+    "japanese": "かきとめ",
+    "kanji": "書留",
+    "romanji": "kakitome",
+    "vietnamese": "gửi bảo đảm",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "service",
+    "example": "書留で送ります。"
+  },
+  {
+    "japanese": "いろ",
+    "kanji": "色",
+    "romanji": "iro",
+    "vietnamese": "màu sắc",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "noun",
+    "example": "きれいな色です。"
+  },
+  {
+    "japanese": "セーター",
+    "kanji": "",
+    "romanji": "seetaa",
+    "vietnamese": "áo len mỏng mặc khoác ngoài",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "clothing",
+    "example": "セーターを着ます。"
+  },
+  {
+    "japanese": "クラス",
+    "kanji": "",
+    "romanji": "kurasu",
+    "vietnamese": "lớp",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "education",
+    "example": "同じクラスです。"
+  },
+  {
+    "japanese": "かします",
+    "kanji": "貸します",
+    "romanji": "kashimasu",
+    "vietnamese": "cho mượn",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "本を貸します。"
+  },
+  {
+    "japanese": "あげます",
+    "kanji": "",
+    "romanji": "agemasu",
+    "vietnamese": "cho, tặng",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "プレゼントをあげます。"
+  },
+  {
+    "japanese": "おしえます",
+    "kanji": "教えます",
+    "romanji": "oshiemasu",
+    "vietnamese": "dạy",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "日本語を教えます。"
+  },
+  {
+    "japanese": "おくります",
+    "kanji": "送ります",
+    "romanji": "okurimasu",
+    "vietnamese": "gửi",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "手紙を送ります。"
+  },
+  {
+    "japanese": "かけます",
+    "kanji": "かけます",
+    "romanji": "kakemasu",
+    "vietnamese": "gọi [điện thoại]",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "電話をかけます。"
+  },
+  {
+    "japanese": "かります",
+    "kanji": "借ります",
+    "romanji": "karimasu",
+    "vietnamese": "mượn",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "本を借ります。"
+  },
+  {
+    "japanese": "ならいます",
+    "kanji": "習います",
+    "romanji": "naraimasu",
+    "vietnamese": "học",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "ピアノを習います。"
+  },
+  {
+    "japanese": "もらいます",
+    "kanji": "",
+    "romanji": "moraimasu",
+    "vietnamese": "nhận được",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "プレゼントをもらいます。"
+  },
+  {
+    "japanese": "します",
+    "kanji": "",
+    "romanji": "shimasu",
+    "vietnamese": "chọn (vật+trợ từ に)",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "これをします。"
+  },
+  {
+    "japanese": "はなします",
+    "kanji": "話します",
+    "romanji": "hanashimasu",
+    "vietnamese": "nói chuyện",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "友達と話します。"
+  },
+  {
+    "japanese": "すてき",
+    "kanji": "",
+    "romanji": "suteki",
+    "vietnamese": "tuyệt vời",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "すてきな服です。"
+  },
+  {
+    "japanese": "ひとつ",
+    "kanji": "１つ",
+    "romanji": "hitotsu",
+    "vietnamese": "một (đơn vị đếm)",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "りんごを一つ買います。"
+  },
+  {
+    "japanese": "ふたつ",
+    "kanji": "２つ",
+    "romanji": "futatsu",
+    "vietnamese": "hai",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "りんごを二つ買います。"
+  },
+  {
+    "japanese": "みっつ",
+    "kanji": "３つ",
+    "romanji": "mittsu",
+    "vietnamese": "ba",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "りんごを三つ買います。"
+  },
+  {
+    "japanese": "よっつ",
+    "kanji": "４つ",
+    "romanji": "yottsu",
+    "vietnamese": "bốn",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "りんごを四つ買います。"
+  },
+  {
+    "japanese": "いつつ",
+    "kanji": "５つ",
+    "romanji": "itsutsu",
+    "vietnamese": "năm",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "りんごを五つ買います。"
+  },
+  {
+    "japanese": "むっつ",
+    "kanji": "６つ",
+    "romanji": "muttsu",
+    "vietnamese": "sáu",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "りんごを六つ買います。"
+  },
+  {
+    "japanese": "ななつ",
+    "kanji": "７つ",
+    "romanji": "nanatsu",
+    "vietnamese": "bảy",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "りんごを七つ買います。"
+  },
+  {
+    "japanese": "やっつ",
+    "kanji": "８つ",
+    "romanji": "yattsu",
+    "vietnamese": "tám",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "りんごを八つ買います。"
+  },
+  {
+    "japanese": "ここのつ",
+    "kanji": "９つ",
+    "romanji": "kokonotsu",
+    "vietnamese": "chín",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "りんごを九つ買います。"
+  },
+  {
+    "japanese": "とお",
+    "kanji": "10",
+    "romanji": "too",
+    "vietnamese": "mười",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "りんごを十買います。"
+  },
+  {
+    "japanese": "いくつ",
+    "kanji": "",
+    "romanji": "ikutsu",
+    "vietnamese": "bao nhiêu",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "question",
+    "example": "いくつ買いますか。"
+  },
+  {
+    "japanese": "－だい",
+    "kanji": "－台",
+    "romanji": "-dai",
+    "vietnamese": "chiếc/cái (đơn vị đếm xe, máy móc)",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "車を一台買います。"
+  },
+  {
+    "japanese": "なんだい",
+    "kanji": "何台",
+    "romanji": "nandai",
+    "vietnamese": "bao nhiêu chiếc/cái",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "question",
+    "example": "何台買いますか。"
+  },
+  {
+    "japanese": "－まい",
+    "kanji": "－枚",
+    "romanji": "-mai",
+    "vietnamese": "tờ/tấm (đơn vị đếm giấy, tem, áo)",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "切手を一枚買います。"
+  },
+  {
+    "japanese": "なんまい",
+    "kanji": "何枚",
+    "romanji": "nanmai",
+    "vietnamese": "bao nhiêu/mấy tờ",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "question",
+    "example": "何枚買いますか。"
+  },
+  {
+    "japanese": "また",
+    "kanji": "",
+    "romanji": "mata",
+    "vietnamese": "nữa, sẽ",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "adverb",
+    "example": "また来ます。"
+  },
+  {
+    "japanese": "はじめて",
+    "kanji": "初めて",
+    "romanji": "hajimete",
+    "vietnamese": "đầu tiên",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "adverb",
+    "example": "初めて日本に来ました。"
+  },
+  {
+    "japanese": "～を おねがいします",
+    "kanji": "～を お願いします",
+    "romanji": "~ wo onegai shimasu",
+    "vietnamese": "Cho tôi ~",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "expression",
+    "example": "コーヒーをお願いします。"
+  },
+  {
+    "japanese": "いらっしゃいませ",
+    "kanji": "",
+    "romanji": "irasshaimase",
+    "vietnamese": "Xin kính chào quý khách",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "expression",
+    "example": "いらっしゃいませ。"
+  },
+  {
+    "japanese": "～に よろしく",
+    "kanji": "",
+    "romanji": "~ ni yoroshiku",
+    "vietnamese": "Cho tôi gửi lời hỏi thăm đến ~",
+    "lesson": 10,
+    "difficulty": "beginner",
+    "category": "expression",
+    "example": "お母さんによろしく。"
+  }
+]

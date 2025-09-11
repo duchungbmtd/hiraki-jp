@@ -1,0 +1,522 @@
+[
+  {
+    "japanese": "これ",
+    "kanji": "",
+    "romanji": "kore",
+    "vietnamese": "cái này (gần người nói)",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "pronoun",
+    "example": "これは何ですか。"
+  },
+  {
+    "japanese": "それ",
+    "kanji": "",
+    "romanji": "sore",
+    "vietnamese": "cái đó (gần người nghe)",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "pronoun",
+    "example": "それは本です。"
+  },
+  {
+    "japanese": "あれ",
+    "kanji": "",
+    "romanji": "are",
+    "vietnamese": "cái kia (xa cả người nói và nghe)",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "pronoun",
+    "example": "あれは何ですか。"
+  },
+  {
+    "japanese": "この",
+    "kanji": "",
+    "romanji": "kono",
+    "vietnamese": "cái này (theo sau phải là danh từ)",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "pronoun",
+    "example": "この本は面白いです。"
+  },
+  {
+    "japanese": "その",
+    "kanji": "",
+    "romanji": "sono",
+    "vietnamese": "cái đó (theo sau phải là danh từ)",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "pronoun",
+    "example": "その車は高いです。"
+  },
+  {
+    "japanese": "あの",
+    "kanji": "",
+    "romanji": "ano",
+    "vietnamese": "cái kia (theo sau phải là danh từ)",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "pronoun",
+    "example": "あの人は誰ですか。"
+  },
+  {
+    "japanese": "ノート",
+    "kanji": "",
+    "romanji": "nooto",
+    "vietnamese": "quyển vở",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "stationery",
+    "example": "ノートに書いてください。"
+  },
+  {
+    "japanese": "ほん",
+    "kanji": "本",
+    "romanji": "hon",
+    "vietnamese": "quyển sách",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "stationery",
+    "example": "本を読みます。"
+  },
+  {
+    "japanese": "ざっし",
+    "kanji": "雑誌",
+    "romanji": "zasshi",
+    "vietnamese": "tạp chí",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "stationery",
+    "example": "雑誌を買いました。"
+  },
+  {
+    "japanese": "パソコン",
+    "kanji": "",
+    "romanji": "pasokon",
+    "vietnamese": "máy tính cá nhân",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "electronics",
+    "example": "パソコンで仕事をします。"
+  },
+  {
+    "japanese": "かさ",
+    "kanji": "傘",
+    "romanji": "kasa",
+    "vietnamese": "cây dù",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "object",
+    "example": "傘を持って行きます。"
+  },
+  {
+    "japanese": "かばん",
+    "kanji": "",
+    "romanji": "kaban",
+    "vietnamese": "túi xách, cái cặp",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "object",
+    "example": "かばんに本を入れます。"
+  },
+  {
+    "japanese": "テレビ",
+    "kanji": "",
+    "romanji": "terebi",
+    "vietnamese": "ti vi",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "electronics",
+    "example": "テレビを見ます。"
+  },
+  {
+    "japanese": "ボールペン",
+    "kanji": "",
+    "romanji": "boorupen",
+    "vietnamese": "bút bi",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "stationery",
+    "example": "ボールペンで書きます。"
+  },
+  {
+    "japanese": "さいふ",
+    "kanji": "財布",
+    "romanji": "saifu",
+    "vietnamese": "cái ví",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "object",
+    "example": "財布を忘れました。"
+  },
+  {
+    "japanese": "しんぶん",
+    "kanji": "新聞",
+    "romanji": "shinbun",
+    "vietnamese": "tờ báo",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "stationery",
+    "example": "新聞を読みます。"
+  },
+  {
+    "japanese": "さとう",
+    "kanji": "砂糖",
+    "romanji": "satou",
+    "vietnamese": "đường (ăn)",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "砂糖を入れます。"
+  },
+  {
+    "japanese": "しお",
+    "kanji": "塩",
+    "romanji": "shio",
+    "vietnamese": "muối",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "塩を少しかけます。"
+  },
+  {
+    "japanese": "しょうゆ",
+    "kanji": "",
+    "romanji": "shouyu",
+    "vietnamese": "xì dầu, nước tương",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "しょうゆをかけます。"
+  },
+  {
+    "japanese": "ソース",
+    "kanji": "",
+    "romanji": "soosu",
+    "vietnamese": "nước sốt",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "ソースをかけます。"
+  },
+  {
+    "japanese": "うどん",
+    "kanji": "",
+    "romanji": "udon",
+    "vietnamese": "mì Udon",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "うどんを食べます。"
+  },
+  {
+    "japanese": "そば",
+    "kanji": "",
+    "romanji": "soba",
+    "vietnamese": "mì Soba",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "そばが好きです。"
+  },
+  {
+    "japanese": "みず",
+    "kanji": "水",
+    "romanji": "mizu",
+    "vietnamese": "nước",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "drink",
+    "example": "水を飲みます。"
+  },
+  {
+    "japanese": "ジュース",
+    "kanji": "",
+    "romanji": "juusu",
+    "vietnamese": "nước trái cây",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "drink",
+    "example": "オレンジジュースを飲みます。"
+  },
+  {
+    "japanese": "こうちゃ",
+    "kanji": "紅茶",
+    "romanji": "koucha",
+    "vietnamese": "hồng trà",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "drink",
+    "example": "紅茶を飲みます。"
+  },
+  {
+    "japanese": "コーヒー",
+    "kanji": "",
+    "romanji": "koohii",
+    "vietnamese": "cà phê",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "drink",
+    "example": "コーヒーを飲みます。"
+  },
+  {
+    "japanese": "カタログ",
+    "kanji": "",
+    "romanji": "katarogu",
+    "vietnamese": "catalog",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "object",
+    "example": "カタログを見ます。"
+  },
+  {
+    "japanese": "コンピューター",
+    "kanji": "",
+    "romanji": "konpyuutaa",
+    "vietnamese": "máy tính",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "electronics",
+    "example": "コンピューターを使います。"
+  },
+  {
+    "japanese": "カメラ",
+    "kanji": "",
+    "romanji": "kamera",
+    "vietnamese": "máy ảnh",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "electronics",
+    "example": "カメラで写真を撮ります。"
+  },
+  {
+    "japanese": "けいたいでんわ",
+    "kanji": "携帯電話",
+    "romanji": "keitai denwa",
+    "vietnamese": "điện thoại di động",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "electronics",
+    "example": "携帯電話で話します。"
+  },
+  {
+    "japanese": "くるま",
+    "kanji": "車",
+    "romanji": "kuruma",
+    "vietnamese": "ô tô, xe hơi",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "vehicle",
+    "example": "車で行きます。"
+  },
+  {
+    "japanese": "～せい",
+    "kanji": "～製",
+    "romanji": "~sei",
+    "vietnamese": "sản phẩm của nước~",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "suffix",
+    "example": "日本製の時計です。"
+  },
+  {
+    "japanese": "ひと",
+    "kanji": "人",
+    "romanji": "hito",
+    "vietnamese": "người",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "person",
+    "example": "あの人は先生です。"
+  },
+  {
+    "japanese": "シャープペンシル",
+    "kanji": "",
+    "romanji": "shaapupenshiru",
+    "vietnamese": "bút chì bấm",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "stationery",
+    "example": "シャープペンシルで書きます。"
+  },
+  {
+    "japanese": "とりにく",
+    "kanji": "とり肉",
+    "romanji": "toriniku",
+    "vietnamese": "thịt gà",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "とり肉を食べます。"
+  },
+  {
+    "japanese": "ぶたにく",
+    "kanji": "豚肉",
+    "romanji": "butaniku",
+    "vietnamese": "thịt heo",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "豚肉を買います。"
+  },
+  {
+    "japanese": "ぎゅうどん",
+    "kanji": "牛どん",
+    "romanji": "gyuudon",
+    "vietnamese": "cơm tô với thịt bò",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "牛どんを食べます。"
+  },
+  {
+    "japanese": "ぎゅうにく",
+    "kanji": "牛肉",
+    "romanji": "gyuuniku",
+    "vietnamese": "thịt bò",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "牛肉を焼きます。"
+  },
+  {
+    "japanese": "にく",
+    "kanji": "肉",
+    "romanji": "niku",
+    "vietnamese": "thịt",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "肉を食べます。"
+  },
+  {
+    "japanese": "おやこどん",
+    "kanji": "親子どん",
+    "romanji": "oyakodon",
+    "vietnamese": "cơm tô với thịt gà và trứng",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "親子どんを注文します。"
+  },
+  {
+    "japanese": "すきやき",
+    "kanji": "すき焼き",
+    "romanji": "sukiyaki",
+    "vietnamese": "sukiyaki",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "すき焼きを食べます。"
+  },
+  {
+    "japanese": "ラーメン",
+    "kanji": "",
+    "romanji": "raamen",
+    "vietnamese": "mì",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "ラーメンを食べます。"
+  },
+  {
+    "japanese": "やきにくていしょく",
+    "kanji": "焼肉定食",
+    "romanji": "yakiniku teishoku",
+    "vietnamese": "cơm phần thịt nướng",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "焼肉定食を注文します。"
+  },
+  {
+    "japanese": "ＣＤ",
+    "kanji": "",
+    "romanji": "shii dii",
+    "vietnamese": "đĩa CD",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "object",
+    "example": "CDを聞きます。"
+  },
+  {
+    "japanese": "～ご",
+    "kanji": "～語",
+    "romanji": "~go",
+    "vietnamese": "tiếng~",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "suffix",
+    "example": "日本語を勉強します。"
+  },
+  {
+    "japanese": "なん",
+    "kanji": "何",
+    "romanji": "nan",
+    "vietnamese": "cái gì",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "question",
+    "example": "何ですか。"
+  },
+  {
+    "japanese": "だれ",
+    "kanji": "",
+    "romanji": "dare",
+    "vietnamese": "ai",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "question",
+    "example": "あの人は誰ですか。"
+  },
+  {
+    "japanese": "ドイツ",
+    "kanji": "",
+    "romanji": "doitsu",
+    "vietnamese": "Đức",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "country",
+    "example": "ドイツから来ました。"
+  },
+  {
+    "japanese": "イタリア",
+    "kanji": "",
+    "romanji": "itaria",
+    "vietnamese": "Ý",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "country",
+    "example": "イタリア人です。"
+  },
+  {
+    "japanese": "イギリス",
+    "kanji": "",
+    "romanji": "igirisu",
+    "vietnamese": "Anh",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "country",
+    "example": "イギリスから来ました。"
+  },
+  {
+    "japanese": "わたなべ あき",
+    "kanji": "渡辺 あき",
+    "romanji": "Watanabe Aki",
+    "vietnamese": "Watanabe Aki",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "name",
+    "example": "渡辺あきさんです。"
+  },
+  {
+    "japanese": "トム・ジョーダン",
+    "kanji": "",
+    "romanji": "Tomu Joodan",
+    "vietnamese": "Tom Jordan",
+    "lesson": 2,
+    "difficulty": "beginner",
+    "category": "name",
+    "example": "トム・ジョーダンさんです。"
+  }
+]

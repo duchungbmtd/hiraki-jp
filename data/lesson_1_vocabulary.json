@@ -1,0 +1,422 @@
+[
+  {
+    "japanese": "わたし",
+    "kanji": "私",
+    "romanji": "watashi",
+    "vietnamese": "tôi",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "pronoun",
+    "example": "わたしは学生です。"
+  },
+  {
+    "japanese": "がくせい",
+    "kanji": "学生",
+    "romanji": "gakusei",
+    "vietnamese": "học sinh",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "occupation",
+    "example": "私は学生です。"
+  },
+  {
+    "japanese": "～じん",
+    "kanji": "～人",
+    "romanji": "~jin",
+    "vietnamese": "người~",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "suffix",
+    "example": "ベトナム人です。"
+  },
+  {
+    "japanese": "エンジニア",
+    "kanji": "",
+    "romanji": "enjinia",
+    "vietnamese": "kỹ sư",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "occupation",
+    "example": "エンジニアです。"
+  },
+  {
+    "japanese": "～いん",
+    "kanji": "～員",
+    "romanji": "~in",
+    "vietnamese": "là thành viên của ~",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "suffix",
+    "example": "銀行員です。"
+  },
+  {
+    "japanese": "ぎんこういん",
+    "kanji": "銀行員",
+    "romanji": "ginkouin",
+    "vietnamese": "nhân viên ngân hàng",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "occupation",
+    "example": "銀行員をしています。"
+  },
+  {
+    "japanese": "かいしゃいん",
+    "kanji": "会社員",
+    "romanji": "kaishain",
+    "vietnamese": "nhân viên công ty",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "occupation",
+    "example": "会社員です。"
+  },
+  {
+    "japanese": "せんせい",
+    "kanji": "先生",
+    "romanji": "sensei",
+    "vietnamese": "giáo viên, giảng viên",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "occupation",
+    "example": "田中先生です。"
+  },
+  {
+    "japanese": "けんきゅういん",
+    "kanji": "研究員",
+    "romanji": "kenkyuuin",
+    "vietnamese": "nhà nghiên cứu",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "occupation",
+    "example": "研究員として働いています。"
+  },
+  {
+    "japanese": "にほんごがっこう",
+    "kanji": "日本語学校",
+    "romanji": "nihongo gakkou",
+    "vietnamese": "trường Nhật ngữ",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "日本語学校で勉強しています。"
+  },
+  {
+    "japanese": "だいがく",
+    "kanji": "大学",
+    "romanji": "daigaku",
+    "vietnamese": "trường đại học",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "大学で経済を勉強しています。"
+  },
+  {
+    "japanese": "りょう",
+    "kanji": "寮",
+    "romanji": "ryou",
+    "vietnamese": "ký túc xá",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "寮に住んでいます。"
+  },
+  {
+    "japanese": "かんりにん",
+    "kanji": "管理人",
+    "romanji": "kanrinin",
+    "vietnamese": "người quản lý",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "occupation",
+    "example": "寮の管理人です。"
+  },
+  {
+    "japanese": "がっこう",
+    "kanji": "学校",
+    "romanji": "gakkou",
+    "vietnamese": "trường học",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "学校はどこですか。"
+  },
+  {
+    "japanese": "なまえ",
+    "kanji": "名前",
+    "romanji": "namae",
+    "vietnamese": "tên",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "personal_info",
+    "example": "お名前は何ですか。"
+  },
+  {
+    "japanese": "くに",
+    "kanji": "国",
+    "romanji": "kuni",
+    "vietnamese": "quốc gia",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "personal_info",
+    "example": "お国はどちらですか。"
+  },
+  {
+    "japanese": "しゅみ",
+    "kanji": "趣味",
+    "romanji": "shumi",
+    "vietnamese": "sở thích",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "personal_info",
+    "example": "趣味は何ですか。"
+  },
+  {
+    "japanese": "すいえい",
+    "kanji": "水泳",
+    "romanji": "suiei",
+    "vietnamese": "bơi",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "hobby",
+    "example": "水泳が好きです。"
+  },
+  {
+    "japanese": "ともだち",
+    "kanji": "友達",
+    "romanji": "tomodachi",
+    "vietnamese": "bạn bè",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "relationship",
+    "example": "友達と映画を見ました。"
+  },
+  {
+    "japanese": "はい",
+    "kanji": "",
+    "romanji": "hai",
+    "vietnamese": "vâng, dạ",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "response",
+    "example": "はい、分かります。"
+  },
+  {
+    "japanese": "いいえ",
+    "kanji": "",
+    "romanji": "iie",
+    "vietnamese": "không",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "response",
+    "example": "いいえ、分かりません。"
+  },
+  {
+    "japanese": "～さん",
+    "kanji": "",
+    "romanji": "~san",
+    "vietnamese": "bạn, anh, chị~",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "honorific",
+    "example": "田中さんです。"
+  },
+  {
+    "japanese": "そうです",
+    "kanji": "",
+    "romanji": "sou desu",
+    "vietnamese": "Đúng vậy!",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "response",
+    "example": "そうです。"
+  },
+  {
+    "japanese": "はじめまして",
+    "kanji": "初めまして",
+    "romanji": "hajimemashite",
+    "vietnamese": "Xin chào (lần đầu gặp)",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "greeting",
+    "example": "はじめまして。田中です。"
+  },
+  {
+    "japanese": "どうぞ よろしく おねがいします",
+    "kanji": "どうぞ よろしく お願いします",
+    "romanji": "douzo yoroshiku onegaishimasu",
+    "vietnamese": "Rất vui được gặp bạn!",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "greeting",
+    "example": "はじめまして。どうぞよろしくお願いします。"
+  },
+  {
+    "japanese": "こちらこそ どうぞ よろしく おねがいします",
+    "kanji": "こちらこそ どうぞ よろしく お願いします",
+    "romanji": "kochirakoso douzo yoroshiku onegaishimasu",
+    "vietnamese": "Tôi cũng vậy",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "greeting",
+    "example": "こちらこそ、どうぞよろしくお願いします。"
+  },
+  {
+    "japanese": "すみません",
+    "kanji": "",
+    "romanji": "sumimasen",
+    "vietnamese": "Xin lỗi",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "apology",
+    "example": "すみません。遅れました。"
+  },
+  {
+    "japanese": "おなまえは",
+    "kanji": "お名前は",
+    "romanji": "onamae wa",
+    "vietnamese": "Tên bạn là gì?",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "question",
+    "example": "お名前は何ですか。"
+  },
+  {
+    "japanese": "おくには どちらですか",
+    "kanji": "お国は どちらですか",
+    "romanji": "okuni wa dochira desu ka",
+    "vietnamese": "Nước của bạn là nước nào?",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "question",
+    "example": "お国はどちらですか。"
+  },
+  {
+    "japanese": "～から きました",
+    "kanji": "～から 来ました",
+    "romanji": "~kara kimashita",
+    "vietnamese": "Tôi đến từ ~",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "response",
+    "example": "ベトナムから来ました。"
+  },
+  {
+    "japanese": "～は",
+    "kanji": "",
+    "romanji": "~wa",
+    "vietnamese": "Còn~?",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "question",
+    "example": "趣味は何ですか。"
+  },
+  {
+    "japanese": "そうですか",
+    "kanji": "",
+    "romanji": "sou desu ka",
+    "vietnamese": "Vậy à?",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "response",
+    "example": "そうですか。"
+  },
+  {
+    "japanese": "ちゅうごく",
+    "kanji": "中国",
+    "romanji": "chuugoku",
+    "vietnamese": "Trung Quốc",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "country",
+    "example": "中国から来ました。"
+  },
+  {
+    "japanese": "ペルー",
+    "kanji": "",
+    "romanji": "peruu",
+    "vietnamese": "Peru",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "country",
+    "example": "ペルー人です。"
+  },
+  {
+    "japanese": "オーストラリア",
+    "kanji": "",
+    "romanji": "oosutoraria",
+    "vietnamese": "Úc",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "country",
+    "example": "オーストラリアから来ました。"
+  },
+  {
+    "japanese": "フランス",
+    "kanji": "",
+    "romanji": "furansu",
+    "vietnamese": "Pháp",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "country",
+    "example": "フランス人です。"
+  },
+  {
+    "japanese": "ベトナム",
+    "kanji": "",
+    "romanji": "betonamu",
+    "vietnamese": "Việt Nam",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "country",
+    "example": "ベトナムから来ました。"
+  },
+  {
+    "japanese": "タイ",
+    "kanji": "",
+    "romanji": "tai",
+    "vietnamese": "Thái Lan",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "country",
+    "example": "タイ人です。"
+  },
+  {
+    "japanese": "にほん",
+    "kanji": "日本",
+    "romanji": "nihon",
+    "vietnamese": "Nhật Bản",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "country",
+    "example": "日本に住んでいます。"
+  },
+  {
+    "japanese": "アメリカ",
+    "kanji": "",
+    "romanji": "amerika",
+    "vietnamese": "Mỹ, Hoa Kỳ",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "country",
+    "example": "アメリカから来ました。"
+  },
+  {
+    "japanese": "かんこく",
+    "kanji": "韓国",
+    "romanji": "kankoku",
+    "vietnamese": "Hàn Quốc",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "country",
+    "example": "韓国人です。"
+  },
+  {
+    "japanese": "つかいましょう",
+    "kanji": "使いましょう",
+    "romanji": "tsukaimashou",
+    "vietnamese": "Sử dụng nào!",
+    "lesson": 1,
+    "difficulty": "beginner",
+    "category": "instruction",
+    "example": "この辞書を使いましょう。"
+  }
+]

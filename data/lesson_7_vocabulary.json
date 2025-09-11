@@ -1,0 +1,642 @@
+[
+  {
+    "japanese": "はな",
+    "kanji": "花",
+    "romanji": "hana",
+    "vietnamese": "hoa",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "nature",
+    "example": "きれいな花です。"
+  },
+  {
+    "japanese": "へや",
+    "kanji": "部屋",
+    "romanji": "heya",
+    "vietnamese": "phòng",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "部屋が広いです。"
+  },
+  {
+    "japanese": "アパート",
+    "kanji": "",
+    "romanji": "apaato",
+    "vietnamese": "chung cư",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "アパートに住んでいます。"
+  },
+  {
+    "japanese": "アニメ",
+    "kanji": "",
+    "romanji": "anime",
+    "vietnamese": "hoạt hình",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "entertainment",
+    "example": "アニメを見ます。"
+  },
+  {
+    "japanese": "たべもの",
+    "kanji": "食べ物",
+    "romanji": "tabemono",
+    "vietnamese": "đồ ăn",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "おいしい食べ物です。"
+  },
+  {
+    "japanese": "せいかつ",
+    "kanji": "生活",
+    "romanji": "seikatsu",
+    "vietnamese": "cuộc sống, sinh hoạt",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "noun",
+    "example": "生活が忙しいです。"
+  },
+  {
+    "japanese": "やま",
+    "kanji": "山",
+    "romanji": "yama",
+    "vietnamese": "núi",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "nature",
+    "example": "高い山です。"
+  },
+  {
+    "japanese": "うみ",
+    "kanji": "海",
+    "romanji": "umi",
+    "vietnamese": "biển",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "nature",
+    "example": "青い海です。"
+  },
+  {
+    "japanese": "バドミントン",
+    "kanji": "",
+    "romanji": "badominton",
+    "vietnamese": "cầu lông",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "sport",
+    "example": "バドミントンをします。"
+  },
+  {
+    "japanese": "スポーツ",
+    "kanji": "",
+    "romanji": "supootsu",
+    "vietnamese": "thể thao",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "sport",
+    "example": "スポーツが好きです。"
+  },
+  {
+    "japanese": "さくら",
+    "kanji": "桜",
+    "romanji": "sakura",
+    "vietnamese": "hoa anh đào",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "nature",
+    "example": "桜がきれいです。"
+  },
+  {
+    "japanese": "バナナ",
+    "kanji": "",
+    "romanji": "banana",
+    "vietnamese": "chuối",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "バナナを食べます。"
+  },
+  {
+    "japanese": "まち",
+    "kanji": "町",
+    "romanji": "machi",
+    "vietnamese": "thành phố, thị trấn",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "静かな町です。"
+  },
+  {
+    "japanese": "ゲームソフト",
+    "kanji": "",
+    "romanji": "geemu sofuto",
+    "vietnamese": "phần mềm game",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "technology",
+    "example": "ゲームソフトを買います。"
+  },
+  {
+    "japanese": "コート",
+    "kanji": "",
+    "romanji": "kooto",
+    "vietnamese": "áo khoác",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "clothing",
+    "example": "新しいコートです。"
+  },
+  {
+    "japanese": "ところ",
+    "kanji": "",
+    "romanji": "tokoro",
+    "vietnamese": "nơi, chỗ",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "静かなところです。"
+  },
+  {
+    "japanese": "もの",
+    "kanji": "",
+    "romanji": "mono",
+    "vietnamese": "vật",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "noun",
+    "example": "古いものです。"
+  },
+  {
+    "japanese": "しゃしん",
+    "kanji": "写真",
+    "romanji": "shashin",
+    "vietnamese": "hình, ảnh",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "object",
+    "example": "きれいな写真です。"
+  },
+  {
+    "japanese": "たてもの",
+    "kanji": "建物",
+    "romanji": "tatemono",
+    "vietnamese": "tòa nhà",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "高い建物です。"
+  },
+  {
+    "japanese": "おおきい",
+    "kanji": "大きい",
+    "romanji": "ookii",
+    "vietnamese": "to",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "大きい家です。"
+  },
+  {
+    "japanese": "ちいさい",
+    "kanji": "小さい",
+    "romanji": "chiisai",
+    "vietnamese": "nhỏ",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "小さい車です。"
+  },
+  {
+    "japanese": "あたらしい",
+    "kanji": "新しい",
+    "romanji": "atarashii",
+    "vietnamese": "mới",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "新しい本です。"
+  },
+  {
+    "japanese": "ふるい",
+    "kanji": "古い",
+    "romanji": "furui",
+    "vietnamese": "cũ",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "古い建物です。"
+  },
+  {
+    "japanese": "おもしろい",
+    "kanji": "面白い",
+    "romanji": "omoshiroi",
+    "vietnamese": "thú vị",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "面白い映画です。"
+  },
+  {
+    "japanese": "たかい",
+    "kanji": "高い",
+    "romanji": "takai",
+    "vietnamese": "cao, đắt tiền, mắc",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "高い山です。"
+  },
+  {
+    "japanese": "ひくい",
+    "kanji": "低い",
+    "romanji": "hikui",
+    "vietnamese": "thấp",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "低い建物です。"
+  },
+  {
+    "japanese": "やすい",
+    "kanji": "安い",
+    "romanji": "yasui",
+    "vietnamese": "rẻ",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "安い服です。"
+  },
+  {
+    "japanese": "たのしい",
+    "kanji": "楽しい",
+    "romanji": "tanoshii",
+    "vietnamese": "vui",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "楽しい旅行です。"
+  },
+  {
+    "japanese": "いい",
+    "kanji": "",
+    "romanji": "ii",
+    "vietnamese": "tốt",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "いい天気です。"
+  },
+  {
+    "japanese": "おいしい",
+    "kanji": "",
+    "romanji": "oishii",
+    "vietnamese": "ngon",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "おいしい料理です。"
+  },
+  {
+    "japanese": "むずかしい",
+    "kanji": "難しい",
+    "romanji": "muzukashii",
+    "vietnamese": "khó",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "難しい問題です。"
+  },
+  {
+    "japanese": "あおい",
+    "kanji": "青い",
+    "romanji": "aoi",
+    "vietnamese": "xanh dương",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "青い空です。"
+  },
+  {
+    "japanese": "くろい",
+    "kanji": "黒い",
+    "romanji": "kuroi",
+    "vietnamese": "đen",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "黒い車です。"
+  },
+  {
+    "japanese": "しろい",
+    "kanji": "白い",
+    "romanji": "shiroi",
+    "vietnamese": "trắng",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "白い花です。"
+  },
+  {
+    "japanese": "あかい",
+    "kanji": "赤い",
+    "romanji": "akai",
+    "vietnamese": "đỏ",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "赤い花です。"
+  },
+  {
+    "japanese": "ひろい",
+    "kanji": "広い",
+    "romanji": "hiroi",
+    "vietnamese": "rộng",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "広い部屋です。"
+  },
+  {
+    "japanese": "せまい",
+    "kanji": "狭い",
+    "romanji": "semai",
+    "vietnamese": "hẹp",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "狭い道です。"
+  },
+  {
+    "japanese": "げんき",
+    "kanji": "元気",
+    "romanji": "genki",
+    "vietnamese": "khỏe mạnh, hoạt bát",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "元気な人です。"
+  },
+  {
+    "japanese": "しんせつ",
+    "kanji": "親切",
+    "romanji": "shinsetsu",
+    "vietnamese": "tử tế",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "親切な人です。"
+  },
+  {
+    "japanese": "かんたん",
+    "kanji": "簡単",
+    "romanji": "kantan",
+    "vietnamese": "đơn giản",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "簡単な問題です。"
+  },
+  {
+    "japanese": "きれい",
+    "kanji": "",
+    "romanji": "kirei",
+    "vietnamese": "đẹp, sạch sẽ",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "きれいな花です。"
+  },
+  {
+    "japanese": "にぎやか",
+    "kanji": "",
+    "romanji": "nigiyaka",
+    "vietnamese": "nhộn nhịp",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "にぎやかな町です。"
+  },
+  {
+    "japanese": "しずか",
+    "kanji": "静か",
+    "romanji": "shizuka",
+    "vietnamese": "yên lặng",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "静かな場所です。"
+  },
+  {
+    "japanese": "べんり",
+    "kanji": "便利",
+    "romanji": "benri",
+    "vietnamese": "tiện lợi",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "便利な道具です。"
+  },
+  {
+    "japanese": "ゆうめい",
+    "kanji": "有名",
+    "romanji": "yuumei",
+    "vietnamese": "nổi tiếng",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "有名な人です。"
+  },
+  {
+    "japanese": "たいへん",
+    "kanji": "大変",
+    "romanji": "taihen",
+    "vietnamese": "vất vả, cực nhọc",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "大変な仕事です。"
+  },
+  {
+    "japanese": "どう",
+    "kanji": "",
+    "romanji": "dou",
+    "vietnamese": "như thế nào",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "question",
+    "example": "どうですか。"
+  },
+  {
+    "japanese": "どんな",
+    "kanji": "",
+    "romanji": "donna",
+    "vietnamese": "~ như thế nào",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "question",
+    "example": "どんな人ですか。"
+  },
+  {
+    "japanese": "どれ",
+    "kanji": "",
+    "romanji": "dore",
+    "vietnamese": "cái nào (từ 3 vật trở lên)",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "question",
+    "example": "どれが好きですか。"
+  },
+  {
+    "japanese": "あまり",
+    "kanji": "",
+    "romanji": "amari",
+    "vietnamese": "không ~ lắm",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "adverb",
+    "example": "あまり高くないです。"
+  },
+  {
+    "japanese": "とても",
+    "kanji": "",
+    "romanji": "totemo",
+    "vietnamese": "rất ~",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "adverb",
+    "example": "とても面白いです。"
+  },
+  {
+    "japanese": "いちばん",
+    "kanji": "",
+    "romanji": "ichiban",
+    "vietnamese": "số một, nhất",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "adverb",
+    "example": "いちばん好きです。"
+  },
+  {
+    "japanese": "そして",
+    "kanji": "",
+    "romanji": "soshite",
+    "vietnamese": "~, Và ~",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "conjunction",
+    "example": "大きくて、そして美しいです。"
+  },
+  {
+    "japanese": "～ が、～",
+    "kanji": "",
+    "romanji": "~ ga, ~",
+    "vietnamese": "~, nhưng ~",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "conjunction",
+    "example": "高いですが、いいです。"
+  },
+  {
+    "japanese": "オーストリア",
+    "kanji": "",
+    "romanji": "oosutoria",
+    "vietnamese": "Áo",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "オーストリアに行きます。"
+  },
+  {
+    "japanese": "ふじさん",
+    "kanji": "富士山",
+    "romanji": "fujisan",
+    "vietnamese": "Núi Phú Sĩ",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "富士山が高いです。"
+  },
+  {
+    "japanese": "ウィーン",
+    "kanji": "",
+    "romanji": "uuin",
+    "vietnamese": "Vienna",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "ウィーンで音楽を聞きます。"
+  },
+  {
+    "japanese": "オペラハウス",
+    "kanji": "",
+    "romanji": "opera hausu",
+    "vietnamese": "Nhà hát kịch Opera",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "オペラハウスでオペラを見ます。"
+  },
+  {
+    "japanese": "テレサ",
+    "kanji": "",
+    "romanji": "teresa",
+    "vietnamese": "Teresa",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "person",
+    "example": "テレサさんに会います。"
+  },
+  {
+    "japanese": "いけいようし",
+    "kanji": "い形容詞",
+    "romanji": "i keiyoushi",
+    "vietnamese": "tính từ い",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "grammar",
+    "example": "い形容詞を勉強します。"
+  },
+  {
+    "japanese": "なけいようし",
+    "kanji": "な形容詞",
+    "romanji": "na keiyoushi",
+    "vietnamese": "tính từ な",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "grammar",
+    "example": "な形容詞を覚えます。"
+  },
+  {
+    "japanese": "けいようし",
+    "kanji": "形容詞",
+    "romanji": "keiyoushi",
+    "vietnamese": "tính từ",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "grammar",
+    "example": "形容詞の使い方を学びます。"
+  },
+  {
+    "japanese": "めいし",
+    "kanji": "名詞",
+    "romanji": "meishi",
+    "vietnamese": "danh từ",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "grammar",
+    "example": "名詞を覚えます。"
+  },
+  {
+    "japanese": "どうし",
+    "kanji": "動詞",
+    "romanji": "doushi",
+    "vietnamese": "động từ",
+    "lesson": 7,
+    "difficulty": "beginner",
+    "category": "grammar",
+    "example": "動詞を勉強します。"
+  }
+]

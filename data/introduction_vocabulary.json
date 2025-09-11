@@ -1,0 +1,782 @@
+[
+  {
+    "japanese": "はじめましょう",
+    "kanji": "始めましょう",
+    "romanji": "hajimemashou",
+    "vietnamese": "Bắt đầu nhé!",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "instruction",
+    "example": "はじめましょう。"
+  },
+  {
+    "japanese": "おはよう ございます",
+    "kanji": "",
+    "romanji": "ohayou gozaimasu",
+    "vietnamese": "Chào buổi sáng",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "greeting",
+    "example": "おはようございます。"
+  },
+  {
+    "japanese": "こんにちは",
+    "kanji": "",
+    "romanji": "konnichiwa",
+    "vietnamese": "Xin chào",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "greeting",
+    "example": "こんにちは。"
+  },
+  {
+    "japanese": "こんばんは",
+    "kanji": "",
+    "romanji": "konbanwa",
+    "vietnamese": "Chào buổi tối",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "greeting",
+    "example": "こんばんは。"
+  },
+  {
+    "japanese": "さようなら",
+    "kanji": "",
+    "romanji": "sayounara",
+    "vietnamese": "Chào tạm biệt",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "greeting",
+    "example": "さようなら。"
+  },
+  {
+    "japanese": "ありがとう ございます",
+    "kanji": "",
+    "romanji": "arigatou gozaimasu",
+    "vietnamese": "Cảm ơn",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "gratitude",
+    "example": "ありがとうございます。"
+  },
+  {
+    "japanese": "すみません",
+    "kanji": "",
+    "romanji": "sumimasen",
+    "vietnamese": "Xin lỗi",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "apology",
+    "example": "すみません。"
+  },
+  {
+    "japanese": "いただきます",
+    "kanji": "",
+    "romanji": "itadakimasu",
+    "vietnamese": "Tôi xin nhận (trước khi ăn)",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "etiquette",
+    "example": "いただきます。"
+  },
+  {
+    "japanese": "ごちそうさまでした",
+    "kanji": "",
+    "romanji": "gochisousama deshita",
+    "vietnamese": "Cảm ơn (sau khi ăn)",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "etiquette",
+    "example": "ごちそうさまでした。"
+  },
+  {
+    "japanese": "しつれいします",
+    "kanji": "失礼します",
+    "romanji": "shitsurei shimasu",
+    "vietnamese": "Xin phép",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "etiquette",
+    "example": "失礼します。"
+  },
+  {
+    "japanese": "ゼロ",
+    "kanji": "零",
+    "romanji": "zero",
+    "vietnamese": "số 0",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "ゼロから始めます。"
+  },
+  {
+    "japanese": "れい",
+    "kanji": "零",
+    "romanji": "rei",
+    "vietnamese": "số 0",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "れいです。"
+  },
+  {
+    "japanese": "いち",
+    "kanji": "一",
+    "romanji": "ichi",
+    "vietnamese": "số 1",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "一から十まで。"
+  },
+  {
+    "japanese": "に",
+    "kanji": "二",
+    "romanji": "ni",
+    "vietnamese": "số 2",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "二つあります。"
+  },
+  {
+    "japanese": "さん",
+    "kanji": "三",
+    "romanji": "san",
+    "vietnamese": "số 3",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "三人です。"
+  },
+  {
+    "japanese": "よん",
+    "kanji": "四",
+    "romanji": "yon",
+    "vietnamese": "số 4",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "四つです。"
+  },
+  {
+    "japanese": "し",
+    "kanji": "四",
+    "romanji": "shi",
+    "vietnamese": "số 4",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "四月です。"
+  },
+  {
+    "japanese": "ご",
+    "kanji": "五",
+    "romanji": "go",
+    "vietnamese": "số 5",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "五時です。"
+  },
+  {
+    "japanese": "ろく",
+    "kanji": "六",
+    "romanji": "roku",
+    "vietnamese": "số 6",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "六人です。"
+  },
+  {
+    "japanese": "なな",
+    "kanji": "七",
+    "romanji": "nana",
+    "vietnamese": "số 7",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "七つです。"
+  },
+  {
+    "japanese": "しち",
+    "kanji": "七",
+    "romanji": "shichi",
+    "vietnamese": "số 7",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "七時です。"
+  },
+  {
+    "japanese": "はち",
+    "kanji": "八",
+    "romanji": "hachi",
+    "vietnamese": "số 8",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "八人です。"
+  },
+  {
+    "japanese": "きゅう",
+    "kanji": "九",
+    "romanji": "kyuu",
+    "vietnamese": "số 9",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "九つです。"
+  },
+  {
+    "japanese": "く",
+    "kanji": "九",
+    "romanji": "ku",
+    "vietnamese": "số 9",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "九時です。"
+  },
+  {
+    "japanese": "じゅう",
+    "kanji": "十",
+    "romanji": "juu",
+    "vietnamese": "số 10",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "十人です。"
+  },
+  {
+    "japanese": "けいさつ",
+    "kanji": "警察",
+    "romanji": "keisatsu",
+    "vietnamese": "cảnh sát",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "警察署です。"
+  },
+  {
+    "japanese": "しょうぼうしょ",
+    "kanji": "消防署",
+    "romanji": "shoubousho",
+    "vietnamese": "sở phòng cháy chữa cháy",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "消防署にいます。"
+  },
+  {
+    "japanese": "がっこう",
+    "kanji": "学校",
+    "romanji": "gakkou",
+    "vietnamese": "trường học",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "学校に行きます。"
+  },
+  {
+    "japanese": "しやくしょ",
+    "kanji": "市役所",
+    "romanji": "shiyakusho",
+    "vietnamese": "ủy ban nhân dân",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "市役所で手続きをします。"
+  },
+  {
+    "japanese": "かいしゃ",
+    "kanji": "会社",
+    "romanji": "kaisha",
+    "vietnamese": "công ty",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "会社で働いています。"
+  },
+  {
+    "japanese": "じゅういち",
+    "kanji": "十一",
+    "romanji": "juuichi",
+    "vietnamese": "số 11",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "十一時です。"
+  },
+  {
+    "japanese": "じゅうに",
+    "kanji": "十二",
+    "romanji": "juuni",
+    "vietnamese": "số 12",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "十二時です。"
+  },
+  {
+    "japanese": "じゅうさん",
+    "kanji": "十三",
+    "romanji": "juusan",
+    "vietnamese": "số 13",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "十三人です。"
+  },
+  {
+    "japanese": "じゅうよん",
+    "kanji": "十四",
+    "romanji": "juuyon",
+    "vietnamese": "số 14",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "十四日です。"
+  },
+  {
+    "japanese": "じゅうし",
+    "kanji": "十四",
+    "romanji": "juushi",
+    "vietnamese": "số 14",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "十四時です。"
+  },
+  {
+    "japanese": "じゅうご",
+    "kanji": "十五",
+    "romanji": "juugo",
+    "vietnamese": "số 15",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "十五分です。"
+  },
+  {
+    "japanese": "じゅうろく",
+    "kanji": "十六",
+    "romanji": "juuroku",
+    "vietnamese": "số 16",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "十六歳です。"
+  },
+  {
+    "japanese": "じゅうなな",
+    "kanji": "十七",
+    "romanji": "juunana",
+    "vietnamese": "số 17",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "十七人です。"
+  },
+  {
+    "japanese": "じゅうしち",
+    "kanji": "十七",
+    "romanji": "juushichi",
+    "vietnamese": "số 17",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "十七時です。"
+  },
+  {
+    "japanese": "じゅうはち",
+    "kanji": "十八",
+    "romanji": "juuhachi",
+    "vietnamese": "số 18",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "十八歳です。"
+  },
+  {
+    "japanese": "じゅうきゅう",
+    "kanji": "十九",
+    "romanji": "juukyuu",
+    "vietnamese": "số 19",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "十九人です。"
+  },
+  {
+    "japanese": "じゅうく",
+    "kanji": "十九",
+    "romanji": "juuku",
+    "vietnamese": "số 19",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "十九時です。"
+  },
+  {
+    "japanese": "にじゅう",
+    "kanji": "二十",
+    "romanji": "nijuu",
+    "vietnamese": "số 20",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "二十歳です。"
+  },
+  {
+    "japanese": "さんじゅう",
+    "kanji": "三十",
+    "romanji": "sanjuu",
+    "vietnamese": "số 30",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "三十人です。"
+  },
+  {
+    "japanese": "よんじゅう",
+    "kanji": "四十",
+    "romanji": "yonjuu",
+    "vietnamese": "số 40",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "四十歳です。"
+  },
+  {
+    "japanese": "ごじゅう",
+    "kanji": "五十",
+    "romanji": "gojuu",
+    "vietnamese": "số 50",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "五十人です。"
+  },
+  {
+    "japanese": "ろくじゅう",
+    "kanji": "六十",
+    "romanji": "rokujuu",
+    "vietnamese": "số 60",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "六十歳です。"
+  },
+  {
+    "japanese": "ななじゅう",
+    "kanji": "七十",
+    "romanji": "nanajuu",
+    "vietnamese": "số 70",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "七十人です。"
+  },
+  {
+    "japanese": "しちじゅう",
+    "kanji": "七十",
+    "romanji": "shichijuu",
+    "vietnamese": "số 70",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "七十時です。"
+  },
+  {
+    "japanese": "はちじゅう",
+    "kanji": "八十",
+    "romanji": "hachijuu",
+    "vietnamese": "số 80",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "八十歳です。"
+  },
+  {
+    "japanese": "きゅうじゅう",
+    "kanji": "九十",
+    "romanji": "kyuujuu",
+    "vietnamese": "số 90",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "九十人です。"
+  },
+  {
+    "japanese": "ひゃく",
+    "kanji": "百",
+    "romanji": "hyaku",
+    "vietnamese": "số 100",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "百円です。"
+  },
+  {
+    "japanese": "－じ",
+    "kanji": "－時",
+    "romanji": "-ji",
+    "vietnamese": "giờ",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "三時です。"
+  },
+  {
+    "japanese": "－じはん",
+    "kanji": "－時半",
+    "romanji": "-jihan",
+    "vietnamese": "giờ rưỡi",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "三時半です。"
+  },
+  {
+    "japanese": "ごぜん",
+    "kanji": "午前",
+    "romanji": "gozen",
+    "vietnamese": "buổi sáng (AM)",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "午前九時です。"
+  },
+  {
+    "japanese": "ごご",
+    "kanji": "午後",
+    "romanji": "gogo",
+    "vietnamese": "buổi chiều (PM)",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "午後三時です。"
+  },
+  {
+    "japanese": "いま なんじですか",
+    "kanji": "今 何時ですか",
+    "romanji": "ima nanji desu ka",
+    "vietnamese": "Bây giờ là mấy giờ?",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "question",
+    "example": "今何時ですか。"
+  },
+  {
+    "japanese": "～です",
+    "kanji": "",
+    "romanji": "~desu",
+    "vietnamese": "~là, ~thì",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "grammar",
+    "example": "学生です。"
+  },
+  {
+    "japanese": "はじめましょう",
+    "kanji": "始めましょう",
+    "romanji": "hajimemashou",
+    "vietnamese": "Bắt đầu nhé!",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "instruction",
+    "example": "始めましょう。"
+  },
+  {
+    "japanese": "おわりましょう",
+    "kanji": "終わりましょう",
+    "romanji": "owarimashou",
+    "vietnamese": "Kết thúc nhé!",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "instruction",
+    "example": "終わりましょう。"
+  },
+  {
+    "japanese": "やすみましょう",
+    "kanji": "休みましょう",
+    "romanji": "yasumimashou",
+    "vietnamese": "Nghỉ ngơi thôi!",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "instruction",
+    "example": "休みましょう。"
+  },
+  {
+    "japanese": "わかりますか",
+    "kanji": "分かりますか",
+    "romanji": "wakarimasu ka",
+    "vietnamese": "Bạn có hiểu không?",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "question",
+    "example": "分かりますか。"
+  },
+  {
+    "japanese": "はい、わかります",
+    "kanji": "はい、分かります",
+    "romanji": "hai, wakarimasu",
+    "vietnamese": "Vâng, tôi hiểu",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "response",
+    "example": "はい、分かります。"
+  },
+  {
+    "japanese": "いいえ、わかりません",
+    "kanji": "いいえ、分かりません",
+    "romanji": "iie, wakarimasen",
+    "vietnamese": "Không, tôi không hiểu",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "response",
+    "example": "いいえ、分かりません。"
+  },
+  {
+    "japanese": "みて ください",
+    "kanji": "見て ください",
+    "romanji": "mite kudasai",
+    "vietnamese": "Xin hãy nhìn đây!",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "instruction",
+    "example": "見てください。"
+  },
+  {
+    "japanese": "きいて ください",
+    "kanji": "聞いて ください",
+    "romanji": "kiite kudasai",
+    "vietnamese": "Xin hãy lắng nghe!",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "instruction",
+    "example": "聞いてください。"
+  },
+  {
+    "japanese": "かいて ください",
+    "kanji": "書いて ください",
+    "romanji": "kaite kudasai",
+    "vietnamese": "Xin hãy viết!",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "instruction",
+    "example": "書いてください。"
+  },
+  {
+    "japanese": "もう いちど いって ください",
+    "kanji": "もう 一度 言って ください",
+    "romanji": "mou ichido itte kudasai",
+    "vietnamese": "Xin hãy nói lại 1 lần nữa!",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "instruction",
+    "example": "もう一度言ってください。"
+  },
+  {
+    "japanese": "なまえ",
+    "kanji": "名前",
+    "romanji": "namae",
+    "vietnamese": "tên",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "personal_info",
+    "example": "名前は何ですか。"
+  },
+  {
+    "japanese": "しけん",
+    "kanji": "試験",
+    "romanji": "shiken",
+    "vietnamese": "bài kiểm tra, bài thi",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "education",
+    "example": "試験があります。"
+  },
+  {
+    "japanese": "しゅくだい",
+    "kanji": "宿題",
+    "romanji": "shukudai",
+    "vietnamese": "bài tập về nhà",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "education",
+    "example": "宿題をします。"
+  },
+  {
+    "japanese": "れい",
+    "kanji": "例",
+    "romanji": "rei",
+    "vietnamese": "ví dụ",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "education",
+    "example": "例を見てください。"
+  },
+  {
+    "japanese": "しつもん",
+    "kanji": "質問",
+    "romanji": "shitsumon",
+    "vietnamese": "câu hỏi",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "education",
+    "example": "質問があります。"
+  },
+  {
+    "japanese": "こたえ",
+    "kanji": "答え",
+    "romanji": "kotae",
+    "vietnamese": "câu trả lời",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "education",
+    "example": "答えを教えてください。"
+  },
+  {
+    "japanese": "－ばん",
+    "kanji": "－番",
+    "romanji": "-ban",
+    "vietnamese": "số (theo thứ tự)",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "一番です。"
+  },
+  {
+    "japanese": "－ページ",
+    "kanji": "",
+    "romanji": "-peeji",
+    "vietnamese": "trang",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "education",
+    "example": "三ページです。"
+  },
+  {
+    "japanese": "にほんごで なんで すか",
+    "kanji": "日本語で 何ですか",
+    "romanji": "nihongo de nan desu ka",
+    "vietnamese": "Câu này tiếng Nhật gọi là gì?",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "question",
+    "example": "日本語で何ですか。"
+  },
+  {
+    "japanese": "けいたいでんわ",
+    "kanji": "携帯電話",
+    "romanji": "keitai denwa",
+    "vietnamese": "điện thoại di động",
+    "lesson": 0,
+    "difficulty": "beginner",
+    "category": "object",
+    "example": "携帯電話を持っています。"
+  }
+]

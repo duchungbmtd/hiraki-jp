@@ -1,0 +1,562 @@
+[
+  {
+    "japanese": "パン",
+    "kanji": "",
+    "romanji": "pan",
+    "vietnamese": "bánh mì",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "パンを食べます。"
+  },
+  {
+    "japanese": "さかな",
+    "kanji": "魚",
+    "romanji": "sakana",
+    "vietnamese": "cá",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "魚を食べます。"
+  },
+  {
+    "japanese": "くだもの",
+    "kanji": "果物",
+    "romanji": "kudamono",
+    "vietnamese": "trái cây",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "果物を買います。"
+  },
+  {
+    "japanese": "やさい",
+    "kanji": "野菜",
+    "romanji": "yasai",
+    "vietnamese": "rau",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "野菜を食べます。"
+  },
+  {
+    "japanese": "カレー",
+    "kanji": "",
+    "romanji": "karee",
+    "vietnamese": "cà ri",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "カレーを作ります。"
+  },
+  {
+    "japanese": "ぎゅうにゅう",
+    "kanji": "牛乳",
+    "romanji": "gyuunyuu",
+    "vietnamese": "sữa",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "drink",
+    "example": "牛乳を飲みます。"
+  },
+  {
+    "japanese": "さけ",
+    "kanji": "酒",
+    "romanji": "sake",
+    "vietnamese": "đồ uống có cồn, rượu gạo Nhật Bản",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "drink",
+    "example": "お酒を飲みます。"
+  },
+  {
+    "japanese": "たまご",
+    "kanji": "卵",
+    "romanji": "tamago",
+    "vietnamese": "trứng",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "卵を食べます。"
+  },
+  {
+    "japanese": "えいが",
+    "kanji": "映画",
+    "romanji": "eiga",
+    "vietnamese": "phim",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "entertainment",
+    "example": "映画を見ます。"
+  },
+  {
+    "japanese": "おんがく",
+    "kanji": "音楽",
+    "romanji": "ongaku",
+    "vietnamese": "âm nhạc",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "entertainment",
+    "example": "音楽を聞きます。"
+  },
+  {
+    "japanese": "クラシック",
+    "kanji": "",
+    "romanji": "kurashikku",
+    "vietnamese": "nhạc cổ điển",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "music",
+    "example": "クラシック音楽を聞きます。"
+  },
+  {
+    "japanese": "ジャズ",
+    "kanji": "",
+    "romanji": "jazu",
+    "vietnamese": "nhạc jazz",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "music",
+    "example": "ジャズを聞きます。"
+  },
+  {
+    "japanese": "ロック",
+    "kanji": "",
+    "romanji": "rokku",
+    "vietnamese": "nhạc rock",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "music",
+    "example": "ロック音楽を聞きます。"
+  },
+  {
+    "japanese": "Ｊ－ポップ",
+    "kanji": "",
+    "romanji": "jei poppu",
+    "vietnamese": "J-pop (nhạc pop Nhật Bản)",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "music",
+    "example": "J-ポップを聞きます。"
+  },
+  {
+    "japanese": "テニス",
+    "kanji": "",
+    "romanji": "tenisu",
+    "vietnamese": "quần vợt",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "sport",
+    "example": "テニスをします。"
+  },
+  {
+    "japanese": "しゅくだい",
+    "kanji": "宿題",
+    "romanji": "shukudai",
+    "vietnamese": "bài tập về nhà",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "education",
+    "example": "宿題をします。"
+  },
+  {
+    "japanese": "ジョギング",
+    "kanji": "",
+    "romanji": "jogingu",
+    "vietnamese": "chạy bộ",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "sport",
+    "example": "ジョギングをします。"
+  },
+  {
+    "japanese": "サッカー",
+    "kanji": "",
+    "romanji": "sakkaa",
+    "vietnamese": "bóng đá",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "sport",
+    "example": "サッカーをします。"
+  },
+  {
+    "japanese": "ゲーム",
+    "kanji": "",
+    "romanji": "geemu",
+    "vietnamese": "trò chơi",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "entertainment",
+    "example": "ゲームをします。"
+  },
+  {
+    "japanese": "てがみ",
+    "kanji": "手紙",
+    "romanji": "tegami",
+    "vietnamese": "lá thư",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "object",
+    "example": "手紙を書きます。"
+  },
+  {
+    "japanese": "おかね",
+    "kanji": "お金",
+    "romanji": "okane",
+    "vietnamese": "tiền",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "object",
+    "example": "お金を払います。"
+  },
+  {
+    "japanese": "きって",
+    "kanji": "切手",
+    "romanji": "kitte",
+    "vietnamese": "tem",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "object",
+    "example": "切手を買います。"
+  },
+  {
+    "japanese": "としょかん",
+    "kanji": "図書館",
+    "romanji": "toshokan",
+    "vietnamese": "thư viện",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "図書館で勉強します。"
+  },
+  {
+    "japanese": "こうえん",
+    "kanji": "公園",
+    "romanji": "kouen",
+    "vietnamese": "công viên",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "公園を散歩します。"
+  },
+  {
+    "japanese": "うち",
+    "kanji": "",
+    "romanji": "uchi",
+    "vietnamese": "nhà",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "うちに帰ります。"
+  },
+  {
+    "japanese": "レストラン",
+    "kanji": "",
+    "romanji": "resutoran",
+    "vietnamese": "nhà hàng",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "レストランで食事をします。"
+  },
+  {
+    "japanese": "スーパー",
+    "kanji": "",
+    "romanji": "suupaa",
+    "vietnamese": "siêu thị",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "スーパーで買い物をします。"
+  },
+  {
+    "japanese": "～や",
+    "kanji": "～屋",
+    "romanji": "~ya",
+    "vietnamese": "cửa hàng ~",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "suffix",
+    "example": "パン屋です。"
+  },
+  {
+    "japanese": "パンや",
+    "kanji": "パン屋",
+    "romanji": "pan ya",
+    "vietnamese": "cửa hàng bánh mì",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "パン屋でパンを買います。"
+  },
+  {
+    "japanese": "ひるごはん",
+    "kanji": "昼ご飯",
+    "romanji": "hirugohan",
+    "vietnamese": "bữa trưa, cơm trưa",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "meal",
+    "example": "昼ご飯を食べます。"
+  },
+  {
+    "japanese": "あさごはん",
+    "kanji": "朝ご飯",
+    "romanji": "asagohan",
+    "vietnamese": "bữa sáng, cơm sáng",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "meal",
+    "example": "朝ご飯を食べます。"
+  },
+  {
+    "japanese": "ばんごはん",
+    "kanji": "晩ご飯",
+    "romanji": "bangohan",
+    "vietnamese": "bữa tối, cơm tối",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "meal",
+    "example": "晩ご飯を食べます。"
+  },
+  {
+    "japanese": "ごはん",
+    "kanji": "ご飯",
+    "romanji": "gohan",
+    "vietnamese": "bữa ăn, cơm",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "meal",
+    "example": "ご飯を食べます。"
+  },
+  {
+    "japanese": "べんとう",
+    "kanji": "弁当",
+    "romanji": "bentou",
+    "vietnamese": "cơm hộp",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "お弁当を食べます。"
+  },
+  {
+    "japanese": "りょうり",
+    "kanji": "料理",
+    "romanji": "ryouri",
+    "vietnamese": "món ăn, thức ăn",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "料理を作ります。"
+  },
+  {
+    "japanese": "こんばん",
+    "kanji": "今晩",
+    "romanji": "konban",
+    "vietnamese": "tối nay, đêm nay",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "今晩映画を見ます。"
+  },
+  {
+    "japanese": "あした",
+    "kanji": "",
+    "romanji": "ashita",
+    "vietnamese": "ngày mai",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "明日学校に行きます。"
+  },
+  {
+    "japanese": "きょう",
+    "kanji": "今日",
+    "romanji": "kyou",
+    "vietnamese": "hôm nay",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "今日は忙しいです。"
+  },
+  {
+    "japanese": "あさって",
+    "kanji": "",
+    "romanji": "asatte",
+    "vietnamese": "ngày mốt",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "明後日休みです。"
+  },
+  {
+    "japanese": "まいあさ",
+    "kanji": "毎朝",
+    "romanji": "maiasa",
+    "vietnamese": "mỗi sáng",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "毎朝ジョギングをします。"
+  },
+  {
+    "japanese": "まいばん",
+    "kanji": "毎晩",
+    "romanji": "maiban",
+    "vietnamese": "mỗi đêm",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "毎晩テレビを見ます。"
+  },
+  {
+    "japanese": "まいにち",
+    "kanji": "毎日",
+    "romanji": "mainichi",
+    "vietnamese": "mỗi ngày",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "毎日勉強します。"
+  },
+  {
+    "japanese": "たべます",
+    "kanji": "食べます",
+    "romanji": "tabemasu",
+    "vietnamese": "ăn",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "ご飯を食べます。"
+  },
+  {
+    "japanese": "のみます",
+    "kanji": "飲みます",
+    "romanji": "nomimasu",
+    "vietnamese": "uống",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "コーヒーを飲みます。"
+  },
+  {
+    "japanese": "かいます",
+    "kanji": "買います",
+    "romanji": "kaimasu",
+    "vietnamese": "mua",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "本を買います。"
+  },
+  {
+    "japanese": "かきます",
+    "kanji": "書きます",
+    "romanji": "kakimasu",
+    "vietnamese": "viết",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "手紙を書きます。"
+  },
+  {
+    "japanese": "ききます",
+    "kanji": "聞きます",
+    "romanji": "kikimasu",
+    "vietnamese": "nghe",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "音楽を聞きます。"
+  },
+  {
+    "japanese": "みます",
+    "kanji": "見ます",
+    "romanji": "mimasu",
+    "vietnamese": "xem",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "映画を見ます。"
+  },
+  {
+    "japanese": "よみます",
+    "kanji": "読みます",
+    "romanji": "yomimasu",
+    "vietnamese": "đọc",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "本を読みます。"
+  },
+  {
+    "japanese": "します",
+    "kanji": "",
+    "romanji": "shimasu",
+    "vietnamese": "làm",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "宿題をします。"
+  },
+  {
+    "japanese": "おろします",
+    "kanji": "下ろします",
+    "romanji": "oroshimasu",
+    "vietnamese": "rút [tiền]",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "お金を下ろします。"
+  },
+  {
+    "japanese": "なに",
+    "kanji": "何",
+    "romanji": "nani",
+    "vietnamese": "gì",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "question",
+    "example": "何をしますか。"
+  },
+  {
+    "japanese": "いつも",
+    "kanji": "",
+    "romanji": "itsumo",
+    "vietnamese": "luôn luôn",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "adverb",
+    "example": "いつも忙しいです。"
+  },
+  {
+    "japanese": "ときどき",
+    "kanji": "時々",
+    "romanji": "tokidoki",
+    "vietnamese": "thỉnh thoảng",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "adverb",
+    "example": "時々映画を見ます。"
+  },
+  {
+    "japanese": "それから",
+    "kanji": "",
+    "romanji": "sorekara",
+    "vietnamese": "sau đó, sau đó",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "conjunction",
+    "example": "勉強して、それから寝ます。"
+  },
+  {
+    "japanese": "しつもん",
+    "kanji": "質問",
+    "romanji": "shitsumon",
+    "vietnamese": "câu hỏi",
+    "lesson": 4,
+    "difficulty": "beginner",
+    "category": "education",
+    "example": "質問があります。"
+  }
+]

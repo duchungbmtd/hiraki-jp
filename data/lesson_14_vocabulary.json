@@ -1,0 +1,552 @@
+[
+  {
+    "japanese": "ギター",
+    "kanji": "",
+    "romanji": "gitaa",
+    "vietnamese": "đàn ghi-ta",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "object",
+    "example": "ギターを弾きます。"
+  },
+  {
+    "japanese": "たたみ",
+    "kanji": "畳",
+    "romanji": "tatami",
+    "vietnamese": "chiếu Nhật",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "object",
+    "example": "畳の上で座ります。"
+  },
+  {
+    "japanese": "かれ",
+    "kanji": "彼",
+    "romanji": "kare",
+    "vietnamese": "anh ấy, người yêu",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "person",
+    "example": "彼は学生です。"
+  },
+  {
+    "japanese": "かのじょ",
+    "kanji": "彼女",
+    "romanji": "kanojo",
+    "vietnamese": "cô ấy, người yêu",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "person",
+    "example": "彼女は教師です。"
+  },
+  {
+    "japanese": "りょうきん",
+    "kanji": "料金",
+    "romanji": "ryoukin",
+    "vietnamese": "tiền phí",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "money",
+    "example": "料金を払います。"
+  },
+  {
+    "japanese": "でんわりょうきん",
+    "kanji": "電話料金",
+    "romanji": "denwa ryoukin",
+    "vietnamese": "tiền điện thoại",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "money",
+    "example": "電話料金が高いです。"
+  },
+  {
+    "japanese": "いけばな",
+    "kanji": "生け花",
+    "romanji": "ikebana",
+    "vietnamese": "nghệ thuật cắm hoa",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "art",
+    "example": "生け花を習います。"
+  },
+  {
+    "japanese": "にんじゃ",
+    "kanji": "忍者",
+    "romanji": "ninja",
+    "vietnamese": "Ninja (gián điệp Nhật Bản ngày xưa)",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "person",
+    "example": "忍者について勉強します。"
+  },
+  {
+    "japanese": "カラオケ",
+    "kanji": "",
+    "romanji": "karaoke",
+    "vietnamese": "Karaoke",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "entertainment",
+    "example": "カラオケに行きます。"
+  },
+  {
+    "japanese": "ゆかた",
+    "kanji": "浴衣",
+    "romanji": "yukata",
+    "vietnamese": "áo Yukata (áo đơn giản hơn Kimono, làm bằng chất liệu cotton mặc vào mùa hè)",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "clothing",
+    "example": "浴衣を着ます。"
+  },
+  {
+    "japanese": "ペット",
+    "kanji": "",
+    "romanji": "petto",
+    "vietnamese": "vật nuôi",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "animal",
+    "example": "ペットを飼います。"
+  },
+  {
+    "japanese": "バーベキュー",
+    "kanji": "",
+    "romanji": "baabekyuu",
+    "vietnamese": "cuộc liên hoan ngoài trời có dùng món thịt nướng",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "activity",
+    "example": "バーベキューをします。"
+  },
+  {
+    "japanese": "テント",
+    "kanji": "",
+    "romanji": "tento",
+    "vietnamese": "lều",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "object",
+    "example": "テントを張ります。"
+  },
+  {
+    "japanese": "めざましどけい",
+    "kanji": "目覚まし時計",
+    "romanji": "mezamashi dokei",
+    "vietnamese": "đồng hồ báo thức",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "object",
+    "example": "目覚まし時計をセットします。"
+  },
+  {
+    "japanese": "シャワー",
+    "kanji": "",
+    "romanji": "shawaa",
+    "vietnamese": "vòi sen",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "object",
+    "example": "シャワーを浴びます。"
+  },
+  {
+    "japanese": "は",
+    "kanji": "歯",
+    "romanji": "ha",
+    "vietnamese": "răng",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "body",
+    "example": "歯を磨きます。"
+  },
+  {
+    "japanese": "スピーチ",
+    "kanji": "",
+    "romanji": "supiichi",
+    "vietnamese": "bài diễn văn",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "activity",
+    "example": "スピーチをします。"
+  },
+  {
+    "japanese": "ブログ",
+    "kanji": "",
+    "romanji": "burogu",
+    "vietnamese": "blog",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "technology",
+    "example": "ブログを書きます。"
+  },
+  {
+    "japanese": "バスケットボール",
+    "kanji": "",
+    "romanji": "basukettobooru",
+    "vietnamese": "bóng rổ",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "sport",
+    "example": "バスケットボールをします。"
+  },
+  {
+    "japanese": "ボウリング",
+    "kanji": "",
+    "romanji": "bouringu",
+    "vietnamese": "bowling",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "sport",
+    "example": "ボウリングをします。"
+  },
+  {
+    "japanese": "スノーボード",
+    "kanji": "",
+    "romanji": "sunouboodo",
+    "vietnamese": "trượt ván trên tuyết",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "sport",
+    "example": "スノーボードをします。"
+  },
+  {
+    "japanese": "ダンス",
+    "kanji": "",
+    "romanji": "dansu",
+    "vietnamese": "khiêu vũ",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "activity",
+    "example": "ダンスをします。"
+  },
+  {
+    "japanese": "からて",
+    "kanji": "空手",
+    "romanji": "karate",
+    "vietnamese": "karate",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "sport",
+    "example": "空手を習います。"
+  },
+  {
+    "japanese": "きょく",
+    "kanji": "曲",
+    "romanji": "kyoku",
+    "vietnamese": "bài hát",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "music",
+    "example": "曲を歌います。"
+  },
+  {
+    "japanese": "まちます",
+    "kanji": "待ちます",
+    "romanji": "machimasu",
+    "vietnamese": "đợi",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "友達を待ちます。"
+  },
+  {
+    "japanese": "しにます",
+    "kanji": "死にます",
+    "romanji": "shinimasu",
+    "vietnamese": "chết",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "花が死にます。"
+  },
+  {
+    "japanese": "ひきます",
+    "kanji": "弾きます",
+    "romanji": "hikimasu",
+    "vietnamese": "chơi (nhạc cụ)",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "ピアノを弾きます。"
+  },
+  {
+    "japanese": "できます",
+    "kanji": "",
+    "romanji": "dekimasu",
+    "vietnamese": "có thể",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "日本語ができます。"
+  },
+  {
+    "japanese": "すわります",
+    "kanji": "座ります",
+    "romanji": "suwarimasu",
+    "vietnamese": "ngồi (chỗ + trợ từ に)",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "椅子に座ります。"
+  },
+  {
+    "japanese": "たちます",
+    "kanji": "立ちます",
+    "romanji": "tachimasu",
+    "vietnamese": "đứng lên",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "立って話します。"
+  },
+  {
+    "japanese": "はらいます",
+    "kanji": "払います",
+    "romanji": "haraimasu",
+    "vietnamese": "trả tiền",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "料金を払います。"
+  },
+  {
+    "japanese": "セットします",
+    "kanji": "",
+    "romanji": "setto shimasu",
+    "vietnamese": "thiết lập, cài đặt",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "目覚まし時計をセットします。"
+  },
+  {
+    "japanese": "あびます",
+    "kanji": "浴びます",
+    "romanji": "abimasu",
+    "vietnamese": "tắm [vòi sen]",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "シャワーを浴びます。"
+  },
+  {
+    "japanese": "みがきます",
+    "kanji": "磨きます",
+    "romanji": "migakimasu",
+    "vietnamese": "đánh răng",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "歯を磨きます。"
+  },
+  {
+    "japanese": "けします",
+    "kanji": "消します",
+    "romanji": "keshimasu",
+    "vietnamese": "tắt",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "電気を消します。"
+  },
+  {
+    "japanese": "でかけます",
+    "kanji": "出かけます",
+    "romanji": "dekakemasu",
+    "vietnamese": "đi công chuyện",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "買い物に出かけます。"
+  },
+  {
+    "japanese": "のります",
+    "kanji": "乗ります",
+    "romanji": "norimasu",
+    "vietnamese": "đi xe, đi tàu (phương tiện + trợ từ に)",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "電車に乗ります。"
+  },
+  {
+    "japanese": "おります",
+    "kanji": "降ります",
+    "romanji": "orimasu",
+    "vietnamese": "xuống xe, xuống tàu (phương tiện + trợ từ を)",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "電車を降ります。"
+  },
+  {
+    "japanese": "はじめます",
+    "kanji": "始めます",
+    "romanji": "hajimemasu",
+    "vietnamese": "bắt đầu",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "勉強を始めます。"
+  },
+  {
+    "japanese": "のせます",
+    "kanji": "載せます",
+    "romanji": "nosemasu",
+    "vietnamese": "đăng bài (blog, đài, báo chí + trợ từ に) (ký sự, ảnh + trợ từ を)",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "ブログに写真を載せます。"
+  },
+  {
+    "japanese": "みせます",
+    "kanji": "見せます",
+    "romanji": "misemasu",
+    "vietnamese": "cho xem",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "写真を見せます。"
+  },
+  {
+    "japanese": "なんメートル",
+    "kanji": "何メートル",
+    "romanji": "nan meetoru",
+    "vietnamese": "bao nhiêu/mấy mét",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "question",
+    "example": "何メートルですか。"
+  },
+  {
+    "japanese": "この まえ",
+    "kanji": "この 前",
+    "romanji": "kono mae",
+    "vietnamese": "mấy hôm trước",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "この前会いました。"
+  },
+  {
+    "japanese": "じぶんで",
+    "kanji": "自分で",
+    "romanji": "jibun de",
+    "vietnamese": "tự mình",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "adverb",
+    "example": "自分で作ります。"
+  },
+  {
+    "japanese": "－メートル",
+    "kanji": "",
+    "romanji": "-meetoru",
+    "vietnamese": "mét",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "measurement",
+    "example": "三メートルです。"
+  },
+  {
+    "japanese": "うん",
+    "kanji": "",
+    "romanji": "un",
+    "vietnamese": "ừ (trả lời khẳng định, chỉ dùng với người thân)",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "interjection",
+    "example": "うん、そうだよ。"
+  },
+  {
+    "japanese": "～とか",
+    "kanji": "",
+    "romanji": "~ toka",
+    "vietnamese": "nào là ~ (liệt kê)",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "particle",
+    "example": "映画とか音楽とか好きです。"
+  },
+  {
+    "japanese": "～ まえに",
+    "kanji": "",
+    "romanji": "~ mae ni",
+    "vietnamese": "~ trước",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "particle",
+    "example": "寝る前に歯を磨きます。"
+  },
+  {
+    "japanese": "はこね",
+    "kanji": "箱根",
+    "romanji": "hakone",
+    "vietnamese": "Hakone",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "箱根に行きます。"
+  },
+  {
+    "japanese": "ながの",
+    "kanji": "長野",
+    "romanji": "nagano",
+    "vietnamese": "Nagano",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "長野でスキーをします。"
+  },
+  {
+    "japanese": "みえ",
+    "kanji": "三重",
+    "romanji": "mie",
+    "vietnamese": "Mie",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "三重県に行きます。"
+  },
+  {
+    "japanese": "にんじゃむら",
+    "kanji": "忍者村",
+    "romanji": "ninja mura",
+    "vietnamese": "làng Ninja",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "忍者村を見学します。"
+  },
+  {
+    "japanese": "ぶんかセンター",
+    "kanji": "文化センター",
+    "romanji": "bunka sentaa",
+    "vietnamese": "trung tâm Văn hóa",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "文化センターで勉強します。"
+  },
+  {
+    "japanese": "ますけい",
+    "kanji": "ます形",
+    "romanji": "masu kei",
+    "vietnamese": "thể ます",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "grammar",
+    "example": "ます形を勉強します。"
+  },
+  {
+    "japanese": "じしょけい",
+    "kanji": "辞書形",
+    "romanji": "jisho kei",
+    "vietnamese": "thể từ điển",
+    "lesson": 14,
+    "difficulty": "beginner",
+    "category": "grammar",
+    "example": "辞書形を覚えます。"
+  }
+]

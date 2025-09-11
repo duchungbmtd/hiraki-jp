@@ -1,0 +1,562 @@
+[
+  {
+    "japanese": "やすみ",
+    "kanji": "休み",
+    "romanji": "yasumi",
+    "vietnamese": "nghỉ giải lao, ngày nghỉ, việc nghỉ học/làm",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "休みを取ります。"
+  },
+  {
+    "japanese": "ひるやすみ",
+    "kanji": "昼休み",
+    "romanji": "hiruyasumi",
+    "vietnamese": "nghỉ trưa",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "昼休みに昼ご飯を食べます。"
+  },
+  {
+    "japanese": "はなみ",
+    "kanji": "花見",
+    "romanji": "hanami",
+    "vietnamese": "ngắm hoa anh đào",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "activity",
+    "example": "花見をします。"
+  },
+  {
+    "japanese": "おにぎり",
+    "kanji": "",
+    "romanji": "onigiri",
+    "vietnamese": "cơm nắm, cơm vắt",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "おにぎりを食べます。"
+  },
+  {
+    "japanese": "じゅんび",
+    "kanji": "準備",
+    "romanji": "junbi",
+    "vietnamese": "chuẩn bị",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "activity",
+    "example": "準備をします。"
+  },
+  {
+    "japanese": "じゅぎょう",
+    "kanji": "授業",
+    "romanji": "jugyou",
+    "vietnamese": "giờ học",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "education",
+    "example": "授業を受けます。"
+  },
+  {
+    "japanese": "きもの",
+    "kanji": "着物",
+    "romanji": "kimono",
+    "vietnamese": "Kimono (quần áo truyền thống của Nhật Bản)",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "clothing",
+    "example": "着物を着ます。"
+  },
+  {
+    "japanese": "ホテル",
+    "kanji": "",
+    "romanji": "hoteru",
+    "vietnamese": "khách sạn",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "ホテルに泊まります。"
+  },
+  {
+    "japanese": "フェリー",
+    "kanji": "",
+    "romanji": "ferii",
+    "vietnamese": "phà",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "transportation",
+    "example": "フェリーで行きます。"
+  },
+  {
+    "japanese": "くうこう",
+    "kanji": "空港",
+    "romanji": "kuukou",
+    "vietnamese": "sân bay",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "空港で待ちます。"
+  },
+  {
+    "japanese": "～たち",
+    "kanji": "",
+    "romanji": "~tachi",
+    "vietnamese": "(hậu tố để chỉ số nhiều)",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "suffix",
+    "example": "学生たちが来ます。"
+  },
+  {
+    "japanese": "わたしたち",
+    "kanji": "",
+    "romanji": "watashitachi",
+    "vietnamese": "chúng tôi",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "pronoun",
+    "example": "私たちは学生です。"
+  },
+  {
+    "japanese": "はし",
+    "kanji": "橋",
+    "romanji": "hashi",
+    "vietnamese": "cây cầu",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "橋を渡ります。"
+  },
+  {
+    "japanese": "あか",
+    "kanji": "赤",
+    "romanji": "aka",
+    "vietnamese": "màu đỏ",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "color",
+    "example": "赤い花です。"
+  },
+  {
+    "japanese": "きいろ",
+    "kanji": "黄色",
+    "romanji": "kiiro",
+    "vietnamese": "màu vàng",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "color",
+    "example": "黄色い車です。"
+  },
+  {
+    "japanese": "けしき",
+    "kanji": "景色",
+    "romanji": "keshiki",
+    "vietnamese": "cảnh sắc, phong cảnh",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "nature",
+    "example": "きれいな景色です。"
+  },
+  {
+    "japanese": "しま",
+    "kanji": "島",
+    "romanji": "shima",
+    "vietnamese": "hòn đảo",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "島に行きます。"
+  },
+  {
+    "japanese": "はっぴょうします",
+    "kanji": "発表します",
+    "romanji": "happyou shimasu",
+    "vietnamese": "phát biểu, trình bày",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "研究を発表します。"
+  },
+  {
+    "japanese": "のぼります",
+    "kanji": "登ります",
+    "romanji": "noborimasu",
+    "vietnamese": "leo (núi + trợ từ に)",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "山に登ります。"
+  },
+  {
+    "japanese": "とまります",
+    "kanji": "泊まります",
+    "romanji": "tomarimasu",
+    "vietnamese": "ở lại qua đêm (khách sạn + trợ từ に)",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "ホテルに泊まります。"
+  },
+  {
+    "japanese": "きます",
+    "kanji": "着ます",
+    "romanji": "kimasu",
+    "vietnamese": "mặc",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "服を着ます。"
+  },
+  {
+    "japanese": "ぬぎます",
+    "kanji": "脱ぎます",
+    "romanji": "nugimasu",
+    "vietnamese": "cởi",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "靴を脱ぎます。"
+  },
+  {
+    "japanese": "かかります",
+    "kanji": "",
+    "romanji": "kakarimasu",
+    "vietnamese": "tốn (thời gian, tiền bạc)",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "時間がかかります。"
+  },
+  {
+    "japanese": "とります",
+    "kanji": "撮ります",
+    "romanji": "torimasu",
+    "vietnamese": "chụp ảnh",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "写真を撮ります。"
+  },
+  {
+    "japanese": "きびしい",
+    "kanji": "厳しい",
+    "romanji": "kibishii",
+    "vietnamese": "nghiêm khắc, nghiêm trọng",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "厳しい先生です。"
+  },
+  {
+    "japanese": "こわい",
+    "kanji": "怖い",
+    "romanji": "kowai",
+    "vietnamese": "đáng sợ",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "怖い映画です。"
+  },
+  {
+    "japanese": "おもい",
+    "kanji": "重い",
+    "romanji": "omoi",
+    "vietnamese": "nặng",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "重い荷物です。"
+  },
+  {
+    "japanese": "かるい",
+    "kanji": "軽い",
+    "romanji": "karui",
+    "vietnamese": "nhẹ",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "軽い荷物です。"
+  },
+  {
+    "japanese": "つめたい",
+    "kanji": "冷たい",
+    "romanji": "tsumetai",
+    "vietnamese": "lạnh",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "冷たい水です。"
+  },
+  {
+    "japanese": "－ふん",
+    "kanji": "－分",
+    "romanji": "-fun",
+    "vietnamese": "phút",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "三十分かかります。"
+  },
+  {
+    "japanese": "－ぷん",
+    "kanji": "－分",
+    "romanji": "-pun",
+    "vietnamese": "phút",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "五分かかります。"
+  },
+  {
+    "japanese": "なんぷん",
+    "kanji": "何分",
+    "romanji": "nanpun",
+    "vietnamese": "bao nhiêu/mấy phút",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "question",
+    "example": "何分かかりますか。"
+  },
+  {
+    "japanese": "－じかん",
+    "kanji": "－時間",
+    "romanji": "-jikan",
+    "vietnamese": "tiếng",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "三時間かかります。"
+  },
+  {
+    "japanese": "なんじかん",
+    "kanji": "何時間",
+    "romanji": "nanjikan",
+    "vietnamese": "bao nhiêu/mấy tiếng",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "question",
+    "example": "何時間かかりますか。"
+  },
+  {
+    "japanese": "－にち",
+    "kanji": "－日",
+    "romanji": "-nichi",
+    "vietnamese": "ngày",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "三日かかります。"
+  },
+  {
+    "japanese": "なんにち",
+    "kanji": "何日",
+    "romanji": "nannichi",
+    "vietnamese": "bao nhiêu ngày",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "question",
+    "example": "何日かかりますか。"
+  },
+  {
+    "japanese": "－しゅうかん",
+    "kanji": "－週間",
+    "romanji": "-shuukan",
+    "vietnamese": "tuần",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "二週間かかります。"
+  },
+  {
+    "japanese": "なんしゅうかん",
+    "kanji": "何週間",
+    "romanji": "nanshuukan",
+    "vietnamese": "bao nhiêu/mấy tuần",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "question",
+    "example": "何週間かかりますか。"
+  },
+  {
+    "japanese": "－かげつ",
+    "kanji": "－か月",
+    "romanji": "-kagetsu",
+    "vietnamese": "tháng",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "三か月かかります。"
+  },
+  {
+    "japanese": "なんかげつ",
+    "kanji": "何か月",
+    "romanji": "nankagetsu",
+    "vietnamese": "bao nhiêu/mấy tháng",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "question",
+    "example": "何か月かかりますか。"
+  },
+  {
+    "japanese": "－ねん",
+    "kanji": "－年",
+    "romanji": "-nen",
+    "vietnamese": "năm",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "一年かかります。"
+  },
+  {
+    "japanese": "なんねん",
+    "kanji": "何年",
+    "romanji": "nannen",
+    "vietnamese": "bao nhiêu/mấy năm",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "question",
+    "example": "何年かかりますか。"
+  },
+  {
+    "japanese": "はんとし",
+    "kanji": "半年",
+    "romanji": "hantoshi",
+    "vietnamese": "nửa năm",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "半年かかります。"
+  },
+  {
+    "japanese": "どのぐらい",
+    "kanji": "",
+    "romanji": "dono gurai",
+    "vietnamese": "khoảng bao lâu",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "question",
+    "example": "どのぐらいかかりますか。"
+  },
+  {
+    "japanese": "あ",
+    "kanji": "",
+    "romanji": "a",
+    "vietnamese": "ah",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "interjection",
+    "example": "あ、そうですか。"
+  },
+  {
+    "japanese": "ちょっと",
+    "kanji": "",
+    "romanji": "chotto",
+    "vietnamese": "một chút",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "adverb",
+    "example": "ちょっと待ってください。"
+  },
+  {
+    "japanese": "～ぐらい",
+    "kanji": "",
+    "romanji": "~ gurai",
+    "vietnamese": "khoảng~",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "particle",
+    "example": "三時間ぐらいかかります。"
+  },
+  {
+    "japanese": "どうぞ",
+    "kanji": "",
+    "romanji": "douzo",
+    "vietnamese": "Xin mời",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "expression",
+    "example": "どうぞ。"
+  },
+  {
+    "japanese": "ありがとう",
+    "kanji": "",
+    "romanji": "arigatou",
+    "vietnamese": "Cảm ơn",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "expression",
+    "example": "ありがとうございます。"
+  },
+  {
+    "japanese": "シアトル",
+    "kanji": "",
+    "romanji": "shiatoru",
+    "vietnamese": "Seattle",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "シアトルに行きます。"
+  },
+  {
+    "japanese": "ローマ",
+    "kanji": "",
+    "romanji": "rooma",
+    "vietnamese": "Roma",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "ローマに行きます。"
+  },
+  {
+    "japanese": "プサン",
+    "kanji": "",
+    "romanji": "pusan",
+    "vietnamese": "Busan",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "プサンから来ました。"
+  },
+  {
+    "japanese": "ふくおか",
+    "kanji": "福岡",
+    "romanji": "fukuoka",
+    "vietnamese": "Fukuoka",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "福岡に行きます。"
+  },
+  {
+    "japanese": "かごしま",
+    "kanji": "鹿児島",
+    "romanji": "kagoshima",
+    "vietnamese": "Kagoshima",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "鹿児島に行きます。"
+  },
+  {
+    "japanese": "なりた",
+    "kanji": "成田",
+    "romanji": "narita",
+    "vietnamese": "Narita",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "成田空港に行きます。"
+  },
+  {
+    "japanese": "みやじま",
+    "kanji": "宮島",
+    "romanji": "miyajima",
+    "vietnamese": "Miyajima",
+    "lesson": 12,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "宮島を見学します。"
+  }
+]

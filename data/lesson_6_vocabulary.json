@@ -1,0 +1,732 @@
+[
+  {
+    "japanese": "たんじょうび",
+    "kanji": "誕生日",
+    "romanji": "tanjoubi",
+    "vietnamese": "sinh nhật",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "event",
+    "example": "誕生日パーティーをします。"
+  },
+  {
+    "japanese": "バス",
+    "kanji": "",
+    "romanji": "basu",
+    "vietnamese": "xe buýt",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "transportation",
+    "example": "バスで学校に行きます。"
+  },
+  {
+    "japanese": "ひこうき",
+    "kanji": "飛行機",
+    "romanji": "hikouki",
+    "vietnamese": "máy bay",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "transportation",
+    "example": "飛行機で旅行します。"
+  },
+  {
+    "japanese": "でんしゃ",
+    "kanji": "電車",
+    "romanji": "densha",
+    "vietnamese": "xe điện",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "transportation",
+    "example": "電車で通勤します。"
+  },
+  {
+    "japanese": "じてんしゃ",
+    "kanji": "自転車",
+    "romanji": "jitensha",
+    "vietnamese": "xe đạp",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "transportation",
+    "example": "自転車で買い物に行きます。"
+  },
+  {
+    "japanese": "ちかてつ",
+    "kanji": "地下鉄",
+    "romanji": "chikatetsu",
+    "vietnamese": "xe điện ngầm",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "transportation",
+    "example": "地下鉄で東京に行きます。"
+  },
+  {
+    "japanese": "どうぶつえん",
+    "kanji": "動物園",
+    "romanji": "doubutsuen",
+    "vietnamese": "sở thú",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "動物園でパンダを見ます。"
+  },
+  {
+    "japanese": "パンダ",
+    "kanji": "",
+    "romanji": "panda",
+    "vietnamese": "gấu trúc",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "animal",
+    "example": "パンダが好きです。"
+  },
+  {
+    "japanese": "サラダ",
+    "kanji": "",
+    "romanji": "sarada",
+    "vietnamese": "salad, món rau trộn",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "サラダを食べます。"
+  },
+  {
+    "japanese": "ケーキ",
+    "kanji": "",
+    "romanji": "keeki",
+    "vietnamese": "bánh kem",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "誕生日にケーキを食べます。"
+  },
+  {
+    "japanese": "プール",
+    "kanji": "",
+    "romanji": "puuru",
+    "vietnamese": "hồ bơi",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "プールで泳ぎます。"
+  },
+  {
+    "japanese": "ドライブ",
+    "kanji": "",
+    "romanji": "doraibu",
+    "vietnamese": "chuyến lái xe đi chơi",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "activity",
+    "example": "家族でドライブをします。"
+  },
+  {
+    "japanese": "まつり",
+    "kanji": "祭り",
+    "romanji": "matsuri",
+    "vietnamese": "lễ hội",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "event",
+    "example": "お祭りに行きます。"
+  },
+  {
+    "japanese": "バイク",
+    "kanji": "",
+    "romanji": "baiku",
+    "vietnamese": "xe máy",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "transportation",
+    "example": "バイクで通勤します。"
+  },
+  {
+    "japanese": "はなび",
+    "kanji": "花火",
+    "romanji": "hanabi",
+    "vietnamese": "pháo hoa",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "entertainment",
+    "example": "花火を見に行きます。"
+  },
+  {
+    "japanese": "てら",
+    "kanji": "寺",
+    "romanji": "tera",
+    "vietnamese": "chùa",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "お寺を参拝します。"
+  },
+  {
+    "japanese": "しんかんせん",
+    "kanji": "新幹線",
+    "romanji": "shinkansen",
+    "vietnamese": "Shinkansen (tên một loại xe điện tốc hành)",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "transportation",
+    "example": "新幹線で大阪に行きます。"
+  },
+  {
+    "japanese": "おんせん",
+    "kanji": "温泉",
+    "romanji": "onsen",
+    "vietnamese": "suối nước nóng",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "温泉に入ります。"
+  },
+  {
+    "japanese": "ふね",
+    "kanji": "船",
+    "romanji": "fune",
+    "vietnamese": "con tàu",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "transportation",
+    "example": "船で旅行します。"
+  },
+  {
+    "japanese": "こうこうせい",
+    "kanji": "高校生",
+    "romanji": "koukousei",
+    "vietnamese": "học sinh trung học phổ thông",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "person",
+    "example": "高校生の時、よく勉強しました。"
+  },
+  {
+    "japanese": "しゅうまつ",
+    "kanji": "週末",
+    "romanji": "shuumatsu",
+    "vietnamese": "cuối tuần",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "週末に映画を見ます。"
+  },
+  {
+    "japanese": "なつやすみ",
+    "kanji": "夏休み",
+    "romanji": "natsuyasumi",
+    "vietnamese": "nghỉ hè",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "夏休みに旅行します。"
+  },
+  {
+    "japanese": "ふゆやすみ",
+    "kanji": "冬休み",
+    "romanji": "fuyuyasumi",
+    "vietnamese": "nghỉ đông",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "冬休みにスキーをします。"
+  },
+  {
+    "japanese": "らいげつ",
+    "kanji": "来月",
+    "romanji": "raigetsu",
+    "vietnamese": "tháng tới",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "来月日本に行きます。"
+  },
+  {
+    "japanese": "こんげつ",
+    "kanji": "今月",
+    "romanji": "kongetsu",
+    "vietnamese": "tháng này",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "今月忙しいです。"
+  },
+  {
+    "japanese": "せんげつ",
+    "kanji": "先月",
+    "romanji": "sengetsu",
+    "vietnamese": "tháng trước",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "先月結婚しました。"
+  },
+  {
+    "japanese": "きょねん",
+    "kanji": "去年",
+    "romanji": "kyonen",
+    "vietnamese": "năm ngoái",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "去年大学を卒業しました。"
+  },
+  {
+    "japanese": "ことし",
+    "kanji": "今年",
+    "romanji": "kotoshi",
+    "vietnamese": "năm nay",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "今年新しい仕事を始めます。"
+  },
+  {
+    "japanese": "らいねん",
+    "kanji": "来年",
+    "romanji": "rainen",
+    "vietnamese": "năm tới",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "来年結婚します。"
+  },
+  {
+    "japanese": "いきます",
+    "kanji": "行きます",
+    "romanji": "ikimasu",
+    "vietnamese": "đi",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "学校に行きます。"
+  },
+  {
+    "japanese": "かえります",
+    "kanji": "帰ります",
+    "romanji": "kaerimasu",
+    "vietnamese": "về",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "家に帰ります。"
+  },
+  {
+    "japanese": "きます",
+    "kanji": "来ます",
+    "romanji": "kimasu",
+    "vietnamese": "đến",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "日本に来ます。"
+  },
+  {
+    "japanese": "しょくじします",
+    "kanji": "食事します",
+    "romanji": "shokuji shimasu",
+    "vietnamese": "ăn",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "家族と食事します。"
+  },
+  {
+    "japanese": "あいます",
+    "kanji": "会います",
+    "romanji": "aimasu",
+    "vietnamese": "gặp (người + trợ từ に)",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "友達に会います。"
+  },
+  {
+    "japanese": "－がつ",
+    "kanji": "－月",
+    "romanji": "-gatsu",
+    "vietnamese": "tháng",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "三月に卒業します。"
+  },
+  {
+    "japanese": "なんがつ",
+    "kanji": "何月",
+    "romanji": "nangatsu",
+    "vietnamese": "tháng mấy",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "question",
+    "example": "何月に日本に行きますか。"
+  },
+  {
+    "japanese": "－にち",
+    "kanji": "－日",
+    "romanji": "-nichi",
+    "vietnamese": "ngày",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "十五日に会議があります。"
+  },
+  {
+    "japanese": "なんにち",
+    "kanji": "何日",
+    "romanji": "nannichi",
+    "vietnamese": "ngày mấy",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "question",
+    "example": "何日に来ますか。"
+  },
+  {
+    "japanese": "ついたち",
+    "kanji": "１日",
+    "romanji": "tsuitachi",
+    "vietnamese": "ngày một",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "一月一日は元旦です。"
+  },
+  {
+    "japanese": "ふつか",
+    "kanji": "２日",
+    "romanji": "futsuka",
+    "vietnamese": "ngày hai",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "二日間旅行します。"
+  },
+  {
+    "japanese": "みっか",
+    "kanji": "３日",
+    "romanji": "mikka",
+    "vietnamese": "ngày ba",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "三日間休みます。"
+  },
+  {
+    "japanese": "よっか",
+    "kanji": "４日",
+    "romanji": "yokka",
+    "vietnamese": "ngày bốn",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "四日間勉強します。"
+  },
+  {
+    "japanese": "いつか",
+    "kanji": "５日",
+    "romanji": "itsuka",
+    "vietnamese": "ngày năm",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "五日間会議があります。"
+  },
+  {
+    "japanese": "むいか",
+    "kanji": "６日",
+    "romanji": "muika",
+    "vietnamese": "ngày sáu",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "六日間旅行します。"
+  },
+  {
+    "japanese": "なのか",
+    "kanji": "７日",
+    "romanji": "nanoka",
+    "vietnamese": "ngày bảy",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "七日間休みます。"
+  },
+  {
+    "japanese": "ようか",
+    "kanji": "８日",
+    "romanji": "youka",
+    "vietnamese": "ngày tám",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "八日間勉強します。"
+  },
+  {
+    "japanese": "ここのか",
+    "kanji": "９日",
+    "romanji": "kokonoka",
+    "vietnamese": "ngày chín",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "九日間会議があります。"
+  },
+  {
+    "japanese": "とおか",
+    "kanji": "10日",
+    "romanji": "tooka",
+    "vietnamese": "ngày mười",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "十日間旅行します。"
+  },
+  {
+    "japanese": "じゅうよっか",
+    "kanji": "14日",
+    "romanji": "juuyokka",
+    "vietnamese": "ngày mười bốn",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "十四日に誕生日です。"
+  },
+  {
+    "japanese": "はつか",
+    "kanji": "20日",
+    "romanji": "hatsuka",
+    "vietnamese": "ngày hai mươi",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "二十日に会議があります。"
+  },
+  {
+    "japanese": "にじゅうよっか",
+    "kanji": "24日",
+    "romanji": "nijuuyokka",
+    "vietnamese": "ngày hai mươi bốn",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "二十四日に旅行します。"
+  },
+  {
+    "japanese": "いつ",
+    "kanji": "",
+    "romanji": "itsu",
+    "vietnamese": "khi nào",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "question",
+    "example": "いつ日本に行きますか。"
+  },
+  {
+    "japanese": "あるいて",
+    "kanji": "歩いて",
+    "romanji": "aruite",
+    "vietnamese": "đi bộ",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "歩いて学校に行きます。"
+  },
+  {
+    "japanese": "いっしょに",
+    "kanji": "一緒に",
+    "romanji": "isshoni",
+    "vietnamese": "cùng với nhau",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "adverb",
+    "example": "一緒に映画を見ます。"
+  },
+  {
+    "japanese": "ひとりで",
+    "kanji": "一人で",
+    "romanji": "hitoride",
+    "vietnamese": "một mình",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "adverb",
+    "example": "一人で旅行します。"
+  },
+  {
+    "japanese": "こんど",
+    "kanji": "今度",
+    "romanji": "kondo",
+    "vietnamese": "lần sau",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "今度一緒に行きましょう。"
+  },
+  {
+    "japanese": "ええ",
+    "kanji": "",
+    "romanji": "ee",
+    "vietnamese": "ừ, ờ... (cách nói thân mật của はい)",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "interjection",
+    "example": "ええ、そうです。"
+  },
+  {
+    "japanese": "～とき",
+    "kanji": "",
+    "romanji": "~toki",
+    "vietnamese": "khi~, lúc~",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "particle",
+    "example": "暇な時、映画を見ます。"
+  },
+  {
+    "japanese": "いいですね",
+    "kanji": "",
+    "romanji": "ii desu ne",
+    "vietnamese": "Tốt rồi còn gì",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "expression",
+    "example": "いいですね、一緒に行きましょう。"
+  },
+  {
+    "japanese": "すみません",
+    "kanji": "",
+    "romanji": "sumimasen",
+    "vietnamese": "Xin lỗi",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "expression",
+    "example": "すみません、遅れました。"
+  },
+  {
+    "japanese": "ちょっと……",
+    "kanji": "",
+    "romanji": "chotto...",
+    "vietnamese": "Thật là khó nói, nhưng…. (cách nói khéo khi từ chối)",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "expression",
+    "example": "ちょっと都合が悪いです。"
+  },
+  {
+    "japanese": "ほっかいどう",
+    "kanji": "北海道",
+    "romanji": "hokkaidou",
+    "vietnamese": "Hokkaido",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "北海道でスキーをします。"
+  },
+  {
+    "japanese": "さっぽろ",
+    "kanji": "札幌",
+    "romanji": "sapporo",
+    "vietnamese": "Sapporo",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "札幌で雪祭りを見ます。"
+  },
+  {
+    "japanese": "せんだい",
+    "kanji": "仙台",
+    "romanji": "sendai",
+    "vietnamese": "Sendai",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "仙台で牛タンを食べます。"
+  },
+  {
+    "japanese": "よこはま",
+    "kanji": "横浜",
+    "romanji": "yokohama",
+    "vietnamese": "Yokohama",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "横浜で中華街を散歩します。"
+  },
+  {
+    "japanese": "なごや",
+    "kanji": "名古屋",
+    "romanji": "nagoya",
+    "vietnamese": "Nagoya",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "名古屋で味噌カツを食べます。"
+  },
+  {
+    "japanese": "きょうと",
+    "kanji": "京都",
+    "romanji": "kyouto",
+    "vietnamese": "Kyoto",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "京都でお寺を参拝します。"
+  },
+  {
+    "japanese": "おおさか",
+    "kanji": "大阪",
+    "romanji": "oosaka",
+    "vietnamese": "Osaka",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "大阪でたこ焼きを食べます。"
+  },
+  {
+    "japanese": "ひろしま",
+    "kanji": "広島",
+    "romanji": "hiroshima",
+    "vietnamese": "Hiroshima",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "広島で原爆ドームを見学します。"
+  },
+  {
+    "japanese": "べっぷ",
+    "kanji": "別府",
+    "romanji": "beppu",
+    "vietnamese": "Beppu",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "別府で温泉に入ります。"
+  },
+  {
+    "japanese": "おおさかじょう",
+    "kanji": "大阪城",
+    "romanji": "oosakajou",
+    "vietnamese": "Thành Osaka",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "大阪城を見学します。"
+  },
+  {
+    "japanese": "げんばくドーム",
+    "kanji": "原爆ドーム",
+    "romanji": "genbaku doomu",
+    "vietnamese": "Gembaku Dome (tòa nhà hình vòm ở Hiroshima bị bom nguyên tử tàn phá trong Thế Chiến thứ 2)",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "原爆ドームを見学します。"
+  },
+  {
+    "japanese": "たなか まさお",
+    "kanji": "田中 正男",
+    "romanji": "tanaka masao",
+    "vietnamese": "Tanaka Masao",
+    "lesson": 6,
+    "difficulty": "beginner",
+    "category": "person",
+    "example": "田中正男さんに会います。"
+  }
+]

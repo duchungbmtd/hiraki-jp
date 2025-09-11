@@ -1,0 +1,402 @@
+[
+  {
+    "japanese": "ふとん",
+    "kanji": "布団",
+    "romanji": "futon",
+    "vietnamese": "cái chăn, cái mền, cái nệm",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "object",
+    "example": "布団で寝ます。"
+  },
+  {
+    "japanese": "さら",
+    "kanji": "皿",
+    "romanji": "sara",
+    "vietnamese": "đĩa, dĩa",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "object",
+    "example": "皿を洗います。"
+  },
+  {
+    "japanese": "コップ",
+    "kanji": "",
+    "romanji": "koppu",
+    "vietnamese": "tách",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "object",
+    "example": "コップで水を飲みます。"
+  },
+  {
+    "japanese": "ハイキング",
+    "kanji": "",
+    "romanji": "haikingu",
+    "vietnamese": "đi bộ đường dài",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "activity",
+    "example": "ハイキングをします。"
+  },
+  {
+    "japanese": "しやくしょ",
+    "kanji": "市役所",
+    "romanji": "shiyakusho",
+    "vietnamese": "ủy ban nhân dân thành phố (huyện)",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "市役所に行きます。"
+  },
+  {
+    "japanese": "しちょう",
+    "kanji": "市長",
+    "romanji": "shichou",
+    "vietnamese": "chủ tịch ủy ban nhân dân thành phố (huyện)",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "person",
+    "example": "市長に会います。"
+  },
+  {
+    "japanese": "こうじょう",
+    "kanji": "工場",
+    "romanji": "koujou",
+    "vietnamese": "nhà máy",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "工場を見学します。"
+  },
+  {
+    "japanese": "けんがく",
+    "kanji": "見学",
+    "romanji": "kengaku",
+    "vietnamese": "tham quan học hỏi",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "activity",
+    "example": "工場を見学します。"
+  },
+  {
+    "japanese": "がいこくじんとうろく",
+    "kanji": "外国人登録",
+    "romanji": "gaikokujin touroku",
+    "vietnamese": "đăng ký người nước ngoài",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "activity",
+    "example": "外国人登録をします。"
+  },
+  {
+    "japanese": "スキー",
+    "kanji": "",
+    "romanji": "sukii",
+    "vietnamese": "trượt tuyết",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "sport",
+    "example": "スキーをします。"
+  },
+  {
+    "japanese": "かた",
+    "kanji": "方",
+    "romanji": "kata",
+    "vietnamese": "cách, phương pháp",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "noun",
+    "example": "作り方を教えます。"
+  },
+  {
+    "japanese": "つくりかた",
+    "kanji": "作り方",
+    "romanji": "tsukurikata",
+    "vietnamese": "cách làm",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "noun",
+    "example": "料理の作り方を覚えます。"
+  },
+  {
+    "japanese": "すもう",
+    "kanji": "相撲",
+    "romanji": "sumou",
+    "vietnamese": "sumo, đô vật",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "sport",
+    "example": "相撲を見ます。"
+  },
+  {
+    "japanese": "チケット",
+    "kanji": "",
+    "romanji": "chiketto",
+    "vietnamese": "vé",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "object",
+    "example": "チケットを買います。"
+  },
+  {
+    "japanese": "だいがくいん",
+    "kanji": "大学院",
+    "romanji": "daigakuin",
+    "vietnamese": "cao học",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "education",
+    "example": "大学院で勉強します。"
+  },
+  {
+    "japanese": "ロボット",
+    "kanji": "",
+    "romanji": "robotto",
+    "vietnamese": "người máy",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "technology",
+    "example": "ロボットを作ります。"
+  },
+  {
+    "japanese": "こうがく",
+    "kanji": "工学",
+    "romanji": "kougaku",
+    "vietnamese": "khoa học kỹ thuật ứng dụng",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "education",
+    "example": "工学を勉強します。"
+  },
+  {
+    "japanese": "ロボットこうがく",
+    "kanji": "ロボット工学",
+    "romanji": "robotto kougaku",
+    "vietnamese": "khoa học kỹ thuật ứng dụng về người máy",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "education",
+    "example": "ロボット工学を勉強します。"
+  },
+  {
+    "japanese": "しょうらい",
+    "kanji": "将来",
+    "romanji": "shourai",
+    "vietnamese": "tương lai",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "将来の夢を話します。"
+  },
+  {
+    "japanese": "あそびます",
+    "kanji": "遊びます",
+    "romanji": "asobimasu",
+    "vietnamese": "vui chơi, chơi",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "友達と遊びます。"
+  },
+  {
+    "japanese": "かえします",
+    "kanji": "返します",
+    "romanji": "kaeshimasu",
+    "vietnamese": "trả lại",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "本を返します。"
+  },
+  {
+    "japanese": "むかえます",
+    "kanji": "迎えます",
+    "romanji": "mukaemasu",
+    "vietnamese": "đón",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "空港で迎えます。"
+  },
+  {
+    "japanese": "もちます",
+    "kanji": "持ちます",
+    "romanji": "mochimasu",
+    "vietnamese": "mang, giữ, có",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "荷物を持ちます。"
+  },
+  {
+    "japanese": "てつだいます",
+    "kanji": "手伝います",
+    "romanji": "tetsudaimasu",
+    "vietnamese": "giúp đỡ, hỗ trợ",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "家事を手伝います。"
+  },
+  {
+    "japanese": "あらいます",
+    "kanji": "洗います",
+    "romanji": "araimasu",
+    "vietnamese": "rửa",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "皿を洗います。"
+  },
+  {
+    "japanese": "つかいます",
+    "kanji": "使います",
+    "romanji": "tsukaimasu",
+    "vietnamese": "sử dụng",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "コンピューターを使います。"
+  },
+  {
+    "japanese": "ほしい",
+    "kanji": "欲しい",
+    "romanji": "hoshii",
+    "vietnamese": "muốn",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "新しい車が欲しいです。"
+  },
+  {
+    "japanese": "いたい",
+    "kanji": "痛い",
+    "romanji": "itai",
+    "vietnamese": "đau",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "頭が痛いです。"
+  },
+  {
+    "japanese": "だいじょうぶ",
+    "kanji": "大丈夫",
+    "romanji": "daijoubu",
+    "vietnamese": "không sao",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "大丈夫です。"
+  },
+  {
+    "japanese": "－ねんせい",
+    "kanji": "－年生",
+    "romanji": "-nensei",
+    "vietnamese": "học sinh, sinh viên năm thứ",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "education",
+    "example": "一年生です。"
+  },
+  {
+    "japanese": "－まえに",
+    "kanji": "－前に",
+    "romanji": "-mae ni",
+    "vietnamese": "trước, cách đây",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "三年前に日本に来ました。"
+  },
+  {
+    "japanese": "ありがとう ございます",
+    "kanji": "",
+    "romanji": "arigatou gozaimasu",
+    "vietnamese": "Xin cảm ơn rất nhiều!",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "expression",
+    "example": "ありがとうございます。"
+  },
+  {
+    "japanese": "がんばって ください",
+    "kanji": "頑張って ください",
+    "romanji": "ganbatte kudasai",
+    "vietnamese": "Cố gắng nhé!",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "expression",
+    "example": "頑張ってください。"
+  },
+  {
+    "japanese": "どう しますか",
+    "kanji": "",
+    "romanji": "dou shimasu ka",
+    "vietnamese": "Bạn sẽ làm gì? Bạn sẽ làm thế nào?",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "expression",
+    "example": "どうしますか。"
+  },
+  {
+    "japanese": "つかれました",
+    "kanji": "疲れました",
+    "romanji": "tsukaremashita",
+    "vietnamese": "(Tôi) mệt mỏi",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "expression",
+    "example": "疲れました。"
+  },
+  {
+    "japanese": "のどが かわきました",
+    "kanji": "のどが 渇きました",
+    "romanji": "nodo ga kawakimashita",
+    "vietnamese": "(Tôi) khát",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "expression",
+    "example": "のどが渇きました。"
+  },
+  {
+    "japanese": "おなかが すきました",
+    "kanji": "",
+    "romanji": "onaka ga sukimashita",
+    "vietnamese": "(Tôi) đói",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "expression",
+    "example": "おなかがすきました。"
+  },
+  {
+    "japanese": "かぶきざ",
+    "kanji": "歌舞伎座",
+    "romanji": "kabukiza",
+    "vietnamese": "nhà hát kịch Kabuki",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "歌舞伎座で歌舞伎を見ます。"
+  },
+  {
+    "japanese": "ただいま",
+    "kanji": "",
+    "romanji": "tadaima",
+    "vietnamese": "Tôi về rồi đây! (câu chào khi về nhà)",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "expression",
+    "example": "ただいま。"
+  },
+  {
+    "japanese": "ホール",
+    "kanji": "",
+    "romanji": "hooru",
+    "vietnamese": "đại sảnh, hội trường",
+    "lesson": 13,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "ホールでコンサートをします。"
+  }
+]

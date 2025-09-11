@@ -1,0 +1,552 @@
+[
+  {
+    "japanese": "ここ",
+    "kanji": "",
+    "romanji": "koko",
+    "vietnamese": "ở đây, chỗ này",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "location",
+    "example": "ここは学校です。"
+  },
+  {
+    "japanese": "そこ",
+    "kanji": "",
+    "romanji": "soko",
+    "vietnamese": "ở đó, chỗ đó",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "location",
+    "example": "そこに本があります。"
+  },
+  {
+    "japanese": "あそこ",
+    "kanji": "",
+    "romanji": "asoko",
+    "vietnamese": "ở kia, chỗ kia",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "location",
+    "example": "あそこに銀行があります。"
+  },
+  {
+    "japanese": "しょくどう",
+    "kanji": "食堂",
+    "romanji": "shokudou",
+    "vietnamese": "nhà ăn",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "食堂で昼ご飯を食べます。"
+  },
+  {
+    "japanese": "うけつけ",
+    "kanji": "受付",
+    "romanji": "uketsuke",
+    "vietnamese": "tiếp nhận",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "受付で手続きをします。"
+  },
+  {
+    "japanese": "～しつ",
+    "kanji": "～室",
+    "romanji": "~shitsu",
+    "vietnamese": "phòng~",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "suffix",
+    "example": "事務室にいます。"
+  },
+  {
+    "japanese": "じむしつ",
+    "kanji": "事務室",
+    "romanji": "jimushitsu",
+    "vietnamese": "văn phòng",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "事務室で働いています。"
+  },
+  {
+    "japanese": "かいぎしつ",
+    "kanji": "会議室",
+    "romanji": "kaigishitsu",
+    "vietnamese": "phòng họp",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "会議室で会議をします。"
+  },
+  {
+    "japanese": "コンピューターしつ",
+    "kanji": "コンピューター室",
+    "romanji": "konpyuutaa shitsu",
+    "vietnamese": "phòng máy vi tính",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "コンピューター室で勉強します。"
+  },
+  {
+    "japanese": "トイレ",
+    "kanji": "",
+    "romanji": "toire",
+    "vietnamese": "nhà vệ sinh",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "トイレはどこですか。"
+  },
+  {
+    "japanese": "としょしつ",
+    "kanji": "図書室",
+    "romanji": "toshoshitsu",
+    "vietnamese": "thư viện",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "図書室で本を読みます。"
+  },
+  {
+    "japanese": "きょうしつ",
+    "kanji": "教室",
+    "romanji": "kyoushitsu",
+    "vietnamese": "lớp học",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "教室で授業をします。"
+  },
+  {
+    "japanese": "ロビー",
+    "kanji": "",
+    "romanji": "robii",
+    "vietnamese": "sảnh",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "ロビーで待っています。"
+  },
+  {
+    "japanese": "コピーき",
+    "kanji": "コピー機",
+    "romanji": "kopii ki",
+    "vietnamese": "máy copy",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "object",
+    "example": "コピー機でコピーします。"
+  },
+  {
+    "japanese": "ゆうびんきょく",
+    "kanji": "郵便局",
+    "romanji": "yuubinkyoku",
+    "vietnamese": "bưu điện",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "郵便局で手紙を送ります。"
+  },
+  {
+    "japanese": "びょういん",
+    "kanji": "病院",
+    "romanji": "byouin",
+    "vietnamese": "bệnh viện",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "病院に行きます。"
+  },
+  {
+    "japanese": "たいしかん",
+    "kanji": "大使館",
+    "romanji": "taishikan",
+    "vietnamese": "đại sứ quán",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "大使館で手続きをします。"
+  },
+  {
+    "japanese": "ぎんこう",
+    "kanji": "銀行",
+    "romanji": "ginkou",
+    "vietnamese": "ngân hàng",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "銀行でお金を下ろします。"
+  },
+  {
+    "japanese": "コンビニ",
+    "kanji": "",
+    "romanji": "konbini",
+    "vietnamese": "cửa hàng tiện lợi",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "コンビニで買い物をします。"
+  },
+  {
+    "japanese": "デパート",
+    "kanji": "",
+    "romanji": "depaato",
+    "vietnamese": "thương xá, cửa hàng",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "デパートで服を買います。"
+  },
+  {
+    "japanese": "えき",
+    "kanji": "駅",
+    "romanji": "eki",
+    "vietnamese": "nhà ga",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "駅で電車に乗ります。"
+  },
+  {
+    "japanese": "じしょ",
+    "kanji": "辞書",
+    "romanji": "jisho",
+    "vietnamese": "từ điển",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "object",
+    "example": "辞書で単語を調べます。"
+  },
+  {
+    "japanese": "ちず",
+    "kanji": "地図",
+    "romanji": "chizu",
+    "vietnamese": "bản đồ",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "object",
+    "example": "地図を見て道を探します。"
+  },
+  {
+    "japanese": "れいぞうこ",
+    "kanji": "冷蔵庫",
+    "romanji": "reizouko",
+    "vietnamese": "tủ lạnh",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "appliance",
+    "example": "冷蔵庫に食べ物を入れます。"
+  },
+  {
+    "japanese": "エアコン",
+    "kanji": "",
+    "romanji": "eakon",
+    "vietnamese": "máy điều hòa",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "appliance",
+    "example": "エアコンをつけます。"
+  },
+  {
+    "japanese": "とけい",
+    "kanji": "時計",
+    "romanji": "tokei",
+    "vietnamese": "đồng hồ",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "object",
+    "example": "時計を見て時間を確認します。"
+  },
+  {
+    "japanese": "でんしレンジ",
+    "kanji": "電子レンジ",
+    "romanji": "denshi renji",
+    "vietnamese": "lò vi sóng",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "appliance",
+    "example": "電子レンジで温めます。"
+  },
+  {
+    "japanese": "せんたくき",
+    "kanji": "洗濯機",
+    "romanji": "sentakuki",
+    "vietnamese": "máy giặt",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "appliance",
+    "example": "洗濯機で服を洗います。"
+  },
+  {
+    "japanese": "そうじき",
+    "kanji": "掃除機",
+    "romanji": "soujiki",
+    "vietnamese": "máy hút bụi",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "appliance",
+    "example": "掃除機で掃除します。"
+  },
+  {
+    "japanese": "ポット",
+    "kanji": "",
+    "romanji": "potto",
+    "vietnamese": "bình thủy",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "object",
+    "example": "ポットでお茶を入れます。"
+  },
+  {
+    "japanese": "おちゃ",
+    "kanji": "お茶",
+    "romanji": "ocha",
+    "vietnamese": "trà",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "drink",
+    "example": "お茶を飲みます。"
+  },
+  {
+    "japanese": "ワイン",
+    "kanji": "",
+    "romanji": "wain",
+    "vietnamese": "rượu vang",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "drink",
+    "example": "ワインを飲みます。"
+  },
+  {
+    "japanese": "ビール",
+    "kanji": "",
+    "romanji": "biiru",
+    "vietnamese": "bia",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "drink",
+    "example": "ビールを飲みます。"
+  },
+  {
+    "japanese": "チョコレート",
+    "kanji": "",
+    "romanji": "chokoreeto",
+    "vietnamese": "sô cô la",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "チョコレートを食べます。"
+  },
+  {
+    "japanese": "くつ",
+    "kanji": "靴",
+    "romanji": "kutsu",
+    "vietnamese": "giày",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "object",
+    "example": "靴を履きます。"
+  },
+  {
+    "japanese": "ひゃく",
+    "kanji": "百",
+    "romanji": "hyaku",
+    "vietnamese": "số 100",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "百円です。"
+  },
+  {
+    "japanese": "せん",
+    "kanji": "千",
+    "romanji": "sen",
+    "vietnamese": "số 1000",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "千円です。"
+  },
+  {
+    "japanese": "まん",
+    "kanji": "万",
+    "romanji": "man",
+    "vietnamese": "số 10,000",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "一万円です。"
+  },
+  {
+    "japanese": "－かい",
+    "kanji": "－階",
+    "romanji": "-kai",
+    "vietnamese": "tầng",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "三階にあります。"
+  },
+  {
+    "japanese": "なん～",
+    "kanji": "何～",
+    "romanji": "nan~",
+    "vietnamese": "là ~ gì?",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "question",
+    "example": "何階ですか。"
+  },
+  {
+    "japanese": "なんがい",
+    "kanji": "何階",
+    "romanji": "nangai",
+    "vietnamese": "tầng mấy",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "question",
+    "example": "何階にありますか。"
+  },
+  {
+    "japanese": "－えん",
+    "kanji": "－円",
+    "romanji": "-en",
+    "vietnamese": "yên (đơn vị tiền Nhật)",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "currency",
+    "example": "百円です。"
+  },
+  {
+    "japanese": "どこ",
+    "kanji": "",
+    "romanji": "doko",
+    "vietnamese": "ở đâu",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "question",
+    "example": "トイレはどこですか。"
+  },
+  {
+    "japanese": "いくら",
+    "kanji": "",
+    "romanji": "ikura",
+    "vietnamese": "bao nhiêu tiền",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "question",
+    "example": "これはいくらですか。"
+  },
+  {
+    "japanese": "じゃ",
+    "kanji": "",
+    "romanji": "ja",
+    "vietnamese": "vậy thì…",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "conjunction",
+    "example": "じゃ、行きましょう。"
+  },
+  {
+    "japanese": "ちがいます",
+    "kanji": "違います",
+    "romanji": "chigaimasu",
+    "vietnamese": "Sai rồi, không đúng",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "response",
+    "example": "違います。"
+  },
+  {
+    "japanese": "どうも",
+    "kanji": "",
+    "romanji": "doumo",
+    "vietnamese": "Cảm ơn (thân mật)",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "gratitude",
+    "example": "どうも。"
+  },
+  {
+    "japanese": "～を ください",
+    "kanji": "",
+    "romanji": "~o kudasai",
+    "vietnamese": "Xin cho tôi ~",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "request",
+    "example": "コーヒーをください。"
+  },
+  {
+    "japanese": "おいしいですね",
+    "kanji": "",
+    "romanji": "oishii desu ne",
+    "vietnamese": "Ngon quá!",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "expression",
+    "example": "おいしいですね。"
+  },
+  {
+    "japanese": "サントリー",
+    "kanji": "",
+    "romanji": "santoorii",
+    "vietnamese": "Suntory",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "brand",
+    "example": "サントリーのビールです。"
+  },
+  {
+    "japanese": "ロッテ",
+    "kanji": "",
+    "romanji": "rotte",
+    "vietnamese": "Lotte",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "brand",
+    "example": "ロッテのチョコレートです。"
+  },
+  {
+    "japanese": "ナイキ",
+    "kanji": "",
+    "romanji": "naiki",
+    "vietnamese": "Nike",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "brand",
+    "example": "ナイキの靴です。"
+  },
+  {
+    "japanese": "アップル",
+    "kanji": "",
+    "romanji": "appuru",
+    "vietnamese": "Apple",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "brand",
+    "example": "アップルのパソコンです。"
+  },
+  {
+    "japanese": "キヤノン",
+    "kanji": "",
+    "romanji": "kyanon",
+    "vietnamese": "Canon",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "brand",
+    "example": "キヤノンのカメラです。"
+  },
+  {
+    "japanese": "ゆりだいがく",
+    "kanji": "ゆり大学",
+    "romanji": "Yuri daigaku",
+    "vietnamese": "trường Đại học Yuri",
+    "lesson": 3,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "ゆり大学で勉強しています。"
+  }
+]
