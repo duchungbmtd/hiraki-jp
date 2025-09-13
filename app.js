@@ -133,9 +133,18 @@ class JapaneseVocabApp {
 
     // Cập nhật thống kê dashboard
     updateDashboardStats() {
+        if (!this.vocabularyData || this.vocabularyData.length === 0) {
+            console.warn('Vocabulary data not loaded yet');
+            return;
+        }
+        
+        if (!this.userProgress) {
+            this.userProgress = this.loadProgress();
+        }
+        
         const totalWords = this.vocabularyData.reduce((total, lesson) => total + lesson.totalWords, 0);
-        const studiedWords = this.userProgress.studiedWords.length;
-        const completedLessons = this.userProgress.completedLessons.length;
+        const studiedWords = this.userProgress.studiedWords ? this.userProgress.studiedWords.length : 0;
+        const completedLessons = this.userProgress.completedLessons ? this.userProgress.completedLessons.length : 0;
         
         document.getElementById('words-studied').textContent = studiedWords;
         document.getElementById('accuracy-rate').textContent = 
@@ -149,6 +158,11 @@ class JapaneseVocabApp {
 
     // Cập nhật tiến độ học
     updateStudyProgress() {
+        if (!this.userProgress || !this.userProgress.studiedWords) {
+            console.warn('User progress not initialized');
+            return;
+        }
+        
         const studiedWords = this.userProgress.studiedWords.length;
         const totalWords = this.vocabularyData.reduce((total, lesson) => total + lesson.totalWords, 0);
         
