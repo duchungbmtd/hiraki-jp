@@ -141,6 +141,7 @@
             width: 100%;
             border-collapse: collapse;
             background: white;
+            table-layout: fixed;
         }
 
         th {
@@ -153,6 +154,15 @@
             top: 0;
             z-index: 10;
         }
+
+        /* Column widths */
+        th:nth-child(1), td:nth-child(1) { width: 8%; }   /* STT */
+        th:nth-child(2), td:nth-child(2) { width: 16%; }  /* Thể ます */
+        th:nth-child(3), td:nth-child(3) { width: 16%; }  /* Thể từ điển */
+        th:nth-child(4), td:nth-child(4) { width: 16%; }  /* Thể て */
+        th:nth-child(5), td:nth-child(5) { width: 20%; }  /* Nghĩa */
+        th:nth-child(6), td:nth-child(6) { width: 12%; }  /* Kanji */
+        th:nth-child(7), td:nth-child(7) { width: 12%; }  /* Bài */
 
         td {
             padding: 12px 10px;
@@ -464,12 +474,12 @@
                 <thead>
                     <tr>
                         <th>STT</th>
-                        <th>Bài</th>
-                        <th>Thể từ điển</th>
                         <th>Thể ます</th>
+                        <th>Thể từ điển</th>
                         <th>Thể て</th>
                         <th>Nghĩa</th>
                         <th>Kanji</th>
+                        <th>Bài</th>
                     </tr>
                 </thead>
                 <tbody id="verbsTableBody">
@@ -500,6 +510,14 @@
                 const response = await fetch('data/all_verbs.json');
                 verbsData = await response.json();
                 filteredData = [...verbsData];
+                
+                // Sort by lesson number
+                filteredData.sort((a, b) => {
+                    const lessonA = parseInt(a.lesson) || 0;
+                    const lessonB = parseInt(b.lesson) || 0;
+                    return lessonA - lessonB;
+                });
+                
                 populateFilters();
                 renderTable();
                 renderMobileCards();
@@ -538,12 +556,12 @@
             tbody.innerHTML = filteredData.map((verb, index) => `
                 <tr>
                     <td>${index + 1}</td>
-                    <td><span class="lesson-badge">Bài ${verb.lesson}</span></td>
-                    <td><span class="form-text">${verb.dictionary_form || ''}</span></td>
                     <td><span class="form-text">${verb.masu_form || verb.japanese || ''}</span></td>
+                    <td><span class="form-text">${verb.dictionary_form || ''}</span></td>
                     <td><span class="form-text">${verb.te_form || ''}</span></td>
                     <td><span class="meaning-text">${verb.vietnamese || ''}</span></td>
                     <td><span class="kanji-text">${verb.kanji || ''}</span></td>
+                    <td><span class="lesson-badge">Bài ${verb.lesson}</span></td>
                 </tr>
             `).join('');
         }
@@ -565,15 +583,15 @@
                     </div>
                     <div class="mobile-card-content">
                         <div class="mobile-card-item">
-                            <div class="mobile-card-label">Từ điển</div>
-                            <div class="mobile-card-value">${verb.dictionary_form || ''}</div>
-                        </div>
-                        <div class="mobile-card-item">
-                            <div class="mobile-card-label">ます形</div>
+                            <div class="mobile-card-label">Thể ます</div>
                             <div class="mobile-card-value">${verb.masu_form || verb.japanese || ''}</div>
                         </div>
                         <div class="mobile-card-item">
-                            <div class="mobile-card-label">て形</div>
+                            <div class="mobile-card-label">Thể từ điển</div>
+                            <div class="mobile-card-value">${verb.dictionary_form || ''}</div>
+                        </div>
+                        <div class="mobile-card-item">
+                            <div class="mobile-card-label">Thể て</div>
                             <div class="mobile-card-value">${verb.te_form || ''}</div>
                         </div>
                         <div class="mobile-card-item">
@@ -623,6 +641,13 @@
                     (verb.te_form && verb.te_form.includes(searchInput));
 
                 return matchesLesson && matchesDifficulty && matchesSearch;
+            });
+
+            // Sort by lesson number
+            filteredData.sort((a, b) => {
+                const lessonA = parseInt(a.lesson) || 0;
+                const lessonB = parseInt(b.lesson) || 0;
+                return lessonA - lessonB;
             });
 
             renderTable();
