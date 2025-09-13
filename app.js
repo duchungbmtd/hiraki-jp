@@ -16,7 +16,7 @@ class JapaneseVocabApp {
         this.showDashboard();
     }
 
-    // Load dữ liệu từ vựng từ tất cả các file JSON
+    // Load dữ liệu từ vựng từ localStorage hoặc fetch từ server
     async loadVocabularyData() {
         const lessons = [
             'introduction_vocabulary.json',
@@ -44,6 +44,21 @@ class JapaneseVocabApp {
             'lesson_22_vocabulary.json'
         ];
 
+        // Kiểm tra localStorage trước
+        const cachedData = localStorage.getItem('japaneseVocabData');
+        if (cachedData) {
+            try {
+                this.vocabularyData = JSON.parse(cachedData);
+                console.log('Loaded vocabulary data from localStorage (index)');
+                return;
+            } catch (error) {
+                console.warn('Error parsing cached data, fetching from server:', error);
+                localStorage.removeItem('japaneseVocabData');
+            }
+        }
+
+        // Nếu không có trong localStorage, fetch từ server
+        console.log('Fetching vocabulary data from server (index)...');
         for (let i = 0; i < lessons.length; i++) {
             try {
                 const response = await fetch(`data/${lessons[i]}`);
@@ -58,6 +73,19 @@ class JapaneseVocabApp {
             } catch (error) {
                 console.error(`Lỗi khi tải ${lessons[i]}:`, error);
             }
+        }
+
+        // Lưu vào localStorage để lần sau load nhanh hơn
+        this.saveVocabularyDataToCache();
+    }
+
+    // Lưu dữ liệu từ vựng vào localStorage
+    saveVocabularyDataToCache() {
+        try {
+            localStorage.setItem('japaneseVocabData', JSON.stringify(this.vocabularyData));
+            console.log('Vocabulary data saved to localStorage cache (index)');
+        } catch (error) {
+            console.warn('Could not save vocabulary data to localStorage:', error);
         }
     }
 
@@ -151,6 +179,7 @@ class JapaneseVocabApp {
     reloadData() {
         // Xóa tất cả dữ liệu liên quan đến ứng dụng
         localStorage.removeItem('japaneseVocabProgress');
+        localStorage.removeItem('japaneseVocabData'); // Cache dữ liệu từ vựng
         localStorage.removeItem('currentLessonData');
         localStorage.removeItem('currentQuizData');
         localStorage.removeItem('flashcardProgress');

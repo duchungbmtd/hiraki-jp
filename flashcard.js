@@ -21,7 +21,7 @@ class FlashcardApp {
         }
     }
 
-    // Load dữ liệu từ vựng từ tất cả các file JSON
+    // Load dữ liệu từ vựng từ localStorage hoặc fetch từ server
     async loadVocabularyData() {
         const lessons = [
             'introduction_vocabulary.json',
@@ -49,6 +49,21 @@ class FlashcardApp {
             'lesson_22_vocabulary.json'
         ];
 
+        // Kiểm tra localStorage trước
+        const cachedData = localStorage.getItem('japaneseVocabData');
+        if (cachedData) {
+            try {
+                this.vocabularyData = JSON.parse(cachedData);
+                console.log('Loaded vocabulary data from localStorage (flashcard)');
+                return;
+            } catch (error) {
+                console.warn('Error parsing cached data, fetching from server:', error);
+                localStorage.removeItem('japaneseVocabData');
+            }
+        }
+
+        // Nếu không có trong localStorage, fetch từ server
+        console.log('Fetching vocabulary data from server (flashcard)...');
         for (let i = 0; i < lessons.length; i++) {
             try {
                 const response = await fetch(`data/${lessons[i]}`);
@@ -63,6 +78,19 @@ class FlashcardApp {
             } catch (error) {
                 console.error(`Lỗi khi tải ${lessons[i]}:`, error);
             }
+        }
+
+        // Lưu vào localStorage để lần sau load nhanh hơn
+        this.saveVocabularyDataToCache();
+    }
+
+    // Lưu dữ liệu từ vựng vào localStorage
+    saveVocabularyDataToCache() {
+        try {
+            localStorage.setItem('japaneseVocabData', JSON.stringify(this.vocabularyData));
+            console.log('Vocabulary data saved to localStorage cache (flashcard)');
+        } catch (error) {
+            console.warn('Could not save vocabulary data to localStorage:', error);
         }
     }
 
