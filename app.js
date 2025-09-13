@@ -14,7 +14,6 @@ class JapaneseVocabApp {
         await this.loadVocabularyData();
         this.setupEventListeners();
         this.showDashboard();
-        this.updateProgressDisplay();
     }
 
     // Load dữ liệu từ vựng từ tất cả các file JSON
@@ -67,8 +66,10 @@ class JapaneseVocabApp {
         document.getElementById('lessons-btn')?.addEventListener('click', () => this.showLessons());
         document.getElementById('flashcard-btn')?.addEventListener('click', () => this.showFlashcard());
         document.getElementById('quiz-btn')?.addEventListener('click', () => this.showQuiz());
-        document.getElementById('dashboard-btn')?.addEventListener('click', () => this.showDashboard());
         document.getElementById('verb-conjugation-btn')?.addEventListener('click', () => this.showVerbConjugation());
+        
+        // Reload data button
+        document.getElementById('reload-data-btn')?.addEventListener('click', () => this.reloadData());
         
         // Vocabulary list controls removed - now handled in separate pages
     }
@@ -113,8 +114,9 @@ class JapaneseVocabApp {
             studiedWords > 0 ? `${Math.round((studiedWords / totalWords) * 100)}%` : '0%';
         document.getElementById('streak-days').textContent = this.userProgress.streakDays || 0;
         
-        // Cập nhật tiến độ bài học
-        document.getElementById('lessons-progress').textContent = `${completedLessons}/${this.vocabularyData.length} bài`;
+        // Cập nhật số lượng bài học trong card
+        const totalLessons = this.vocabularyData.length;
+        document.getElementById('total-lessons-text').textContent = `${totalLessons} bài từ cơ bản đến nâng cao`;
     }
 
     // Cập nhật tiến độ học
@@ -144,13 +146,18 @@ class JapaneseVocabApp {
         localStorage.setItem('japaneseVocabProgress', JSON.stringify(this.userProgress));
     }
 
-    // Cập nhật hiển thị tiến độ
-    updateProgressDisplay() {
-        const progressBar = document.getElementById('progress-bar');
-        if (progressBar) {
-            const progress = (this.userProgress.completedLessons.length / this.vocabularyData.length) * 100;
-            progressBar.style.width = progress + '%';
-        }
+
+    // Xóa localStorage và reload trang
+    reloadData() {
+        // Xóa tất cả dữ liệu liên quan đến ứng dụng
+        localStorage.removeItem('japaneseVocabProgress');
+        localStorage.removeItem('currentLessonData');
+        localStorage.removeItem('currentQuizData');
+        localStorage.removeItem('flashcardProgress');
+        localStorage.removeItem('quizProgress');
+        
+        // Reload trang để đảm bảo tất cả dữ liệu được refresh
+        window.location.reload();
     }
 
     // Ẩn tất cả các view

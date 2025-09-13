@@ -87,11 +87,8 @@
                     <h1 class="text-2xl font-bold text-gray-800">JapaneseVocab</h1>
                 </div>
                 <div class="flex items-center space-x-4">
-                    <div class="text-sm text-gray-600">
-                        Tiến độ: <span id="lessons-progress" class="font-semibold text-green-600">0/15 bài</span>
-                    </div>
-                    <button id="dashboard-btn" class="w-8 h-8 bg-gradient-to-r from-pink-400 to-red-400 rounded-full flex items-center justify-center text-white hover:shadow-lg transition-all">
-                        <span class="text-xs">🏠</span>
+                    <button id="reload-data-btn" class="w-8 h-8 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full flex items-center justify-center text-white hover:shadow-lg transition-all" title="Xóa dữ liệu và làm mới trang">
+                        <span class="text-xs">🔄</span>
                     </button>
                 </div>
             </div>
@@ -109,7 +106,7 @@
                     </div>
                     <div>
                         <h3 class="font-semibold text-gray-800">Bài học</h3>
-                        <p class="text-sm text-gray-600">15 bài từ cơ bản đến nâng cao</p>
+                        <p class="text-sm text-gray-600" id="total-lessons-text">Đang tải...</p>
                     </div>
                 </div>
             </div>
