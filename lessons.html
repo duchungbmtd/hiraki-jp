@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Học - JapaneseVocab</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .japanese-text { font-family: 'Noto Sans JP', sans-serif; }
+        .vietnamese-text { font-family: 'Inter', sans-serif; }
+
+        .back-btn {
+            position: absolute;
+            left: 30px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .back-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+            border-color: rgba(255, 255, 255, 0.5);
+            transform: translateY(-50%) translateX(-5px);
+        }
+
+        @media (max-width: 768px) {
+            .back-btn {
+                position: static;
+                transform: none;
+                margin-bottom: 20px;
+                align-self: flex-start;
+            }
+            
+            .header {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        .lesson-item:hover {
+            transform: translateY(-2px);
+        }
+
+        .vocab-card {
+            transition: all 0.3s ease;
+        }
+
+        .vocab-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+
+        /* Improved responsive design */
+        @media (max-width: 768px) {
+            .vocab-card {
+                padding: 1rem;
+                margin-bottom: 0.75rem;
+            }
+            
+            .vocab-card .japanese-text {
+                font-size: 1.125rem;
+                line-height: 1.5;
+            }
+            
+            .vocab-card .text-base {
+                font-size: 0.875rem;
+            }
+            
+            /* Stack category badge on mobile */
+            .vocab-card .flex.items-start {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .vocab-card .flex-shrink-0 {
+                margin-left: 0;
+                margin-top: 0.5rem;
+                align-self: flex-start;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .vocab-card {
+                padding: 0.75rem;
+                border-radius: 0.5rem;
+            }
+            
+            .vocab-card .japanese-text {
+                font-size: 1rem;
+            }
+            
+            /* Make text more readable on small screens */
+            .vocab-card .text-sm {
+                font-size: 0.75rem;
+            }
+            
+            .vocab-card .text-xs {
+                font-size: 0.625rem;
+            }
+        }
+
+        /* Better spacing for vocabulary grid */
+        #vocabulary-grid {
+            gap: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            #vocabulary-grid {
+                gap: 0.75rem;
+            }
+            
+            /* Improve main container padding on mobile */
+            main {
+                padding: 1rem;
+            }
+            
+            /* Better spacing for lessons container */
+            #lessons-container {
+                gap: 1rem;
+            }
+            
+            /* Improve button sizing on mobile */
+            button {
+                min-height: 44px; /* iOS touch target size */
+            }
+        }
+
+        /* Extra small screens */
+        @media (max-width: 480px) {
+            main {
+                padding: 0.75rem;
+            }
+            
+            /* Single column layout for very small screens */
+            #vocabulary-grid {
+                grid-template-columns: 1fr;
+                gap: 0.5rem;
+            }
+            
+            #lessons-container {
+                grid-template-columns: 1fr;
+                gap: 0.75rem;
+            }
+            
+            /* Smaller text on very small screens */
+            .lesson-item h3 {
+                font-size: 1rem;
+            }
+        }
+
+        /* Improve text readability for Japanese text */
+        .vocab-card .japanese-text {
+            line-height: 1.6;
+            word-break: break-word;
+        }
+
+        /* Better touch targets */
+        @media (max-width: 768px) {
+            .lesson-item {
+                min-height: 80px;
+                padding: 1rem;
+            }
+            
+            .vocab-card {
+                min-height: 120px;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-pink-50 min-h-screen vietnamese-text">
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-blue-500 to-purple-500 text-white shadow-lg relative">
+        <div class="max-w-6xl mx-auto px-4 py-6">
+            <a href="index.html" class="back-btn">
+                ← Trở về trang chủ
+            </a>
+            <div class="text-center">
+                <div class="flex items-center justify-center space-x-3 mb-2">
+                    <div class="w-10 h-10 bg-white bg-opacity-20 rounded-lg flex items-center justify-center">
+                        <span class="text-white font-bold text-lg">📚</span>
+                    </div>
+                    <h1 class="text-3xl font-bold">Bài Học</h1>
+                </div>
+                <p class="text-white text-opacity-90">Học từ vựng tiếng Nhật theo từng bài</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 py-8">
+        <!-- Lessons List View -->
+        <div id="lessons-list-view">
+            <div class="bg-white rounded-xl shadow-lg p-8 mb-8">
+                <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">Danh sách bài học</h2>
+                <div id="lessons-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+                    <!-- Lessons will be rendered here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Vocabulary List View -->
+        <div id="vocabulary-list-view" class="hidden">
+            <div class="bg-white rounded-xl shadow-lg p-8">
+                <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-6 space-y-4 md:space-y-0">
+                    <div class="flex-1">
+                        <h2 id="vocab-lesson-title" class="text-xl md:text-2xl font-bold text-gray-800">Từ vựng bài học</h2>
+                        <p id="vocab-lesson-subtitle" class="text-gray-600 mt-1 text-sm md:text-base">Tổng cộng: <span id="vocab-count">0</span> từ</p>
+                    </div>
+                    <div class="flex flex-col sm:flex-row gap-2 md:gap-3">
+                        <button id="start-flashcard-btn" class="bg-green-500 hover:bg-green-600 text-white px-3 md:px-4 py-2 rounded-lg font-medium transition-all text-sm md:text-base">
+                            🎴 Flashcard
+                        </button>
+                        <button id="start-quiz-btn" class="bg-purple-500 hover:bg-purple-600 text-white px-3 md:px-4 py-2 rounded-lg font-medium transition-all text-sm md:text-base">
+                            🎯 Quiz
+                        </button>
+                        <button id="back-to-lessons-btn" class="bg-gray-500 hover:bg-gray-600 text-white px-3 md:px-4 py-2 rounded-lg font-medium transition-all text-sm md:text-base">
+                            ← Quay lại
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Search and Filter -->
+                <div class="mb-6 bg-gray-50 rounded-lg p-4">
+                    <div class="flex flex-col gap-4">
+                        <!-- Search Input -->
+                        <div class="w-full">
+                            <input type="text" id="vocab-search" placeholder="Tìm kiếm từ vựng..." 
+                                   class="w-full px-3 md:px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm md:text-base">
+                        </div>
+                        
+                        <!-- Filter Controls -->
+                        <div class="flex flex-col sm:flex-row gap-3">
+                            <div class="flex-1">
+                                <label for="category-filter" class="block text-xs text-gray-500 mb-1">Danh mục:</label>
+                                <select id="category-filter" class="w-full px-3 md:px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 text-sm md:text-base">
+                                    <option value="">Tất cả danh mục</option>
+                                </select>
+                            </div>
+                            <div class="flex-1">
+                                <label for="difficulty-filter" class="block text-xs text-gray-500 mb-1">Độ khó:</label>
+                                <select id="difficulty-filter" class="w-full px-3 md:px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 text-sm md:text-base">
+                                    <option value="">Tất cả mức độ</option>
+                                    <option value="beginner">Cơ bản</option>
+                                    <option value="intermediate">Trung bình</option>
+                                    <option value="advanced">Nâng cao</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vocabulary Grid -->
+                <div id="vocabulary-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+                    <!-- Vocabulary cards will be rendered here -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Include JavaScript -->
+    <script src="lessons.js"></script>
+</body>
+</html>

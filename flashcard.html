@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard - JapaneseVocab</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .japanese-text { font-family: 'Noto Sans JP', sans-serif; }
+        .vietnamese-text { font-family: 'Inter', sans-serif; }
+        
+        .card-flip-animation {
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+        }
+        
+        .card-flip-animation.flipped {
+            transform: rotateY(180deg);
+        }
+
+        .back-btn {
+            position: absolute;
+            left: 30px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .back-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+            border-color: rgba(255, 255, 255, 0.5);
+            transform: translateY(-50%) translateX(-5px);
+        }
+
+        @media (max-width: 768px) {
+            .back-btn {
+                position: static;
+                transform: none;
+                margin-bottom: 20px;
+                align-self: flex-start;
+            }
+            
+            .header {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-pink-50 min-h-screen vietnamese-text">
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-green-500 to-blue-500 text-white shadow-lg relative">
+        <div class="max-w-6xl mx-auto px-4 py-6">
+            <a href="index.html" class="back-btn">
+                ← Trở về trang chủ
+            </a>
+            <div class="text-center">
+                <div class="flex items-center justify-center space-x-3 mb-2">
+                    <div class="w-10 h-10 bg-white bg-opacity-20 rounded-lg flex items-center justify-center">
+                        <span class="text-white font-bold text-lg">🎴</span>
+                    </div>
+                    <h1 class="text-3xl font-bold">Flashcard</h1>
+                </div>
+                <p class="text-white text-opacity-90">Ôn tập từ vựng tiếng Nhật hiệu quả</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 py-8">
+        <!-- Lesson Selection -->
+        <div id="lesson-selection" class="bg-white rounded-xl shadow-lg p-8 mb-8">
+            <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">Chọn bài học để bắt đầu</h2>
+            <div id="lessons-container" class="grid md:grid-cols-3 gap-4">
+                <!-- Lessons will be rendered here -->
+            </div>
+        </div>
+
+        <!-- Flashcard Interface -->
+        <div id="flashcard-interface" class="hidden">
+            <div class="bg-white rounded-xl shadow-lg p-8">
+                <div class="text-center max-w-lg mx-auto">
+                    <div class="mb-4 text-sm text-gray-600">
+                        <span id="card-progress">1/10</span> • <span id="lesson-title">Bài học</span>
+                    </div>
+                    
+                    <div class="mb-4 text-xs text-gray-500 bg-gray-100 rounded-lg p-2">
+                        <strong>Phím tắt:</strong> ← → (chuyển thẻ) | Enter/Click (lật thẻ qua lại) | 1,2,3 (đánh giá) | Space (tiếp theo)
+                    </div>
+                    
+                    <div id="flashcard" class="bg-gradient-to-br from-pink-50 to-blue-50 rounded-xl p-8 mb-6 min-h-80 flex items-center justify-center cursor-pointer shadow-lg hover:shadow-xl transition-all card-flip-animation">
+                        <div id="card-front" class="text-center">
+                            <div class="japanese-text text-4xl font-medium text-gray-800 mb-4" id="japanese-word">Chọn bài học để bắt đầu</div>
+                            <div class="text-gray-500 text-sm">Nhấn Enter hoặc click để xem nghĩa</div>
+                        </div>
+                        <div id="card-back" class="text-center hidden">
+                            <div class="text-2xl font-medium text-gray-800 mb-2" id="vietnamese-meaning">Nghĩa tiếng Việt</div>
+                            <div class="text-gray-600 text-sm mb-2" id="romanji-text">Romanji</div>
+                            <div class="text-gray-500 text-xs italic mb-4" id="usage-note">Ví dụ</div>
+                            <div class="text-gray-500 text-sm">Nhấn để xem lại tiếng Nhật</div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col items-center space-y-4">
+                        <div class="flex justify-center space-x-4">
+                            <button id="difficult-btn" class="bg-red-100 hover:bg-red-200 text-red-700 px-6 py-3 rounded-lg transition-all transform hover:scale-105 font-medium">
+                                😰 Khó
+                            </button>
+                            <button id="normal-btn" class="bg-yellow-100 hover:bg-yellow-200 text-yellow-700 px-6 py-3 rounded-lg transition-all transform hover:scale-105 font-medium">
+                                😐 Bình thường
+                            </button>
+                            <button id="easy-btn" class="bg-green-100 hover:bg-green-200 text-green-700 px-6 py-3 rounded-lg transition-all transform hover:scale-105 font-medium">
+                                😊 Dễ
+                            </button>
+                        </div>
+                        <div class="flex justify-center space-x-4">
+                            <button id="prev-card-btn" class="bg-gray-500 hover:bg-gray-600 text-white px-8 py-3 rounded-lg transition-all transform hover:scale-105 font-medium">
+                                Trước đó
+                            </button>
+                            <button id="next-card-btn" class="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-lg transition-all transform hover:scale-105 font-medium">
+                                Tiếp theo
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Include JavaScript -->
+    <script src="flashcard.js"></script>
+</body>
+</html>

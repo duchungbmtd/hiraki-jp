@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng Chia Động Từ Tiếng Nhật - Cập Nhật</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            position: relative;
+        }
+
+        .back-btn {
+            position: absolute;
+            left: 30px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .back-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+            border-color: rgba(255, 255, 255, 0.5);
+            transform: translateY(-50%) translateX(-5px);
+        }
+
+        @media (max-width: 768px) {
+            .back-btn {
+                position: static;
+                transform: none;
+                margin-bottom: 20px;
+                align-self: flex-start;
+            }
+            
+            .header {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .controls {
+            padding: 20px 30px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #e9ecef;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .filter-group label {
+            font-weight: 600;
+            color: #495057;
+            font-size: 0.9em;
+        }
+
+        .filter-group select, .filter-group input {
+            padding: 8px 12px;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+
+        .filter-group select:focus, .filter-group input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .search-box {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .search-box input {
+            width: 100%;
+        }
+
+        .table-container {
+            overflow-x: auto;
+            max-height: 70vh;
+            overflow-y: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+
+        th {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 15px 10px;
+            text-align: center;
+            font-weight: 600;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        td {
+            padding: 12px 10px;
+            text-align: center;
+            border-bottom: 1px solid #e9ecef;
+            transition: background-color 0.3s;
+        }
+
+        tr:hover td {
+            background-color: #f8f9fa;
+        }
+
+        .lesson-badge {
+            background: linear-gradient(135deg, #28a745, #20c997);
+            color: white;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            font-weight: 600;
+            display: inline-block;
+        }
+
+        .japanese-text {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        .kanji-text {
+            font-size: 1.2em;
+            color: #e74c3c;
+            font-weight: 600;
+        }
+
+        .meaning-text {
+            color: #495057;
+            font-size: 0.9em;
+        }
+
+        .form-text {
+            font-family: 'Courier New', monospace;
+            background: #f8f9fa;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.9em;
+            color: #495057;
+        }
+
+        .stats {
+            padding: 20px 30px;
+            background: #e9ecef;
+            text-align: center;
+            font-size: 1.1em;
+            color: #495057;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            font-size: 1.2em;
+            color: #6c757d;
+        }
+
+        /* Mobile Card Layout */
+        .mobile-cards {
+            display: none;
+            padding: 15px;
+            gap: 15px;
+        }
+
+        .mobile-card {
+            background: white;
+            border-radius: 12px;
+            padding: 15px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-left: 4px solid #667eea;
+        }
+
+        .mobile-card-header {
+            display: flex;
+            justify-content: between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .mobile-card-number {
+            background: #667eea;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8em;
+            font-weight: bold;
+        }
+
+        .mobile-card-lesson {
+            background: linear-gradient(135deg, #28a745, #20c997);
+            color: white;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            font-weight: 600;
+            margin-left: auto;
+        }
+
+        .mobile-card-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .mobile-card-item {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .mobile-card-label {
+            font-size: 0.75em;
+            color: #6c757d;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .mobile-card-value {
+            font-size: 0.9em;
+            color: #2c3e50;
+            font-weight: 500;
+        }
+
+        .mobile-card-kanji {
+            font-size: 1.1em;
+            color: #e74c3c;
+            font-weight: 600;
+        }
+
+        .mobile-card-meaning {
+            grid-column: 1 / -1;
+            padding-top: 8px;
+            border-top: 1px solid #e9ecef;
+            margin-top: 8px;
+        }
+
+        .mobile-card-meaning .mobile-card-value {
+            font-size: 1em;
+            color: #495057;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 8px;
+                background: #f8f9fa;
+            }
+
+            .container {
+                border-radius: 8px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            }
+
+            .header {
+                padding: 15px;
+            }
+
+            .header h1 {
+                font-size: 1.6em;
+                margin-bottom: 6px;
+                line-height: 1.2;
+            }
+
+            .header p {
+                font-size: 0.9em;
+                opacity: 0.9;
+            }
+
+            .controls {
+                flex-direction: column;
+                align-items: stretch;
+                padding: 12px;
+                gap: 12px;
+                background: #f8f9fa;
+            }
+            
+            .filter-group {
+                width: 100%;
+            }
+
+            .filter-group label {
+                font-size: 0.85em;
+                margin-bottom: 4px;
+            }
+
+            .filter-group select, .filter-group input {
+                padding: 10px 12px;
+                font-size: 16px; /* Prevents zoom on iOS */
+                border-radius: 6px;
+            }
+
+            .search-box {
+                min-width: auto;
+            }
+            
+            /* Hide table on mobile */
+            .table-container {
+                display: none;
+            }
+
+            /* Show mobile cards */
+            .mobile-cards {
+                display: flex;
+                flex-direction: column;
+                padding: 12px;
+                gap: 12px;
+            }
+
+            .mobile-card {
+                padding: 12px;
+                border-radius: 8px;
+                box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+            }
+
+            .mobile-card-content {
+                gap: 8px;
+            }
+
+            .mobile-card-value {
+                font-size: 0.85em;
+            }
+
+            .mobile-card-kanji {
+                font-size: 1em;
+            }
+
+            .stats {
+                padding: 12px;
+                font-size: 0.9em;
+                text-align: center;
+                background: #e9ecef;
+                border-radius: 0 0 8px 8px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header h1 {
+                font-size: 1.4em;
+            }
+
+            .mobile-card-content {
+                grid-template-columns: 1fr;
+                gap: 6px;
+            }
+
+            .mobile-card-item {
+                padding: 4px 0;
+            }
+
+            .mobile-card-meaning {
+                margin-top: 6px;
+                padding-top: 6px;
+            }
+        }
+
+        @media (min-width: 769px) {
+            .mobile-cards {
+                display: none !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="#" class="back-btn" id="back-to-home">
+                ← Trở về trang chủ
+            </a>
+            <h1>🇯🇵 Bảng Chia Động Từ Tiếng Nhật</h1>
+            <p>Danh sách đầy đủ các thể của động từ với chuyển đổi chính xác</p>
+        </div>
+
+        <div class="controls">
+            <div class="filter-group">
+                <label for="lessonFilter">Bài học:</label>
+                <select id="lessonFilter">
+                    <option value="">Tất cả</option>
+                </select>
+            </div>
+            
+            <div class="filter-group">
+                <label for="difficultyFilter">Độ khó:</label>
+                <select id="difficultyFilter">
+                    <option value="">Tất cả</option>
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                </select>
+            </div>
+            
+            <div class="filter-group search-box">
+                <label for="searchInput">Tìm kiếm:</label>
+                <input type="text" id="searchInput" placeholder="Tìm theo nghĩa, kanji, hiragana...">
+            </div>
+        </div>
+
+        <div class="table-container">
+            <table id="verbsTable">
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Bài</th>
+                        <th>Thể từ điển</th>
+                        <th>Thể ます</th>
+                        <th>Thể て</th>
+                        <th>Nghĩa</th>
+                        <th>Kanji</th>
+                    </tr>
+                </thead>
+                <tbody id="verbsTableBody">
+                    <tr>
+                        <td colspan="7" class="loading">Đang tải dữ liệu...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="mobile-cards" id="mobileCards">
+            <div class="loading">Đang tải dữ liệu...</div>
+        </div>
+
+        <div class="stats" id="stats">
+            Đang tải thống kê...
+        </div>
+    </div>
+
+    <script>
+        // Dữ liệu động từ (sẽ được load từ file JSON)
+        let verbsData = [];
+        let filteredData = [];
+
+        // Load dữ liệu từ file JSON
+        async function loadVerbsData() {
+            try {
+                const response = await fetch('data/all_verbs.json');
+                verbsData = await response.json();
+                filteredData = [...verbsData];
+                populateFilters();
+                renderTable();
+                renderMobileCards();
+                updateStats();
+            } catch (error) {
+                console.error('Lỗi khi tải dữ liệu:', error);
+                document.getElementById('verbsTableBody').innerHTML = 
+                    '<tr><td colspan="7" class="loading">Lỗi khi tải dữ liệu. Vui lòng thử lại.</td></tr>';
+                document.getElementById('mobileCards').innerHTML = 
+                    '<div class="loading">Lỗi khi tải dữ liệu. Vui lòng thử lại.</div>';
+            }
+        }
+
+        // Điền dữ liệu vào các filter
+        function populateFilters() {
+            const lessonFilter = document.getElementById('lessonFilter');
+            const lessons = [...new Set(verbsData.map(verb => verb.lesson))].sort((a, b) => a - b);
+            
+            lessons.forEach(lesson => {
+                const option = document.createElement('option');
+                option.value = lesson;
+                option.textContent = `Bài ${lesson}`;
+                lessonFilter.appendChild(option);
+            });
+        }
+
+        // Render bảng (desktop)
+        function renderTable() {
+            const tbody = document.getElementById('verbsTableBody');
+            
+            if (filteredData.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="7" class="loading">Không tìm thấy động từ nào.</td></tr>';
+                return;
+            }
+
+            tbody.innerHTML = filteredData.map((verb, index) => `
+                <tr>
+                    <td>${index + 1}</td>
+                    <td><span class="lesson-badge">Bài ${verb.lesson}</span></td>
+                    <td><span class="form-text">${verb.dictionary_form || ''}</span></td>
+                    <td><span class="form-text">${verb.masu_form || verb.japanese || ''}</span></td>
+                    <td><span class="form-text">${verb.te_form || ''}</span></td>
+                    <td><span class="meaning-text">${verb.vietnamese || ''}</span></td>
+                    <td><span class="kanji-text">${verb.kanji || ''}</span></td>
+                </tr>
+            `).join('');
+        }
+
+        // Render mobile cards
+        function renderMobileCards() {
+            const mobileCards = document.getElementById('mobileCards');
+            
+            if (filteredData.length === 0) {
+                mobileCards.innerHTML = '<div class="loading">Không tìm thấy động từ nào.</div>';
+                return;
+            }
+
+            mobileCards.innerHTML = filteredData.map((verb, index) => `
+                <div class="mobile-card">
+                    <div class="mobile-card-header">
+                        <div class="mobile-card-number">${index + 1}</div>
+                        <div class="mobile-card-lesson">Bài ${verb.lesson}</div>
+                    </div>
+                    <div class="mobile-card-content">
+                        <div class="mobile-card-item">
+                            <div class="mobile-card-label">Từ điển</div>
+                            <div class="mobile-card-value">${verb.dictionary_form || ''}</div>
+                        </div>
+                        <div class="mobile-card-item">
+                            <div class="mobile-card-label">ます形</div>
+                            <div class="mobile-card-value">${verb.masu_form || verb.japanese || ''}</div>
+                        </div>
+                        <div class="mobile-card-item">
+                            <div class="mobile-card-label">て形</div>
+                            <div class="mobile-card-value">${verb.te_form || ''}</div>
+                        </div>
+                        <div class="mobile-card-item">
+                            <div class="mobile-card-label">Kanji</div>
+                            <div class="mobile-card-value mobile-card-kanji">${verb.kanji || ''}</div>
+                        </div>
+                    </div>
+                    <div class="mobile-card-meaning">
+                        <div class="mobile-card-label">Nghĩa</div>
+                        <div class="mobile-card-value">${verb.vietnamese || ''}</div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Cập nhật thống kê
+        function updateStats() {
+            const stats = document.getElementById('stats');
+            const total = filteredData.length;
+            const beginner = filteredData.filter(v => v.difficulty === 'beginner').length;
+            const intermediate = filteredData.filter(v => v.difficulty === 'intermediate').length;
+            const advanced = filteredData.filter(v => v.difficulty === 'advanced').length;
+            
+            stats.innerHTML = `
+                Tổng: <strong>${total}</strong> động từ | 
+                Beginner: <strong>${beginner}</strong> | 
+                Intermediate: <strong>${intermediate}</strong> | 
+                Advanced: <strong>${advanced}</strong>
+            `;
+        }
+
+        // Lọc dữ liệu
+        function filterData() {
+            const lessonFilter = document.getElementById('lessonFilter').value;
+            const difficultyFilter = document.getElementById('difficultyFilter').value;
+            const searchInput = document.getElementById('searchInput').value.toLowerCase();
+
+            filteredData = verbsData.filter(verb => {
+                const matchesLesson = !lessonFilter || verb.lesson == lessonFilter;
+                const matchesDifficulty = !difficultyFilter || verb.difficulty === difficultyFilter;
+                const matchesSearch = !searchInput || 
+                    (verb.vietnamese && verb.vietnamese.toLowerCase().includes(searchInput)) ||
+                    (verb.kanji && verb.kanji.includes(searchInput)) ||
+                    (verb.japanese && verb.japanese.includes(searchInput)) ||
+                    (verb.dictionary_form && verb.dictionary_form.includes(searchInput)) ||
+                    (verb.masu_form && verb.masu_form.includes(searchInput)) ||
+                    (verb.te_form && verb.te_form.includes(searchInput));
+
+                return matchesLesson && matchesDifficulty && matchesSearch;
+            });
+
+            renderTable();
+            renderMobileCards();
+            updateStats();
+        }
+
+        // Event listeners
+        document.getElementById('lessonFilter').addEventListener('change', filterData);
+        document.getElementById('difficultyFilter').addEventListener('change', filterData);
+        document.getElementById('searchInput').addEventListener('input', filterData);
+
+        // Back button functionality
+        const backButton = document.getElementById('back-to-home');
+        if (backButton) {
+            backButton.addEventListener('click', (e) => {
+                e.preventDefault();
+                window.location.href = 'index.html';
+            });
+        }
+
+        // Load dữ liệu khi trang được tải
+        document.addEventListener('DOMContentLoaded', loadVerbsData);
+    </script>
+</body>
+</html>

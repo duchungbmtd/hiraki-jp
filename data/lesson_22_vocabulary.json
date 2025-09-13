@@ -1,0 +1,592 @@
+[
+  {
+    "japanese": "にんぎょう",
+    "kanji": "人形",
+    "romanji": "ningyou",
+    "vietnamese": "búp bê",
+    "lesson": 22,
+    "difficulty": "beginner",
+    "category": "toy",
+    "example": "人形を買いました。"
+  },
+  {
+    "japanese": "ハンカチ",
+    "kanji": "",
+    "romanji": "hankachi",
+    "vietnamese": "khăn tay",
+    "lesson": 22,
+    "difficulty": "beginner",
+    "category": "item",
+    "example": "ハンカチで手を拭きました。"
+  },
+  {
+    "japanese": "けいこうとう",
+    "kanji": "蛍光灯",
+    "romanji": "keikoutou",
+    "vietnamese": "đèn huỳnh quang",
+    "lesson": 22,
+    "difficulty": "intermediate",
+    "category": "item",
+    "example": "蛍光灯を交換しました。"
+  },
+  {
+    "japanese": "けが",
+    "kanji": "",
+    "romanji": "kega",
+    "vietnamese": "(bị) thương, trầy xước",
+    "lesson": 22,
+    "difficulty": "beginner",
+    "category": "health",
+    "example": "けがをしました。"
+  },
+  {
+    "japanese": "プロジェクター",
+    "kanji": "",
+    "romanji": "purojekutaa",
+    "vietnamese": "máy chiếu",
+    "lesson": 22,
+    "difficulty": "intermediate",
+    "category": "technology",
+    "example": "プロジェクターで映画を見ました。"
+  },
+  {
+    "japanese": "ひ",
+    "kanji": "日",
+    "romanji": "hi",
+    "vietnamese": "ngày",
+    "lesson": 22,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "良い日でした。"
+  },
+  {
+    "japanese": "とおく",
+    "kanji": "遠く",
+    "romanji": "tooku",
+    "vietnamese": "(nơi) xa",
+    "lesson": 22,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "遠くから来ました。"
+  },
+  {
+    "japanese": "インターンシップ",
+    "kanji": "",
+    "romanji": "intaanshippu",
+    "vietnamese": "thực tập (tại công ty)",
+    "lesson": 22,
+    "difficulty": "advanced",
+    "category": "work",
+    "example": "インターンシップに参加しました。"
+  },
+  {
+    "japanese": "たのしみ",
+    "kanji": "楽しみ",
+    "romanji": "tanoshimi",
+    "vietnamese": "niềm vui",
+    "lesson": 22,
+    "difficulty": "beginner",
+    "category": "abstract",
+    "example": "旅行が楽しみです。"
+  },
+  {
+    "japanese": "みなさま",
+    "kanji": "皆様",
+    "romanji": "minasama",
+    "vietnamese": "quý vị (cách dùng trịnh trọng của みなさん)",
+    "lesson": 22,
+    "difficulty": "intermediate",
+    "category": "person",
+    "example": "皆様、ありがとうございます。"
+  },
+  {
+    "japanese": "こと",
+    "kanji": "",
+    "romanji": "koto",
+    "vietnamese": "điều, việc",
+    "lesson": 22,
+    "difficulty": "beginner",
+    "category": "abstract",
+    "example": "大切なことです。"
+  },
+  {
+    "japanese": "きかい",
+    "kanji": "機会",
+    "romanji": "kikai",
+    "vietnamese": "cơ hội",
+    "lesson": 22,
+    "difficulty": "intermediate",
+    "category": "abstract",
+    "example": "良い機会です。"
+  },
+  {
+    "japanese": "こちら",
+    "kanji": "",
+    "romanji": "kochira",
+    "vietnamese": "ở đây (lịch sự tương đương củaここ)",
+    "lesson": 22,
+    "difficulty": "beginner",
+    "category": "pronoun",
+    "example": "こちらは田中です。"
+  },
+  {
+    "japanese": "そちら",
+    "kanji": "",
+    "romanji": "sochira",
+    "vietnamese": "ở đó (lịch sự tương đương củaそこ)",
+    "lesson": 22,
+    "difficulty": "beginner",
+    "category": "pronoun",
+    "example": "そちらはどうですか。"
+  },
+  {
+    "japanese": "あちら",
+    "kanji": "",
+    "romanji": "achira",
+    "vietnamese": "ở kia (lịch sự tương đương củaあそこ)",
+    "lesson": 22,
+    "difficulty": "beginner",
+    "category": "pronoun",
+    "example": "あちらを見てください。"
+  },
+  {
+    "japanese": "くれる",
+    "kanji": "",
+    "romanji": "kureru",
+    "vietnamese": "cho, tặng (tôi)",
+    "lesson": 22,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "プレゼントをくれました。"
+  },
+  {
+    "japanese": "つれて いく",
+    "kanji": "連れて 行く",
+    "romanji": "tsurete iku",
+    "vietnamese": "dẫn theo, dắt đi",
+    "lesson": 22,
+    "difficulty": "intermediate",
+    "category": "verb",
+    "example": "子供を連れて行きました。"
+  },
+  {
+    "japanese": "つれて くる",
+    "kanji": "連れて 来る",
+    "romanji": "tsurete kuru",
+    "vietnamese": "dẫn đến, dắt đến",
+    "lesson": 22,
+    "difficulty": "intermediate",
+    "category": "verb",
+    "example": "友達を連れて来ました。"
+  },
+  {
+    "japanese": "みる",
+    "kanji": "見る",
+    "romanji": "miru",
+    "vietnamese": "kiểm tra (máy điều hòa không khí)",
+    "lesson": 22,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "エアコンを見てもらいました。"
+  },
+  {
+    "japanese": "なおす",
+    "kanji": "直す",
+    "romanji": "naosu",
+    "vietnamese": "sửa chữa",
+    "lesson": 22,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "時計を直しました。"
+  },
+  {
+    "japanese": "とりかえる",
+    "kanji": "取り替える",
+    "romanji": "torikaeru",
+    "vietnamese": "thay",
+    "lesson": 22,
+    "difficulty": "intermediate",
+    "category": "verb",
+    "example": "部品を取り替えました。"
+  },
+  {
+    "japanese": "ごうかくする",
+    "kanji": "合格する",
+    "romanji": "goukaku suru",
+    "vietnamese": "thi đỗ, đậu",
+    "lesson": 22,
+    "difficulty": "intermediate",
+    "category": "verb",
+    "example": "試験に合格しました。"
+  },
+  {
+    "japanese": "わたす",
+    "kanji": "渡す",
+    "romanji": "watasu",
+    "vietnamese": "trao, đưa (vật gì) cho ai đó",
+    "lesson": 22,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "書類を渡しました。"
+  },
+  {
+    "japanese": "つける",
+    "kanji": "",
+    "romanji": "tsukeru",
+    "vietnamese": "bật (đèn)",
+    "lesson": 22,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "電気をつけました。"
+  },
+  {
+    "japanese": "くばる",
+    "kanji": "配る",
+    "romanji": "kubaru",
+    "vietnamese": "phân phối, cung cấp, phân phát",
+    "lesson": 22,
+    "difficulty": "intermediate",
+    "category": "verb",
+    "example": "プリントを配りました。"
+  },
+  {
+    "japanese": "うれしい",
+    "kanji": "",
+    "romanji": "ureshii",
+    "vietnamese": "vui sướng",
+    "lesson": 22,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "とても嬉しいです。"
+  },
+  {
+    "japanese": "この あいだ",
+    "kanji": "この 間",
+    "romanji": "kono aida",
+    "vietnamese": "hôm vừa rồi, mấy bữa trước",
+    "lesson": 22,
+    "difficulty": "intermediate",
+    "category": "time",
+    "example": "この間、会いました。"
+  },
+  {
+    "japanese": "けん",
+    "kanji": "県",
+    "romanji": "ken",
+    "vietnamese": "tỉnh ~",
+    "lesson": 22,
+    "difficulty": "intermediate",
+    "category": "place",
+    "example": "神奈川県に住んでいます。"
+  },
+  {
+    "japanese": "と",
+    "kanji": "都",
+    "romanji": "to",
+    "vietnamese": "thủ đô ~",
+    "lesson": 22,
+    "difficulty": "intermediate",
+    "category": "place",
+    "example": "東京都に住んでいます。"
+  },
+  {
+    "japanese": "し",
+    "kanji": "市",
+    "romanji": "shi",
+    "vietnamese": "thành phố ~",
+    "lesson": 22,
+    "difficulty": "intermediate",
+    "category": "place",
+    "example": "横浜市に住んでいます。"
+  },
+  {
+    "japanese": "く",
+    "kanji": "区",
+    "romanji": "ku",
+    "vietnamese": "quận ~",
+    "lesson": 22,
+    "difficulty": "intermediate",
+    "category": "place",
+    "example": "文京区に住んでいます。"
+  },
+  {
+    "japanese": "さま",
+    "kanji": "様",
+    "romanji": "sama",
+    "vietnamese": "ông~, bà~ (lịch sự của ~さん)",
+    "lesson": 22,
+    "difficulty": "intermediate",
+    "category": "honorific",
+    "example": "田中様、お待ちしております。"
+  },
+  {
+    "japanese": "ごめん",
+    "kanji": "",
+    "romanji": "gomen",
+    "vietnamese": "Xin lỗi. (cách nói thân mật tương đương vớiすみません)",
+    "lesson": 22,
+    "difficulty": "beginner",
+    "category": "expression",
+    "example": "ごめん、遅れました。"
+  },
+  {
+    "japanese": "おせわに なりました",
+    "kanji": "お世話に なりました",
+    "romanji": "osewa ni narimashita",
+    "vietnamese": "Cảm ơn bạn đã giúp đỡ tôi.",
+    "lesson": 22,
+    "difficulty": "intermediate",
+    "category": "expression",
+    "example": "お世話になりました。ありがとうございました。"
+  },
+  {
+    "japanese": "いいえ、こちらこそ",
+    "kanji": "",
+    "romanji": "iie, kochira koso",
+    "vietnamese": "Không có gì! (đáp lễ khi người khác cám ơn mình)",
+    "lesson": 22,
+    "difficulty": "intermediate",
+    "category": "expression",
+    "example": "いいえ、こちらこそ。"
+  },
+  {
+    "japanese": "おげんきで",
+    "kanji": "お元気で",
+    "romanji": "ogenki de",
+    "vietnamese": "Giữ gìn sức khỏe nhé.",
+    "lesson": 22,
+    "difficulty": "intermediate",
+    "category": "expression",
+    "example": "お元気で。また会いましょう。"
+  },
+  {
+    "japanese": "おげんきですか",
+    "kanji": "お元気ですか",
+    "romanji": "ogenki desu ka",
+    "vietnamese": "Bạn khoẻ không?",
+    "lesson": 22,
+    "difficulty": "beginner",
+    "category": "expression",
+    "example": "お元気ですか。はい、元気です。"
+  },
+  {
+    "japanese": "そうでしたね",
+    "kanji": "",
+    "romanji": "sou deshita ne",
+    "vietnamese": "Đúng là như vậy nhỉ.",
+    "lesson": 22,
+    "difficulty": "intermediate",
+    "category": "expression",
+    "example": "そうでしたね。忘れていました。"
+  },
+  {
+    "japanese": "トルコ",
+    "kanji": "",
+    "romanji": "Toruko",
+    "vietnamese": "Thổ Nhĩ Kỳ",
+    "lesson": 22,
+    "difficulty": "intermediate",
+    "category": "place",
+    "example": "トルコに行きました。"
+  },
+  {
+    "japanese": "ぶんきょうく",
+    "kanji": "文京区",
+    "romanji": "Bunkyou ku",
+    "vietnamese": "Quận Bunkyo",
+    "lesson": 22,
+    "difficulty": "intermediate",
+    "category": "place",
+    "example": "文京区に住んでいます。"
+  },
+  {
+    "japanese": "こいしかわ",
+    "kanji": "小石川",
+    "romanji": "Koishikawa",
+    "vietnamese": "Koishikawa",
+    "lesson": 22,
+    "difficulty": "intermediate",
+    "category": "place",
+    "example": "小石川で会いましょう。"
+  },
+  {
+    "japanese": "ながさき",
+    "kanji": "長崎",
+    "romanji": "Nagasaki",
+    "vietnamese": "Nagasaki",
+    "lesson": 22,
+    "difficulty": "intermediate",
+    "category": "place",
+    "example": "長崎県に住んでいます。"
+  },
+  {
+    "japanese": "うえだし",
+    "kanji": "上田市",
+    "romanji": "Ueda shi",
+    "vietnamese": "Thành phố Ueda",
+    "lesson": 22,
+    "difficulty": "intermediate",
+    "category": "place",
+    "example": "上田市に住んでいます。"
+  },
+  {
+    "japanese": "うえだ",
+    "kanji": "上田",
+    "romanji": "Ueda",
+    "vietnamese": "Ueda",
+    "lesson": 22,
+    "difficulty": "intermediate",
+    "category": "place",
+    "example": "上田で会いましょう。"
+  },
+  {
+    "japanese": "ぼく",
+    "kanji": "僕",
+    "romanji": "boku",
+    "vietnamese": "tôi (tương đương củaわたし, nam thường dùng)",
+    "lesson": 22,
+    "difficulty": "beginner",
+    "category": "pronoun",
+    "example": "僕は学生です。"
+  },
+  {
+    "japanese": "けしゴム",
+    "kanji": "消しゴム",
+    "romanji": "keshigomu",
+    "vietnamese": "cục tẩy",
+    "lesson": 22,
+    "difficulty": "beginner",
+    "category": "item",
+    "example": "消しゴムで消しました。"
+  },
+  {
+    "japanese": "ドア",
+    "kanji": "",
+    "romanji": "doa",
+    "vietnamese": "cái cửa (ra vào)",
+    "lesson": 22,
+    "difficulty": "beginner",
+    "category": "item",
+    "example": "ドアを開けてください。"
+  },
+  {
+    "japanese": "しょうがっこう",
+    "kanji": "小学校",
+    "romanji": "shougakkou",
+    "vietnamese": "trường tiểu học",
+    "lesson": 22,
+    "difficulty": "intermediate",
+    "category": "education",
+    "example": "小学校で勉強しました。"
+  },
+  {
+    "japanese": "みんな",
+    "kanji": "",
+    "romanji": "minna",
+    "vietnamese": "mọi người",
+    "lesson": 22,
+    "difficulty": "beginner",
+    "category": "pronoun",
+    "example": "みんなで行きましょう。"
+  },
+  {
+    "japanese": "こえ",
+    "kanji": "声",
+    "romanji": "koe",
+    "vietnamese": "giọng, tiếng",
+    "lesson": 22,
+    "difficulty": "beginner",
+    "category": "abstract",
+    "example": "声がきれいです。"
+  },
+  {
+    "japanese": "ぶん",
+    "kanji": "文",
+    "romanji": "bun",
+    "vietnamese": "câu (văn)",
+    "lesson": 22,
+    "difficulty": "beginner",
+    "category": "education",
+    "example": "文を作りました。"
+  },
+  {
+    "japanese": "おどろく",
+    "kanji": "驚く",
+    "romanji": "odoroku",
+    "vietnamese": "bất ngờ",
+    "lesson": 22,
+    "difficulty": "intermediate",
+    "category": "verb",
+    "example": "驚きました。"
+  },
+  {
+    "japanese": "さびしい",
+    "kanji": "寂しい",
+    "romanji": "sabishii",
+    "vietnamese": "buồn, cô đơn",
+    "lesson": 22,
+    "difficulty": "intermediate",
+    "category": "adjective",
+    "example": "寂しいです。"
+  },
+  {
+    "japanese": "ある ～",
+    "kanji": "",
+    "romanji": "aru ~",
+    "vietnamese": "~ nào đó,~ nọ",
+    "lesson": 22,
+    "difficulty": "intermediate",
+    "category": "grammar",
+    "example": "ある国に行きました。"
+  },
+  {
+    "japanese": "おなじ ～",
+    "kanji": "同じ ～",
+    "romanji": "onaji ~",
+    "vietnamese": "giống, tương tự ~",
+    "lesson": 22,
+    "difficulty": "intermediate",
+    "category": "grammar",
+    "example": "同じ色です。"
+  },
+  {
+    "japanese": "くん",
+    "kanji": "君",
+    "romanji": "kun",
+    "vietnamese": "bạn, em ~ (đứng sau tên người, cách nói thân mật)",
+    "lesson": 22,
+    "difficulty": "intermediate",
+    "category": "honorific",
+    "example": "田中君、こんにちは。"
+  },
+  {
+    "japanese": "おめでとう",
+    "kanji": "",
+    "romanji": "omedetou",
+    "vietnamese": "Chúc mừng.",
+    "lesson": 22,
+    "difficulty": "beginner",
+    "category": "expression",
+    "example": "お誕生日おめでとう。"
+  },
+  {
+    "japanese": "いしだ",
+    "kanji": "石田",
+    "romanji": "Ishida",
+    "vietnamese": "Ishida",
+    "lesson": 22,
+    "difficulty": "intermediate",
+    "category": "name",
+    "example": "石田さんに会いました。"
+  },
+  {
+    "japanese": "ゆうた",
+    "kanji": "勇太",
+    "romanji": "Yuuta",
+    "vietnamese": "Yuta",
+    "lesson": 22,
+    "difficulty": "intermediate",
+    "category": "name",
+    "example": "勇太君、こんにちは。"
+  }
+]

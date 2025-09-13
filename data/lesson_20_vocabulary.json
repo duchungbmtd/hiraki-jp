@@ -1,0 +1,472 @@
+[
+  {
+    "japanese": "ひ",
+    "kanji": "火",
+    "romanji": "hi",
+    "vietnamese": "lửa",
+    "lesson": 20,
+    "difficulty": "beginner",
+    "category": "nature",
+    "example": "火を消してください。"
+  },
+  {
+    "japanese": "きけん",
+    "kanji": "危険",
+    "romanji": "kiken",
+    "vietnamese": "nguy hiểm",
+    "lesson": 20,
+    "difficulty": "intermediate",
+    "category": "adjective",
+    "example": "危険な場所です。"
+  },
+  {
+    "japanese": "うちゅう",
+    "kanji": "宇宙",
+    "romanji": "uchuu",
+    "vietnamese": "vũ trụ",
+    "lesson": 20,
+    "difficulty": "advanced",
+    "category": "science",
+    "example": "宇宙を研究しています。"
+  },
+  {
+    "japanese": "うちゅうステーション",
+    "kanji": "宇宙ステーション",
+    "romanji": "uchuu suteeshon",
+    "vietnamese": "trạm không gian vũ trụ",
+    "lesson": 20,
+    "difficulty": "advanced",
+    "category": "science",
+    "example": "宇宙ステーションにいます。"
+  },
+  {
+    "japanese": "ゆめ",
+    "kanji": "夢",
+    "romanji": "yume",
+    "vietnamese": "giấc mơ",
+    "lesson": 20,
+    "difficulty": "beginner",
+    "category": "abstract",
+    "example": "夢を見ました。"
+  },
+  {
+    "japanese": "かがくしゃ",
+    "kanji": "科学者",
+    "romanji": "kagakusha",
+    "vietnamese": "nhà khoa học",
+    "lesson": 20,
+    "difficulty": "advanced",
+    "category": "person",
+    "example": "科学者になりたいです。"
+  },
+  {
+    "japanese": "じっけん",
+    "kanji": "実験",
+    "romanji": "jikken",
+    "vietnamese": "thực nghiệm",
+    "lesson": 20,
+    "difficulty": "intermediate",
+    "category": "science",
+    "example": "実験をしました。"
+  },
+  {
+    "japanese": "バイオぎじゅつ",
+    "kanji": "バイオ技術",
+    "romanji": "baio gijutsu",
+    "vietnamese": "công nghệ sinh học",
+    "lesson": 20,
+    "difficulty": "advanced",
+    "category": "science",
+    "example": "バイオ技術を勉強しています。"
+  },
+  {
+    "japanese": "ビル",
+    "kanji": "",
+    "romanji": "biru",
+    "vietnamese": "tòa nhà",
+    "lesson": 20,
+    "difficulty": "beginner",
+    "category": "building",
+    "example": "高いビルです。"
+  },
+  {
+    "japanese": "サンダル",
+    "kanji": "",
+    "romanji": "sandaru",
+    "vietnamese": "dép mang ra đường, giày sandal",
+    "lesson": 20,
+    "difficulty": "beginner",
+    "category": "clothing",
+    "example": "サンダルを履きました。"
+  },
+  {
+    "japanese": "ぼうし",
+    "kanji": "帽子",
+    "romanji": "boushi",
+    "vietnamese": "mũ, nón",
+    "lesson": 20,
+    "difficulty": "beginner",
+    "category": "clothing",
+    "example": "帽子をかぶりました。"
+  },
+  {
+    "japanese": "スカート",
+    "kanji": "",
+    "romanji": "sukaato",
+    "vietnamese": "váy",
+    "lesson": 20,
+    "difficulty": "beginner",
+    "category": "clothing",
+    "example": "スカートをはきました。"
+  },
+  {
+    "japanese": "めがね",
+    "kanji": "眼鏡",
+    "romanji": "megane",
+    "vietnamese": "mắt kính",
+    "lesson": 20,
+    "difficulty": "beginner",
+    "category": "clothing",
+    "example": "眼鏡をかけました。"
+  },
+  {
+    "japanese": "かみ",
+    "kanji": "紙",
+    "romanji": "kami",
+    "vietnamese": "giấy",
+    "lesson": 20,
+    "difficulty": "beginner",
+    "category": "item",
+    "example": "紙に書いてください。"
+  },
+  {
+    "japanese": "はさみ",
+    "kanji": "",
+    "romanji": "hasami",
+    "vietnamese": "cây kéo",
+    "lesson": 20,
+    "difficulty": "beginner",
+    "category": "item",
+    "example": "はさみで切ってください。"
+  },
+  {
+    "japanese": "Tシャツ",
+    "kanji": "",
+    "romanji": "tiishatsu",
+    "vietnamese": "áo thun cổ tròn",
+    "lesson": 20,
+    "difficulty": "beginner",
+    "category": "clothing",
+    "example": "Tシャツを着ました。"
+  },
+  {
+    "japanese": "アンケート",
+    "kanji": "",
+    "romanji": "ankeeto",
+    "vietnamese": "thăm dò ý kiến",
+    "lesson": 20,
+    "difficulty": "intermediate",
+    "category": "activity",
+    "example": "アンケートに答えました。"
+  },
+  {
+    "japanese": "テーマ",
+    "kanji": "",
+    "romanji": "teema",
+    "vietnamese": "chủ đề, đề tài",
+    "lesson": 20,
+    "difficulty": "intermediate",
+    "category": "abstract",
+    "example": "テーマを決めました。"
+  },
+  {
+    "japanese": "うんどう",
+    "kanji": "運動",
+    "romanji": "undou",
+    "vietnamese": "vận động",
+    "lesson": 20,
+    "difficulty": "beginner",
+    "category": "activity",
+    "example": "運動をしています。"
+  },
+  {
+    "japanese": "シート",
+    "kanji": "",
+    "romanji": "shiito",
+    "vietnamese": "tấm trải",
+    "lesson": 20,
+    "difficulty": "beginner",
+    "category": "item",
+    "example": "シートを敷きました。"
+  },
+  {
+    "japanese": "その た",
+    "kanji": "その 他",
+    "romanji": "sono ta",
+    "vietnamese": "những cái khác",
+    "lesson": 20,
+    "difficulty": "intermediate",
+    "category": "abstract",
+    "example": "その他に何かありますか。"
+  },
+  {
+    "japanese": "こわす",
+    "kanji": "壊す",
+    "romanji": "kowasu",
+    "vietnamese": "phá hủy, phá hỏng",
+    "lesson": 20,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "おもちゃを壊しました。"
+  },
+  {
+    "japanese": "しらせる",
+    "kanji": "知らせる",
+    "romanji": "shiraseru",
+    "vietnamese": "cho biết, thông báo",
+    "lesson": 20,
+    "difficulty": "intermediate",
+    "category": "verb",
+    "example": "結果を知らせました。"
+  },
+  {
+    "japanese": "せっけいする",
+    "kanji": "設計する",
+    "romanji": "sekkei suru",
+    "vietnamese": "thiết kế",
+    "lesson": 20,
+    "difficulty": "advanced",
+    "category": "verb",
+    "example": "建物を設計しました。"
+  },
+  {
+    "japanese": "うまれる",
+    "kanji": "生まれる",
+    "romanji": "umareru",
+    "vietnamese": "được sinh ra",
+    "lesson": 20,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "赤ちゃんが生まれました。"
+  },
+  {
+    "japanese": "そだてる",
+    "kanji": "育てる",
+    "romanji": "sodateru",
+    "vietnamese": "nuôi dạy",
+    "lesson": 20,
+    "difficulty": "intermediate",
+    "category": "verb",
+    "example": "子供を育てています。"
+  },
+  {
+    "japanese": "かぶる",
+    "kanji": "",
+    "romanji": "kaburu",
+    "vietnamese": "đội [nón]",
+    "lesson": 20,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "帽子をかぶりました。"
+  },
+  {
+    "japanese": "かける",
+    "kanji": "掛ける",
+    "romanji": "kakeru",
+    "vietnamese": "đeo [mắt kính]",
+    "lesson": 20,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "眼鏡をかけました。"
+  },
+  {
+    "japanese": "する",
+    "kanji": "",
+    "romanji": "suru",
+    "vietnamese": "việc tô điểm trang trí cho cơ thể ví dụ: đeo (bông tai), thắt (cà vạt)...",
+    "lesson": 20,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "ネックレスをしました。"
+  },
+  {
+    "japanese": "きめる",
+    "kanji": "決める",
+    "romanji": "kimeru",
+    "vietnamese": "quyết định",
+    "lesson": 20,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "時間を決めました。"
+  },
+  {
+    "japanese": "まとめる",
+    "kanji": "",
+    "romanji": "matomeru",
+    "vietnamese": "tổng kết, hệ thống, tóm tắt",
+    "lesson": 20,
+    "difficulty": "intermediate",
+    "category": "verb",
+    "example": "資料をまとめました。"
+  },
+  {
+    "japanese": "ほん",
+    "kanji": "本",
+    "romanji": "hon",
+    "vietnamese": "chai/cây(đơn vị đếm vật thon, dài)",
+    "lesson": 20,
+    "difficulty": "beginner",
+    "category": "counter",
+    "example": "ビールを三本飲みました。"
+  },
+  {
+    "japanese": "なんぼん",
+    "kanji": "何本",
+    "romanji": "nanbon",
+    "vietnamese": "bao nhiêu (chai/cây)",
+    "lesson": 20,
+    "difficulty": "beginner",
+    "category": "question",
+    "example": "何本ありますか。"
+  },
+  {
+    "japanese": "ゆうべ",
+    "kanji": "",
+    "romanji": "yuube",
+    "vietnamese": "tối qua",
+    "lesson": 20,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "ゆうべテレビを見ました。"
+  },
+  {
+    "japanese": "よく",
+    "kanji": "",
+    "romanji": "yoku",
+    "vietnamese": "thường",
+    "lesson": 20,
+    "difficulty": "beginner",
+    "category": "adverb",
+    "example": "よく映画を見ます。"
+  },
+  {
+    "japanese": "だけ",
+    "kanji": "",
+    "romanji": "dake",
+    "vietnamese": "chỉ",
+    "lesson": 20,
+    "difficulty": "beginner",
+    "category": "particle",
+    "example": "一人だけです。"
+  },
+  {
+    "japanese": "いじょうです",
+    "kanji": "以上です",
+    "romanji": "ijou desu",
+    "vietnamese": "Xin hết. (dùng khi kết thúc phát biểu)",
+    "lesson": 20,
+    "difficulty": "intermediate",
+    "category": "expression",
+    "example": "以上です。ありがとうございました。"
+  },
+  {
+    "japanese": "まあ",
+    "kanji": "",
+    "romanji": "maa",
+    "vietnamese": "biểu hiện đồng ý một cách ngại ngùng, miễn cưỡng",
+    "lesson": 20,
+    "difficulty": "intermediate",
+    "category": "expression",
+    "example": "まあ、そうですね。"
+  },
+  {
+    "japanese": "いいなあ",
+    "kanji": "",
+    "romanji": "ii naa",
+    "vietnamese": "Đã quá, ước gì được thế! (dùng thân mật)",
+    "lesson": 20,
+    "difficulty": "intermediate",
+    "category": "expression",
+    "example": "いいなあ、うらやましいです。"
+  },
+  {
+    "japanese": "クイズ",
+    "kanji": "",
+    "romanji": "kuizu",
+    "vietnamese": "câu đố",
+    "lesson": 20,
+    "difficulty": "beginner",
+    "category": "activity",
+    "example": "クイズに答えました。"
+  },
+  {
+    "japanese": "カエサル",
+    "kanji": "",
+    "romanji": "kaesaru",
+    "vietnamese": "Caesar",
+    "lesson": 20,
+    "difficulty": "advanced",
+    "category": "person",
+    "example": "カエサルは有名な皇帝です。"
+  },
+  {
+    "japanese": "むらさきしきぶ",
+    "kanji": "紫式部",
+    "romanji": "murasaki shikibu",
+    "vietnamese": "Murasaki Shikibu",
+    "lesson": 20,
+    "difficulty": "advanced",
+    "category": "person",
+    "example": "紫式部は源氏物語を書きました。"
+  },
+  {
+    "japanese": "ナポレオン",
+    "kanji": "",
+    "romanji": "naporeon",
+    "vietnamese": "Napoléon",
+    "lesson": 20,
+    "difficulty": "advanced",
+    "category": "person",
+    "example": "ナポレオンはフランスの皇帝でした。"
+  },
+  {
+    "japanese": "マリリン・モンロー",
+    "kanji": "",
+    "romanji": "maririn monroo",
+    "vietnamese": "Marilyn Monroe",
+    "lesson": 20,
+    "difficulty": "advanced",
+    "category": "person",
+    "example": "マリリン・モンローは有名な女優です。"
+  },
+  {
+    "japanese": "ジョン・レノン",
+    "kanji": "",
+    "romanji": "jon rennon",
+    "vietnamese": "John Lennon",
+    "lesson": 20,
+    "difficulty": "advanced",
+    "category": "person",
+    "example": "ジョン・レノンはビートルズのメンバーでした。"
+  },
+  {
+    "japanese": "チャップリン",
+    "kanji": "",
+    "romanji": "chappurin",
+    "vietnamese": "Chaplin",
+    "lesson": 20,
+    "difficulty": "advanced",
+    "category": "person",
+    "example": "チャップリンは有名な俳優です。"
+  },
+  {
+    "japanese": "クレオパトラ",
+    "kanji": "",
+    "romanji": "kureopatora",
+    "vietnamese": "Cleopatra",
+    "lesson": 20,
+    "difficulty": "advanced",
+    "category": "person",
+    "example": "クレオパトラはエジプトの女王でした。"
+  }
+]

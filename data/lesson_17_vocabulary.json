@@ -1,0 +1,512 @@
+[
+  {
+    "japanese": "はと",
+    "kanji": "",
+    "romanji": "hato",
+    "vietnamese": "bồ câu",
+    "lesson": 17,
+    "difficulty": "beginner",
+    "category": "animal",
+    "example": "はとが空を飛んでいます。"
+  },
+  {
+    "japanese": "えさ",
+    "kanji": "",
+    "romanji": "esa",
+    "vietnamese": "mồi, thức ăn cho động vật",
+    "lesson": 17,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "動物にえさをあげてください。"
+  },
+  {
+    "japanese": "いけ",
+    "kanji": "池",
+    "romanji": "ike",
+    "vietnamese": "ao",
+    "lesson": 17,
+    "difficulty": "beginner",
+    "category": "place",
+    "example": "池で魚を釣りました。"
+  },
+  {
+    "japanese": "えだ",
+    "kanji": "枝",
+    "romanji": "eda",
+    "vietnamese": "nhánh cây",
+    "lesson": 17,
+    "difficulty": "beginner",
+    "category": "nature",
+    "example": "木の枝が折れました。"
+  },
+  {
+    "japanese": "せんせい",
+    "kanji": "先生",
+    "romanji": "sensei",
+    "vietnamese": "bác sĩ, giáo viên (được dùng để gọi giáo viên, bác sĩ…khi giao tiếp)",
+    "lesson": 17,
+    "difficulty": "beginner",
+    "category": "person",
+    "example": "先生に質問しました。"
+  },
+  {
+    "japanese": "ぜいきん",
+    "kanji": "税金",
+    "romanji": "zeikin",
+    "vietnamese": "(tiền) thuế",
+    "lesson": 17,
+    "difficulty": "intermediate",
+    "category": "money",
+    "example": "税金を払いました。"
+  },
+  {
+    "japanese": "しけん",
+    "kanji": "試験",
+    "romanji": "shiken",
+    "vietnamese": "kiểm tra, thi",
+    "lesson": 17,
+    "difficulty": "beginner",
+    "category": "education",
+    "example": "試験を受けました。"
+  },
+  {
+    "japanese": "さくぶん",
+    "kanji": "作文",
+    "romanji": "sakubun",
+    "vietnamese": "bài luận",
+    "lesson": 17,
+    "difficulty": "intermediate",
+    "category": "education",
+    "example": "作文を書きました。"
+  },
+  {
+    "japanese": "おうさま",
+    "kanji": "王様",
+    "romanji": "ousama",
+    "vietnamese": "vua",
+    "lesson": 17,
+    "difficulty": "intermediate",
+    "category": "person",
+    "example": "王様が城に住んでいます。"
+  },
+  {
+    "japanese": "ちゅうがく",
+    "kanji": "中学",
+    "romanji": "chuugaku",
+    "vietnamese": "trường trung học cơ sở",
+    "lesson": 17,
+    "difficulty": "intermediate",
+    "category": "education",
+    "example": "中学で勉強しました。"
+  },
+  {
+    "japanese": "こうこう",
+    "kanji": "高校",
+    "romanji": "koukou",
+    "vietnamese": "trường trung học phổ thông",
+    "lesson": 17,
+    "difficulty": "intermediate",
+    "category": "education",
+    "example": "高校を卒業しました。"
+  },
+  {
+    "japanese": "でんげん",
+    "kanji": "電源",
+    "romanji": "dengen",
+    "vietnamese": "nguồn điện",
+    "lesson": 17,
+    "difficulty": "intermediate",
+    "category": "technology",
+    "example": "電源を切ってください。"
+  },
+  {
+    "japanese": "ファイル",
+    "kanji": "",
+    "romanji": "fairu",
+    "vietnamese": "tập tin",
+    "lesson": 17,
+    "difficulty": "intermediate",
+    "category": "technology",
+    "example": "ファイルを保存しました。"
+  },
+  {
+    "japanese": "アドレス",
+    "kanji": "",
+    "romanji": "adoresu",
+    "vietnamese": "địa chỉ email",
+    "lesson": 17,
+    "difficulty": "intermediate",
+    "category": "contact",
+    "example": "アドレスを教えてください。"
+  },
+  {
+    "japanese": "しあい",
+    "kanji": "試合",
+    "romanji": "shiai",
+    "vietnamese": "trận đấu",
+    "lesson": 17,
+    "difficulty": "beginner",
+    "category": "sports",
+    "example": "試合を見ました。"
+  },
+  {
+    "japanese": "せん",
+    "kanji": "栓",
+    "romanji": "sen",
+    "vietnamese": "cái nút, cái van",
+    "lesson": 17,
+    "difficulty": "intermediate",
+    "category": "household",
+    "example": "栓を開けてください。"
+  },
+  {
+    "japanese": "ゆ",
+    "kanji": "湯",
+    "romanji": "yu",
+    "vietnamese": "nước nóng",
+    "lesson": 17,
+    "difficulty": "beginner",
+    "category": "household",
+    "example": "お湯を沸かしました。"
+  },
+  {
+    "japanese": "タオル",
+    "kanji": "",
+    "romanji": "taoru",
+    "vietnamese": "khăn",
+    "lesson": 17,
+    "difficulty": "beginner",
+    "category": "household",
+    "example": "タオルで拭いてください。"
+  },
+  {
+    "japanese": "にさんにち",
+    "kanji": "２、３日",
+    "romanji": "nisannichi",
+    "vietnamese": "hai, ba ngày",
+    "lesson": 17,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "２、３日待ってください。"
+  },
+  {
+    "japanese": "なく",
+    "kanji": "泣く",
+    "romanji": "naku",
+    "vietnamese": "khóc",
+    "lesson": 17,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "赤ちゃんが泣いています。"
+  },
+  {
+    "japanese": "わらう",
+    "kanji": "笑う",
+    "romanji": "warau",
+    "vietnamese": "cười",
+    "lesson": 17,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "みんなで笑いました。"
+  },
+  {
+    "japanese": "おす",
+    "kanji": "押す",
+    "romanji": "osu",
+    "vietnamese": "đẩy, ấn",
+    "lesson": 17,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "ボタンを押してください。"
+  },
+  {
+    "japanese": "おこる",
+    "kanji": "怒る",
+    "romanji": "okoru",
+    "vietnamese": "tức giận",
+    "lesson": 17,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "先生が怒りました。"
+  },
+  {
+    "japanese": "やる",
+    "kanji": "",
+    "romanji": "yaru",
+    "vietnamese": "cho [thức ăn cho động vật]",
+    "lesson": 17,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "犬にえさをやりました。"
+  },
+  {
+    "japanese": "おる",
+    "kanji": "折る",
+    "romanji": "oru",
+    "vietnamese": "gấp, xếp",
+    "lesson": 17,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "紙を折ってください。"
+  },
+  {
+    "japanese": "うんてんする",
+    "kanji": "運転する",
+    "romanji": "unten suru",
+    "vietnamese": "lái xe",
+    "lesson": 17,
+    "difficulty": "intermediate",
+    "category": "verb",
+    "example": "車を運転しました。"
+  },
+  {
+    "japanese": "うける",
+    "kanji": "受ける",
+    "romanji": "ukeru",
+    "vietnamese": "nhận/lãnh/dự [thi], tham dự [cuộc thi]",
+    "lesson": 17,
+    "difficulty": "intermediate",
+    "category": "verb",
+    "example": "試験を受けました。"
+  },
+  {
+    "japanese": "ならぶ",
+    "kanji": "並ぶ",
+    "romanji": "narabu",
+    "vietnamese": "xếp hàng",
+    "lesson": 17,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "列に並んでください。"
+  },
+  {
+    "japanese": "あやまる",
+    "kanji": "謝る",
+    "romanji": "ayamaru",
+    "vietnamese": "xin lỗi",
+    "lesson": 17,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "友達に謝りました。"
+  },
+  {
+    "japanese": "そつぎょうする",
+    "kanji": "卒業する",
+    "romanji": "sotsugyou suru",
+    "vietnamese": "tốt nghiệp",
+    "lesson": 17,
+    "difficulty": "intermediate",
+    "category": "verb",
+    "example": "大学を卒業しました。"
+  },
+  {
+    "japanese": "きる",
+    "kanji": "切る",
+    "romanji": "kiru",
+    "vietnamese": "tắt (nguồn, điện)",
+    "lesson": 17,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "テレビを切ってください。"
+  },
+  {
+    "japanese": "ほぞんする",
+    "kanji": "保存する",
+    "romanji": "hozon suru",
+    "vietnamese": "bảo quản",
+    "lesson": 17,
+    "difficulty": "intermediate",
+    "category": "verb",
+    "example": "ファイルを保存しました。"
+  },
+  {
+    "japanese": "そうしんする",
+    "kanji": "送信する",
+    "romanji": "soushin suru",
+    "vietnamese": "gửi",
+    "lesson": 17,
+    "difficulty": "intermediate",
+    "category": "verb",
+    "example": "メールを送信しました。"
+  },
+  {
+    "japanese": "さくじょする",
+    "kanji": "削除する",
+    "romanji": "sakujo suru",
+    "vietnamese": "xoá",
+    "lesson": 17,
+    "difficulty": "intermediate",
+    "category": "verb",
+    "example": "ファイルを削除しました。"
+  },
+  {
+    "japanese": "とうろくする",
+    "kanji": "登録する",
+    "romanji": "touroku suru",
+    "vietnamese": "đăng ký",
+    "lesson": 17,
+    "difficulty": "intermediate",
+    "category": "verb",
+    "example": "会員に登録しました。"
+  },
+  {
+    "japanese": "やる",
+    "kanji": "",
+    "romanji": "yaru",
+    "vietnamese": "chan, rưới",
+    "lesson": 17,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "料理に醤油をやりました。"
+  },
+  {
+    "japanese": "かける",
+    "kanji": "",
+    "romanji": "kakeru",
+    "vietnamese": "gọi điện",
+    "lesson": 17,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "電話をかけました。"
+  },
+  {
+    "japanese": "ぬく",
+    "kanji": "抜く",
+    "romanji": "nuku",
+    "vietnamese": "mở nắp",
+    "lesson": 17,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "栓を抜いてください。"
+  },
+  {
+    "japanese": "でる",
+    "kanji": "出る",
+    "romanji": "deru",
+    "vietnamese": "ra khỏi (bồn tắm), tắm xong",
+    "lesson": 17,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "お風呂から出ました。"
+  },
+  {
+    "japanese": "ある",
+    "kanji": "",
+    "romanji": "aru",
+    "vietnamese": "có tổ chức, tiến hành",
+    "lesson": 17,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "パーティーがあります。"
+  },
+  {
+    "japanese": "がんばる",
+    "kanji": "頑張る",
+    "romanji": "ganbaru",
+    "vietnamese": "cố gắng",
+    "lesson": 17,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "試験を頑張ってください。"
+  },
+  {
+    "japanese": "むりを する",
+    "kanji": "無理を する",
+    "romanji": "muri wo suru",
+    "vietnamese": "cố làm quá sức",
+    "lesson": 17,
+    "difficulty": "intermediate",
+    "category": "verb",
+    "example": "無理をしないでください。"
+  },
+  {
+    "japanese": "ない",
+    "kanji": "",
+    "romanji": "nai",
+    "vietnamese": "phủ định ある",
+    "lesson": 17,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "時間がありません。"
+  },
+  {
+    "japanese": "まだ",
+    "kanji": "",
+    "romanji": "mada",
+    "vietnamese": "chưa",
+    "lesson": 17,
+    "difficulty": "beginner",
+    "category": "adverb",
+    "example": "まだ終わっていません。"
+  },
+  {
+    "japanese": "ぜんぶ",
+    "kanji": "全部",
+    "romanji": "zenbu",
+    "vietnamese": "toàn bộ, tổng cộng, tất cả",
+    "lesson": 17,
+    "difficulty": "beginner",
+    "category": "adverb",
+    "example": "全部食べました。"
+  },
+  {
+    "japanese": "さきに",
+    "kanji": "先に",
+    "romanji": "saki ni",
+    "vietnamese": "trước",
+    "lesson": 17,
+    "difficulty": "beginner",
+    "category": "adverb",
+    "example": "先に帰ります。"
+  },
+  {
+    "japanese": "もう すこし",
+    "kanji": "もう 少し",
+    "romanji": "mou sukoshi",
+    "vietnamese": "một chút nữa",
+    "lesson": 17,
+    "difficulty": "beginner",
+    "category": "adverb",
+    "example": "もう少し待ってください。"
+  },
+  {
+    "japanese": "ううん",
+    "kanji": "",
+    "romanji": "uun",
+    "vietnamese": "không (cách nói thân mật)",
+    "lesson": 17,
+    "difficulty": "beginner",
+    "category": "expression",
+    "example": "ううん、違います。"
+  },
+  {
+    "japanese": "しみんグラウンド",
+    "kanji": "市民グラウンド",
+    "romanji": "shimin guraundo",
+    "vietnamese": "sân vận động nhân dân Thành phố",
+    "lesson": 17,
+    "difficulty": "intermediate",
+    "category": "place",
+    "example": "市民グラウンドで運動しました。"
+  },
+  {
+    "japanese": "おめでとう ございます",
+    "kanji": "",
+    "romanji": "omedetou gozaimasu",
+    "vietnamese": "Xin chúc mừng!",
+    "lesson": 17,
+    "difficulty": "beginner",
+    "category": "expression",
+    "example": "お誕生日おめでとうございます。"
+  },
+  {
+    "japanese": "ないけい",
+    "kanji": "ない形",
+    "romanji": "nai kei",
+    "vietnamese": "thể ない",
+    "lesson": 17,
+    "difficulty": "intermediate",
+    "category": "grammar",
+    "example": "ない形の使い方を勉強しています。"
+  }
+]

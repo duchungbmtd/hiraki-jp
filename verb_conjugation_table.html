@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng Chia Động Từ Tiếng Nhật</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .controls {
+            padding: 20px 30px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #e9ecef;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .filter-group label {
+            font-weight: 600;
+            color: #495057;
+            font-size: 0.9em;
+        }
+
+        .filter-group select, .filter-group input {
+            padding: 8px 12px;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+
+        .filter-group select:focus, .filter-group input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .search-box {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .search-box input {
+            width: 100%;
+        }
+
+        .table-container {
+            overflow-x: auto;
+            max-height: 70vh;
+            overflow-y: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+
+        th {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 15px 10px;
+            text-align: center;
+            font-weight: 600;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        td {
+            padding: 12px 10px;
+            text-align: center;
+            border-bottom: 1px solid #e9ecef;
+            vertical-align: middle;
+        }
+
+        tr:hover {
+            background-color: #f8f9fa;
+        }
+
+        .lesson-badge {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+            color: white;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .japanese-text {
+            font-size: 16px;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        .kanji-text {
+            font-size: 18px;
+            color: #e74c3c;
+            font-weight: 600;
+        }
+
+        .meaning-text {
+            color: #27ae60;
+            font-weight: 500;
+        }
+
+        .difficulty-beginner { border-left: 4px solid #27ae60; }
+        .difficulty-intermediate { border-left: 4px solid #f39c12; }
+        .difficulty-advanced { border-left: 4px solid #e74c3c; }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            font-size: 18px;
+            color: #666;
+        }
+
+        .stats {
+            padding: 20px 30px;
+            background: #f8f9fa;
+            border-top: 1px solid #e9ecef;
+            text-align: center;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            
+            .filter-group {
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+            }
+            
+            .filter-group select, .filter-group input {
+                flex: 1;
+                margin-left: 10px;
+            }
+            
+            th, td {
+                padding: 8px 5px;
+                font-size: 12px;
+            }
+            
+            .japanese-text {
+                font-size: 14px;
+            }
+            
+            .kanji-text {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📚 Bảng Chia Động Từ Tiếng Nhật</h1>
+            <p>Danh sách đầy đủ các thể của động từ tiếng Nhật từ dữ liệu học tập</p>
+        </div>
+
+        <div class="controls">
+            <div class="filter-group">
+                <label for="lessonFilter">Bài học:</label>
+                <select id="lessonFilter">
+                    <option value="">Tất cả bài học</option>
+                </select>
+            </div>
+            
+            <div class="filter-group">
+                <label for="difficultyFilter">Độ khó:</label>
+                <select id="difficultyFilter">
+                    <option value="">Tất cả độ khó</option>
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                </select>
+            </div>
+            
+            <div class="filter-group search-box">
+                <label for="searchInput">Tìm kiếm:</label>
+                <input type="text" id="searchInput" placeholder="Tìm theo nghĩa, hiragana, kanji...">
+            </div>
+        </div>
+
+        <div class="table-container">
+            <div id="loading" class="loading">
+                🔄 Đang tải dữ liệu...
+            </div>
+            <table id="verbTable" style="display: none;">
+                <thead>
+                    <tr>
+                        <th style="width: 60px;">STT</th>
+                        <th style="width: 80px;">Bài</th>
+                        <th style="width: 120px;">Thể từ điển</th>
+                        <th style="width: 120px;">Thể ます</th>
+                        <th style="width: 120px;">Thể て</th>
+                        <th style="width: 150px;">Nghĩa</th>
+                        <th style="width: 100px;">Kanji</th>
+                    </tr>
+                </thead>
+                <tbody id="verbTableBody">
+                </tbody>
+            </table>
+        </div>
+
+        <div class="stats" id="stats">
+            <span id="totalCount">0</span> động từ được tìm thấy
+        </div>
+    </div>
+
+    <script>
+        let allVerbs = [];
+        let filteredVerbs = [];
+
+        // Logic chia động từ
+        function getDictionaryForm(masuForm) {
+            if (!masuForm) return '';
+            
+            // Loại bỏ "ます" hoặc "します"
+            if (masuForm.endsWith('します')) {
+                return masuForm.slice(0, -3) + 'する';
+            } else if (masuForm.endsWith('ます')) {
+                let stem = masuForm.slice(0, -2);
+                
+                // Nhóm 2 (ichidan) - kết thúc bằng い hoặc え
+                if (stem.endsWith('い') || stem.endsWith('え')) {
+                    return stem + 'る';
+                }
+                
+                // Nhóm 1 (godan) - chuyển đổi âm cuối
+                const lastChar = stem.slice(-1);
+                const conversions = {
+                    'き': 'く', 'ぎ': 'ぐ',
+                    'し': 'す',
+                    'ち': 'つ', 'り': 'る',
+                    'に': 'ぬ', 'び': 'ぶ', 'み': 'む'
+                };
+                
+                if (conversions[lastChar]) {
+                    return stem.slice(0, -1) + conversions[lastChar];
+                }
+                
+                // Trường hợp đặc biệt
+                if (lastChar === 'い') {
+                    return stem.slice(0, -1) + 'う';
+                }
+                
+                return stem + 'る';
+            }
+            
+            return masuForm;
+        }
+
+        function getTeForm(dictionaryForm) {
+            if (!dictionaryForm) return '';
+            
+            if (dictionaryForm.endsWith('する')) {
+                return dictionaryForm.slice(0, -2) + 'して';
+            } else if (dictionaryForm.endsWith('来る')) {
+                return '来て';
+            } else if (dictionaryForm.endsWith('行く')) {
+                return dictionaryForm.slice(0, -1) + 'って';
+            } else if (dictionaryForm.endsWith('る')) {
+                // Nhóm 2
+                if (dictionaryForm.length >= 2) {
+                    let stem = dictionaryForm.slice(0, -1);
+                    let secondLastChar = stem.slice(-1);
+                    if (secondLastChar === 'い' || secondLastChar === 'え') {
+                        return stem + 'て';
+                    }
+                }
+                // Nhóm 1 với る
+                return dictionaryForm.slice(0, -1) + 'って';
+            } else if (dictionaryForm.endsWith('う') || dictionaryForm.endsWith('つ') || dictionaryForm.endsWith('る')) {
+                return dictionaryForm.slice(0, -1) + 'って';
+            } else if (dictionaryForm.endsWith('む') || dictionaryForm.endsWith('ぶ') || dictionaryForm.endsWith('ぬ')) {
+                return dictionaryForm.slice(0, -1) + 'んで';
+            } else if (dictionaryForm.endsWith('く')) {
+                return dictionaryForm.slice(0, -1) + 'いて';
+            } else if (dictionaryForm.endsWith('ぐ')) {
+                return dictionaryForm.slice(0, -1) + 'いで';
+            } else if (dictionaryForm.endsWith('す')) {
+                return dictionaryForm.slice(0, -1) + 'して';
+            }
+            
+            return dictionaryForm + 'て';
+        }
+
+        async function loadVerbs() {
+            try {
+                const response = await fetch('data/all_verbs.json');
+                allVerbs = await response.json();
+                
+                // Tạo danh sách bài học unique
+                const lessons = [...new Set(allVerbs.map(v => v.lesson))].sort((a, b) => a - b);
+                const lessonFilter = document.getElementById('lessonFilter');
+                
+                lessons.forEach(lesson => {
+                    const option = document.createElement('option');
+                    option.value = lesson;
+                    option.textContent = lesson === 0 ? 'Introduction' : `Lesson ${lesson}`;
+                    lessonFilter.appendChild(option);
+                });
+                
+                filteredVerbs = [...allVerbs];
+                displayVerbs();
+                
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('verbTable').style.display = 'table';
+                
+            } catch (error) {
+                console.error('Lỗi khi tải dữ liệu:', error);
+                document.getElementById('loading').innerHTML = '❌ Lỗi khi tải dữ liệu';
+            }
+        }
+
+        function displayVerbs() {
+            const tbody = document.getElementById('verbTableBody');
+            tbody.innerHTML = '';
+            
+            filteredVerbs.forEach((verb, index) => {
+                const dictionaryForm = getDictionaryForm(verb.japanese);
+                const teForm = getTeForm(dictionaryForm);
+                
+                const row = document.createElement('tr');
+                row.className = `difficulty-${verb.difficulty}`;
+                
+                row.innerHTML = `
+                    <td>${index + 1}</td>
+                    <td><span class="lesson-badge">${verb.lesson === 0 ? 'Intro' : verb.lesson}</span></td>
+                    <td><span class="japanese-text">${dictionaryForm}</span></td>
+                    <td><span class="japanese-text">${verb.japanese}</span></td>
+                    <td><span class="japanese-text">${teForm}</span></td>
+                    <td><span class="meaning-text">${verb.vietnamese}</span></td>
+                    <td><span class="kanji-text">${verb.kanji || ''}</span></td>
+                `;
+                
+                tbody.appendChild(row);
+            });
+            
+            document.getElementById('totalCount').textContent = filteredVerbs.length;
+        }
+
+        function filterVerbs() {
+            const lessonFilter = document.getElementById('lessonFilter').value;
+            const difficultyFilter = document.getElementById('difficultyFilter').value;
+            const searchInput = document.getElementById('searchInput').value.toLowerCase();
+            
+            filteredVerbs = allVerbs.filter(verb => {
+                const matchesLesson = !lessonFilter || verb.lesson == lessonFilter;
+                const matchesDifficulty = !difficultyFilter || verb.difficulty === difficultyFilter;
+                const matchesSearch = !searchInput || 
+                    verb.vietnamese.toLowerCase().includes(searchInput) ||
+                    verb.japanese.toLowerCase().includes(searchInput) ||
+                    (verb.kanji && verb.kanji.toLowerCase().includes(searchInput));
+                
+                return matchesLesson && matchesDifficulty && matchesSearch;
+            });
+            
+            displayVerbs();
+        }
+
+        // Event listeners
+        document.getElementById('lessonFilter').addEventListener('change', filterVerbs);
+        document.getElementById('difficultyFilter').addEventListener('change', filterVerbs);
+        document.getElementById('searchInput').addEventListener('input', filterVerbs);
+
+        // Load data when page loads
+        window.addEventListener('load', loadVerbs);
+    </script>
+</body>
+</html>

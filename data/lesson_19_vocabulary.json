@@ -1,0 +1,482 @@
+[
+  {
+    "japanese": "ちきゅう",
+    "kanji": "地球",
+    "romanji": "chikyuu",
+    "vietnamese": "trái đất",
+    "lesson": 19,
+    "difficulty": "intermediate",
+    "category": "nature",
+    "example": "地球を守りましょう。"
+  },
+  {
+    "japanese": "じんこう",
+    "kanji": "人口",
+    "romanji": "jinkou",
+    "vietnamese": "dân số",
+    "lesson": 19,
+    "difficulty": "intermediate",
+    "category": "society",
+    "example": "人口が増えています。"
+  },
+  {
+    "japanese": "つき",
+    "kanji": "月",
+    "romanji": "tsuki",
+    "vietnamese": "mặt trăng, tháng",
+    "lesson": 19,
+    "difficulty": "beginner",
+    "category": "nature",
+    "example": "月がきれいです。"
+  },
+  {
+    "japanese": "しゅるい",
+    "kanji": "種類",
+    "romanji": "shurui",
+    "vietnamese": "chủng loại",
+    "lesson": 19,
+    "difficulty": "intermediate",
+    "category": "abstract",
+    "example": "種類がたくさんあります。"
+  },
+  {
+    "japanese": "いしゃ",
+    "kanji": "医者",
+    "romanji": "isha",
+    "vietnamese": "bác sĩ",
+    "lesson": 19,
+    "difficulty": "beginner",
+    "category": "person",
+    "example": "医者に診てもらいました。"
+  },
+  {
+    "japanese": "かぜ",
+    "kanji": "風邪",
+    "romanji": "kaze",
+    "vietnamese": "cảm",
+    "lesson": 19,
+    "difficulty": "beginner",
+    "category": "health",
+    "example": "風邪をひきました。"
+  },
+  {
+    "japanese": "インフルエンザ",
+    "kanji": "",
+    "romanji": "infuruenza",
+    "vietnamese": "cúm",
+    "lesson": 19,
+    "difficulty": "intermediate",
+    "category": "health",
+    "example": "インフルエンザにかかりました。"
+  },
+  {
+    "japanese": "くすり",
+    "kanji": "薬",
+    "romanji": "kusuri",
+    "vietnamese": "thuốc",
+    "lesson": 19,
+    "difficulty": "beginner",
+    "category": "health",
+    "example": "薬を飲みました。"
+  },
+  {
+    "japanese": "ようじ",
+    "kanji": "用事",
+    "romanji": "youji",
+    "vietnamese": "công chuyện, việc riêng",
+    "lesson": 19,
+    "difficulty": "intermediate",
+    "category": "work",
+    "example": "用事があります。"
+  },
+  {
+    "japanese": "ぼうねんかい",
+    "kanji": "忘年会",
+    "romanji": "bounenkai",
+    "vietnamese": "tiệc tất niên",
+    "lesson": 19,
+    "difficulty": "intermediate",
+    "category": "event",
+    "example": "忘年会に参加しました。"
+  },
+  {
+    "japanese": "ミーティング",
+    "kanji": "",
+    "romanji": "miitingu",
+    "vietnamese": "cuộc họp",
+    "lesson": 19,
+    "difficulty": "intermediate",
+    "category": "work",
+    "example": "ミーティングがあります。"
+  },
+  {
+    "japanese": "そうべつかい",
+    "kanji": "送別会",
+    "romanji": "soubetsukai",
+    "vietnamese": "tiệc chia tay",
+    "lesson": 19,
+    "difficulty": "intermediate",
+    "category": "event",
+    "example": "送別会を開きました。"
+  },
+  {
+    "japanese": "こくさいけっこん",
+    "kanji": "国際結婚",
+    "romanji": "kokusai kekkon",
+    "vietnamese": "kết hôn với người nước ngoài",
+    "lesson": 19,
+    "difficulty": "advanced",
+    "category": "society",
+    "example": "国際結婚をしました。"
+  },
+  {
+    "japanese": "しゅうかん",
+    "kanji": "習慣",
+    "romanji": "shuukan",
+    "vietnamese": "thói quen",
+    "lesson": 19,
+    "difficulty": "intermediate",
+    "category": "abstract",
+    "example": "良い習慣を身につけましょう。"
+  },
+  {
+    "japanese": "りゅうがく",
+    "kanji": "留学",
+    "romanji": "ryuugaku",
+    "vietnamese": "du học",
+    "lesson": 19,
+    "difficulty": "intermediate",
+    "category": "education",
+    "example": "日本に留学しています。"
+  },
+  {
+    "japanese": "はれ",
+    "kanji": "晴れ",
+    "romanji": "hare",
+    "vietnamese": "trời nắng",
+    "lesson": 19,
+    "difficulty": "beginner",
+    "category": "weather",
+    "example": "今日は晴れです。"
+  },
+  {
+    "japanese": "くもり",
+    "kanji": "曇り",
+    "romanji": "kumori",
+    "vietnamese": "trời u ám, có mây",
+    "lesson": 19,
+    "difficulty": "beginner",
+    "category": "weather",
+    "example": "明日は曇りです。"
+  },
+  {
+    "japanese": "もり",
+    "kanji": "森",
+    "romanji": "mori",
+    "vietnamese": "rừng",
+    "lesson": 19,
+    "difficulty": "beginner",
+    "category": "nature",
+    "example": "森を散歩しました。"
+  },
+  {
+    "japanese": "かわ",
+    "kanji": "川",
+    "romanji": "kawa",
+    "vietnamese": "sông",
+    "lesson": 19,
+    "difficulty": "beginner",
+    "category": "nature",
+    "example": "川で魚を釣りました。"
+  },
+  {
+    "japanese": "みなと",
+    "kanji": "港",
+    "romanji": "minato",
+    "vietnamese": "cảng",
+    "lesson": 19,
+    "difficulty": "intermediate",
+    "category": "place",
+    "example": "港に船が着きました。"
+  },
+  {
+    "japanese": "きもち",
+    "kanji": "気持ち",
+    "romanji": "kimochi",
+    "vietnamese": "cảm giác, tâm trạng",
+    "lesson": 19,
+    "difficulty": "intermediate",
+    "category": "abstract",
+    "example": "気持ちがいいです。"
+  },
+  {
+    "japanese": "ラッシュアワー",
+    "kanji": "",
+    "romanji": "rasshu awaa",
+    "vietnamese": "giờ cao điểm",
+    "lesson": 19,
+    "difficulty": "intermediate",
+    "category": "time",
+    "example": "ラッシュアワーは混んでいます。"
+  },
+  {
+    "japanese": "ベル",
+    "kanji": "",
+    "romanji": "beru",
+    "vietnamese": "chuông",
+    "lesson": 19,
+    "difficulty": "beginner",
+    "category": "item",
+    "example": "ベルが鳴りました。"
+  },
+  {
+    "japanese": "むかし",
+    "kanji": "昔",
+    "romanji": "mukashi",
+    "vietnamese": "ngày xưa",
+    "lesson": 19,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "昔のことを思い出しました。"
+  },
+  {
+    "japanese": "そう",
+    "kanji": "",
+    "romanji": "sou",
+    "vietnamese": "như vậy",
+    "lesson": 19,
+    "difficulty": "beginner",
+    "category": "adverb",
+    "example": "そうですね。"
+  },
+  {
+    "japanese": "おもう",
+    "kanji": "思う",
+    "romanji": "omou",
+    "vietnamese": "nghĩ",
+    "lesson": 19,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "そう思います。"
+  },
+  {
+    "japanese": "ふえる",
+    "kanji": "増える",
+    "romanji": "fueru",
+    "vietnamese": "tăng",
+    "lesson": 19,
+    "difficulty": "intermediate",
+    "category": "verb",
+    "example": "人口が増えています。"
+  },
+  {
+    "japanese": "へる",
+    "kanji": "減る",
+    "romanji": "heru",
+    "vietnamese": "giảm",
+    "lesson": 19,
+    "difficulty": "intermediate",
+    "category": "verb",
+    "example": "体重が減りました。"
+  },
+  {
+    "japanese": "なくなる",
+    "kanji": "",
+    "romanji": "nakunaru",
+    "vietnamese": "biến mất, mất",
+    "lesson": 19,
+    "difficulty": "intermediate",
+    "category": "verb",
+    "example": "お金がなくなりました。"
+  },
+  {
+    "japanese": "なおる",
+    "kanji": "治る",
+    "romanji": "naoru",
+    "vietnamese": "khỏi",
+    "lesson": 19,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "風邪が治りました。"
+  },
+  {
+    "japanese": "のむ",
+    "kanji": "飲む",
+    "romanji": "nomu",
+    "vietnamese": "uống [thuốc]",
+    "lesson": 19,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "薬を飲んでください。"
+  },
+  {
+    "japanese": "でる",
+    "kanji": "出る",
+    "romanji": "deru",
+    "vietnamese": "tham dự, có mặt",
+    "lesson": 19,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "会議に出ました。"
+  },
+  {
+    "japanese": "ちがう",
+    "kanji": "違う",
+    "romanji": "chigau",
+    "vietnamese": "khác",
+    "lesson": 19,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "答えが違います。"
+  },
+  {
+    "japanese": "あるく",
+    "kanji": "歩く",
+    "romanji": "aruku",
+    "vietnamese": "đi bộ",
+    "lesson": 19,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "公園を歩きました。"
+  },
+  {
+    "japanese": "みえる",
+    "kanji": "見える",
+    "romanji": "mieru",
+    "vietnamese": "nhìn thấy được",
+    "lesson": 19,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "富士山が見えます。"
+  },
+  {
+    "japanese": "つかれる",
+    "kanji": "疲れる",
+    "romanji": "tsukareru",
+    "vietnamese": "mệt mỏi",
+    "lesson": 19,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "仕事で疲れました。"
+  },
+  {
+    "japanese": "きびしい",
+    "kanji": "厳しい",
+    "romanji": "kibishii",
+    "vietnamese": "nghiêm khắc, khó tính",
+    "lesson": 19,
+    "difficulty": "intermediate",
+    "category": "adjective",
+    "example": "先生が厳しいです。"
+  },
+  {
+    "japanese": "ひつよう",
+    "kanji": "必要",
+    "romanji": "hitsuyou",
+    "vietnamese": "cần thiết",
+    "lesson": 19,
+    "difficulty": "intermediate",
+    "category": "adjective",
+    "example": "勉強が必要です。"
+  },
+  {
+    "japanese": "これから",
+    "kanji": "",
+    "romanji": "kore kara",
+    "vietnamese": "từ nay",
+    "lesson": 19,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "これから頑張ります。"
+  },
+  {
+    "japanese": "ちょっと",
+    "kanji": "",
+    "romanji": "chotto",
+    "vietnamese": "có chút việc",
+    "lesson": 19,
+    "difficulty": "beginner",
+    "category": "adverb",
+    "example": "ちょっと待ってください。"
+  },
+  {
+    "japanese": "それに",
+    "kanji": "",
+    "romanji": "sore ni",
+    "vietnamese": "ngoài ra, thêm vào đó",
+    "lesson": 19,
+    "difficulty": "intermediate",
+    "category": "conjunction",
+    "example": "安いです。それに美味しいです。"
+  },
+  {
+    "japanese": "さあ",
+    "kanji": "",
+    "romanji": "saa",
+    "vietnamese": "từ nói lên với ý nghĩa không hiểu rõ",
+    "lesson": 19,
+    "difficulty": "beginner",
+    "category": "expression",
+    "example": "さあ、どうしましょう。"
+  },
+  {
+    "japanese": "ついて",
+    "kanji": "",
+    "romanji": "tsuite",
+    "vietnamese": "về ～",
+    "lesson": 19,
+    "difficulty": "intermediate",
+    "category": "particle",
+    "example": "日本について話しました。"
+  },
+  {
+    "japanese": "そうですね",
+    "kanji": "",
+    "romanji": "sou desu ne",
+    "vietnamese": "Đúng như bạn nói.",
+    "lesson": 19,
+    "difficulty": "beginner",
+    "category": "expression",
+    "example": "そうですね、その通りです。"
+  },
+  {
+    "japanese": "おだいじに",
+    "kanji": "お大事に",
+    "romanji": "odaiji ni",
+    "vietnamese": "Cẩn thận, mau hết bệnh nhé. (nói với người bệnh)",
+    "lesson": 19,
+    "difficulty": "beginner",
+    "category": "expression",
+    "example": "お大事にしてください。"
+  },
+  {
+    "japanese": "こんで います",
+    "kanji": "込んで います",
+    "romanji": "konde imasu",
+    "vietnamese": "đông",
+    "lesson": 19,
+    "difficulty": "intermediate",
+    "category": "adjective",
+    "example": "電車が込んでいます。"
+  },
+  {
+    "japanese": "ていねいけい",
+    "kanji": "丁寧形",
+    "romanji": "teinei kei",
+    "vietnamese": "thể lịch sự",
+    "lesson": 19,
+    "difficulty": "intermediate",
+    "category": "grammar",
+    "example": "丁寧形で話してください。"
+  },
+  {
+    "japanese": "ふつうけい",
+    "kanji": "普通形",
+    "romanji": "futsuu kei",
+    "vietnamese": "thể ngắn",
+    "lesson": 19,
+    "difficulty": "intermediate",
+    "category": "grammar",
+    "example": "普通形で話してもいいです。"
+  }
+]

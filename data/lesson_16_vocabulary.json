@@ -1,0 +1,532 @@
+[
+  {
+    "japanese": "かし",
+    "kanji": "菓子",
+    "romanji": "kashi",
+    "vietnamese": "kẹo, bánh",
+    "lesson": 16,
+    "difficulty": "beginner",
+    "category": "food",
+    "example": "お菓子を買いました。"
+  },
+  {
+    "japanese": "たばこ",
+    "kanji": "",
+    "romanji": "tabako",
+    "vietnamese": "thuốc lá",
+    "lesson": 16,
+    "difficulty": "beginner",
+    "category": "item",
+    "example": "たばこを吸わないでください。"
+  },
+  {
+    "japanese": "ちゅうがくせい",
+    "kanji": "中学生",
+    "romanji": "chuugakusei",
+    "vietnamese": "học sinh cấp 2 (trung học cơ sở)",
+    "lesson": 16,
+    "difficulty": "intermediate",
+    "category": "person",
+    "example": "中学生の時、野球をしていました。"
+  },
+  {
+    "japanese": "びじゅつかん",
+    "kanji": "美術館",
+    "romanji": "bijutsukan",
+    "vietnamese": "bảo tàng mỹ thuật",
+    "lesson": 16,
+    "difficulty": "intermediate",
+    "category": "place",
+    "example": "美術館で絵を見ました。"
+  },
+  {
+    "japanese": "ふく",
+    "kanji": "服",
+    "romanji": "fuku",
+    "vietnamese": "quần áo",
+    "lesson": 16,
+    "difficulty": "beginner",
+    "category": "clothing",
+    "example": "新しい服を買いました。"
+  },
+  {
+    "japanese": "デザイン",
+    "kanji": "",
+    "romanji": "dezain",
+    "vietnamese": "thiết kế",
+    "lesson": 16,
+    "difficulty": "intermediate",
+    "category": "art",
+    "example": "このデザインは素敵ですね。"
+  },
+  {
+    "japanese": "かいしゃ",
+    "kanji": "会社",
+    "romanji": "kaisha",
+    "vietnamese": "công ty",
+    "lesson": 16,
+    "difficulty": "beginner",
+    "category": "work",
+    "example": "会社で働いています。"
+  },
+  {
+    "japanese": "ばしょ",
+    "kanji": "場所",
+    "romanji": "basho",
+    "vietnamese": "nơi chốn",
+    "lesson": 16,
+    "difficulty": "beginner",
+    "category": "location",
+    "example": "会議の場所を教えてください。"
+  },
+  {
+    "japanese": "ばんごう",
+    "kanji": "番号",
+    "romanji": "bangou",
+    "vietnamese": "số",
+    "lesson": 16,
+    "difficulty": "beginner",
+    "category": "number",
+    "example": "番号を確認してください。"
+  },
+  {
+    "japanese": "でんわばんごう",
+    "kanji": "電話番号",
+    "romanji": "denwa bangou",
+    "vietnamese": "số điện thoại",
+    "lesson": 16,
+    "difficulty": "beginner",
+    "category": "contact",
+    "example": "電話番号を教えてください。"
+  },
+  {
+    "japanese": "メールアドレス",
+    "kanji": "",
+    "romanji": "meeru adoresu",
+    "vietnamese": "địa chỉ email",
+    "lesson": 16,
+    "difficulty": "intermediate",
+    "category": "contact",
+    "example": "メールアドレスを送ってください。"
+  },
+  {
+    "japanese": "かめ",
+    "kanji": "",
+    "romanji": "kame",
+    "vietnamese": "con rùa",
+    "lesson": 16,
+    "difficulty": "beginner",
+    "category": "animal",
+    "example": "かめは長生きします。"
+  },
+  {
+    "japanese": "しろ",
+    "kanji": "城",
+    "romanji": "shiro",
+    "vietnamese": "thành, lâu đài",
+    "lesson": 16,
+    "difficulty": "intermediate",
+    "category": "building",
+    "example": "お城を見学しました。"
+  },
+  {
+    "japanese": "おひめさま",
+    "kanji": "お姫様",
+    "romanji": "ohimesama",
+    "vietnamese": "công chúa",
+    "lesson": 16,
+    "difficulty": "intermediate",
+    "category": "person",
+    "example": "お姫様のような人です。"
+  },
+  {
+    "japanese": "おどり",
+    "kanji": "踊り",
+    "romanji": "odori",
+    "vietnamese": "khiêu vũ",
+    "lesson": 16,
+    "difficulty": "intermediate",
+    "category": "activity",
+    "example": "踊りを習っています。"
+  },
+  {
+    "japanese": "そぼ",
+    "kanji": "祖母",
+    "romanji": "sobo",
+    "vietnamese": "bà tôi",
+    "lesson": 16,
+    "difficulty": "beginner",
+    "category": "family",
+    "example": "祖母は元気です。"
+  },
+  {
+    "japanese": "そふ",
+    "kanji": "祖父",
+    "romanji": "sofu",
+    "vietnamese": "ông tôi",
+    "lesson": 16,
+    "difficulty": "beginner",
+    "category": "family",
+    "example": "祖父と散歩しました。"
+  },
+  {
+    "japanese": "おばあさん",
+    "kanji": "",
+    "romanji": "obaasan",
+    "vietnamese": "bà (người khác)",
+    "lesson": 16,
+    "difficulty": "beginner",
+    "category": "family",
+    "example": "おばあさんに会いました。"
+  },
+  {
+    "japanese": "おじいさん",
+    "kanji": "",
+    "romanji": "ojiisan",
+    "vietnamese": "ông (người khác)",
+    "lesson": 16,
+    "difficulty": "beginner",
+    "category": "family",
+    "example": "おじいさんと話しました。"
+  },
+  {
+    "japanese": "ほんやく",
+    "kanji": "翻訳",
+    "romanji": "honyaku",
+    "vietnamese": "phiên dịch",
+    "lesson": 16,
+    "difficulty": "intermediate",
+    "category": "work",
+    "example": "翻訳の仕事をしています。"
+  },
+  {
+    "japanese": "きかい",
+    "kanji": "機械",
+    "romanji": "kikai",
+    "vietnamese": "máy móc",
+    "lesson": 16,
+    "difficulty": "intermediate",
+    "category": "technology",
+    "example": "機械を操作します。"
+  },
+  {
+    "japanese": "きかいこうがく",
+    "kanji": "機械工学",
+    "romanji": "kikai kougaku",
+    "vietnamese": "khoa học kỹ thuật ứng dụng về cơ khí",
+    "lesson": 16,
+    "difficulty": "advanced",
+    "category": "education",
+    "example": "機械工学を勉強しています。"
+  },
+  {
+    "japanese": "なか",
+    "kanji": "仲",
+    "romanji": "naka",
+    "vietnamese": "mối quan hệ",
+    "lesson": 16,
+    "difficulty": "intermediate",
+    "category": "abstract",
+    "example": "仲がいいです。"
+  },
+  {
+    "japanese": "てつだい",
+    "kanji": "手伝い",
+    "romanji": "tetsudai",
+    "vietnamese": "hỗ trợ, giúp đỡ",
+    "lesson": 16,
+    "difficulty": "intermediate",
+    "category": "activity",
+    "example": "お手伝いをします。"
+  },
+  {
+    "japanese": "ほんとう",
+    "kanji": "本当",
+    "romanji": "hontou",
+    "vietnamese": "thật",
+    "lesson": 16,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "本当ですか。"
+  },
+  {
+    "japanese": "まいとし",
+    "kanji": "毎年",
+    "romanji": "maitoshi",
+    "vietnamese": "mỗi năm",
+    "lesson": 16,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "毎年旅行をします。"
+  },
+  {
+    "japanese": "まいつき",
+    "kanji": "毎月",
+    "romanji": "maitsuki",
+    "vietnamese": "mỗi tháng",
+    "lesson": 16,
+    "difficulty": "beginner",
+    "category": "time",
+    "example": "毎月会議があります。"
+  },
+  {
+    "japanese": "チェックする",
+    "kanji": "",
+    "romanji": "chekku suru",
+    "vietnamese": "kiểm tra",
+    "lesson": 16,
+    "difficulty": "intermediate",
+    "category": "verb",
+    "example": "宿題をチェックしてください。"
+  },
+  {
+    "japanese": "おく",
+    "kanji": "置く",
+    "romanji": "oku",
+    "vietnamese": "đặt, để",
+    "lesson": 16,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "本を机に置いてください。"
+  },
+  {
+    "japanese": "とめる",
+    "kanji": "止める",
+    "romanji": "tomeru",
+    "vietnamese": "dừng",
+    "lesson": 16,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "車を止めてください。"
+  },
+  {
+    "japanese": "すう",
+    "kanji": "吸う",
+    "romanji": "suu",
+    "vietnamese": "hút [thuốc lá]",
+    "lesson": 16,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "たばこを吸わないでください。"
+  },
+  {
+    "japanese": "けっこんする",
+    "kanji": "結婚する",
+    "romanji": "kekkon suru",
+    "vietnamese": "kết hôn",
+    "lesson": 16,
+    "difficulty": "intermediate",
+    "category": "verb",
+    "example": "来年結婚する予定です。"
+  },
+  {
+    "japanese": "すむ",
+    "kanji": "住む",
+    "romanji": "sumu",
+    "vietnamese": "sống",
+    "lesson": 16,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "東京に住んでいます。"
+  },
+  {
+    "japanese": "けいえいする",
+    "kanji": "経営する",
+    "romanji": "keiei suru",
+    "vietnamese": "kinh doanh",
+    "lesson": 16,
+    "difficulty": "intermediate",
+    "category": "verb",
+    "example": "会社を経営しています。"
+  },
+  {
+    "japanese": "しる",
+    "kanji": "知る",
+    "romanji": "shiru",
+    "vietnamese": "biết",
+    "lesson": 16,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "その人を知っていますか。"
+  },
+  {
+    "japanese": "きく",
+    "kanji": "聞く",
+    "romanji": "kiku",
+    "vietnamese": "hỏi",
+    "lesson": 16,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "先生に聞いてください。"
+  },
+  {
+    "japanese": "たすける",
+    "kanji": "助ける",
+    "romanji": "tasukeru",
+    "vietnamese": "giúp đỡ",
+    "lesson": 16,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "困っている人を助けてください。"
+  },
+  {
+    "japanese": "のりかえる",
+    "kanji": "乗り換える",
+    "romanji": "norikaeru",
+    "vietnamese": "chuyển, đổi (xe, tàu)",
+    "lesson": 16,
+    "difficulty": "intermediate",
+    "category": "verb",
+    "example": "新宿で電車を乗り換えます。"
+  },
+  {
+    "japanese": "たいしょくする",
+    "kanji": "退職する",
+    "romanji": "taishoku suru",
+    "vietnamese": "nghỉ hưu",
+    "lesson": 16,
+    "difficulty": "intermediate",
+    "category": "verb",
+    "example": "来年退職する予定です。"
+  },
+  {
+    "japanese": "さわる",
+    "kanji": "触る",
+    "romanji": "sawaru",
+    "vietnamese": "đụng vào, chạm vào",
+    "lesson": 16,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "触らないでください。"
+  },
+  {
+    "japanese": "いれる",
+    "kanji": "入れる",
+    "romanji": "ireru",
+    "vietnamese": "pha (trà, cà phê)",
+    "lesson": 16,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "お茶を入れてください。"
+  },
+  {
+    "japanese": "やく",
+    "kanji": "焼く",
+    "romanji": "yaku",
+    "vietnamese": "nướng",
+    "lesson": 16,
+    "difficulty": "beginner",
+    "category": "verb",
+    "example": "パンを焼いてください。"
+  },
+  {
+    "japanese": "もって くる",
+    "kanji": "持って 来る",
+    "romanji": "motte kuru",
+    "vietnamese": "mang đến",
+    "lesson": 16,
+    "difficulty": "intermediate",
+    "category": "verb",
+    "example": "お土産を持って来ました。"
+  },
+  {
+    "japanese": "もって いく",
+    "kanji": "持って 行く",
+    "romanji": "motte iku",
+    "vietnamese": "mang đi",
+    "lesson": 16,
+    "difficulty": "intermediate",
+    "category": "verb",
+    "example": "荷物を持って行きます。"
+  },
+  {
+    "japanese": "やくに たつ",
+    "kanji": "役に 立つ",
+    "romanji": "yaku ni tatsu",
+    "vietnamese": "có ích",
+    "lesson": 16,
+    "difficulty": "intermediate",
+    "category": "verb",
+    "example": "この本は役に立ちます。"
+  },
+  {
+    "japanese": "すごい",
+    "kanji": "",
+    "romanji": "sugoi",
+    "vietnamese": "hay, giỏi, tốt…",
+    "lesson": 16,
+    "difficulty": "beginner",
+    "category": "adjective",
+    "example": "すごいですね。"
+  },
+  {
+    "japanese": "どうやって",
+    "kanji": "",
+    "romanji": "douyatte",
+    "vietnamese": "làm thế nào",
+    "lesson": 16,
+    "difficulty": "beginner",
+    "category": "question",
+    "example": "どうやって作りますか。"
+  },
+  {
+    "japanese": "すぐ",
+    "kanji": "",
+    "romanji": "sugu",
+    "vietnamese": "ngay lập tức",
+    "lesson": 16,
+    "difficulty": "beginner",
+    "category": "adverb",
+    "example": "すぐ来てください。"
+  },
+  {
+    "japanese": "もう",
+    "kanji": "",
+    "romanji": "mou",
+    "vietnamese": "đã",
+    "lesson": 16,
+    "difficulty": "beginner",
+    "category": "adverb",
+    "example": "もう終わりました。"
+  },
+  {
+    "japanese": "あのう",
+    "kanji": "",
+    "romanji": "anou",
+    "vietnamese": "xin lỗi…, dùng lúc ngập ngừng chuẩn bị nói",
+    "lesson": 16,
+    "difficulty": "beginner",
+    "category": "expression",
+    "example": "あのう、すみません。"
+  },
+  {
+    "japanese": "わあ",
+    "kanji": "",
+    "romanji": "waa",
+    "vietnamese": "(từ cảm thán)",
+    "lesson": 16,
+    "difficulty": "beginner",
+    "category": "expression",
+    "example": "わあ、きれいですね。"
+  },
+  {
+    "japanese": "しんじゅく",
+    "kanji": "新宿",
+    "romanji": "Shinjuku",
+    "vietnamese": "Shinjuku",
+    "lesson": 16,
+    "difficulty": "intermediate",
+    "category": "place",
+    "example": "新宿で買い物をしました。"
+  },
+  {
+    "japanese": "うえの",
+    "kanji": "上野",
+    "romanji": "Ueno",
+    "vietnamese": "Ueno",
+    "lesson": 16,
+    "difficulty": "intermediate",
+    "category": "place",
+    "example": "上野の美術館に行きました。"
+  }
+]
