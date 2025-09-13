@@ -183,12 +183,12 @@ class QuizApp {
             this.currentLessonData : 
             this.vocabularyData.flatMap(lesson => lesson.words);
         
-        // Chọn ngẫu nhiên 10 từ
+        // Sử dụng tất cả từ vựng trong bài học
         const shuffled = [...allWords].sort(() => 0.5 - Math.random());
-        this.quizData = shuffled.slice(0, Math.min(10, shuffled.length));
+        this.quizData = shuffled;
         this.currentQuizIndex = 0;
         this.quizScore = 0;
-        this.quizTimeLeft = 300; // 5 phút
+        this.quizTimeLeft = 600; // 10 phút
         this.startTime = Date.now();
         
         this.startQuizTimer();
@@ -215,19 +215,15 @@ class QuizApp {
             `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
         
         // Cập nhật progress ring
-        const totalTime = 300;
+        const totalTime = 600;
         const progress = ((totalTime - this.quizTimeLeft) / totalTime) * 100;
         const circumference = 2 * Math.PI * 20;
         const offset = circumference - (progress / 100) * circumference;
         
         const progressCircle = document.getElementById('progress-circle');
-        const progressText = document.getElementById('progress-text');
         
         if (progressCircle) {
             progressCircle.style.strokeDashoffset = offset;
-        }
-        if (progressText) {
-            progressText.textContent = Math.round(progress) + '%';
         }
     }
 
@@ -242,7 +238,7 @@ class QuizApp {
         const questionNumber = this.currentQuizIndex + 1;
         
         // Cập nhật số câu hỏi
-        document.getElementById('question-number').textContent = questionNumber;
+        document.getElementById('question-number').textContent = `Câu ${questionNumber}/${this.quizData.length}`;
         
         // Tạo câu hỏi ngẫu nhiên
         const questionType = Math.random() < 0.5 ? 'japanese' : 'vietnamese';
@@ -295,16 +291,33 @@ class QuizApp {
         // Render options
         const optionsContainer = document.getElementById('quiz-options');
         optionsContainer.innerHTML = shuffledOptions.map((option, index) => `
-            <div class="quiz-option flex items-center bg-white border-2 border-gray-200 rounded-lg cursor-pointer hover:border-blue-300 transition-all relative">
-                <input type="radio" name="answer" value="${option}" id="option-${index}" class="sr-only">
-                <label for="option-${index}" class="flex items-center w-full cursor-pointer">
-                    <div class="w-5 h-5 border-2 border-gray-300 rounded-full mr-3 flex items-center justify-center option-indicator">
-                        <div class="w-2 h-2 bg-blue-500 rounded-full option-dot hidden"></div>
-                    </div>
+            <div class="quiz-option flex items-center bg-white border-2 border-gray-200 rounded-lg cursor-pointer hover:border-blue-300 transition-all relative" data-option="${index}">
+                <input type="radio" name="answer" value="${option}" id="option-${index}">
+                <label for="option-${index}" class="flex items-center w-full cursor-pointer p-4">
                     <span class="text-gray-800 text-base">${option}</span>
                 </label>
             </div>
         `).join('');
+        
+        // Add click event listeners to quiz options
+        optionsContainer.addEventListener('click', (e) => {
+            const quizOption = e.target.closest('.quiz-option');
+            if (quizOption) {
+                // Remove selected class from all options
+                document.querySelectorAll('.quiz-option').forEach(option => {
+                    option.classList.remove('selected');
+                });
+                
+                // Add selected class to clicked option
+                quizOption.classList.add('selected');
+                
+                const optionIndex = quizOption.dataset.option;
+                const radioInput = document.getElementById(`option-${optionIndex}`);
+                if (radioInput) {
+                    radioInput.checked = true;
+                }
+            }
+        });
     }
 
     // Submit câu trả lời
@@ -330,7 +343,7 @@ class QuizApp {
         setTimeout(() => {
             this.currentQuizIndex++;
             this.loadQuizQuestion();
-        }, 1000);
+        }, 2000);
     }
 
     // Highlight correct and incorrect answers
@@ -382,8 +395,6 @@ class QuizApp {
         
         // Hiển thị kết quả
         document.getElementById('final-score').textContent = `${this.quizScore}/${this.quizData.length}`;
-        document.getElementById('score-percentage').textContent = 
-            `${Math.round((this.quizScore / this.quizData.length) * 100)}%`;
         document.getElementById('completion-time').textContent = 
             `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
         
