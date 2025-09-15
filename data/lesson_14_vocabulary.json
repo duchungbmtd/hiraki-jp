@@ -72,12 +72,12 @@
     "example": "料金を払います。",
     "kanji_search_results": [
       {
-        "kanji": "金",
-        "mean": "KIM"
-      },
-      {
         "kanji": "料",
         "mean": "LIÊU, LIỆU"
+      },
+      {
+        "kanji": "金",
+        "mean": "KIM"
       }
     ]
   },
@@ -92,20 +92,20 @@
     "example": "電話料金が高いです。",
     "kanji_search_results": [
       {
-        "kanji": "話",
-        "mean": "THOẠI"
-      },
-      {
         "kanji": "電",
         "mean": "ĐIỆN"
       },
       {
-        "kanji": "金",
-        "mean": "KIM"
+        "kanji": "話",
+        "mean": "THOẠI"
       },
       {
         "kanji": "料",
         "mean": "LIÊU, LIỆU"
+      },
+      {
+        "kanji": "金",
+        "mean": "KIM"
       }
     ]
   },
@@ -120,12 +120,12 @@
     "example": "生け花を習います。",
     "kanji_search_results": [
       {
-        "kanji": "花",
-        "mean": "HOA"
-      },
-      {
         "kanji": "生",
         "mean": "SANH, SINH"
+      },
+      {
+        "kanji": "花",
+        "mean": "HOA"
       }
     ]
   },
@@ -220,20 +220,20 @@
     "example": "目覚まし時計をセットします。",
     "kanji_search_results": [
       {
-        "kanji": "覚",
-        "mean": "GIÁC"
+        "kanji": "目",
+        "mean": "MỤC"
       },
       {
-        "kanji": "計",
-        "mean": "KẾ, KÊ"
+        "kanji": "覚",
+        "mean": "GIÁC"
       },
       {
         "kanji": "時",
         "mean": "THÌ, THỜI"
       },
       {
-        "kanji": "目",
-        "mean": "MỤC"
+        "kanji": "計",
+        "mean": "KẾ, KÊ"
       }
     ]
   },
@@ -662,12 +662,12 @@
     "example": "自分で作ります。",
     "kanji_search_results": [
       {
-        "kanji": "分",
-        "mean": "PHÂN, PHẬN"
-      },
-      {
         "kanji": "自",
         "mean": "TỰ"
+      },
+      {
+        "kanji": "分",
+        "mean": "PHÂN, PHẬN"
       }
     ]
   },
@@ -742,12 +742,12 @@
     "example": "長野でスキーをします。",
     "kanji_search_results": [
       {
-        "kanji": "野",
-        "mean": "DÃ"
-      },
-      {
         "kanji": "長",
         "mean": "TRƯỜNG, TRƯỞNG, TRƯỚNG"
+      },
+      {
+        "kanji": "野",
+        "mean": "DÃ"
       }
     ]
   },
@@ -762,12 +762,12 @@
     "example": "三重県に行きます。",
     "kanji_search_results": [
       {
-        "kanji": "重",
-        "mean": "TRỌNG, TRÙNG"
-      },
-      {
         "kanji": "三",
         "mean": "TAM, TÁM"
+      },
+      {
+        "kanji": "重",
+        "mean": "TRỌNG, TRÙNG"
       }
     ]
   },
@@ -786,12 +786,12 @@
         "mean": "NHẪN"
       },
       {
-        "kanji": "村",
-        "mean": "THÔN"
-      },
-      {
         "kanji": "者",
         "mean": "GIẢ"
+      },
+      {
+        "kanji": "村",
+        "mean": "THÔN"
       }
     ]
   },
@@ -806,12 +806,12 @@
     "example": "文化センターで勉強します。",
     "kanji_search_results": [
       {
-        "kanji": "化",
-        "mean": "HÓA"
-      },
-      {
         "kanji": "文",
         "mean": "VĂN, VẤN"
+      },
+      {
+        "kanji": "化",
+        "mean": "HÓA"
       }
     ]
   },
@@ -842,16 +842,16 @@
     "example": "辞書形を覚えます。",
     "kanji_search_results": [
       {
-        "kanji": "形",
-        "mean": "HÌNH"
+        "kanji": "辞",
+        "mean": "TỪ"
       },
       {
         "kanji": "書",
         "mean": "THƯ"
       },
       {
-        "kanji": "辞",
-        "mean": "TỪ"
+        "kanji": "形",
+        "mean": "HÌNH"
       }
     ]
   }

@@ -10,12 +10,12 @@
     "example": "地球を守りましょう。",
     "kanji_search_results": [
       {
-        "kanji": "球",
-        "mean": "CẦU"
-      },
-      {
         "kanji": "地",
         "mean": "ĐỊA"
+      },
+      {
+        "kanji": "球",
+        "mean": "CẦU"
       }
     ]
   },
@@ -30,12 +30,12 @@
     "example": "人口が増えています。",
     "kanji_search_results": [
       {
-        "kanji": "口",
-        "mean": "KHẨU"
-      },
-      {
         "kanji": "人",
         "mean": "NHÂN"
+      },
+      {
+        "kanji": "口",
+        "mean": "KHẨU"
       }
     ]
   },
@@ -152,12 +152,12 @@
     "example": "用事があります。",
     "kanji_search_results": [
       {
-        "kanji": "事",
-        "mean": "SỰ"
-      },
-      {
         "kanji": "用",
         "mean": "DỤNG"
+      },
+      {
+        "kanji": "事",
+        "mean": "SỰ"
       }
     ]
   },
@@ -172,16 +172,16 @@
     "example": "忘年会に参加しました。",
     "kanji_search_results": [
       {
-        "kanji": "会",
-        "mean": "HỘI, CỐI"
+        "kanji": "忘",
+        "mean": "VONG"
       },
       {
         "kanji": "年",
         "mean": "NIÊN"
       },
       {
-        "kanji": "忘",
-        "mean": "VONG"
+        "kanji": "会",
+        "mean": "HỘI, CỐI"
       }
     ]
   },
@@ -206,16 +206,16 @@
     "example": "送別会を開きました。",
     "kanji_search_results": [
       {
-        "kanji": "会",
-        "mean": "HỘI, CỐI"
+        "kanji": "送",
+        "mean": "TỐNG"
       },
       {
         "kanji": "別",
         "mean": "BIỆT"
       },
       {
-        "kanji": "送",
-        "mean": "TỐNG"
+        "kanji": "会",
+        "mean": "HỘI, CỐI"
       }
     ]
   },
@@ -230,16 +230,16 @@
     "example": "国際結婚をしました。",
     "kanji_search_results": [
       {
+        "kanji": "国",
+        "mean": "QUỐC"
+      },
+      {
         "kanji": "際",
         "mean": "TẾ"
       },
       {
         "kanji": "結",
         "mean": "KẾT"
-      },
-      {
-        "kanji": "国",
-        "mean": "QUỐC"
       },
       {
         "kanji": "婚",
@@ -278,12 +278,12 @@
     "example": "日本に留学しています。",
     "kanji_search_results": [
       {
-        "kanji": "学",
-        "mean": "HỌC"
-      },
-      {
         "kanji": "留",
         "mean": "LƯU"
+      },
+      {
+        "kanji": "学",
+        "mean": "HỌC"
       }
     ]
   },
@@ -378,12 +378,12 @@
     "example": "気持ちがいいです。",
     "kanji_search_results": [
       {
-        "kanji": "持",
-        "mean": "TRÌ"
-      },
-      {
         "kanji": "気",
         "mean": "KHÍ"
+      },
+      {
+        "kanji": "持",
+        "mean": "TRÌ"
       }
     ]
   },
@@ -630,12 +630,12 @@
     "example": "勉強が必要です。",
     "kanji_search_results": [
       {
-        "kanji": "要",
-        "mean": "YẾU, YÊU"
-      },
-      {
         "kanji": "必",
         "mean": "TẤT"
+      },
+      {
+        "kanji": "要",
+        "mean": "YẾU, YÊU"
       }
     ]
   },
@@ -746,16 +746,16 @@
     "example": "丁寧形で話してください。",
     "kanji_search_results": [
       {
+        "kanji": "丁",
+        "mean": "ĐINH, CHÊNH, TRANH"
+      },
+      {
         "kanji": "寧",
         "mean": "NINH, TRỮ"
       },
       {
         "kanji": "形",
         "mean": "HÌNH"
-      },
-      {
-        "kanji": "丁",
-        "mean": "ĐINH, CHÊNH, TRANH"
       }
     ]
   },
@@ -774,12 +774,12 @@
         "mean": "PHỔ"
       },
       {
-        "kanji": "形",
-        "mean": "HÌNH"
-      },
-      {
         "kanji": "通",
         "mean": "THÔNG"
+      },
+      {
+        "kanji": "形",
+        "mean": "HÌNH"
       }
     ]
   }

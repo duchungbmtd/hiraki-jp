@@ -64,16 +64,16 @@
     "example": "美術館で絵を見ました。",
     "kanji_search_results": [
       {
+        "kanji": "美",
+        "mean": "MĨ"
+      },
+      {
         "kanji": "術",
         "mean": "THUẬT"
       },
       {
         "kanji": "館",
         "mean": "QUÁN"
-      },
-      {
-        "kanji": "美",
-        "mean": "MĨ"
       }
     ]
   },
@@ -154,12 +154,12 @@
     "example": "番号を確認してください。",
     "kanji_search_results": [
       {
-        "kanji": "号",
-        "mean": "HÀO, HIỆU"
-      },
-      {
         "kanji": "番",
         "mean": "PHIÊN, PHAN, BA, BÀ"
+      },
+      {
+        "kanji": "号",
+        "mean": "HÀO, HIỆU"
       }
     ]
   },
@@ -174,20 +174,20 @@
     "example": "電話番号を教えてください。",
     "kanji_search_results": [
       {
-        "kanji": "話",
-        "mean": "THOẠI"
-      },
-      {
         "kanji": "電",
         "mean": "ĐIỆN"
       },
       {
-        "kanji": "号",
-        "mean": "HÀO, HIỆU"
+        "kanji": "話",
+        "mean": "THOẠI"
       },
       {
         "kanji": "番",
         "mean": "PHIÊN, PHAN, BA, BÀ"
+      },
+      {
+        "kanji": "号",
+        "mean": "HÀO, HIỆU"
       }
     ]
   },
@@ -294,12 +294,12 @@
     "example": "祖父と散歩しました。",
     "kanji_search_results": [
       {
-        "kanji": "父",
-        "mean": "PHỤ, PHỦ"
-      },
-      {
         "kanji": "祖",
         "mean": "TỔ"
+      },
+      {
+        "kanji": "父",
+        "mean": "PHỤ, PHỦ"
       }
     ]
   },
@@ -374,20 +374,20 @@
     "example": "機械工学を勉強しています。",
     "kanji_search_results": [
       {
-        "kanji": "工",
-        "mean": "CÔNG"
-      },
-      {
         "kanji": "機",
         "mean": "KI, CƠ"
       },
       {
-        "kanji": "学",
-        "mean": "HỌC"
-      },
-      {
         "kanji": "械",
         "mean": "GIỚI"
+      },
+      {
+        "kanji": "工",
+        "mean": "CÔNG"
+      },
+      {
+        "kanji": "学",
+        "mean": "HỌC"
       }
     ]
   },
@@ -418,12 +418,12 @@
     "example": "お手伝いをします。",
     "kanji_search_results": [
       {
-        "kanji": "伝",
-        "mean": "TRUYỀN"
-      },
-      {
         "kanji": "手",
         "mean": "THỦ"
+      },
+      {
+        "kanji": "伝",
+        "mean": "TRUYỀN"
       }
     ]
   },
@@ -438,12 +438,12 @@
     "example": "本当ですか。",
     "kanji_search_results": [
       {
-        "kanji": "当",
-        "mean": "ĐƯƠNG, ĐANG, ĐÁNG"
-      },
-      {
         "kanji": "本",
         "mean": "BỔN, BẢN"
+      },
+      {
+        "kanji": "当",
+        "mean": "ĐƯƠNG, ĐANG, ĐÁNG"
       }
     ]
   },
@@ -458,12 +458,12 @@
     "example": "毎年旅行をします。",
     "kanji_search_results": [
       {
-        "kanji": "年",
-        "mean": "NIÊN"
-      },
-      {
         "kanji": "毎",
         "mean": "MỖI"
+      },
+      {
+        "kanji": "年",
+        "mean": "NIÊN"
       }
     ]
   },
@@ -592,12 +592,12 @@
     "example": "会社を経営しています。",
     "kanji_search_results": [
       {
-        "kanji": "営",
-        "mean": "DOANH, DINH"
-      },
-      {
         "kanji": "経",
         "mean": "KINH"
+      },
+      {
+        "kanji": "営",
+        "mean": "DOANH, DINH"
       }
     ]
   },
@@ -660,12 +660,12 @@
     "example": "新宿で電車を乗り換えます。",
     "kanji_search_results": [
       {
-        "kanji": "換",
-        "mean": "HOÁN"
-      },
-      {
         "kanji": "乗",
         "mean": "THỪA"
+      },
+      {
+        "kanji": "換",
+        "mean": "HOÁN"
       }
     ]
   },
@@ -748,12 +748,12 @@
     "example": "お土産を持って来ました。",
     "kanji_search_results": [
       {
-        "kanji": "来",
-        "mean": "LAI, LÃI"
-      },
-      {
         "kanji": "持",
         "mean": "TRÌ"
+      },
+      {
+        "kanji": "来",
+        "mean": "LAI, LÃI"
       }
     ]
   },
@@ -768,12 +768,12 @@
     "example": "荷物を持って行きます。",
     "kanji_search_results": [
       {
-        "kanji": "行",
-        "mean": "HÀNH, HẠNH, HÀNG, HẠNG"
-      },
-      {
         "kanji": "持",
         "mean": "TRÌ"
+      },
+      {
+        "kanji": "行",
+        "mean": "HÀNH, HẠNH, HÀNG, HẠNG"
       }
     ]
   },
@@ -888,12 +888,12 @@
     "example": "上野の美術館に行きました。",
     "kanji_search_results": [
       {
-        "kanji": "野",
-        "mean": "DÃ"
-      },
-      {
         "kanji": "上",
         "mean": "THƯỢNG, THƯỚNG"
+      },
+      {
+        "kanji": "野",
+        "mean": "DÃ"
       }
     ]
   }

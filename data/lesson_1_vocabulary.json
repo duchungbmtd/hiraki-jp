@@ -88,16 +88,16 @@
     "example": "銀行員をしています。",
     "kanji_search_results": [
       {
-        "kanji": "員",
-        "mean": "VIÊN, VÂN"
+        "kanji": "銀",
+        "mean": "NGÂN"
       },
       {
         "kanji": "行",
         "mean": "HÀNH, HẠNH, HÀNG, HẠNG"
       },
       {
-        "kanji": "銀",
-        "mean": "NGÂN"
+        "kanji": "員",
+        "mean": "VIÊN, VÂN"
       }
     ]
   },
@@ -112,16 +112,16 @@
     "example": "会社員です。",
     "kanji_search_results": [
       {
-        "kanji": "員",
-        "mean": "VIÊN, VÂN"
-      },
-      {
         "kanji": "会",
         "mean": "HỘI, CỐI"
       },
       {
         "kanji": "社",
         "mean": "XÃ"
+      },
+      {
+        "kanji": "員",
+        "mean": "VIÊN, VÂN"
       }
     ]
   },
@@ -160,12 +160,12 @@
         "mean": "NGHIÊN"
       },
       {
-        "kanji": "員",
-        "mean": "VIÊN, VÂN"
-      },
-      {
         "kanji": "究",
         "mean": "CỨU"
+      },
+      {
+        "kanji": "員",
+        "mean": "VIÊN, VÂN"
       }
     ]
   },
@@ -180,6 +180,14 @@
     "example": "日本語学校で勉強しています。",
     "kanji_search_results": [
       {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      },
+      {
+        "kanji": "本",
+        "mean": "BỔN, BẢN"
+      },
+      {
         "kanji": "語",
         "mean": "NGỮ, NGỨ"
       },
@@ -188,16 +196,8 @@
         "mean": "HỌC"
       },
       {
-        "kanji": "本",
-        "mean": "BỔN, BẢN"
-      },
-      {
         "kanji": "校",
         "mean": "GIÁO, HIỆU, HÀO"
-      },
-      {
-        "kanji": "日",
-        "mean": "NHẬT, NHỰT"
       }
     ]
   },
@@ -212,12 +212,12 @@
     "example": "大学で経済を勉強しています。",
     "kanji_search_results": [
       {
-        "kanji": "学",
-        "mean": "HỌC"
-      },
-      {
         "kanji": "大",
         "mean": "ĐẠI, THÁI"
+      },
+      {
+        "kanji": "学",
+        "mean": "HỌC"
       }
     ]
   },
@@ -292,12 +292,12 @@
     "example": "お名前は何ですか。",
     "kanji_search_results": [
       {
-        "kanji": "前",
-        "mean": "TIỀN"
-      },
-      {
         "kanji": "名",
         "mean": "DANH"
+      },
+      {
+        "kanji": "前",
+        "mean": "TIỀN"
       }
     ]
   },
@@ -348,12 +348,12 @@
     "example": "水泳が好きです。",
     "kanji_search_results": [
       {
-        "kanji": "泳",
-        "mean": "VỊNH"
-      },
-      {
         "kanji": "水",
         "mean": "THỦY"
+      },
+      {
+        "kanji": "泳",
+        "mean": "VỊNH"
       }
     ]
   },
@@ -486,12 +486,12 @@
     "example": "お名前は何ですか。",
     "kanji_search_results": [
       {
-        "kanji": "前",
-        "mean": "TIỀN"
-      },
-      {
         "kanji": "名",
         "mean": "DANH"
+      },
+      {
+        "kanji": "前",
+        "mean": "TIỀN"
       }
     ]
   },
@@ -628,12 +628,12 @@
     "example": "日本に住んでいます。",
     "kanji_search_results": [
       {
-        "kanji": "本",
-        "mean": "BỔN, BẢN"
-      },
-      {
         "kanji": "日",
         "mean": "NHẬT, NHỰT"
+      },
+      {
+        "kanji": "本",
+        "mean": "BỔN, BẢN"
       }
     ]
   },
@@ -658,12 +658,12 @@
     "example": "韓国人です。",
     "kanji_search_results": [
       {
-        "kanji": "国",
-        "mean": "QUỐC"
-      },
-      {
         "kanji": "韓",
         "mean": "HÀN"
+      },
+      {
+        "kanji": "国",
+        "mean": "QUỐC"
       }
     ]
   },

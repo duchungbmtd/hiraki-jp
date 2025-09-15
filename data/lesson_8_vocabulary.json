@@ -122,12 +122,12 @@
     "example": "子供が遊んでいます。",
     "kanji_search_results": [
       {
-        "kanji": "供",
-        "mean": "CUNG"
-      },
-      {
         "kanji": "子",
         "mean": "TỬ, TÍ"
+      },
+      {
+        "kanji": "供",
+        "mean": "CUNG"
       }
     ]
   },
@@ -174,24 +174,24 @@
     "example": "自動販売機でジュースを買います。",
     "kanji_search_results": [
       {
+        "kanji": "自",
+        "mean": "TỰ"
+      },
+      {
         "kanji": "動",
         "mean": "ĐỘNG"
-      },
-      {
-        "kanji": "機",
-        "mean": "KI, CƠ"
-      },
-      {
-        "kanji": "売",
-        "mean": "MẠI"
       },
       {
         "kanji": "販",
         "mean": "PHIẾN, PHÁN"
       },
       {
-        "kanji": "自",
-        "mean": "TỰ"
+        "kanji": "売",
+        "mean": "MẠI"
+      },
+      {
+        "kanji": "機",
+        "mean": "KI, CƠ"
       }
     ]
   },
@@ -350,12 +350,12 @@
     "example": "電話をかけます。",
     "kanji_search_results": [
       {
-        "kanji": "話",
-        "mean": "THOẠI"
-      },
-      {
         "kanji": "電",
         "mean": "ĐIỆN"
+      },
+      {
+        "kanji": "話",
+        "mean": "THOẠI"
       }
     ]
   },
@@ -400,12 +400,12 @@
     "example": "西口から出ます。",
     "kanji_search_results": [
       {
-        "kanji": "口",
-        "mean": "KHẨU"
-      },
-      {
         "kanji": "西",
         "mean": "TÂY, TÊ"
+      },
+      {
+        "kanji": "口",
+        "mean": "KHẨU"
       }
     ]
   },
@@ -480,12 +480,12 @@
     "example": "教会で結婚式をします。",
     "kanji_search_results": [
       {
-        "kanji": "会",
-        "mean": "HỘI, CỐI"
-      },
-      {
         "kanji": "教",
         "mean": "GIÁO, GIAO"
+      },
+      {
+        "kanji": "会",
+        "mean": "HỘI, CỐI"
       }
     ]
   },
@@ -552,12 +552,12 @@
     "example": "お土産を買います。",
     "kanji_search_results": [
       {
-        "kanji": "産",
-        "mean": "SẢN"
-      },
-      {
         "kanji": "土",
         "mean": "THỔ, ĐỘ, ĐỖ"
+      },
+      {
+        "kanji": "産",
+        "mean": "SẢN"
       }
     ]
   },

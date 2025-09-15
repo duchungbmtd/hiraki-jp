@@ -14,12 +14,12 @@
         "mean": "ĐẢN"
       },
       {
-        "kanji": "日",
-        "mean": "NHẬT, NHỰT"
-      },
-      {
         "kanji": "生",
         "mean": "SANH, SINH"
+      },
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
       }
     ]
   },
@@ -44,16 +44,16 @@
     "example": "飛行機で旅行します。",
     "kanji_search_results": [
       {
+        "kanji": "飛",
+        "mean": "PHI"
+      },
+      {
         "kanji": "行",
         "mean": "HÀNH, HẠNH, HÀNG, HẠNG"
       },
       {
         "kanji": "機",
         "mean": "KI, CƠ"
-      },
-      {
-        "kanji": "飛",
-        "mean": "PHI"
       }
     ]
   },
@@ -88,16 +88,16 @@
     "example": "自転車で買い物に行きます。",
     "kanji_search_results": [
       {
+        "kanji": "自",
+        "mean": "TỰ"
+      },
+      {
         "kanji": "転",
         "mean": "CHUYỂN"
       },
       {
         "kanji": "車",
         "mean": "XA"
-      },
-      {
-        "kanji": "自",
-        "mean": "TỰ"
       }
     ]
   },
@@ -112,16 +112,16 @@
     "example": "地下鉄で東京に行きます。",
     "kanji_search_results": [
       {
-        "kanji": "鉄",
-        "mean": "THIẾT"
-      },
-      {
         "kanji": "地",
         "mean": "ĐỊA"
       },
       {
         "kanji": "下",
         "mean": "HẠ, HÁ"
+      },
+      {
+        "kanji": "鉄",
+        "mean": "THIẾT"
       }
     ]
   },
@@ -272,12 +272,12 @@
     "example": "新幹線で大阪に行きます。",
     "kanji_search_results": [
       {
-        "kanji": "幹",
-        "mean": "CÁN, CAN"
-      },
-      {
         "kanji": "新",
         "mean": "TÂN"
+      },
+      {
+        "kanji": "幹",
+        "mean": "CÁN, CAN"
       },
       {
         "kanji": "線",
@@ -296,12 +296,12 @@
     "example": "温泉に入ります。",
     "kanji_search_results": [
       {
-        "kanji": "泉",
-        "mean": "TUYỀN, TOÀN"
-      },
-      {
         "kanji": "温",
         "mean": "ÔN, UẨN"
+      },
+      {
+        "kanji": "泉",
+        "mean": "TUYỀN, TOÀN"
       }
     ]
   },
@@ -926,12 +926,12 @@
     "example": "一緒に映画を見ます。",
     "kanji_search_results": [
       {
-        "kanji": "緒",
-        "mean": "TỰ"
-      },
-      {
         "kanji": "一",
         "mean": "NHẤT"
+      },
+      {
+        "kanji": "緒",
+        "mean": "TỰ"
       }
     ]
   },
@@ -946,12 +946,12 @@
     "example": "一人で旅行します。",
     "kanji_search_results": [
       {
-        "kanji": "人",
-        "mean": "NHÂN"
-      },
-      {
         "kanji": "一",
         "mean": "NHẤT"
+      },
+      {
+        "kanji": "人",
+        "mean": "NHÂN"
       }
     ]
   },
@@ -966,12 +966,12 @@
     "example": "今度一緒に行きましょう。",
     "kanji_search_results": [
       {
-        "kanji": "度",
-        "mean": "ĐỘ, ĐẠC"
-      },
-      {
         "kanji": "今",
         "mean": "KIM"
+      },
+      {
+        "kanji": "度",
+        "mean": "ĐỘ, ĐẠC"
       }
     ]
   },
@@ -1036,12 +1036,12 @@
     "example": "北海道でスキーをします。",
     "kanji_search_results": [
       {
-        "kanji": "海",
-        "mean": "HẢI"
-      },
-      {
         "kanji": "北",
         "mean": "BẮC"
+      },
+      {
+        "kanji": "海",
+        "mean": "HẢI"
       },
       {
         "kanji": "道",
@@ -1060,12 +1060,12 @@
     "example": "札幌で雪祭りを見ます。",
     "kanji_search_results": [
       {
-        "kanji": "幌",
-        "mean": "HOẢNG"
-      },
-      {
         "kanji": "札",
         "mean": "TRÁT"
+      },
+      {
+        "kanji": "幌",
+        "mean": "HOẢNG"
       }
     ]
   },
@@ -1120,12 +1120,12 @@
     "example": "名古屋で味噌カツを食べます。",
     "kanji_search_results": [
       {
-        "kanji": "古",
-        "mean": "CỔ"
-      },
-      {
         "kanji": "名",
         "mean": "DANH"
+      },
+      {
+        "kanji": "古",
+        "mean": "CỔ"
       },
       {
         "kanji": "屋",
@@ -1184,12 +1184,12 @@
     "example": "広島で原爆ドームを見学します。",
     "kanji_search_results": [
       {
-        "kanji": "島",
-        "mean": "ĐẢO"
-      },
-      {
         "kanji": "広",
         "mean": "QUẢNG"
+      },
+      {
+        "kanji": "島",
+        "mean": "ĐẢO"
       }
     ]
   },
@@ -1204,12 +1204,12 @@
     "example": "別府で温泉に入ります。",
     "kanji_search_results": [
       {
-        "kanji": "府",
-        "mean": "PHỦ"
-      },
-      {
         "kanji": "別",
         "mean": "BIỆT"
+      },
+      {
+        "kanji": "府",
+        "mean": "PHỦ"
       }
     ]
   },
@@ -1228,12 +1228,12 @@
         "mean": "ĐẠI, THÁI"
       },
       {
-        "kanji": "城",
-        "mean": "THÀNH"
-      },
-      {
         "kanji": "阪",
         "mean": "PHẢN"
+      },
+      {
+        "kanji": "城",
+        "mean": "THÀNH"
       }
     ]
   },
@@ -1248,12 +1248,12 @@
     "example": "原爆ドームを見学します。",
     "kanji_search_results": [
       {
-        "kanji": "爆",
-        "mean": "BẠO, BẠC, BỘC"
-      },
-      {
         "kanji": "原",
         "mean": "NGUYÊN"
+      },
+      {
+        "kanji": "爆",
+        "mean": "BẠO, BẠC, BỘC"
       }
     ]
   },
@@ -1268,8 +1268,8 @@
     "example": "田中正男さんに会います。",
     "kanji_search_results": [
       {
-        "kanji": "男",
-        "mean": "NAM"
+        "kanji": "田",
+        "mean": "ĐIỀN"
       },
       {
         "kanji": "中",
@@ -1280,8 +1280,8 @@
         "mean": "CHÁNH, CHÍNH"
       },
       {
-        "kanji": "田",
-        "mean": "ĐIỀN"
+        "kanji": "男",
+        "mean": "NAM"
       }
     ]
   }

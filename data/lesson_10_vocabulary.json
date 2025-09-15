@@ -200,12 +200,12 @@
     "example": "子供さんは何人ですか。",
     "kanji_search_results": [
       {
-        "kanji": "供",
-        "mean": "CUNG"
-      },
-      {
         "kanji": "子",
         "mean": "TỬ, TÍ"
+      },
+      {
+        "kanji": "供",
+        "mean": "CUNG"
       }
     ]
   },
@@ -362,16 +362,16 @@
     "example": "航空便で送ります。",
     "kanji_search_results": [
       {
+        "kanji": "航",
+        "mean": "HÀNG"
+      },
+      {
         "kanji": "空",
         "mean": "KHÔNG, KHỐNG, KHỔNG"
       },
       {
         "kanji": "便",
         "mean": "TIỆN"
-      },
-      {
-        "kanji": "航",
-        "mean": "HÀNG"
       }
     ]
   },

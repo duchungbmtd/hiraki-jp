@@ -26,12 +26,12 @@
     "example": "残業をしました。",
     "kanji_search_results": [
       {
-        "kanji": "業",
-        "mean": "NGHIỆP"
-      },
-      {
         "kanji": "残",
         "mean": "TÀN"
+      },
+      {
+        "kanji": "業",
+        "mean": "NGHIỆP"
       }
     ]
   },
@@ -112,12 +112,12 @@
     "example": "事故に遭いました。",
     "kanji_search_results": [
       {
-        "kanji": "故",
-        "mean": "CỐ"
-      },
-      {
         "kanji": "事",
         "mean": "SỰ"
+      },
+      {
+        "kanji": "故",
+        "mean": "CỐ"
       }
     ]
   },
@@ -140,12 +140,12 @@
         "mean": "THÔNG"
       },
       {
-        "kanji": "故",
-        "mean": "CỐ"
-      },
-      {
         "kanji": "事",
         "mean": "SỰ"
+      },
+      {
+        "kanji": "故",
+        "mean": "CỐ"
       }
     ]
   },
@@ -180,12 +180,12 @@
     "example": "台風が来ています。",
     "kanji_search_results": [
       {
-        "kanji": "風",
-        "mean": "PHONG"
-      },
-      {
         "kanji": "台",
         "mean": "THAI, ĐÀI, DI"
+      },
+      {
+        "kanji": "風",
+        "mean": "PHONG"
       }
     ]
   },
@@ -200,12 +200,12 @@
     "example": "警察に連絡しました。",
     "kanji_search_results": [
       {
-        "kanji": "察",
-        "mean": "SÁT"
-      },
-      {
         "kanji": "警",
         "mean": "CẢNH"
+      },
+      {
+        "kanji": "察",
+        "mean": "SÁT"
       }
     ]
   },
@@ -254,12 +254,12 @@
         "mean": "THỤ"
       },
       {
-        "kanji": "票",
-        "mean": "PHIẾU, TIÊU, PHIÊU"
-      },
-      {
         "kanji": "験",
         "mean": "NGHIỆM"
+      },
+      {
+        "kanji": "票",
+        "mean": "PHIẾU, TIÊU, PHIÊU"
       }
     ]
   },
@@ -308,12 +308,12 @@
     "example": "成績が良かったです。",
     "kanji_search_results": [
       {
-        "kanji": "績",
-        "mean": "TÍCH"
-      },
-      {
         "kanji": "成",
         "mean": "THÀNH"
+      },
+      {
+        "kanji": "績",
+        "mean": "TÍCH"
       }
     ]
   },
@@ -498,12 +498,12 @@
         "mean": "THÂN"
       },
       {
-        "kanji": "書",
-        "mean": "THƯ"
-      },
-      {
         "kanji": "込",
         "mean": ""
+      },
+      {
+        "kanji": "書",
+        "mean": "THƯ"
       }
     ]
   },
@@ -988,12 +988,12 @@
     "example": "心配です。",
     "kanji_search_results": [
       {
-        "kanji": "配",
-        "mean": "PHỐI"
-      },
-      {
         "kanji": "心",
         "mean": "TÂM"
+      },
+      {
+        "kanji": "配",
+        "mean": "PHỐI"
       }
     ]
   },
@@ -1008,12 +1008,12 @@
     "example": "四人乗りの車です。",
     "kanji_search_results": [
       {
-        "kanji": "乗",
-        "mean": "THỪA"
-      },
-      {
         "kanji": "人",
         "mean": "NHÂN"
+      },
+      {
+        "kanji": "乗",
+        "mean": "THỪA"
       }
     ]
   },
@@ -1048,12 +1048,12 @@
     "example": "十八歳以上です。",
     "kanji_search_results": [
       {
-        "kanji": "上",
-        "mean": "THƯỢNG, THƯỚNG"
-      },
-      {
         "kanji": "以",
         "mean": "DĨ"
+      },
+      {
+        "kanji": "上",
+        "mean": "THƯỢNG, THƯỚNG"
       }
     ]
   },

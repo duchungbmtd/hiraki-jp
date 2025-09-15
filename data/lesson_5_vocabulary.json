@@ -114,12 +114,12 @@
     "example": "三時半です。",
     "kanji_search_results": [
       {
-        "kanji": "半",
-        "mean": "BÁN"
-      },
-      {
         "kanji": "時",
         "mean": "THÌ, THỜI"
+      },
+      {
+        "kanji": "半",
+        "mean": "BÁN"
       }
     ]
   },
@@ -274,12 +274,12 @@
     "example": "文法を勉強します。",
     "kanji_search_results": [
       {
-        "kanji": "法",
-        "mean": "PHÁP"
-      },
-      {
         "kanji": "文",
         "mean": "VĂN, VẤN"
+      },
+      {
+        "kanji": "法",
+        "mean": "PHÁP"
       }
     ]
   },
@@ -294,12 +294,12 @@
     "example": "会話を練習します。",
     "kanji_search_results": [
       {
-        "kanji": "話",
-        "mean": "THOẠI"
-      },
-      {
         "kanji": "会",
         "mean": "HỘI, CỐI"
+      },
+      {
+        "kanji": "話",
+        "mean": "THOẠI"
       }
     ]
   },
@@ -314,12 +314,12 @@
     "example": "漢字を覚えます。",
     "kanji_search_results": [
       {
-        "kanji": "字",
-        "mean": "TỰ"
-      },
-      {
         "kanji": "漢",
         "mean": "HÁN"
+      },
+      {
+        "kanji": "字",
+        "mean": "TỰ"
       }
     ]
   },
@@ -364,12 +364,12 @@
     "example": "お風呂に入ります。",
     "kanji_search_results": [
       {
-        "kanji": "呂",
-        "mean": "LỮ, LÃ"
-      },
-      {
         "kanji": "風",
         "mean": "PHONG"
+      },
+      {
+        "kanji": "呂",
+        "mean": "LỮ, LÃ"
       }
     ]
   },
@@ -384,12 +384,12 @@
     "example": "お相撲さんを見ます。",
     "kanji_search_results": [
       {
-        "kanji": "撲",
-        "mean": "PHÁC, BẠC, PHỐC"
-      },
-      {
         "kanji": "相",
         "mean": "TƯƠNG, TƯỚNG"
+      },
+      {
+        "kanji": "撲",
+        "mean": "PHÁC, BẠC, PHỐC"
       }
     ]
   },
@@ -420,12 +420,12 @@
     "example": "先週映画を見ました。",
     "kanji_search_results": [
       {
-        "kanji": "週",
-        "mean": "CHU"
-      },
-      {
         "kanji": "先",
         "mean": "TIÊN, TIẾN"
+      },
+      {
+        "kanji": "週",
+        "mean": "CHU"
       }
     ]
   },
@@ -460,12 +460,12 @@
     "example": "来週休みです。",
     "kanji_search_results": [
       {
-        "kanji": "週",
-        "mean": "CHU"
-      },
-      {
         "kanji": "来",
         "mean": "LAI, LÃI"
+      },
+      {
+        "kanji": "週",
+        "mean": "CHU"
       }
     ]
   },
@@ -480,12 +480,12 @@
     "example": "毎週映画を見ます。",
     "kanji_search_results": [
       {
-        "kanji": "週",
-        "mean": "CHU"
-      },
-      {
         "kanji": "毎",
         "mean": "MỖI"
+      },
+      {
+        "kanji": "週",
+        "mean": "CHU"
       }
     ]
   },
@@ -500,16 +500,16 @@
     "example": "月曜日に学校に行きます。",
     "kanji_search_results": [
       {
+        "kanji": "月",
+        "mean": "NGUYỆT"
+      },
+      {
         "kanji": "曜",
         "mean": "DIỆU"
       },
       {
         "kanji": "日",
         "mean": "NHẬT, NHỰT"
-      },
-      {
-        "kanji": "月",
-        "mean": "NGUYỆT"
       }
     ]
   },
@@ -524,12 +524,12 @@
     "example": "火曜日に会議があります。",
     "kanji_search_results": [
       {
-        "kanji": "曜",
-        "mean": "DIỆU"
-      },
-      {
         "kanji": "火",
         "mean": "HỎA"
+      },
+      {
+        "kanji": "曜",
+        "mean": "DIỆU"
       },
       {
         "kanji": "日",
@@ -548,16 +548,16 @@
     "example": "水曜日に買い物をします。",
     "kanji_search_results": [
       {
+        "kanji": "水",
+        "mean": "THỦY"
+      },
+      {
         "kanji": "曜",
         "mean": "DIỆU"
       },
       {
         "kanji": "日",
         "mean": "NHẬT, NHỰT"
-      },
-      {
-        "kanji": "水",
-        "mean": "THỦY"
       }
     ]
   },
@@ -572,12 +572,12 @@
     "example": "木曜日に映画を見ます。",
     "kanji_search_results": [
       {
-        "kanji": "曜",
-        "mean": "DIỆU"
-      },
-      {
         "kanji": "木",
         "mean": "MỘC"
+      },
+      {
+        "kanji": "曜",
+        "mean": "DIỆU"
       },
       {
         "kanji": "日",
@@ -596,12 +596,12 @@
     "example": "金曜日にパーティーをします。",
     "kanji_search_results": [
       {
-        "kanji": "曜",
-        "mean": "DIỆU"
-      },
-      {
         "kanji": "金",
         "mean": "KIM"
+      },
+      {
+        "kanji": "曜",
+        "mean": "DIỆU"
       },
       {
         "kanji": "日",
@@ -620,16 +620,16 @@
     "example": "土曜日に休みます。",
     "kanji_search_results": [
       {
+        "kanji": "土",
+        "mean": "THỔ, ĐỘ, ĐỖ"
+      },
+      {
         "kanji": "曜",
         "mean": "DIỆU"
       },
       {
         "kanji": "日",
         "mean": "NHẬT, NHỰT"
-      },
-      {
-        "kanji": "土",
-        "mean": "THỔ, ĐỘ, ĐỖ"
       }
     ]
   },
@@ -644,12 +644,12 @@
     "example": "日曜日に家族と過ごします。",
     "kanji_search_results": [
       {
-        "kanji": "曜",
-        "mean": "DIỆU"
-      },
-      {
         "kanji": "日",
         "mean": "NHẬT, NHỰT"
+      },
+      {
+        "kanji": "曜",
+        "mean": "DIỆU"
       }
     ]
   },
@@ -734,12 +734,12 @@
     "example": "今朝コーヒーを飲みました。",
     "kanji_search_results": [
       {
-        "kanji": "朝",
-        "mean": "TRIÊU, TRIỀU"
-      },
-      {
         "kanji": "今",
         "mean": "KIM"
+      },
+      {
+        "kanji": "朝",
+        "mean": "TRIÊU, TRIỀU"
       }
     ]
   },
@@ -938,12 +938,12 @@
     "example": "日本語を練習します。",
     "kanji_search_results": [
       {
-        "kanji": "習",
-        "mean": "TẬP"
-      },
-      {
         "kanji": "練",
         "mean": "LUYỆN"
+      },
+      {
+        "kanji": "習",
+        "mean": "TẬP"
       }
     ]
   },
@@ -1112,12 +1112,12 @@
     "example": "東京に住んでいます。",
     "kanji_search_results": [
       {
-        "kanji": "京",
-        "mean": "KINH"
-      },
-      {
         "kanji": "東",
         "mean": "ĐÔNG"
+      },
+      {
+        "kanji": "京",
+        "mean": "KINH"
       }
     ]
   },
@@ -1218,12 +1218,12 @@
     "example": "文化センターで勉強します。",
     "kanji_search_results": [
       {
-        "kanji": "化",
-        "mean": "HÓA"
-      },
-      {
         "kanji": "文",
         "mean": "VĂN, VẤN"
+      },
+      {
+        "kanji": "化",
+        "mean": "HÓA"
       }
     ]
   },
@@ -1238,16 +1238,16 @@
     "example": "映画会に参加します。",
     "kanji_search_results": [
       {
+        "kanji": "映",
+        "mean": "ÁNH"
+      },
+      {
         "kanji": "画",
         "mean": "HỌA, HOẠCH"
       },
       {
         "kanji": "会",
         "mean": "HỘI, CỐI"
-      },
-      {
-        "kanji": "映",
-        "mean": "ÁNH"
       }
     ]
   }

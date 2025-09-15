@@ -40,12 +40,12 @@
     "example": "食堂で昼ご飯を食べます。",
     "kanji_search_results": [
       {
-        "kanji": "堂",
-        "mean": "ĐƯỜNG"
-      },
-      {
         "kanji": "食",
         "mean": "THỰC, TỰ"
+      },
+      {
+        "kanji": "堂",
+        "mean": "ĐƯỜNG"
       }
     ]
   },
@@ -96,16 +96,16 @@
     "example": "事務室で働いています。",
     "kanji_search_results": [
       {
-        "kanji": "室",
-        "mean": "THẤT"
+        "kanji": "事",
+        "mean": "SỰ"
       },
       {
         "kanji": "務",
         "mean": "VỤ, VŨ"
       },
       {
-        "kanji": "事",
-        "mean": "SỰ"
+        "kanji": "室",
+        "mean": "THẤT"
       }
     ]
   },
@@ -120,16 +120,16 @@
     "example": "会議室で会議をします。",
     "kanji_search_results": [
       {
+        "kanji": "会",
+        "mean": "HỘI, CỐI"
+      },
+      {
         "kanji": "議",
         "mean": "NGHỊ"
       },
       {
         "kanji": "室",
         "mean": "THẤT"
-      },
-      {
-        "kanji": "会",
-        "mean": "HỘI, CỐI"
       }
     ]
   },
@@ -174,12 +174,12 @@
         "mean": "ĐỒ"
       },
       {
-        "kanji": "室",
-        "mean": "THẤT"
-      },
-      {
         "kanji": "書",
         "mean": "THƯ"
+      },
+      {
+        "kanji": "室",
+        "mean": "THẤT"
       }
     ]
   },
@@ -194,12 +194,12 @@
     "example": "教室で授業をします。",
     "kanji_search_results": [
       {
-        "kanji": "室",
-        "mean": "THẤT"
-      },
-      {
         "kanji": "教",
         "mean": "GIÁO, GIAO"
+      },
+      {
+        "kanji": "室",
+        "mean": "THẤT"
       }
     ]
   },
@@ -240,16 +240,16 @@
     "example": "郵便局で手紙を送ります。",
     "kanji_search_results": [
       {
-        "kanji": "局",
-        "mean": "CỤC"
+        "kanji": "郵",
+        "mean": "BƯU"
       },
       {
         "kanji": "便",
         "mean": "TIỆN"
       },
       {
-        "kanji": "郵",
-        "mean": "BƯU"
+        "kanji": "局",
+        "mean": "CỤC"
       }
     ]
   },
@@ -264,12 +264,12 @@
     "example": "病院に行きます。",
     "kanji_search_results": [
       {
-        "kanji": "院",
-        "mean": "VIỆN"
-      },
-      {
         "kanji": "病",
         "mean": "BỆNH"
+      },
+      {
+        "kanji": "院",
+        "mean": "VIỆN"
       }
     ]
   },
@@ -284,12 +284,12 @@
     "example": "大使館で手続きをします。",
     "kanji_search_results": [
       {
-        "kanji": "使",
-        "mean": "SỬ, SỨ"
-      },
-      {
         "kanji": "大",
         "mean": "ĐẠI, THÁI"
+      },
+      {
+        "kanji": "使",
+        "mean": "SỬ, SỨ"
       },
       {
         "kanji": "館",
@@ -308,12 +308,12 @@
     "example": "銀行でお金を下ろします。",
     "kanji_search_results": [
       {
-        "kanji": "行",
-        "mean": "HÀNH, HẠNH, HÀNG, HẠNG"
-      },
-      {
         "kanji": "銀",
         "mean": "NGÂN"
+      },
+      {
+        "kanji": "行",
+        "mean": "HÀNH, HẠNH, HÀNG, HẠNG"
       }
     ]
   },
@@ -364,12 +364,12 @@
     "example": "辞書で単語を調べます。",
     "kanji_search_results": [
       {
-        "kanji": "書",
-        "mean": "THƯ"
-      },
-      {
         "kanji": "辞",
         "mean": "TỪ"
+      },
+      {
+        "kanji": "書",
+        "mean": "THƯ"
       }
     ]
   },
@@ -384,12 +384,12 @@
     "example": "地図を見て道を探します。",
     "kanji_search_results": [
       {
-        "kanji": "図",
-        "mean": "ĐỒ"
-      },
-      {
         "kanji": "地",
         "mean": "ĐỊA"
+      },
+      {
+        "kanji": "図",
+        "mean": "ĐỒ"
       }
     ]
   },
@@ -404,16 +404,16 @@
     "example": "冷蔵庫に食べ物を入れます。",
     "kanji_search_results": [
       {
-        "kanji": "庫",
-        "mean": "KHỐ"
+        "kanji": "冷",
+        "mean": "LÃNH"
       },
       {
         "kanji": "蔵",
         "mean": "TÀNG"
       },
       {
-        "kanji": "冷",
-        "mean": "LÃNH"
+        "kanji": "庫",
+        "mean": "KHỐ"
       }
     ]
   },
@@ -438,12 +438,12 @@
     "example": "時計を見て時間を確認します。",
     "kanji_search_results": [
       {
-        "kanji": "計",
-        "mean": "KẾ, KÊ"
-      },
-      {
         "kanji": "時",
         "mean": "THÌ, THỜI"
+      },
+      {
+        "kanji": "計",
+        "mean": "KẾ, KÊ"
       }
     ]
   },
@@ -478,12 +478,12 @@
     "example": "洗濯機で服を洗います。",
     "kanji_search_results": [
       {
-        "kanji": "濯",
-        "mean": "TRẠC"
-      },
-      {
         "kanji": "洗",
         "mean": "TẨY, TIỂN"
+      },
+      {
+        "kanji": "濯",
+        "mean": "TRẠC"
       },
       {
         "kanji": "機",
@@ -502,16 +502,16 @@
     "example": "掃除機で掃除します。",
     "kanji_search_results": [
       {
+        "kanji": "掃",
+        "mean": "TẢO"
+      },
+      {
         "kanji": "除",
         "mean": "TRỪ"
       },
       {
         "kanji": "機",
         "mean": "KI, CƠ"
-      },
-      {
-        "kanji": "掃",
-        "mean": "TẢO"
       }
     ]
   },
@@ -840,12 +840,12 @@
     "example": "ゆり大学で勉強しています。",
     "kanji_search_results": [
       {
-        "kanji": "学",
-        "mean": "HỌC"
-      },
-      {
         "kanji": "大",
         "mean": "ĐẠI, THÁI"
+      },
+      {
+        "kanji": "学",
+        "mean": "HỌC"
       }
     ]
   }

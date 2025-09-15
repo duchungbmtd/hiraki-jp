@@ -10,16 +10,16 @@
     "example": "歌舞伎を見に行きました。",
     "kanji_search_results": [
       {
-        "kanji": "伎",
-        "mean": "KĨ"
-      },
-      {
         "kanji": "歌",
         "mean": "CA"
       },
       {
         "kanji": "舞",
         "mean": "VŨ"
+      },
+      {
+        "kanji": "伎",
+        "mean": "KĨ"
       }
     ]
   },
@@ -34,12 +34,12 @@
     "example": "盆踊りに参加しました。",
     "kanji_search_results": [
       {
-        "kanji": "踊",
-        "mean": "DŨNG"
-      },
-      {
         "kanji": "盆",
         "mean": "BỒN"
+      },
+      {
+        "kanji": "踊",
+        "mean": "DŨNG"
       }
     ]
   },
@@ -114,12 +114,12 @@
     "example": "水道を止めてください。",
     "kanji_search_results": [
       {
-        "kanji": "道",
-        "mean": "ĐẠO, ĐÁO"
-      },
-      {
         "kanji": "水",
         "mean": "THỦY"
+      },
+      {
+        "kanji": "道",
+        "mean": "ĐẠO, ĐÁO"
       }
     ]
   },
@@ -154,12 +154,12 @@
     "example": "忘れ物をしました。",
     "kanji_search_results": [
       {
-        "kanji": "物",
-        "mean": "VẬT"
-      },
-      {
         "kanji": "忘",
         "mean": "VONG"
+      },
+      {
+        "kanji": "物",
+        "mean": "VẬT"
       }
     ]
   },
@@ -266,12 +266,12 @@
     "example": "荷造りを手伝ってください。",
     "kanji_search_results": [
       {
-        "kanji": "造",
-        "mean": "TẠO, THÁO"
-      },
-      {
         "kanji": "荷",
         "mean": "HÀ, HẠ"
+      },
+      {
+        "kanji": "造",
+        "mean": "TẠO, THÁO"
       }
     ]
   },
@@ -286,12 +286,12 @@
     "example": "先生に連絡しました。",
     "kanji_search_results": [
       {
-        "kanji": "絡",
-        "mean": "LẠC"
-      },
-      {
         "kanji": "連",
         "mean": "LIÊN"
+      },
+      {
+        "kanji": "絡",
+        "mean": "LẠC"
       }
     ]
   },
@@ -374,12 +374,12 @@
     "example": "仕事が完成しました。",
     "kanji_search_results": [
       {
-        "kanji": "成",
-        "mean": "THÀNH"
-      },
-      {
         "kanji": "完",
         "mean": "HOÀN"
+      },
+      {
+        "kanji": "成",
+        "mean": "THÀNH"
       }
     ]
   },
@@ -596,16 +596,16 @@
         "mean": "CHUYÊN"
       },
       {
+        "kanji": "門",
+        "mean": "MÔN"
+      },
+      {
         "kanji": "学",
         "mean": "HỌC"
       },
       {
         "kanji": "校",
         "mean": "GIÁO, HIỆU, HÀO"
-      },
-      {
-        "kanji": "門",
-        "mean": "MÔN"
       }
     ]
   },
@@ -676,12 +676,12 @@
     "example": "本当にありがとうございます。",
     "kanji_search_results": [
       {
-        "kanji": "当",
-        "mean": "ĐƯƠNG, ĐANG, ĐÁNG"
-      },
-      {
         "kanji": "本",
         "mean": "BỔN, BẢN"
+      },
+      {
+        "kanji": "当",
+        "mean": "ĐƯƠNG, ĐANG, ĐÁNG"
       }
     ]
   }

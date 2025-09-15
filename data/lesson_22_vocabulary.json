@@ -10,12 +10,12 @@
     "example": "人形を買いました。",
     "kanji_search_results": [
       {
-        "kanji": "形",
-        "mean": "HÌNH"
-      },
-      {
         "kanji": "人",
         "mean": "NHÂN"
+      },
+      {
+        "kanji": "形",
+        "mean": "HÌNH"
       }
     ]
   },
@@ -232,12 +232,12 @@
     "example": "子供を連れて行きました。",
     "kanji_search_results": [
       {
-        "kanji": "行",
-        "mean": "HÀNH, HẠNH, HÀNG, HẠNG"
-      },
-      {
         "kanji": "連",
         "mean": "LIÊN"
+      },
+      {
+        "kanji": "行",
+        "mean": "HÀNH, HẠNH, HÀNG, HẠNG"
       }
     ]
   },
@@ -304,12 +304,12 @@
     "example": "部品を取り替えました。",
     "kanji_search_results": [
       {
-        "kanji": "替",
-        "mean": "THẾ"
-      },
-      {
         "kanji": "取",
         "mean": "THỦ"
+      },
+      {
+        "kanji": "替",
+        "mean": "THẾ"
       }
     ]
   },
@@ -324,12 +324,12 @@
     "example": "試験に合格しました。",
     "kanji_search_results": [
       {
-        "kanji": "格",
-        "mean": "CÁCH, CÁC"
-      },
-      {
         "kanji": "合",
         "mean": "HỢP, CÁP, HIỆP"
+      },
+      {
+        "kanji": "格",
+        "mean": "CÁCH, CÁC"
       }
     ]
   },
@@ -502,12 +502,12 @@
     "example": "お世話になりました。ありがとうございました。",
     "kanji_search_results": [
       {
-        "kanji": "話",
-        "mean": "THOẠI"
-      },
-      {
         "kanji": "世",
         "mean": "THẾ"
+      },
+      {
+        "kanji": "話",
+        "mean": "THOẠI"
       }
     ]
   },
@@ -532,12 +532,12 @@
     "example": "お元気で。また会いましょう。",
     "kanji_search_results": [
       {
-        "kanji": "気",
-        "mean": "KHÍ"
-      },
-      {
         "kanji": "元",
         "mean": "NGUYÊN"
+      },
+      {
+        "kanji": "気",
+        "mean": "KHÍ"
       }
     ]
   },
@@ -552,12 +552,12 @@
     "example": "お元気ですか。はい、元気です。",
     "kanji_search_results": [
       {
-        "kanji": "気",
-        "mean": "KHÍ"
-      },
-      {
         "kanji": "元",
         "mean": "NGUYÊN"
+      },
+      {
+        "kanji": "気",
+        "mean": "KHÍ"
       }
     ]
   },
@@ -592,16 +592,16 @@
     "example": "文京区に住んでいます。",
     "kanji_search_results": [
       {
+        "kanji": "文",
+        "mean": "VĂN, VẤN"
+      },
+      {
         "kanji": "京",
         "mean": "KINH"
       },
       {
         "kanji": "区",
         "mean": "KHU, ÂU"
-      },
-      {
-        "kanji": "文",
-        "mean": "VĂN, VẤN"
       }
     ]
   },
@@ -640,12 +640,12 @@
     "example": "長崎県に住んでいます。",
     "kanji_search_results": [
       {
-        "kanji": "崎",
-        "mean": "KHI"
-      },
-      {
         "kanji": "長",
         "mean": "TRƯỜNG, TRƯỞNG, TRƯỚNG"
+      },
+      {
+        "kanji": "崎",
+        "mean": "KHI"
       }
     ]
   },
@@ -660,16 +660,16 @@
     "example": "上田市に住んでいます。",
     "kanji_search_results": [
       {
-        "kanji": "市",
-        "mean": "THỊ"
+        "kanji": "上",
+        "mean": "THƯỢNG, THƯỚNG"
       },
       {
         "kanji": "田",
         "mean": "ĐIỀN"
       },
       {
-        "kanji": "上",
-        "mean": "THƯỢNG, THƯỚNG"
+        "kanji": "市",
+        "mean": "THỊ"
       }
     ]
   },
@@ -684,12 +684,12 @@
     "example": "上田で会いましょう。",
     "kanji_search_results": [
       {
-        "kanji": "田",
-        "mean": "ĐIỀN"
-      },
-      {
         "kanji": "上",
         "mean": "THƯỢNG, THƯỚNG"
+      },
+      {
+        "kanji": "田",
+        "mean": "ĐIỀN"
       }
     ]
   },
@@ -916,12 +916,12 @@
     "example": "勇太君、こんにちは。",
     "kanji_search_results": [
       {
-        "kanji": "太",
-        "mean": "THÁI"
-      },
-      {
         "kanji": "勇",
         "mean": "DŨNG"
+      },
+      {
+        "kanji": "太",
+        "mean": "THÁI"
       }
     ]
   }

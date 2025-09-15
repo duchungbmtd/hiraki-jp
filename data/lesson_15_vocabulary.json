@@ -50,16 +50,16 @@
     "example": "参考書を買いました。",
     "kanji_search_results": [
       {
-        "kanji": "書",
-        "mean": "THƯ"
+        "kanji": "参",
+        "mean": "THAM, XAM, SÂM"
       },
       {
         "kanji": "考",
         "mean": "KHẢO"
       },
       {
-        "kanji": "参",
-        "mean": "THAM, XAM, SÂM"
+        "kanji": "書",
+        "mean": "THƯ"
       }
     ]
   },
@@ -94,16 +94,16 @@
     "example": "推薦状を書いてください。",
     "kanji_search_results": [
       {
-        "kanji": "状",
-        "mean": "TRẠNG"
-      },
-      {
         "kanji": "推",
         "mean": "THÔI, SUY"
       },
       {
         "kanji": "薦",
         "mean": "TIẾN"
+      },
+      {
+        "kanji": "状",
+        "mean": "TRẠNG"
       }
     ]
   },
@@ -128,12 +128,12 @@
     "example": "台所で料理をします。",
     "kanji_search_results": [
       {
-        "kanji": "所",
-        "mean": "SỞ"
-      },
-      {
         "kanji": "台",
         "mean": "THAI, ĐÀI, DI"
+      },
+      {
+        "kanji": "所",
+        "mean": "SỞ"
       }
     ]
   },
@@ -158,12 +158,12 @@
     "example": "住所を教えてください。",
     "kanji_search_results": [
       {
-        "kanji": "所",
-        "mean": "SỞ"
-      },
-      {
         "kanji": "住",
         "mean": "TRỤ, TRÚ"
+      },
+      {
+        "kanji": "所",
+        "mean": "SỞ"
       }
     ]
   },
@@ -316,12 +316,12 @@
     "example": "車を修理しました。",
     "kanji_search_results": [
       {
-        "kanji": "理",
-        "mean": "LÍ"
-      },
-      {
         "kanji": "修",
         "mean": "TU"
+      },
+      {
+        "kanji": "理",
+        "mean": "LÍ"
       }
     ]
   },
@@ -436,12 +436,12 @@
     "example": "もう一度言ってください。",
     "kanji_search_results": [
       {
-        "kanji": "度",
-        "mean": "ĐỘ, ĐẠC"
-      },
-      {
         "kanji": "一",
         "mean": "NHẤT"
+      },
+      {
+        "kanji": "度",
+        "mean": "ĐỘ, ĐẠC"
       }
     ]
   },

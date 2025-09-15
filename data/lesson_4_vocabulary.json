@@ -86,12 +86,12 @@
     "example": "牛乳を飲みます。",
     "kanji_search_results": [
       {
-        "kanji": "乳",
-        "mean": "NHŨ"
-      },
-      {
         "kanji": "牛",
         "mean": "NGƯU"
+      },
+      {
+        "kanji": "乳",
+        "mean": "NHŨ"
       }
     ]
   },
@@ -138,12 +138,12 @@
     "example": "映画を見ます。",
     "kanji_search_results": [
       {
-        "kanji": "画",
-        "mean": "HỌA, HOẠCH"
-      },
-      {
         "kanji": "映",
         "mean": "ÁNH"
+      },
+      {
+        "kanji": "画",
+        "mean": "HỌA, HOẠCH"
       }
     ]
   },
@@ -228,12 +228,12 @@
     "example": "宿題をします。",
     "kanji_search_results": [
       {
-        "kanji": "題",
-        "mean": "ĐỀ"
-      },
-      {
         "kanji": "宿",
         "mean": "TÚC, TÚ"
+      },
+      {
+        "kanji": "題",
+        "mean": "ĐỀ"
       }
     ]
   },
@@ -278,12 +278,12 @@
     "example": "手紙を書きます。",
     "kanji_search_results": [
       {
-        "kanji": "紙",
-        "mean": "CHỈ"
-      },
-      {
         "kanji": "手",
         "mean": "THỦ"
+      },
+      {
+        "kanji": "紙",
+        "mean": "CHỈ"
       }
     ]
   },
@@ -480,12 +480,12 @@
     "example": "晩ご飯を食べます。",
     "kanji_search_results": [
       {
-        "kanji": "飯",
-        "mean": "PHẠN, PHÃN"
-      },
-      {
         "kanji": "晩",
         "mean": "VÃN"
+      },
+      {
+        "kanji": "飯",
+        "mean": "PHẠN, PHÃN"
       }
     ]
   },
@@ -516,12 +516,12 @@
     "example": "お弁当を食べます。",
     "kanji_search_results": [
       {
-        "kanji": "当",
-        "mean": "ĐƯƠNG, ĐANG, ĐÁNG"
-      },
-      {
         "kanji": "弁",
         "mean": "BIỆN, BIỀN, BÀN"
+      },
+      {
+        "kanji": "当",
+        "mean": "ĐƯƠNG, ĐANG, ĐÁNG"
       }
     ]
   },
@@ -536,12 +536,12 @@
     "example": "料理を作ります。",
     "kanji_search_results": [
       {
-        "kanji": "理",
-        "mean": "LÍ"
-      },
-      {
         "kanji": "料",
         "mean": "LIÊU, LIỆU"
+      },
+      {
+        "kanji": "理",
+        "mean": "LÍ"
       }
     ]
   },
@@ -616,12 +616,12 @@
     "example": "毎朝ジョギングをします。",
     "kanji_search_results": [
       {
-        "kanji": "朝",
-        "mean": "TRIÊU, TRIỀU"
-      },
-      {
         "kanji": "毎",
         "mean": "MỖI"
+      },
+      {
+        "kanji": "朝",
+        "mean": "TRIÊU, TRIỀU"
       }
     ]
   },
@@ -636,12 +636,12 @@
     "example": "毎晩テレビを見ます。",
     "kanji_search_results": [
       {
-        "kanji": "晩",
-        "mean": "VÃN"
-      },
-      {
         "kanji": "毎",
         "mean": "MỖI"
+      },
+      {
+        "kanji": "晩",
+        "mean": "VÃN"
       }
     ]
   },

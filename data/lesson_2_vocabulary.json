@@ -172,12 +172,12 @@
     "example": "財布を忘れました。",
     "kanji_search_results": [
       {
-        "kanji": "布",
-        "mean": "BỐ"
-      },
-      {
         "kanji": "財",
         "mean": "TÀI"
+      },
+      {
+        "kanji": "布",
+        "mean": "BỐ"
       }
     ]
   },
@@ -192,12 +192,12 @@
     "example": "新聞を読みます。",
     "kanji_search_results": [
       {
-        "kanji": "聞",
-        "mean": "VĂN, VẤN, VẶN"
-      },
-      {
         "kanji": "新",
         "mean": "TÂN"
+      },
+      {
+        "kanji": "聞",
+        "mean": "VĂN, VẤN, VẶN"
       }
     ]
   },
@@ -212,12 +212,12 @@
     "example": "砂糖を入れます。",
     "kanji_search_results": [
       {
-        "kanji": "糖",
-        "mean": "ĐƯỜNG"
-      },
-      {
         "kanji": "砂",
         "mean": "SA"
+      },
+      {
+        "kanji": "糖",
+        "mean": "ĐƯỜNG"
       }
     ]
   },
@@ -314,12 +314,12 @@
     "example": "紅茶を飲みます。",
     "kanji_search_results": [
       {
-        "kanji": "茶",
-        "mean": "TRÀ"
-      },
-      {
         "kanji": "紅",
         "mean": "HỒNG"
+      },
+      {
+        "kanji": "茶",
+        "mean": "TRÀ"
       }
     ]
   },
@@ -374,20 +374,20 @@
     "example": "携帯電話で話します。",
     "kanji_search_results": [
       {
-        "kanji": "話",
-        "mean": "THOẠI"
-      },
-      {
-        "kanji": "電",
-        "mean": "ĐIỆN"
+        "kanji": "携",
+        "mean": "HUỀ"
       },
       {
         "kanji": "帯",
         "mean": "ĐỚI"
       },
       {
-        "kanji": "携",
-        "mean": "HUỀ"
+        "kanji": "電",
+        "mean": "ĐIỆN"
+      },
+      {
+        "kanji": "話",
+        "mean": "THOẠI"
       }
     ]
   },
@@ -512,12 +512,12 @@
     "example": "牛肉を焼きます。",
     "kanji_search_results": [
       {
-        "kanji": "肉",
-        "mean": "NHỤC, NHỤ, NẬU"
-      },
-      {
         "kanji": "牛",
         "mean": "NGƯU"
+      },
+      {
+        "kanji": "肉",
+        "mean": "NHỤC, NHỤ, NẬU"
       }
     ]
   },
@@ -598,12 +598,12 @@
         "mean": "THIÊU"
       },
       {
-        "kanji": "定",
-        "mean": "ĐỊNH, ĐÍNH"
-      },
-      {
         "kanji": "肉",
         "mean": "NHỤC, NHỤ, NẬU"
+      },
+      {
+        "kanji": "定",
+        "mean": "ĐỊNH, ĐÍNH"
       },
       {
         "kanji": "食",

@@ -20,12 +20,12 @@
     "example": "野球を見ます。",
     "kanji_search_results": [
       {
-        "kanji": "球",
-        "mean": "CẦU"
-      },
-      {
         "kanji": "野",
         "mean": "DÃ"
+      },
+      {
+        "kanji": "球",
+        "mean": "CẦU"
       }
     ]
   },
@@ -40,12 +40,12 @@
     "example": "漫画を読みます。",
     "kanji_search_results": [
       {
-        "kanji": "画",
-        "mean": "HỌA, HOẠCH"
-      },
-      {
         "kanji": "漫",
         "mean": "MẠN, MAN"
+      },
+      {
+        "kanji": "画",
+        "mean": "HỌA, HOẠCH"
       }
     ]
   },
@@ -60,12 +60,12 @@
     "example": "部屋を掃除します。",
     "kanji_search_results": [
       {
-        "kanji": "除",
-        "mean": "TRỪ"
-      },
-      {
         "kanji": "掃",
         "mean": "TẢO"
+      },
+      {
+        "kanji": "除",
+        "mean": "TRỪ"
       }
     ]
   },
@@ -80,12 +80,12 @@
     "example": "服を洗濯します。",
     "kanji_search_results": [
       {
-        "kanji": "濯",
-        "mean": "TRẠC"
-      },
-      {
         "kanji": "洗",
         "mean": "TẨY, TIỂN"
+      },
+      {
+        "kanji": "濯",
+        "mean": "TRẠC"
       }
     ]
   },
@@ -132,12 +132,12 @@
     "example": "英語を勉強します。",
     "kanji_search_results": [
       {
-        "kanji": "語",
-        "mean": "NGỮ, NGỨ"
-      },
-      {
         "kanji": "英",
         "mean": "ANH"
+      },
+      {
+        "kanji": "語",
+        "mean": "NGỮ, NGỨ"
       }
     ]
   },
@@ -152,16 +152,16 @@
     "example": "片仮名を覚えます。",
     "kanji_search_results": [
       {
+        "kanji": "片",
+        "mean": "PHIẾN"
+      },
+      {
         "kanji": "仮",
         "mean": "GIẢ"
       },
       {
         "kanji": "名",
         "mean": "DANH"
-      },
-      {
-        "kanji": "片",
-        "mean": "PHIẾN"
       }
     ]
   },
@@ -256,12 +256,12 @@
     "example": "天気がいいです。",
     "kanji_search_results": [
       {
-        "kanji": "気",
-        "mean": "KHÍ"
-      },
-      {
         "kanji": "天",
         "mean": "THIÊN"
+      },
+      {
+        "kanji": "気",
+        "mean": "KHÍ"
       }
     ]
   },
@@ -292,12 +292,12 @@
     "example": "注射を受けます。",
     "kanji_search_results": [
       {
-        "kanji": "射",
-        "mean": "XẠ, DẠ, DỊCH"
-      },
-      {
         "kanji": "注",
         "mean": "CHÚ"
+      },
+      {
+        "kanji": "射",
+        "mean": "XẠ, DẠ, DỊCH"
       }
     ]
   },
@@ -312,12 +312,12 @@
     "example": "時間がありません。",
     "kanji_search_results": [
       {
-        "kanji": "間",
-        "mean": "GIAN"
-      },
-      {
         "kanji": "時",
         "mean": "THÌ, THỜI"
+      },
+      {
+        "kanji": "間",
+        "mean": "GIAN"
       }
     ]
   },
@@ -382,12 +382,12 @@
     "example": "山登りをします。",
     "kanji_search_results": [
       {
-        "kanji": "登",
-        "mean": "ĐĂNG"
-      },
-      {
         "kanji": "山",
         "mean": "SAN, SƠN"
+      },
+      {
+        "kanji": "登",
+        "mean": "ĐĂNG"
       }
     ]
   },
@@ -402,12 +402,12 @@
     "example": "旅行に行きます。",
     "kanji_search_results": [
       {
-        "kanji": "行",
-        "mean": "HÀNH, HẠNH, HÀNG, HẠNG"
-      },
-      {
         "kanji": "旅",
         "mean": "LỮ"
+      },
+      {
+        "kanji": "行",
+        "mean": "HÀNH, HẠNH, HÀNG, HẠNG"
       }
     ]
   },
@@ -546,12 +546,12 @@
     "example": "番組を見ます。",
     "kanji_search_results": [
       {
-        "kanji": "組",
-        "mean": "TỔ"
-      },
-      {
         "kanji": "番",
         "mean": "PHIÊN, PHAN, BA, BÀ"
+      },
+      {
+        "kanji": "組",
+        "mean": "TỔ"
       }
     ]
   },
@@ -566,12 +566,12 @@
     "example": "テレビ番組を見ます。",
     "kanji_search_results": [
       {
-        "kanji": "組",
-        "mean": "TỔ"
-      },
-      {
         "kanji": "番",
         "mean": "PHIÊN, PHAN, BA, BÀ"
+      },
+      {
+        "kanji": "組",
+        "mean": "TỔ"
       }
     ]
   },
@@ -882,12 +882,12 @@
     "example": "公園を散歩します。",
     "kanji_search_results": [
       {
-        "kanji": "歩",
-        "mean": "BỘ"
-      },
-      {
         "kanji": "散",
         "mean": "TÁN, TẢN"
+      },
+      {
+        "kanji": "歩",
+        "mean": "BỘ"
       }
     ]
   },
@@ -902,12 +902,12 @@
     "example": "お見合いをします。",
     "kanji_search_results": [
       {
-        "kanji": "合",
-        "mean": "HỢP, CÁP, HIỆP"
-      },
-      {
         "kanji": "見",
         "mean": "KIẾN, HIỆN"
+      },
+      {
+        "kanji": "合",
+        "mean": "HỢP, CÁP, HIỆP"
       }
     ]
   },
@@ -1054,12 +1054,12 @@
     "example": "歌が下手です。",
     "kanji_search_results": [
       {
-        "kanji": "手",
-        "mean": "THỦ"
-      },
-      {
         "kanji": "下",
         "mean": "HẠ, HÁ"
+      },
+      {
+        "kanji": "手",
+        "mean": "THỦ"
       }
     ]
   },
@@ -1074,12 +1074,12 @@
     "example": "残念です。",
     "kanji_search_results": [
       {
-        "kanji": "念",
-        "mean": "NIỆM"
-      },
-      {
         "kanji": "残",
         "mean": "TÀN"
+      },
+      {
+        "kanji": "念",
+        "mean": "NIỆM"
       }
     ]
   },
@@ -1140,12 +1140,12 @@
     "example": "全然分かりません。",
     "kanji_search_results": [
       {
-        "kanji": "然",
-        "mean": "NHIÊN"
-      },
-      {
         "kanji": "全",
         "mean": "TOÀN"
+      },
+      {
+        "kanji": "然",
+        "mean": "NHIÊN"
       }
     ]
   },

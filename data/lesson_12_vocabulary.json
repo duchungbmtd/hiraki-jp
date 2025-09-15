@@ -76,12 +76,12 @@
     "example": "準備をします。",
     "kanji_search_results": [
       {
-        "kanji": "備",
-        "mean": "BỊ"
-      },
-      {
         "kanji": "準",
         "mean": "CHUẨN, CHUYẾT"
+      },
+      {
+        "kanji": "備",
+        "mean": "BỊ"
       }
     ]
   },
@@ -96,12 +96,12 @@
     "example": "授業を受けます。",
     "kanji_search_results": [
       {
-        "kanji": "業",
-        "mean": "NGHIỆP"
-      },
-      {
         "kanji": "授",
         "mean": "THỤ"
+      },
+      {
+        "kanji": "業",
+        "mean": "NGHIỆP"
       }
     ]
   },
@@ -228,12 +228,12 @@
     "example": "黄色い車です。",
     "kanji_search_results": [
       {
-        "kanji": "色",
-        "mean": "SẮC"
-      },
-      {
         "kanji": "黄",
         "mean": "HOÀNG"
+      },
+      {
+        "kanji": "色",
+        "mean": "SẮC"
       }
     ]
   },
@@ -526,12 +526,12 @@
     "example": "三時間かかります。",
     "kanji_search_results": [
       {
-        "kanji": "間",
-        "mean": "GIAN"
-      },
-      {
         "kanji": "時",
         "mean": "THÌ, THỜI"
+      },
+      {
+        "kanji": "間",
+        "mean": "GIAN"
       }
     ]
   },
@@ -550,12 +550,12 @@
         "mean": "HÀ"
       },
       {
-        "kanji": "間",
-        "mean": "GIAN"
-      },
-      {
         "kanji": "時",
         "mean": "THÌ, THỜI"
+      },
+      {
+        "kanji": "間",
+        "mean": "GIAN"
       }
     ]
   },
@@ -722,12 +722,12 @@
     "example": "半年かかります。",
     "kanji_search_results": [
       {
-        "kanji": "年",
-        "mean": "NIÊN"
-      },
-      {
         "kanji": "半",
         "mean": "BÁN"
+      },
+      {
+        "kanji": "年",
+        "mean": "NIÊN"
       }
     ]
   },
@@ -856,12 +856,12 @@
         "mean": "LỘC"
       },
       {
-        "kanji": "島",
-        "mean": "ĐẢO"
-      },
-      {
         "kanji": "児",
         "mean": "NHI"
+      },
+      {
+        "kanji": "島",
+        "mean": "ĐẢO"
       }
     ]
   },
@@ -896,12 +896,12 @@
     "example": "宮島を見学します。",
     "kanji_search_results": [
       {
-        "kanji": "島",
-        "mean": "ĐẢO"
-      },
-      {
         "kanji": "宮",
         "mean": "CUNG"
+      },
+      {
+        "kanji": "島",
+        "mean": "ĐẢO"
       }
     ]
   }

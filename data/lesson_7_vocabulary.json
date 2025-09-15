@@ -86,12 +86,12 @@
     "example": "生活が忙しいです。",
     "kanji_search_results": [
       {
-        "kanji": "活",
-        "mean": "HOẠT, QUẠT"
-      },
-      {
         "kanji": "生",
         "mean": "SANH, SINH"
+      },
+      {
+        "kanji": "活",
+        "mean": "HOẠT, QUẠT"
       }
     ]
   },
@@ -344,12 +344,12 @@
     "example": "面白い映画です。",
     "kanji_search_results": [
       {
-        "kanji": "白",
-        "mean": "BẠCH"
-      },
-      {
         "kanji": "面",
         "mean": "DIỆN, MIẾN"
+      },
+      {
+        "kanji": "白",
+        "mean": "BẠCH"
       }
     ]
   },
@@ -560,12 +560,12 @@
     "example": "元気な人です。",
     "kanji_search_results": [
       {
-        "kanji": "気",
-        "mean": "KHÍ"
-      },
-      {
         "kanji": "元",
         "mean": "NGUYÊN"
+      },
+      {
+        "kanji": "気",
+        "mean": "KHÍ"
       }
     ]
   },
@@ -580,12 +580,12 @@
     "example": "親切な人です。",
     "kanji_search_results": [
       {
-        "kanji": "切",
-        "mean": "THIẾT, THẾ"
-      },
-      {
         "kanji": "親",
         "mean": "THÂN, THẤN"
+      },
+      {
+        "kanji": "切",
+        "mean": "THIẾT, THẾ"
       }
     ]
   },
@@ -696,12 +696,12 @@
     "example": "大変な仕事です。",
     "kanji_search_results": [
       {
-        "kanji": "変",
-        "mean": "BIẾN"
-      },
-      {
         "kanji": "大",
         "mean": "ĐẠI, THÁI"
+      },
+      {
+        "kanji": "変",
+        "mean": "BIẾN"
       }
     ]
   },
@@ -810,12 +810,12 @@
         "mean": "PHÚ"
       },
       {
-        "kanji": "山",
-        "mean": "SAN, SƠN"
-      },
-      {
         "kanji": "士",
         "mean": "SĨ"
+      },
+      {
+        "kanji": "山",
+        "mean": "SAN, SƠN"
       }
     ]
   },
@@ -860,16 +860,16 @@
     "example": "い形容詞を勉強します。",
     "kanji_search_results": [
       {
-        "kanji": "詞",
-        "mean": "TỪ"
-      },
-      {
         "kanji": "形",
         "mean": "HÌNH"
       },
       {
         "kanji": "容",
         "mean": "DUNG, DONG"
+      },
+      {
+        "kanji": "詞",
+        "mean": "TỪ"
       }
     ]
   },
@@ -884,16 +884,16 @@
     "example": "な形容詞を覚えます。",
     "kanji_search_results": [
       {
-        "kanji": "詞",
-        "mean": "TỪ"
-      },
-      {
         "kanji": "形",
         "mean": "HÌNH"
       },
       {
         "kanji": "容",
         "mean": "DUNG, DONG"
+      },
+      {
+        "kanji": "詞",
+        "mean": "TỪ"
       }
     ]
   },
@@ -908,16 +908,16 @@
     "example": "形容詞の使い方を学びます。",
     "kanji_search_results": [
       {
-        "kanji": "詞",
-        "mean": "TỪ"
-      },
-      {
         "kanji": "形",
         "mean": "HÌNH"
       },
       {
         "kanji": "容",
         "mean": "DUNG, DONG"
+      },
+      {
+        "kanji": "詞",
+        "mean": "TỪ"
       }
     ]
   },
@@ -932,12 +932,12 @@
     "example": "名詞を覚えます。",
     "kanji_search_results": [
       {
-        "kanji": "詞",
-        "mean": "TỪ"
-      },
-      {
         "kanji": "名",
         "mean": "DANH"
+      },
+      {
+        "kanji": "詞",
+        "mean": "TỪ"
       }
     ]
   },

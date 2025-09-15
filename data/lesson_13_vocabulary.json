@@ -66,16 +66,16 @@
     "example": "市役所に行きます。",
     "kanji_search_results": [
       {
+        "kanji": "市",
+        "mean": "THỊ"
+      },
+      {
         "kanji": "役",
         "mean": "DỊCH"
       },
       {
         "kanji": "所",
         "mean": "SỞ"
-      },
-      {
-        "kanji": "市",
-        "mean": "THỊ"
       }
     ]
   },
@@ -130,12 +130,12 @@
     "example": "工場を見学します。",
     "kanji_search_results": [
       {
-        "kanji": "学",
-        "mean": "HỌC"
-      },
-      {
         "kanji": "見",
         "mean": "KIẾN, HIỆN"
+      },
+      {
+        "kanji": "学",
+        "mean": "HỌC"
       }
     ]
   },
@@ -150,14 +150,6 @@
     "example": "外国人登録をします。",
     "kanji_search_results": [
       {
-        "kanji": "録",
-        "mean": "LỤC"
-      },
-      {
-        "kanji": "登",
-        "mean": "ĐĂNG"
-      },
-      {
         "kanji": "外",
         "mean": "NGOẠI"
       },
@@ -168,6 +160,14 @@
       {
         "kanji": "人",
         "mean": "NHÂN"
+      },
+      {
+        "kanji": "登",
+        "mean": "ĐĂNG"
+      },
+      {
+        "kanji": "録",
+        "mean": "LỤC"
       }
     ]
   },
@@ -228,12 +228,12 @@
     "example": "相撲を見ます。",
     "kanji_search_results": [
       {
-        "kanji": "撲",
-        "mean": "PHÁC, BẠC, PHỐC"
-      },
-      {
         "kanji": "相",
         "mean": "TƯƠNG, TƯỚNG"
+      },
+      {
+        "kanji": "撲",
+        "mean": "PHÁC, BẠC, PHỐC"
       }
     ]
   },
@@ -258,16 +258,16 @@
     "example": "大学院で勉強します。",
     "kanji_search_results": [
       {
-        "kanji": "院",
-        "mean": "VIỆN"
+        "kanji": "大",
+        "mean": "ĐẠI, THÁI"
       },
       {
         "kanji": "学",
         "mean": "HỌC"
       },
       {
-        "kanji": "大",
-        "mean": "ĐẠI, THÁI"
+        "kanji": "院",
+        "mean": "VIỆN"
       }
     ]
   },
@@ -416,12 +416,12 @@
     "example": "家事を手伝います。",
     "kanji_search_results": [
       {
-        "kanji": "伝",
-        "mean": "TRUYỀN"
-      },
-      {
         "kanji": "手",
         "mean": "THỦ"
+      },
+      {
+        "kanji": "伝",
+        "mean": "TRUYỀN"
       }
     ]
   },
@@ -504,12 +504,12 @@
         "mean": "ĐẠI, THÁI"
       },
       {
-        "kanji": "夫",
-        "mean": "PHU, PHÙ"
-      },
-      {
         "kanji": "丈",
         "mean": "TRƯỢNG"
+      },
+      {
+        "kanji": "夫",
+        "mean": "PHU, PHÙ"
       }
     ]
   },
@@ -570,12 +570,12 @@
     "example": "頑張ってください。",
     "kanji_search_results": [
       {
-        "kanji": "張",
-        "mean": "TRƯƠNG, TRƯỚNG"
-      },
-      {
         "kanji": "頑",
         "mean": "NGOAN"
+      },
+      {
+        "kanji": "張",
+        "mean": "TRƯƠNG, TRƯỚNG"
       }
     ]
   },
@@ -642,20 +642,20 @@
     "example": "歌舞伎座で歌舞伎を見ます。",
     "kanji_search_results": [
       {
-        "kanji": "伎",
-        "mean": "KĨ"
-      },
-      {
-        "kanji": "座",
-        "mean": "TỌA"
-      },
-      {
         "kanji": "歌",
         "mean": "CA"
       },
       {
         "kanji": "舞",
         "mean": "VŨ"
+      },
+      {
+        "kanji": "伎",
+        "mean": "KĨ"
+      },
+      {
+        "kanji": "座",
+        "mean": "TỌA"
       }
     ]
   },

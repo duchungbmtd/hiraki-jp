@@ -46,12 +46,12 @@
     "example": "宇宙を研究しています。",
     "kanji_search_results": [
       {
-        "kanji": "宙",
-        "mean": "TRỤ"
-      },
-      {
         "kanji": "宇",
         "mean": "VŨ"
+      },
+      {
+        "kanji": "宙",
+        "mean": "TRỤ"
       }
     ]
   },
@@ -66,12 +66,12 @@
     "example": "宇宙ステーションにいます。",
     "kanji_search_results": [
       {
-        "kanji": "宙",
-        "mean": "TRỤ"
-      },
-      {
         "kanji": "宇",
         "mean": "VŨ"
+      },
+      {
+        "kanji": "宙",
+        "mean": "TRỤ"
       }
     ]
   },
@@ -102,12 +102,12 @@
     "example": "科学者になりたいです。",
     "kanji_search_results": [
       {
-        "kanji": "学",
-        "mean": "HỌC"
-      },
-      {
         "kanji": "科",
         "mean": "KHOA"
+      },
+      {
+        "kanji": "学",
+        "mean": "HỌC"
       },
       {
         "kanji": "者",
@@ -126,12 +126,12 @@
     "example": "実験をしました。",
     "kanji_search_results": [
       {
-        "kanji": "験",
-        "mean": "NGHIỆM"
-      },
-      {
         "kanji": "実",
         "mean": "THỰC"
+      },
+      {
+        "kanji": "験",
+        "mean": "NGHIỆM"
       }
     ]
   },
@@ -146,12 +146,12 @@
     "example": "バイオ技術を勉強しています。",
     "kanji_search_results": [
       {
-        "kanji": "術",
-        "mean": "THUẬT"
-      },
-      {
         "kanji": "技",
         "mean": "KĨ"
+      },
+      {
+        "kanji": "術",
+        "mean": "THUẬT"
       }
     ]
   },
@@ -216,12 +216,12 @@
     "example": "眼鏡をかけました。",
     "kanji_search_results": [
       {
-        "kanji": "鏡",
-        "mean": "KÍNH"
-      },
-      {
         "kanji": "眼",
         "mean": "NHÃN"
+      },
+      {
+        "kanji": "鏡",
+        "mean": "KÍNH"
       }
     ]
   },
@@ -292,12 +292,12 @@
     "example": "運動をしています。",
     "kanji_search_results": [
       {
-        "kanji": "動",
-        "mean": "ĐỘNG"
-      },
-      {
         "kanji": "運",
         "mean": "VẬN"
+      },
+      {
+        "kanji": "動",
+        "mean": "ĐỘNG"
       }
     ]
   },
@@ -550,12 +550,12 @@
     "example": "以上です。ありがとうございました。",
     "kanji_search_results": [
       {
-        "kanji": "上",
-        "mean": "THƯỢNG, THƯỚNG"
-      },
-      {
         "kanji": "以",
         "mean": "DĨ"
+      },
+      {
+        "kanji": "上",
+        "mean": "THƯỢNG, THƯỚNG"
       }
     ]
   },
@@ -610,16 +610,16 @@
     "example": "紫式部は源氏物語を書きました。",
     "kanji_search_results": [
       {
-        "kanji": "部",
-        "mean": "BỘ"
-      },
-      {
         "kanji": "紫",
         "mean": "TỬ"
       },
       {
         "kanji": "式",
         "mean": "THỨC"
+      },
+      {
+        "kanji": "部",
+        "mean": "BỘ"
       }
     ]
   },

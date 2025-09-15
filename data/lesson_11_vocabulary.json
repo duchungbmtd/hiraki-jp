@@ -170,12 +170,12 @@
     "example": "留学生です。",
     "kanji_search_results": [
       {
-        "kanji": "学",
-        "mean": "HỌC"
-      },
-      {
         "kanji": "留",
         "mean": "LƯU"
+      },
+      {
+        "kanji": "学",
+        "mean": "HỌC"
       },
       {
         "kanji": "生",
@@ -214,12 +214,12 @@
     "example": "経済学部です。",
     "kanji_search_results": [
       {
-        "kanji": "部",
-        "mean": "BỘ"
-      },
-      {
         "kanji": "学",
         "mean": "HỌC"
+      },
+      {
+        "kanji": "部",
+        "mean": "BỘ"
       }
     ]
   },
@@ -234,20 +234,20 @@
     "example": "経済学部で勉強します。",
     "kanji_search_results": [
       {
-        "kanji": "部",
-        "mean": "BỘ"
-      },
-      {
-        "kanji": "学",
-        "mean": "HỌC"
-      },
-      {
         "kanji": "経",
         "mean": "KINH"
       },
       {
         "kanji": "済",
         "mean": "TẾ"
+      },
+      {
+        "kanji": "学",
+        "mean": "HỌC"
+      },
+      {
+        "kanji": "部",
+        "mean": "BỘ"
       }
     ]
   },
@@ -312,12 +312,12 @@
     "example": "歴史を勉強します。",
     "kanji_search_results": [
       {
-        "kanji": "史",
-        "mean": "SỬ"
-      },
-      {
         "kanji": "歴",
         "mean": "LỊCH"
+      },
+      {
+        "kanji": "史",
+        "mean": "SỬ"
       }
     ]
   },
@@ -574,16 +574,16 @@
     "example": "駐車場に車を止めます。",
     "kanji_search_results": [
       {
-        "kanji": "場",
-        "mean": "TRÀNG, TRƯỜNG"
-      },
-      {
         "kanji": "駐",
         "mean": "TRÚ"
       },
       {
         "kanji": "車",
         "mean": "XA"
+      },
+      {
+        "kanji": "場",
+        "mean": "TRÀNG, TRƯỜNG"
       }
     ]
   },
@@ -784,12 +784,12 @@
     "example": "大切な人です。",
     "kanji_search_results": [
       {
-        "kanji": "切",
-        "mean": "THIẾT, THẾ"
-      },
-      {
         "kanji": "大",
         "mean": "ĐẠI, THÁI"
+      },
+      {
+        "kanji": "切",
+        "mean": "THIẾT, THẾ"
       }
     ]
   },
@@ -910,12 +910,12 @@
     "example": "九州に行きます。",
     "kanji_search_results": [
       {
-        "kanji": "州",
-        "mean": "CHÂU"
-      },
-      {
         "kanji": "九",
         "mean": "CỬU, CƯU"
+      },
+      {
+        "kanji": "州",
+        "mean": "CHÂU"
       }
     ]
   },
