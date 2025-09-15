@@ -13,11 +13,29 @@
         .vietnamese-text { font-family: 'Inter', sans-serif; }
         
         .card-flip-animation {
-            transition: transform 0.6s;
+            transition: transform 0.9s;
             transform-style: preserve-3d;
         }
         
         .card-flip-animation.flipped {
+            transform: rotateY(180deg);
+        }
+
+        /* 3D flip container and faces */
+        .card-3d-container {
+            perspective: 1000px;
+        }
+        .card-face {
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+            position: absolute;
+            inset: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .card-back-3d {
             transform: rotateY(180deg);
         }
 
@@ -101,16 +119,23 @@
                         <strong>Phím tắt:</strong> ← → (chuyển thẻ) | Enter/Click (lật thẻ qua lại) | 1,2,3 (đánh giá) | Space (tiếp theo)
                     </div>
                     
-                    <div id="flashcard" class="bg-gradient-to-br from-pink-50 to-blue-50 rounded-xl p-8 mb-6 min-h-80 flex items-center justify-center cursor-pointer shadow-lg hover:shadow-xl transition-all card-flip-animation">
-                        <div id="card-front" class="text-center">
-                            <div class="japanese-text text-4xl font-medium text-gray-800 mb-4" id="japanese-word">Chọn bài học để bắt đầu</div>
-                            <div class="text-gray-500 text-sm">Nhấn Enter hoặc click để xem nghĩa</div>
-                        </div>
-                        <div id="card-back" class="text-center hidden">
-                            <div class="text-2xl font-medium text-gray-800 mb-2" id="vietnamese-meaning">Nghĩa tiếng Việt</div>
-                            <div class="text-gray-600 text-sm mb-2" id="romanji-text">Romanji</div>
-                            <div class="text-gray-500 text-xs italic mb-4" id="usage-note">Ví dụ</div>
-                            <div class="text-gray-500 text-sm">Nhấn để xem lại tiếng Nhật</div>
+                    <div class="card-3d-container rounded-xl mb-6">
+                        <div id="flashcard" class="relative bg-gradient-to-br from-pink-50 to-blue-50 rounded-xl p-8 min-h-80 flex items-center justify-center cursor-pointer shadow-lg hover:shadow-xl transition-all card-flip-animation">
+                            <div id="card-front" class="card-face text-center">
+                                <div class="japanese-text text-4xl font-medium text-gray-800 mb-2" id="japanese-word">Chọn bài học để bắt đầu</div>
+                                <div id="kanji-text" class="japanese-text text-3xl text-gray-600 mb-3 hidden"></div>
+                                <div class="text-gray-500 text-sm">Nhấn Enter hoặc click để xem nghĩa</div>
+                            </div>
+                            <div id="card-back" class="card-face card-back-3d text-center">
+                                <div class="text-2xl font-medium text-gray-800 mb-2" id="vietnamese-meaning">Nghĩa tiếng Việt</div>
+                                <div class="text-gray-600 text-sm mb-2" id="romanji-text">Romanji</div>
+                                <div id="hanviet-section" class="w-full max-w-md text-center hidden mb-2">
+                                    <div class="text-xs text-gray-400 mb-1">Hán‑Việt:</div>
+                                    <div id="hanviet-list" class="space-y-1"></div>
+                                </div>
+                                <div class="text-gray-500 text-xs italic mb-4" id="usage-note">Ví dụ</div>
+                                <div class="text-gray-500 text-sm">Nhấn để xem lại tiếng Nhật</div>
+                            </div>
                         </div>
                     </div>
 

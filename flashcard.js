@@ -231,31 +231,49 @@ class FlashcardApp {
         
         // Reset card state
         this.isCardFlipped = false;
-        document.getElementById('card-front').classList.remove('hidden');
-        document.getElementById('card-back').classList.add('hidden');
+        const card = document.getElementById('flashcard');
+        if (card) card.classList.remove('flipped');
         
         // Cập nhật nội dung thẻ
         document.getElementById('japanese-word').textContent = word.japanese || '';
         document.getElementById('vietnamese-meaning').textContent = word.vietnamese || '';
         document.getElementById('romanji-text').textContent = word.romanji || '';
         document.getElementById('usage-note').textContent = word.example || '';
+
+        // Show Kanji on front if available
+        const kanjiTextEl = document.getElementById('kanji-text');
+        if (kanjiTextEl) {
+            const hasKanji = typeof word.kanji === 'string' && word.kanji.trim().length > 0;
+            kanjiTextEl.textContent = hasKanji ? word.kanji : '';
+            kanjiTextEl.classList.toggle('hidden', !hasKanji);
+        }
+
+        // Show Hán-Việt meanings on back if available
+        const hvSection = document.getElementById('hanviet-section');
+        const hvList = document.getElementById('hanviet-list');
+        if (hvSection && hvList) {
+            const list = Array.isArray(word.kanji_search_results) ? word.kanji_search_results.slice(0, 5) : [];
+            if (list.length) {
+                hvList.innerHTML = list.map(r => `
+                    <div class=\"text-sm text-gray-700\"><span class=\"japanese-text mr-2\">${r.kanji}</span><span class=\"text-gray-600\">${r.mean}</span></div>
+                `).join('');
+                hvSection.classList.remove('hidden');
+            } else {
+                hvList.innerHTML = '';
+                hvSection.classList.add('hidden');
+            }
+        }
     }
 
     // Lật thẻ
     flipCard() {
-        const cardFront = document.getElementById('card-front');
-        const cardBack = document.getElementById('card-back');
-        
-        if (!this.isCardFlipped) {
-            // Lật từ mặt trước sang mặt sau
-            cardFront.classList.add('hidden');
-            cardBack.classList.remove('hidden');
-            this.isCardFlipped = true;
+        const card = document.getElementById('flashcard');
+        if (!card) return;
+        this.isCardFlipped = !this.isCardFlipped;
+        if (this.isCardFlipped) {
+            card.classList.add('flipped');
         } else {
-            // Lật từ mặt sau sang mặt trước
-            cardBack.classList.add('hidden');
-            cardFront.classList.remove('hidden');
-            this.isCardFlipped = false;
+            card.classList.remove('flipped');
         }
     }
 
