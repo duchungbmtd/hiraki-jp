@@ -47,7 +47,21 @@
     "lesson": 15,
     "difficulty": "intermediate",
     "category": "education",
-    "example": "参考書を買いました。"
+    "example": "参考書を買いました。",
+    "kanji_search_results": [
+      {
+        "kanji": "書",
+        "mean": "THƯ"
+      },
+      {
+        "kanji": "考",
+        "mean": "KHẢO"
+      },
+      {
+        "kanji": "参",
+        "mean": "THAM, XAM, SÂM"
+      }
+    ]
   },
   {
     "japanese": "しりょう",
@@ -57,7 +71,17 @@
     "lesson": 15,
     "difficulty": "intermediate",
     "category": "document",
-    "example": "資料を集めています。"
+    "example": "資料を集めています。",
+    "kanji_search_results": [
+      {
+        "kanji": "資",
+        "mean": "TƯ"
+      },
+      {
+        "kanji": "料",
+        "mean": "LIÊU, LIỆU"
+      }
+    ]
   },
   {
     "japanese": "すいせんじょう",
@@ -67,7 +91,21 @@
     "lesson": 15,
     "difficulty": "intermediate",
     "category": "document",
-    "example": "推薦状を書いてください。"
+    "example": "推薦状を書いてください。",
+    "kanji_search_results": [
+      {
+        "kanji": "状",
+        "mean": "TRẠNG"
+      },
+      {
+        "kanji": "推",
+        "mean": "THÔI, SUY"
+      },
+      {
+        "kanji": "薦",
+        "mean": "TIẾN"
+      }
+    ]
   },
   {
     "japanese": "ごみ",
@@ -87,7 +125,17 @@
     "lesson": 15,
     "difficulty": "beginner",
     "category": "household",
-    "example": "台所で料理をします。"
+    "example": "台所で料理をします。",
+    "kanji_search_results": [
+      {
+        "kanji": "所",
+        "mean": "SỞ"
+      },
+      {
+        "kanji": "台",
+        "mean": "THAI, ĐÀI, DI"
+      }
+    ]
   },
   {
     "japanese": "コート",
@@ -107,7 +155,17 @@
     "lesson": 15,
     "difficulty": "beginner",
     "category": "location",
-    "example": "住所を教えてください。"
+    "example": "住所を教えてください。",
+    "kanji_search_results": [
+      {
+        "kanji": "所",
+        "mean": "SỞ"
+      },
+      {
+        "kanji": "住",
+        "mean": "TRỤ, TRÚ"
+      }
+    ]
   },
   {
     "japanese": "いそぐ",
@@ -117,7 +175,13 @@
     "lesson": 15,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "急いでください。"
+    "example": "急いでください。",
+    "kanji_search_results": [
+      {
+        "kanji": "急",
+        "mean": "CẤP"
+      }
+    ]
   },
   {
     "japanese": "あつめる",
@@ -127,7 +191,13 @@
     "lesson": 15,
     "difficulty": "intermediate",
     "category": "verb",
-    "example": "資料を集めています。"
+    "example": "資料を集めています。",
+    "kanji_search_results": [
+      {
+        "kanji": "集",
+        "mean": "TẬP"
+      }
+    ]
   },
   {
     "japanese": "コピーする",
@@ -147,7 +217,13 @@
     "lesson": 15,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "野菜を切ってください。"
+    "example": "野菜を切ってください。",
+    "kanji_search_results": [
+      {
+        "kanji": "切",
+        "mean": "THIẾT, THẾ"
+      }
+    ]
   },
   {
     "japanese": "いれる",
@@ -157,7 +233,13 @@
     "lesson": 15,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "お茶を入れてください。"
+    "example": "お茶を入れてください。",
+    "kanji_search_results": [
+      {
+        "kanji": "入",
+        "mean": "NHẬP"
+      }
+    ]
   },
   {
     "japanese": "にる",
@@ -167,7 +249,13 @@
     "lesson": 15,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "野菜を煮てください。"
+    "example": "野菜を煮てください。",
+    "kanji_search_results": [
+      {
+        "kanji": "煮",
+        "mean": "CHỬ"
+      }
+    ]
   },
   {
     "japanese": "ならべる",
@@ -177,7 +265,13 @@
     "lesson": 15,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "本を並べてください。"
+    "example": "本を並べてください。",
+    "kanji_search_results": [
+      {
+        "kanji": "並",
+        "mean": "TỊNH, TINH"
+      }
+    ]
   },
   {
     "japanese": "とる",
@@ -187,7 +281,13 @@
     "lesson": 15,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "写真を取ってください。"
+    "example": "写真を取ってください。",
+    "kanji_search_results": [
+      {
+        "kanji": "取",
+        "mean": "THỦ"
+      }
+    ]
   },
   {
     "japanese": "いう",
@@ -197,7 +297,13 @@
     "lesson": 15,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "ありがとうと言いました。"
+    "example": "ありがとうと言いました。",
+    "kanji_search_results": [
+      {
+        "kanji": "言",
+        "mean": "NGÔN, NGÂN"
+      }
+    ]
   },
   {
     "japanese": "しゅうりする",
@@ -207,7 +313,17 @@
     "lesson": 15,
     "difficulty": "intermediate",
     "category": "verb",
-    "example": "車を修理しました。"
+    "example": "車を修理しました。",
+    "kanji_search_results": [
+      {
+        "kanji": "理",
+        "mean": "LÍ"
+      },
+      {
+        "kanji": "修",
+        "mean": "TU"
+      }
+    ]
   },
   {
     "japanese": "あがる",
@@ -217,7 +333,13 @@
     "lesson": 15,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "家に上がってください。"
+    "example": "家に上がってください。",
+    "kanji_search_results": [
+      {
+        "kanji": "上",
+        "mean": "THƯỢNG, THƯỚNG"
+      }
+    ]
   },
   {
     "japanese": "はく",
@@ -227,7 +349,13 @@
     "lesson": 15,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "靴を履いてください。"
+    "example": "靴を履いてください。",
+    "kanji_search_results": [
+      {
+        "kanji": "履",
+        "mean": "LÍ"
+      }
+    ]
   },
   {
     "japanese": "すてる",
@@ -237,7 +365,13 @@
     "lesson": 15,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "ごみを捨ててください。"
+    "example": "ごみを捨ててください。",
+    "kanji_search_results": [
+      {
+        "kanji": "捨",
+        "mean": "XÁ, XẢ"
+      }
+    ]
   },
   {
     "japanese": "はこぶ",
@@ -247,7 +381,13 @@
     "lesson": 15,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "荷物を運んでください。"
+    "example": "荷物を運んでください。",
+    "kanji_search_results": [
+      {
+        "kanji": "運",
+        "mean": "VẬN"
+      }
+    ]
   },
   {
     "japanese": "ふく",
@@ -267,7 +407,13 @@
     "lesson": 15,
     "difficulty": "beginner",
     "category": "adjective",
-    "example": "危ないですから気をつけてください。"
+    "example": "危ないですから気をつけてください。",
+    "kanji_search_results": [
+      {
+        "kanji": "危",
+        "mean": "NGUY"
+      }
+    ]
   },
   {
     "japanese": "ほかの",
@@ -287,7 +433,17 @@
     "lesson": 15,
     "difficulty": "beginner",
     "category": "expression",
-    "example": "もう一度言ってください。"
+    "example": "もう一度言ってください。",
+    "kanji_search_results": [
+      {
+        "kanji": "度",
+        "mean": "ĐỘ, ĐẠC"
+      },
+      {
+        "kanji": "一",
+        "mean": "NHẤT"
+      }
+    ]
   },
   {
     "japanese": "すぐ",
@@ -327,7 +483,17 @@
     "lesson": 15,
     "difficulty": "beginner",
     "category": "expression",
-    "example": "失礼します。お先に失礼します。"
+    "example": "失礼します。お先に失礼します。",
+    "kanji_search_results": [
+      {
+        "kanji": "失",
+        "mean": "THẤT"
+      },
+      {
+        "kanji": "礼",
+        "mean": "LỄ"
+      }
+    ]
   },
   {
     "japanese": "いただきます",
@@ -367,6 +533,12 @@
     "lesson": 15,
     "difficulty": "intermediate",
     "category": "grammar",
-    "example": "て形の使い方を勉強しています。"
+    "example": "て形の使い方を勉強しています。",
+    "kanji_search_results": [
+      {
+        "kanji": "形",
+        "mean": "HÌNH"
+      }
+    ]
   }
 ]

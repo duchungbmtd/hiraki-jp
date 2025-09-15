@@ -7,7 +7,21 @@
     "lesson": 18,
     "difficulty": "advanced",
     "category": "culture",
-    "example": "歌舞伎を見に行きました。"
+    "example": "歌舞伎を見に行きました。",
+    "kanji_search_results": [
+      {
+        "kanji": "伎",
+        "mean": "KĨ"
+      },
+      {
+        "kanji": "歌",
+        "mean": "CA"
+      },
+      {
+        "kanji": "舞",
+        "mean": "VŨ"
+      }
+    ]
   },
   {
     "japanese": "ぼんおどり",
@@ -17,7 +31,17 @@
     "lesson": 18,
     "difficulty": "intermediate",
     "category": "culture",
-    "example": "盆踊りに参加しました。"
+    "example": "盆踊りに参加しました。",
+    "kanji_search_results": [
+      {
+        "kanji": "踊",
+        "mean": "DŨNG"
+      },
+      {
+        "kanji": "盆",
+        "mean": "BỒN"
+      }
+    ]
   },
   {
     "japanese": "パンフレット",
@@ -37,7 +61,17 @@
     "lesson": 18,
     "difficulty": "intermediate",
     "category": "activity",
-    "example": "来月引っ越しします。"
+    "example": "来月引っ越しします。",
+    "kanji_search_results": [
+      {
+        "kanji": "引",
+        "mean": "DẪN, DẤN"
+      },
+      {
+        "kanji": "越",
+        "mean": "VIỆT, HOẠT"
+      }
+    ]
   },
   {
     "japanese": "ガス",
@@ -57,7 +91,17 @@
     "lesson": 18,
     "difficulty": "intermediate",
     "category": "company",
-    "example": "ガス会社に連絡しました。"
+    "example": "ガス会社に連絡しました。",
+    "kanji_search_results": [
+      {
+        "kanji": "会",
+        "mean": "HỘI, CỐI"
+      },
+      {
+        "kanji": "社",
+        "mean": "XÃ"
+      }
+    ]
   },
   {
     "japanese": "すいどう",
@@ -67,7 +111,17 @@
     "lesson": 18,
     "difficulty": "intermediate",
     "category": "utility",
-    "example": "水道を止めてください。"
+    "example": "水道を止めてください。",
+    "kanji_search_results": [
+      {
+        "kanji": "道",
+        "mean": "ĐẠO, ĐÁO"
+      },
+      {
+        "kanji": "水",
+        "mean": "THỦY"
+      }
+    ]
   },
   {
     "japanese": "ろんぶん",
@@ -77,7 +131,17 @@
     "lesson": 18,
     "difficulty": "advanced",
     "category": "education",
-    "example": "論文を書いています。"
+    "example": "論文を書いています。",
+    "kanji_search_results": [
+      {
+        "kanji": "論",
+        "mean": "LUẬN, LUÂN"
+      },
+      {
+        "kanji": "文",
+        "mean": "VĂN, VẤN"
+      }
+    ]
   },
   {
     "japanese": "わすれもの",
@@ -87,7 +151,17 @@
     "lesson": 18,
     "difficulty": "beginner",
     "category": "item",
-    "example": "忘れ物をしました。"
+    "example": "忘れ物をしました。",
+    "kanji_search_results": [
+      {
+        "kanji": "物",
+        "mean": "VẬT"
+      },
+      {
+        "kanji": "忘",
+        "mean": "VONG"
+      }
+    ]
   },
   {
     "japanese": "こいびと",
@@ -97,7 +171,17 @@
     "lesson": 18,
     "difficulty": "intermediate",
     "category": "person",
-    "example": "恋人がいます。"
+    "example": "恋人がいます。",
+    "kanji_search_results": [
+      {
+        "kanji": "恋",
+        "mean": "LUYẾN"
+      },
+      {
+        "kanji": "人",
+        "mean": "NHÂN"
+      }
+    ]
   },
   {
     "japanese": "なっとう",
@@ -107,7 +191,17 @@
     "lesson": 18,
     "difficulty": "intermediate",
     "category": "food",
-    "example": "納豆を食べました。"
+    "example": "納豆を食べました。",
+    "kanji_search_results": [
+      {
+        "kanji": "納",
+        "mean": "NẠP"
+      },
+      {
+        "kanji": "豆",
+        "mean": "ĐẬU"
+      }
+    ]
   },
   {
     "japanese": "ぞう",
@@ -117,7 +211,13 @@
     "lesson": 18,
     "difficulty": "beginner",
     "category": "animal",
-    "example": "象が大きいです。"
+    "example": "象が大きいです。",
+    "kanji_search_results": [
+      {
+        "kanji": "象",
+        "mean": "TƯỢNG"
+      }
+    ]
   },
   {
     "japanese": "あくしゅ",
@@ -127,7 +227,17 @@
     "lesson": 18,
     "difficulty": "intermediate",
     "category": "action",
-    "example": "握手をしました。"
+    "example": "握手をしました。",
+    "kanji_search_results": [
+      {
+        "kanji": "握",
+        "mean": "ÁC"
+      },
+      {
+        "kanji": "手",
+        "mean": "THỦ"
+      }
+    ]
   },
   {
     "japanese": "さがす",
@@ -137,7 +247,13 @@
     "lesson": 18,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "鍵を探しています。"
+    "example": "鍵を探しています。",
+    "kanji_search_results": [
+      {
+        "kanji": "探",
+        "mean": "THAM, THÁM"
+      }
+    ]
   },
   {
     "japanese": "にづくりする",
@@ -147,7 +263,17 @@
     "lesson": 18,
     "difficulty": "intermediate",
     "category": "verb",
-    "example": "荷造りを手伝ってください。"
+    "example": "荷造りを手伝ってください。",
+    "kanji_search_results": [
+      {
+        "kanji": "造",
+        "mean": "TẠO, THÁO"
+      },
+      {
+        "kanji": "荷",
+        "mean": "HÀ, HẠ"
+      }
+    ]
   },
   {
     "japanese": "れんらくする",
@@ -157,7 +283,17 @@
     "lesson": 18,
     "difficulty": "intermediate",
     "category": "verb",
-    "example": "先生に連絡しました。"
+    "example": "先生に連絡しました。",
+    "kanji_search_results": [
+      {
+        "kanji": "絡",
+        "mean": "LẠC"
+      },
+      {
+        "kanji": "連",
+        "mean": "LIÊN"
+      }
+    ]
   },
   {
     "japanese": "きが つく",
@@ -167,7 +303,13 @@
     "lesson": 18,
     "difficulty": "intermediate",
     "category": "verb",
-    "example": "間違いに気がつきました。"
+    "example": "間違いに気がつきました。",
+    "kanji_search_results": [
+      {
+        "kanji": "気",
+        "mean": "KHÍ"
+      }
+    ]
   },
   {
     "japanese": "だす",
@@ -177,7 +319,13 @@
     "lesson": 18,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "宿題を出してください。"
+    "example": "宿題を出してください。",
+    "kanji_search_results": [
+      {
+        "kanji": "出",
+        "mean": "XUẤT, XÚY"
+      }
+    ]
   },
   {
     "japanese": "しっぱいする",
@@ -187,7 +335,17 @@
     "lesson": 18,
     "difficulty": "intermediate",
     "category": "verb",
-    "example": "試験に失敗しました。"
+    "example": "試験に失敗しました。",
+    "kanji_search_results": [
+      {
+        "kanji": "失",
+        "mean": "THẤT"
+      },
+      {
+        "kanji": "敗",
+        "mean": "BẠI"
+      }
+    ]
   },
   {
     "japanese": "わかれる",
@@ -197,7 +355,13 @@
     "lesson": 18,
     "difficulty": "intermediate",
     "category": "verb",
-    "example": "友達と別れました。"
+    "example": "友達と別れました。",
+    "kanji_search_results": [
+      {
+        "kanji": "別",
+        "mean": "BIỆT"
+      }
+    ]
   },
   {
     "japanese": "かんせいする",
@@ -207,7 +371,17 @@
     "lesson": 18,
     "difficulty": "intermediate",
     "category": "verb",
-    "example": "仕事が完成しました。"
+    "example": "仕事が完成しました。",
+    "kanji_search_results": [
+      {
+        "kanji": "成",
+        "mean": "THÀNH"
+      },
+      {
+        "kanji": "完",
+        "mean": "HOÀN"
+      }
+    ]
   },
   {
     "japanese": "おもいだす",
@@ -217,7 +391,17 @@
     "lesson": 18,
     "difficulty": "intermediate",
     "category": "verb",
-    "example": "昔のことを思い出しました。"
+    "example": "昔のことを思い出しました。",
+    "kanji_search_results": [
+      {
+        "kanji": "思",
+        "mean": "TƯ, TỨ, TAI"
+      },
+      {
+        "kanji": "出",
+        "mean": "XUẤT, XÚY"
+      }
+    ]
   },
   {
     "japanese": "たのしみに する",
@@ -227,7 +411,13 @@
     "lesson": 18,
     "difficulty": "intermediate",
     "category": "verb",
-    "example": "旅行を楽しみにしています。"
+    "example": "旅行を楽しみにしています。",
+    "kanji_search_results": [
+      {
+        "kanji": "楽",
+        "mean": "LẠC, NHẠC"
+      }
+    ]
   },
   {
     "japanese": "だいすき",
@@ -237,7 +427,17 @@
     "lesson": 18,
     "difficulty": "beginner",
     "category": "adjective",
-    "example": "音楽が大好きです。"
+    "example": "音楽が大好きです。",
+    "kanji_search_results": [
+      {
+        "kanji": "大",
+        "mean": "ĐẠI, THÁI"
+      },
+      {
+        "kanji": "好",
+        "mean": "HẢO, HIẾU"
+      }
+    ]
   },
   {
     "japanese": "かい",
@@ -247,7 +447,13 @@
     "lesson": 18,
     "difficulty": "beginner",
     "category": "counter",
-    "example": "三回練習しました。"
+    "example": "三回練習しました。",
+    "kanji_search_results": [
+      {
+        "kanji": "回",
+        "mean": "HỒI, HỐI"
+      }
+    ]
   },
   {
     "japanese": "なんかい",
@@ -257,7 +463,17 @@
     "lesson": 18,
     "difficulty": "beginner",
     "category": "question",
-    "example": "何回練習しましたか。"
+    "example": "何回練習しましたか。",
+    "kanji_search_results": [
+      {
+        "kanji": "何",
+        "mean": "HÀ"
+      },
+      {
+        "kanji": "回",
+        "mean": "HỒI, HỐI"
+      }
+    ]
   },
   {
     "japanese": "ホームステイする",
@@ -347,7 +563,13 @@
     "lesson": 18,
     "difficulty": "intermediate",
     "category": "grammar",
-    "example": "た形の使い方を勉強しています。"
+    "example": "た形の使い方を勉強しています。",
+    "kanji_search_results": [
+      {
+        "kanji": "形",
+        "mean": "HÌNH"
+      }
+    ]
   },
   {
     "japanese": "ピザ",
@@ -367,7 +589,25 @@
     "lesson": 18,
     "difficulty": "intermediate",
     "category": "education",
-    "example": "専門学校に通っています。"
+    "example": "専門学校に通っています。",
+    "kanji_search_results": [
+      {
+        "kanji": "専",
+        "mean": "CHUYÊN"
+      },
+      {
+        "kanji": "学",
+        "mean": "HỌC"
+      },
+      {
+        "kanji": "校",
+        "mean": "GIÁO, HIỆU, HÀO"
+      },
+      {
+        "kanji": "門",
+        "mean": "MÔN"
+      }
+    ]
   },
   {
     "japanese": "カップ",
@@ -417,7 +657,13 @@
     "lesson": 18,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "仕事を見つけました。"
+    "example": "仕事を見つけました。",
+    "kanji_search_results": [
+      {
+        "kanji": "見",
+        "mean": "KIẾN, HIỆN"
+      }
+    ]
   },
   {
     "japanese": "ほんとうに",
@@ -427,6 +673,16 @@
     "lesson": 18,
     "difficulty": "beginner",
     "category": "adverb",
-    "example": "本当にありがとうございます。"
+    "example": "本当にありがとうございます。",
+    "kanji_search_results": [
+      {
+        "kanji": "当",
+        "mean": "ĐƯƠNG, ĐANG, ĐÁNG"
+      },
+      {
+        "kanji": "本",
+        "mean": "BỔN, BẢN"
+      }
+    ]
   }
 ]

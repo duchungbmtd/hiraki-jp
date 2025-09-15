@@ -7,7 +7,13 @@
     "lesson": 20,
     "difficulty": "beginner",
     "category": "nature",
-    "example": "火を消してください。"
+    "example": "火を消してください。",
+    "kanji_search_results": [
+      {
+        "kanji": "火",
+        "mean": "HỎA"
+      }
+    ]
   },
   {
     "japanese": "きけん",
@@ -17,7 +23,17 @@
     "lesson": 20,
     "difficulty": "intermediate",
     "category": "adjective",
-    "example": "危険な場所です。"
+    "example": "危険な場所です。",
+    "kanji_search_results": [
+      {
+        "kanji": "危",
+        "mean": "NGUY"
+      },
+      {
+        "kanji": "険",
+        "mean": "HIỂM"
+      }
+    ]
   },
   {
     "japanese": "うちゅう",
@@ -27,7 +43,17 @@
     "lesson": 20,
     "difficulty": "advanced",
     "category": "science",
-    "example": "宇宙を研究しています。"
+    "example": "宇宙を研究しています。",
+    "kanji_search_results": [
+      {
+        "kanji": "宙",
+        "mean": "TRỤ"
+      },
+      {
+        "kanji": "宇",
+        "mean": "VŨ"
+      }
+    ]
   },
   {
     "japanese": "うちゅうステーション",
@@ -37,7 +63,17 @@
     "lesson": 20,
     "difficulty": "advanced",
     "category": "science",
-    "example": "宇宙ステーションにいます。"
+    "example": "宇宙ステーションにいます。",
+    "kanji_search_results": [
+      {
+        "kanji": "宙",
+        "mean": "TRỤ"
+      },
+      {
+        "kanji": "宇",
+        "mean": "VŨ"
+      }
+    ]
   },
   {
     "japanese": "ゆめ",
@@ -47,7 +83,13 @@
     "lesson": 20,
     "difficulty": "beginner",
     "category": "abstract",
-    "example": "夢を見ました。"
+    "example": "夢を見ました。",
+    "kanji_search_results": [
+      {
+        "kanji": "夢",
+        "mean": "MỘNG, MÔNG"
+      }
+    ]
   },
   {
     "japanese": "かがくしゃ",
@@ -57,7 +99,21 @@
     "lesson": 20,
     "difficulty": "advanced",
     "category": "person",
-    "example": "科学者になりたいです。"
+    "example": "科学者になりたいです。",
+    "kanji_search_results": [
+      {
+        "kanji": "学",
+        "mean": "HỌC"
+      },
+      {
+        "kanji": "科",
+        "mean": "KHOA"
+      },
+      {
+        "kanji": "者",
+        "mean": "GIẢ"
+      }
+    ]
   },
   {
     "japanese": "じっけん",
@@ -67,7 +123,17 @@
     "lesson": 20,
     "difficulty": "intermediate",
     "category": "science",
-    "example": "実験をしました。"
+    "example": "実験をしました。",
+    "kanji_search_results": [
+      {
+        "kanji": "験",
+        "mean": "NGHIỆM"
+      },
+      {
+        "kanji": "実",
+        "mean": "THỰC"
+      }
+    ]
   },
   {
     "japanese": "バイオぎじゅつ",
@@ -77,7 +143,17 @@
     "lesson": 20,
     "difficulty": "advanced",
     "category": "science",
-    "example": "バイオ技術を勉強しています。"
+    "example": "バイオ技術を勉強しています。",
+    "kanji_search_results": [
+      {
+        "kanji": "術",
+        "mean": "THUẬT"
+      },
+      {
+        "kanji": "技",
+        "mean": "KĨ"
+      }
+    ]
   },
   {
     "japanese": "ビル",
@@ -107,7 +183,17 @@
     "lesson": 20,
     "difficulty": "beginner",
     "category": "clothing",
-    "example": "帽子をかぶりました。"
+    "example": "帽子をかぶりました。",
+    "kanji_search_results": [
+      {
+        "kanji": "帽",
+        "mean": "MẠO"
+      },
+      {
+        "kanji": "子",
+        "mean": "TỬ, TÍ"
+      }
+    ]
   },
   {
     "japanese": "スカート",
@@ -127,7 +213,17 @@
     "lesson": 20,
     "difficulty": "beginner",
     "category": "clothing",
-    "example": "眼鏡をかけました。"
+    "example": "眼鏡をかけました。",
+    "kanji_search_results": [
+      {
+        "kanji": "鏡",
+        "mean": "KÍNH"
+      },
+      {
+        "kanji": "眼",
+        "mean": "NHÃN"
+      }
+    ]
   },
   {
     "japanese": "かみ",
@@ -137,7 +233,13 @@
     "lesson": 20,
     "difficulty": "beginner",
     "category": "item",
-    "example": "紙に書いてください。"
+    "example": "紙に書いてください。",
+    "kanji_search_results": [
+      {
+        "kanji": "紙",
+        "mean": "CHỈ"
+      }
+    ]
   },
   {
     "japanese": "はさみ",
@@ -187,7 +289,17 @@
     "lesson": 20,
     "difficulty": "beginner",
     "category": "activity",
-    "example": "運動をしています。"
+    "example": "運動をしています。",
+    "kanji_search_results": [
+      {
+        "kanji": "動",
+        "mean": "ĐỘNG"
+      },
+      {
+        "kanji": "運",
+        "mean": "VẬN"
+      }
+    ]
   },
   {
     "japanese": "シート",
@@ -207,7 +319,13 @@
     "lesson": 20,
     "difficulty": "intermediate",
     "category": "abstract",
-    "example": "その他に何かありますか。"
+    "example": "その他に何かありますか。",
+    "kanji_search_results": [
+      {
+        "kanji": "他",
+        "mean": "THA"
+      }
+    ]
   },
   {
     "japanese": "こわす",
@@ -217,7 +335,13 @@
     "lesson": 20,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "おもちゃを壊しました。"
+    "example": "おもちゃを壊しました。",
+    "kanji_search_results": [
+      {
+        "kanji": "壊",
+        "mean": "HOẠI"
+      }
+    ]
   },
   {
     "japanese": "しらせる",
@@ -227,7 +351,13 @@
     "lesson": 20,
     "difficulty": "intermediate",
     "category": "verb",
-    "example": "結果を知らせました。"
+    "example": "結果を知らせました。",
+    "kanji_search_results": [
+      {
+        "kanji": "知",
+        "mean": "TRI, TRÍ"
+      }
+    ]
   },
   {
     "japanese": "せっけいする",
@@ -237,7 +367,17 @@
     "lesson": 20,
     "difficulty": "advanced",
     "category": "verb",
-    "example": "建物を設計しました。"
+    "example": "建物を設計しました。",
+    "kanji_search_results": [
+      {
+        "kanji": "設",
+        "mean": "THIẾT"
+      },
+      {
+        "kanji": "計",
+        "mean": "KẾ, KÊ"
+      }
+    ]
   },
   {
     "japanese": "うまれる",
@@ -247,7 +387,13 @@
     "lesson": 20,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "赤ちゃんが生まれました。"
+    "example": "赤ちゃんが生まれました。",
+    "kanji_search_results": [
+      {
+        "kanji": "生",
+        "mean": "SANH, SINH"
+      }
+    ]
   },
   {
     "japanese": "そだてる",
@@ -257,7 +403,13 @@
     "lesson": 20,
     "difficulty": "intermediate",
     "category": "verb",
-    "example": "子供を育てています。"
+    "example": "子供を育てています。",
+    "kanji_search_results": [
+      {
+        "kanji": "育",
+        "mean": "DỤC"
+      }
+    ]
   },
   {
     "japanese": "かぶる",
@@ -277,7 +429,13 @@
     "lesson": 20,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "眼鏡をかけました。"
+    "example": "眼鏡をかけました。",
+    "kanji_search_results": [
+      {
+        "kanji": "掛",
+        "mean": "QUẢI"
+      }
+    ]
   },
   {
     "japanese": "する",
@@ -297,7 +455,13 @@
     "lesson": 20,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "時間を決めました。"
+    "example": "時間を決めました。",
+    "kanji_search_results": [
+      {
+        "kanji": "決",
+        "mean": "QUYẾT"
+      }
+    ]
   },
   {
     "japanese": "まとめる",
@@ -317,7 +481,13 @@
     "lesson": 20,
     "difficulty": "beginner",
     "category": "counter",
-    "example": "ビールを三本飲みました。"
+    "example": "ビールを三本飲みました。",
+    "kanji_search_results": [
+      {
+        "kanji": "本",
+        "mean": "BỔN, BẢN"
+      }
+    ]
   },
   {
     "japanese": "なんぼん",
@@ -327,7 +497,17 @@
     "lesson": 20,
     "difficulty": "beginner",
     "category": "question",
-    "example": "何本ありますか。"
+    "example": "何本ありますか。",
+    "kanji_search_results": [
+      {
+        "kanji": "何",
+        "mean": "HÀ"
+      },
+      {
+        "kanji": "本",
+        "mean": "BỔN, BẢN"
+      }
+    ]
   },
   {
     "japanese": "ゆうべ",
@@ -367,7 +547,17 @@
     "lesson": 20,
     "difficulty": "intermediate",
     "category": "expression",
-    "example": "以上です。ありがとうございました。"
+    "example": "以上です。ありがとうございました。",
+    "kanji_search_results": [
+      {
+        "kanji": "上",
+        "mean": "THƯỢNG, THƯỚNG"
+      },
+      {
+        "kanji": "以",
+        "mean": "DĨ"
+      }
+    ]
   },
   {
     "japanese": "まあ",
@@ -417,7 +607,21 @@
     "lesson": 20,
     "difficulty": "advanced",
     "category": "person",
-    "example": "紫式部は源氏物語を書きました。"
+    "example": "紫式部は源氏物語を書きました。",
+    "kanji_search_results": [
+      {
+        "kanji": "部",
+        "mean": "BỘ"
+      },
+      {
+        "kanji": "紫",
+        "mean": "TỬ"
+      },
+      {
+        "kanji": "式",
+        "mean": "THỨC"
+      }
+    ]
   },
   {
     "japanese": "ナポレオン",

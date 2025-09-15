@@ -226,33 +226,47 @@ class LessonsApp {
         }
 
         container.innerHTML = this.filteredVocabulary.map(word => `
-            <div class="vocab-card bg-white rounded-lg shadow-sm border border-gray-200 p-4 md:p-6 hover:shadow-md transition-all duration-300">
-                <!-- Header: Japanese & Kanji -->
-                <div class="flex items-start justify-between mb-3">
-                    <div class="flex-1 min-w-0">
-                        <div class="japanese-text text-xl md:text-2xl font-medium text-gray-800 mb-1 break-all">${word.japanese}</div>
-                        ${word.kanji ? `<div class="japanese-text text-lg md:text-xl text-gray-600 mb-2 break-all">${word.kanji}</div>` : ''}
+            <div class="vocab-card bg-white rounded-lg shadow-sm border border-gray-200 p-4 md:p-6 hover:shadow-md transition-all duration-300 h-full min-h-64 flex flex-col">
+                <div class="flex-1 flex flex-col">
+                    <!-- Header: Japanese & Kanji -->
+                    <div class="flex items-start justify-between mb-3">
+                        <div class="flex-1 min-w-0">
+                            <div class="japanese-text text-xl md:text-2xl font-medium text-gray-800 mb-1 break-all">${word.japanese}</div>
+                            ${word.kanji ? `<div class="japanese-text text-lg md:text-xl text-gray-600 mb-2 break-all">${word.kanji}</div>` : ''}
+                        </div>
+                        <div class="flex-shrink-0 ml-3">
+                            ${word.category ? `<span class="inline-block bg-blue-100 text-blue-800 text-xs font-medium px-2 py-1 rounded-full whitespace-nowrap">${word.category}</span>` : ''}
+                        </div>
                     </div>
-                    <div class="flex-shrink-0 ml-3">
-                        ${word.category ? `<span class="inline-block bg-blue-100 text-blue-800 text-xs font-medium px-2 py-1 rounded-full whitespace-nowrap">${word.category}</span>` : ''}
-                    </div>
+                    
+                    <!-- Vietnamese Meaning -->
+                    <div class="text-gray-700 font-medium mb-2 text-base md:text-lg">${word.vietnamese}</div>
+                    
+                    <!-- Romanji -->
+                    ${word.romanji ? `<div class="text-sm text-gray-500 mb-3 italic">${word.romanji}</div>` : ''}
+
+                    <!-- Hán Việt (from kanji_search_results) -->
+                    ${Array.isArray(word.kanji_search_results) && word.kanji_search_results.length ? `
+                        <div class="mt-3 pt-3 border-t border-gray-100">
+                            <div class="text-xs text-gray-400 mb-1">Hán Việt:</div>
+                            <div class="space-y-1">
+                                ${word.kanji_search_results.slice(0, 5).map(r => `
+                                    <div class=\"text-sm text-gray-700\"><span class=\"japanese-text mr-2\">${r.kanji}</span><span class=\"text-gray-600\">${r.mean}</span></div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    ` : ''}
+                    
+                    <!-- Example -->
+                    ${word.example ? `
+                        <div class="mt-3 pt-3 border-t border-gray-100">
+                            <div class="text-xs text-gray-400 mb-1">Ví dụ:</div>
+                            <div class="japanese-text text-sm text-gray-600 italic">"${word.example}"</div>
+                        </div>
+                    ` : ''}
                 </div>
                 
-                <!-- Vietnamese Meaning -->
-                <div class="text-gray-700 font-medium mb-2 text-base md:text-lg">${word.vietnamese}</div>
-                
-                <!-- Romanji -->
-                ${word.romanji ? `<div class="text-sm text-gray-500 mb-3 italic">${word.romanji}</div>` : ''}
-                
-                <!-- Example -->
-                ${word.example ? `
-                    <div class="mt-3 pt-3 border-t border-gray-100">
-                        <div class="text-xs text-gray-400 mb-1">Ví dụ:</div>
-                        <div class="japanese-text text-sm text-gray-600 italic">"${word.example}"</div>
-                    </div>
-                ` : ''}
-                
-                <!-- Difficulty Badge -->
+                <!-- Difficulty Badge (sticky bottom) -->
                 ${word.difficulty ? `
                     <div class="mt-3 flex justify-end">
                         <span class="inline-block px-2 py-1 text-xs font-medium rounded-full ${

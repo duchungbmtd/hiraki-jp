@@ -17,7 +17,17 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "sport",
-    "example": "野球を見ます。"
+    "example": "野球を見ます。",
+    "kanji_search_results": [
+      {
+        "kanji": "球",
+        "mean": "CẦU"
+      },
+      {
+        "kanji": "野",
+        "mean": "DÃ"
+      }
+    ]
   },
   {
     "japanese": "まんが",
@@ -27,7 +37,17 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "entertainment",
-    "example": "漫画を読みます。"
+    "example": "漫画を読みます。",
+    "kanji_search_results": [
+      {
+        "kanji": "画",
+        "mean": "HỌA, HOẠCH"
+      },
+      {
+        "kanji": "漫",
+        "mean": "MẠN, MAN"
+      }
+    ]
   },
   {
     "japanese": "そうじ",
@@ -37,7 +57,17 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "activity",
-    "example": "部屋を掃除します。"
+    "example": "部屋を掃除します。",
+    "kanji_search_results": [
+      {
+        "kanji": "除",
+        "mean": "TRỪ"
+      },
+      {
+        "kanji": "掃",
+        "mean": "TẢO"
+      }
+    ]
   },
   {
     "japanese": "せんたく",
@@ -47,7 +77,17 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "activity",
-    "example": "服を洗濯します。"
+    "example": "服を洗濯します。",
+    "kanji_search_results": [
+      {
+        "kanji": "濯",
+        "mean": "TRẠC"
+      },
+      {
+        "kanji": "洗",
+        "mean": "TẨY, TIỂN"
+      }
+    ]
   },
   {
     "japanese": "え",
@@ -57,7 +97,13 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "object",
-    "example": "きれいな絵です。"
+    "example": "きれいな絵です。",
+    "kanji_search_results": [
+      {
+        "kanji": "絵",
+        "mean": "HỘI"
+      }
+    ]
   },
   {
     "japanese": "うた",
@@ -67,7 +113,13 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "entertainment",
-    "example": "歌を歌います。"
+    "example": "歌を歌います。",
+    "kanji_search_results": [
+      {
+        "kanji": "歌",
+        "mean": "CA"
+      }
+    ]
   },
   {
     "japanese": "えいご",
@@ -77,7 +129,17 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "education",
-    "example": "英語を勉強します。"
+    "example": "英語を勉強します。",
+    "kanji_search_results": [
+      {
+        "kanji": "語",
+        "mean": "NGỮ, NGỨ"
+      },
+      {
+        "kanji": "英",
+        "mean": "ANH"
+      }
+    ]
   },
   {
     "japanese": "かたかな",
@@ -87,7 +149,21 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "education",
-    "example": "片仮名を覚えます。"
+    "example": "片仮名を覚えます。",
+    "kanji_search_results": [
+      {
+        "kanji": "仮",
+        "mean": "GIẢ"
+      },
+      {
+        "kanji": "名",
+        "mean": "DANH"
+      },
+      {
+        "kanji": "片",
+        "mean": "PHIẾN"
+      }
+    ]
   },
   {
     "japanese": "ひらがな",
@@ -97,7 +173,21 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "education",
-    "example": "平仮名を書きます。"
+    "example": "平仮名を書きます。",
+    "kanji_search_results": [
+      {
+        "kanji": "平",
+        "mean": "BÌNH, BIỀN"
+      },
+      {
+        "kanji": "仮",
+        "mean": "GIẢ"
+      },
+      {
+        "kanji": "名",
+        "mean": "DANH"
+      }
+    ]
   },
   {
     "japanese": "アナウンス",
@@ -127,7 +217,13 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "object",
-    "example": "窓を開けます。"
+    "example": "窓を開けます。",
+    "kanji_search_results": [
+      {
+        "kanji": "窓",
+        "mean": "SONG"
+      }
+    ]
   },
   {
     "japanese": "かいもの",
@@ -137,7 +233,17 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "activity",
-    "example": "買い物に行きます。"
+    "example": "買い物に行きます。",
+    "kanji_search_results": [
+      {
+        "kanji": "買",
+        "mean": "MÃI"
+      },
+      {
+        "kanji": "物",
+        "mean": "VẬT"
+      }
+    ]
   },
   {
     "japanese": "てんき",
@@ -147,7 +253,17 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "nature",
-    "example": "天気がいいです。"
+    "example": "天気がいいです。",
+    "kanji_search_results": [
+      {
+        "kanji": "気",
+        "mean": "KHÍ"
+      },
+      {
+        "kanji": "天",
+        "mean": "THIÊN"
+      }
+    ]
   },
   {
     "japanese": "あめ",
@@ -157,7 +273,13 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "nature",
-    "example": "雨が降っています。"
+    "example": "雨が降っています。",
+    "kanji_search_results": [
+      {
+        "kanji": "雨",
+        "mean": "VŨ, VÚ"
+      }
+    ]
   },
   {
     "japanese": "ちゅうしゃ",
@@ -167,7 +289,17 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "health",
-    "example": "注射を受けます。"
+    "example": "注射を受けます。",
+    "kanji_search_results": [
+      {
+        "kanji": "射",
+        "mean": "XẠ, DẠ, DỊCH"
+      },
+      {
+        "kanji": "注",
+        "mean": "CHÚ"
+      }
+    ]
   },
   {
     "japanese": "じかん",
@@ -177,7 +309,17 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "time",
-    "example": "時間がありません。"
+    "example": "時間がありません。",
+    "kanji_search_results": [
+      {
+        "kanji": "間",
+        "mean": "GIAN"
+      },
+      {
+        "kanji": "時",
+        "mean": "THÌ, THỜI"
+      }
+    ]
   },
   {
     "japanese": "つうやく",
@@ -187,7 +329,17 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "work",
-    "example": "通訳をします。"
+    "example": "通訳をします。",
+    "kanji_search_results": [
+      {
+        "kanji": "通",
+        "mean": "THÔNG"
+      },
+      {
+        "kanji": "訳",
+        "mean": "DỊCH"
+      }
+    ]
   },
   {
     "japanese": "デート",
@@ -207,7 +359,17 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "noun",
-    "example": "約束を守ります。"
+    "example": "約束を守ります。",
+    "kanji_search_results": [
+      {
+        "kanji": "約",
+        "mean": "ƯỚC"
+      },
+      {
+        "kanji": "束",
+        "mean": "THÚC, THÚ"
+      }
+    ]
   },
   {
     "japanese": "やまのぼり",
@@ -217,7 +379,17 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "activity",
-    "example": "山登りをします。"
+    "example": "山登りをします。",
+    "kanji_search_results": [
+      {
+        "kanji": "登",
+        "mean": "ĐĂNG"
+      },
+      {
+        "kanji": "山",
+        "mean": "SAN, SƠN"
+      }
+    ]
   },
   {
     "japanese": "りょこう",
@@ -227,7 +399,17 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "activity",
-    "example": "旅行に行きます。"
+    "example": "旅行に行きます。",
+    "kanji_search_results": [
+      {
+        "kanji": "行",
+        "mean": "HÀNH, HẠNH, HÀNG, HẠNG"
+      },
+      {
+        "kanji": "旅",
+        "mean": "LỮ"
+      }
+    ]
   },
   {
     "japanese": "ドラマ",
@@ -257,7 +439,17 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "work",
-    "example": "教師をしています。"
+    "example": "教師をしています。",
+    "kanji_search_results": [
+      {
+        "kanji": "教",
+        "mean": "GIÁO, GIAO"
+      },
+      {
+        "kanji": "師",
+        "mean": "SƯ"
+      }
+    ]
   },
   {
     "japanese": "モデル",
@@ -277,7 +469,21 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "work",
-    "example": "弁護士をしています。"
+    "example": "弁護士をしています。",
+    "kanji_search_results": [
+      {
+        "kanji": "弁",
+        "mean": "BIỆN, BIỀN, BÀN"
+      },
+      {
+        "kanji": "護",
+        "mean": "HỘ"
+      },
+      {
+        "kanji": "士",
+        "mean": "SĨ"
+      }
+    ]
   },
   {
     "japanese": "せんしゅ",
@@ -287,7 +493,17 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "work",
-    "example": "選手をしています。"
+    "example": "選手をしています。",
+    "kanji_search_results": [
+      {
+        "kanji": "選",
+        "mean": "TUYỂN, TUYẾN"
+      },
+      {
+        "kanji": "手",
+        "mean": "THỦ"
+      }
+    ]
   },
   {
     "japanese": "サッカーせんしゅ",
@@ -297,7 +513,17 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "work",
-    "example": "サッカー選手です。"
+    "example": "サッカー選手です。",
+    "kanji_search_results": [
+      {
+        "kanji": "選",
+        "mean": "TUYỂN, TUYẾN"
+      },
+      {
+        "kanji": "手",
+        "mean": "THỦ"
+      }
+    ]
   },
   {
     "japanese": "ミュージシャン",
@@ -317,7 +543,17 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "entertainment",
-    "example": "番組を見ます。"
+    "example": "番組を見ます。",
+    "kanji_search_results": [
+      {
+        "kanji": "組",
+        "mean": "TỔ"
+      },
+      {
+        "kanji": "番",
+        "mean": "PHIÊN, PHAN, BA, BÀ"
+      }
+    ]
   },
   {
     "japanese": "テレビばんぐみ",
@@ -327,7 +563,17 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "entertainment",
-    "example": "テレビ番組を見ます。"
+    "example": "テレビ番組を見ます。",
+    "kanji_search_results": [
+      {
+        "kanji": "組",
+        "mean": "TỔ"
+      },
+      {
+        "kanji": "番",
+        "mean": "PHIÊN, PHAN, BA, BÀ"
+      }
+    ]
   },
   {
     "japanese": "おとうさん",
@@ -337,7 +583,13 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "family",
-    "example": "お父さんは会社員です。"
+    "example": "お父さんは会社員です。",
+    "kanji_search_results": [
+      {
+        "kanji": "父",
+        "mean": "PHỤ, PHỦ"
+      }
+    ]
   },
   {
     "japanese": "おかあさん",
@@ -347,7 +599,13 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "family",
-    "example": "お母さんは教師です。"
+    "example": "お母さんは教師です。",
+    "kanji_search_results": [
+      {
+        "kanji": "母",
+        "mean": "MẪU, MÔ"
+      }
+    ]
   },
   {
     "japanese": "おにいさん",
@@ -357,7 +615,13 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "family",
-    "example": "お兄さんは大学生です。"
+    "example": "お兄さんは大学生です。",
+    "kanji_search_results": [
+      {
+        "kanji": "兄",
+        "mean": "HUYNH"
+      }
+    ]
   },
   {
     "japanese": "おねえさん",
@@ -367,7 +631,13 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "family",
-    "example": "お姉さんは看護師です。"
+    "example": "お姉さんは看護師です。",
+    "kanji_search_results": [
+      {
+        "kanji": "姉",
+        "mean": "TỈ"
+      }
+    ]
   },
   {
     "japanese": "おとうとさん",
@@ -377,7 +647,13 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "family",
-    "example": "弟さんは高校生です。"
+    "example": "弟さんは高校生です。",
+    "kanji_search_results": [
+      {
+        "kanji": "弟",
+        "mean": "ĐỆ, ĐỄ"
+      }
+    ]
   },
   {
     "japanese": "いもうとさん",
@@ -387,7 +663,13 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "family",
-    "example": "妹さんは中学生です。"
+    "example": "妹さんは中学生です。",
+    "kanji_search_results": [
+      {
+        "kanji": "妹",
+        "mean": "MUỘI"
+      }
+    ]
   },
   {
     "japanese": "ちち",
@@ -397,7 +679,13 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "family",
-    "example": "父は医者です。"
+    "example": "父は医者です。",
+    "kanji_search_results": [
+      {
+        "kanji": "父",
+        "mean": "PHỤ, PHỦ"
+      }
+    ]
   },
   {
     "japanese": "はは",
@@ -407,7 +695,13 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "family",
-    "example": "母は看護師です。"
+    "example": "母は看護師です。",
+    "kanji_search_results": [
+      {
+        "kanji": "母",
+        "mean": "MẪU, MÔ"
+      }
+    ]
   },
   {
     "japanese": "あに",
@@ -417,7 +711,13 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "family",
-    "example": "兄は会社員です。"
+    "example": "兄は会社員です。",
+    "kanji_search_results": [
+      {
+        "kanji": "兄",
+        "mean": "HUYNH"
+      }
+    ]
   },
   {
     "japanese": "あね",
@@ -427,7 +727,13 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "family",
-    "example": "姉は教師です。"
+    "example": "姉は教師です。",
+    "kanji_search_results": [
+      {
+        "kanji": "姉",
+        "mean": "TỈ"
+      }
+    ]
   },
   {
     "japanese": "おとうと",
@@ -437,7 +743,13 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "family",
-    "example": "弟は大学生です。"
+    "example": "弟は大学生です。",
+    "kanji_search_results": [
+      {
+        "kanji": "弟",
+        "mean": "ĐỆ, ĐỄ"
+      }
+    ]
   },
   {
     "japanese": "いもうと",
@@ -447,7 +759,13 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "family",
-    "example": "妹は高校生です。"
+    "example": "妹は高校生です。",
+    "kanji_search_results": [
+      {
+        "kanji": "妹",
+        "mean": "MUỘI"
+      }
+    ]
   },
   {
     "japanese": "かぞく",
@@ -457,7 +775,17 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "family",
-    "example": "ご家族は何人ですか。"
+    "example": "ご家族は何人ですか。",
+    "kanji_search_results": [
+      {
+        "kanji": "家",
+        "mean": "GIA, CÔ"
+      },
+      {
+        "kanji": "族",
+        "mean": "TỘC"
+      }
+    ]
   },
   {
     "japanese": "りょうしん",
@@ -467,7 +795,17 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "family",
-    "example": "ご両親はお元気ですか。"
+    "example": "ご両親はお元気ですか。",
+    "kanji_search_results": [
+      {
+        "kanji": "両",
+        "mean": "LƯỠNG, LẠNG"
+      },
+      {
+        "kanji": "親",
+        "mean": "THÂN, THẤN"
+      }
+    ]
   },
   {
     "japanese": "かきます",
@@ -477,7 +815,29 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "絵をかきます。"
+    "example": "絵をかきます。",
+    "kanji_search_results": [
+      {
+        "kanji": "隠",
+        "mean": "ẨN"
+      },
+      {
+        "kanji": "薆",
+        "mean": ""
+      },
+      {
+        "kanji": "廋",
+        "mean": "SƯU"
+      },
+      {
+        "kanji": "乚",
+        "mean": ""
+      },
+      {
+        "kanji": "戽",
+        "mean": "HỐ"
+      }
+    ]
   },
   {
     "japanese": "わかります",
@@ -487,7 +847,13 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "日本語が分かります。"
+    "example": "日本語が分かります。",
+    "kanji_search_results": [
+      {
+        "kanji": "分",
+        "mean": "PHÂN, PHẬN"
+      }
+    ]
   },
   {
     "japanese": "あけます",
@@ -497,7 +863,13 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "窓を開けます。"
+    "example": "窓を開けます。",
+    "kanji_search_results": [
+      {
+        "kanji": "開",
+        "mean": "KHAI"
+      }
+    ]
   },
   {
     "japanese": "さんぽします",
@@ -507,7 +879,17 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "公園を散歩します。"
+    "example": "公園を散歩します。",
+    "kanji_search_results": [
+      {
+        "kanji": "歩",
+        "mean": "BỘ"
+      },
+      {
+        "kanji": "散",
+        "mean": "TÁN, TẢN"
+      }
+    ]
   },
   {
     "japanese": "おみあいします",
@@ -517,7 +899,17 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "お見合いをします。"
+    "example": "お見合いをします。",
+    "kanji_search_results": [
+      {
+        "kanji": "合",
+        "mean": "HỢP, CÁP, HIỆP"
+      },
+      {
+        "kanji": "見",
+        "mean": "KIẾN, HIỆN"
+      }
+    ]
   },
   {
     "japanese": "あまい",
@@ -527,7 +919,13 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "adjective",
-    "example": "甘いケーキです。"
+    "example": "甘いケーキです。",
+    "kanji_search_results": [
+      {
+        "kanji": "甘",
+        "mean": "CAM"
+      }
+    ]
   },
   {
     "japanese": "からい",
@@ -537,7 +935,13 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "adjective",
-    "example": "辛い料理です。"
+    "example": "辛い料理です。",
+    "kanji_search_results": [
+      {
+        "kanji": "辛",
+        "mean": "TÂN"
+      }
+    ]
   },
   {
     "japanese": "あつい",
@@ -547,7 +951,13 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "adjective",
-    "example": "今日は暑いです。"
+    "example": "今日は暑いです。",
+    "kanji_search_results": [
+      {
+        "kanji": "暑",
+        "mean": "THỬ"
+      }
+    ]
   },
   {
     "japanese": "さむい",
@@ -557,7 +967,13 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "adjective",
-    "example": "冬は寒いです。"
+    "example": "冬は寒いです。",
+    "kanji_search_results": [
+      {
+        "kanji": "寒",
+        "mean": "HÀN"
+      }
+    ]
   },
   {
     "japanese": "ねむい",
@@ -567,7 +983,13 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "adjective",
-    "example": "眠いです。"
+    "example": "眠いです。",
+    "kanji_search_results": [
+      {
+        "kanji": "眠",
+        "mean": "MIÊN"
+      }
+    ]
   },
   {
     "japanese": "すき",
@@ -577,7 +999,13 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "adjective",
-    "example": "音楽が好きです。"
+    "example": "音楽が好きです。",
+    "kanji_search_results": [
+      {
+        "kanji": "好",
+        "mean": "HẢO, HIẾU"
+      }
+    ]
   },
   {
     "japanese": "きらい",
@@ -587,7 +1015,13 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "adjective",
-    "example": "野菜が嫌いです。"
+    "example": "野菜が嫌いです。",
+    "kanji_search_results": [
+      {
+        "kanji": "嫌",
+        "mean": "HIỀM"
+      }
+    ]
   },
   {
     "japanese": "じょうず",
@@ -597,7 +1031,17 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "adjective",
-    "example": "ピアノが上手です。"
+    "example": "ピアノが上手です。",
+    "kanji_search_results": [
+      {
+        "kanji": "上",
+        "mean": "THƯỢNG, THƯỚNG"
+      },
+      {
+        "kanji": "手",
+        "mean": "THỦ"
+      }
+    ]
   },
   {
     "japanese": "へた",
@@ -607,7 +1051,17 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "adjective",
-    "example": "歌が下手です。"
+    "example": "歌が下手です。",
+    "kanji_search_results": [
+      {
+        "kanji": "手",
+        "mean": "THỦ"
+      },
+      {
+        "kanji": "下",
+        "mean": "HẠ, HÁ"
+      }
+    ]
   },
   {
     "japanese": "ざんねん",
@@ -617,7 +1071,17 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "adjective",
-    "example": "残念です。"
+    "example": "残念です。",
+    "kanji_search_results": [
+      {
+        "kanji": "念",
+        "mean": "NIỆM"
+      },
+      {
+        "kanji": "残",
+        "mean": "TÀN"
+      }
+    ]
   },
   {
     "japanese": "どうして",
@@ -637,7 +1101,13 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "adverb",
-    "example": "少し待ってください。"
+    "example": "少し待ってください。",
+    "kanji_search_results": [
+      {
+        "kanji": "少",
+        "mean": "THIỂU, THIẾU"
+      }
+    ]
   },
   {
     "japanese": "だいたい",
@@ -667,7 +1137,17 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "adverb",
-    "example": "全然分かりません。"
+    "example": "全然分かりません。",
+    "kanji_search_results": [
+      {
+        "kanji": "然",
+        "mean": "NHIÊN"
+      },
+      {
+        "kanji": "全",
+        "mean": "TOÀN"
+      }
+    ]
   },
   {
     "japanese": "はやく",
@@ -677,7 +1157,13 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "adverb",
-    "example": "早く来てください。"
+    "example": "早く来てください。",
+    "kanji_search_results": [
+      {
+        "kanji": "早",
+        "mean": "TẢO"
+      }
+    ]
   },
   {
     "japanese": "うーん",
@@ -727,7 +1213,13 @@
     "lesson": 9,
     "difficulty": "beginner",
     "category": "expression",
-    "example": "よろしくお願いします。"
+    "example": "よろしくお願いします。",
+    "kanji_search_results": [
+      {
+        "kanji": "願",
+        "mean": "NGUYỆN"
+      }
+    ]
   },
   {
     "japanese": "スペイン",

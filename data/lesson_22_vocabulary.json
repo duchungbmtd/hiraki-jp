@@ -7,7 +7,17 @@
     "lesson": 22,
     "difficulty": "beginner",
     "category": "toy",
-    "example": "人形を買いました。"
+    "example": "人形を買いました。",
+    "kanji_search_results": [
+      {
+        "kanji": "形",
+        "mean": "HÌNH"
+      },
+      {
+        "kanji": "人",
+        "mean": "NHÂN"
+      }
+    ]
   },
   {
     "japanese": "ハンカチ",
@@ -27,7 +37,21 @@
     "lesson": 22,
     "difficulty": "intermediate",
     "category": "item",
-    "example": "蛍光灯を交換しました。"
+    "example": "蛍光灯を交換しました。",
+    "kanji_search_results": [
+      {
+        "kanji": "蛍",
+        "mean": "HUỲNH"
+      },
+      {
+        "kanji": "光",
+        "mean": "QUANG"
+      },
+      {
+        "kanji": "灯",
+        "mean": "ĐĂNG"
+      }
+    ]
   },
   {
     "japanese": "けが",
@@ -57,7 +81,13 @@
     "lesson": 22,
     "difficulty": "beginner",
     "category": "time",
-    "example": "良い日でした。"
+    "example": "良い日でした。",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
   },
   {
     "japanese": "とおく",
@@ -67,7 +97,13 @@
     "lesson": 22,
     "difficulty": "beginner",
     "category": "place",
-    "example": "遠くから来ました。"
+    "example": "遠くから来ました。",
+    "kanji_search_results": [
+      {
+        "kanji": "遠",
+        "mean": "VIỄN, VIỂN"
+      }
+    ]
   },
   {
     "japanese": "インターンシップ",
@@ -87,7 +123,13 @@
     "lesson": 22,
     "difficulty": "beginner",
     "category": "abstract",
-    "example": "旅行が楽しみです。"
+    "example": "旅行が楽しみです。",
+    "kanji_search_results": [
+      {
+        "kanji": "楽",
+        "mean": "LẠC, NHẠC"
+      }
+    ]
   },
   {
     "japanese": "みなさま",
@@ -97,7 +139,17 @@
     "lesson": 22,
     "difficulty": "intermediate",
     "category": "person",
-    "example": "皆様、ありがとうございます。"
+    "example": "皆様、ありがとうございます。",
+    "kanji_search_results": [
+      {
+        "kanji": "皆",
+        "mean": "GIAI"
+      },
+      {
+        "kanji": "様",
+        "mean": "DẠNG"
+      }
+    ]
   },
   {
     "japanese": "こと",
@@ -117,7 +169,17 @@
     "lesson": 22,
     "difficulty": "intermediate",
     "category": "abstract",
-    "example": "良い機会です。"
+    "example": "良い機会です。",
+    "kanji_search_results": [
+      {
+        "kanji": "機",
+        "mean": "KI, CƠ"
+      },
+      {
+        "kanji": "会",
+        "mean": "HỘI, CỐI"
+      }
+    ]
   },
   {
     "japanese": "こちら",
@@ -167,7 +229,17 @@
     "lesson": 22,
     "difficulty": "intermediate",
     "category": "verb",
-    "example": "子供を連れて行きました。"
+    "example": "子供を連れて行きました。",
+    "kanji_search_results": [
+      {
+        "kanji": "行",
+        "mean": "HÀNH, HẠNH, HÀNG, HẠNG"
+      },
+      {
+        "kanji": "連",
+        "mean": "LIÊN"
+      }
+    ]
   },
   {
     "japanese": "つれて くる",
@@ -177,7 +249,17 @@
     "lesson": 22,
     "difficulty": "intermediate",
     "category": "verb",
-    "example": "友達を連れて来ました。"
+    "example": "友達を連れて来ました。",
+    "kanji_search_results": [
+      {
+        "kanji": "連",
+        "mean": "LIÊN"
+      },
+      {
+        "kanji": "来",
+        "mean": "LAI, LÃI"
+      }
+    ]
   },
   {
     "japanese": "みる",
@@ -187,7 +269,13 @@
     "lesson": 22,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "エアコンを見てもらいました。"
+    "example": "エアコンを見てもらいました。",
+    "kanji_search_results": [
+      {
+        "kanji": "見",
+        "mean": "KIẾN, HIỆN"
+      }
+    ]
   },
   {
     "japanese": "なおす",
@@ -197,7 +285,13 @@
     "lesson": 22,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "時計を直しました。"
+    "example": "時計を直しました。",
+    "kanji_search_results": [
+      {
+        "kanji": "直",
+        "mean": "TRỰC"
+      }
+    ]
   },
   {
     "japanese": "とりかえる",
@@ -207,7 +301,17 @@
     "lesson": 22,
     "difficulty": "intermediate",
     "category": "verb",
-    "example": "部品を取り替えました。"
+    "example": "部品を取り替えました。",
+    "kanji_search_results": [
+      {
+        "kanji": "替",
+        "mean": "THẾ"
+      },
+      {
+        "kanji": "取",
+        "mean": "THỦ"
+      }
+    ]
   },
   {
     "japanese": "ごうかくする",
@@ -217,7 +321,17 @@
     "lesson": 22,
     "difficulty": "intermediate",
     "category": "verb",
-    "example": "試験に合格しました。"
+    "example": "試験に合格しました。",
+    "kanji_search_results": [
+      {
+        "kanji": "格",
+        "mean": "CÁCH, CÁC"
+      },
+      {
+        "kanji": "合",
+        "mean": "HỢP, CÁP, HIỆP"
+      }
+    ]
   },
   {
     "japanese": "わたす",
@@ -227,7 +341,13 @@
     "lesson": 22,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "書類を渡しました。"
+    "example": "書類を渡しました。",
+    "kanji_search_results": [
+      {
+        "kanji": "渡",
+        "mean": "ĐỘ"
+      }
+    ]
   },
   {
     "japanese": "つける",
@@ -247,7 +367,13 @@
     "lesson": 22,
     "difficulty": "intermediate",
     "category": "verb",
-    "example": "プリントを配りました。"
+    "example": "プリントを配りました。",
+    "kanji_search_results": [
+      {
+        "kanji": "配",
+        "mean": "PHỐI"
+      }
+    ]
   },
   {
     "japanese": "うれしい",
@@ -267,7 +393,13 @@
     "lesson": 22,
     "difficulty": "intermediate",
     "category": "time",
-    "example": "この間、会いました。"
+    "example": "この間、会いました。",
+    "kanji_search_results": [
+      {
+        "kanji": "間",
+        "mean": "GIAN"
+      }
+    ]
   },
   {
     "japanese": "けん",
@@ -277,7 +409,13 @@
     "lesson": 22,
     "difficulty": "intermediate",
     "category": "place",
-    "example": "神奈川県に住んでいます。"
+    "example": "神奈川県に住んでいます。",
+    "kanji_search_results": [
+      {
+        "kanji": "県",
+        "mean": "HUYỆN"
+      }
+    ]
   },
   {
     "japanese": "と",
@@ -287,7 +425,13 @@
     "lesson": 22,
     "difficulty": "intermediate",
     "category": "place",
-    "example": "東京都に住んでいます。"
+    "example": "東京都に住んでいます。",
+    "kanji_search_results": [
+      {
+        "kanji": "都",
+        "mean": "ĐÔ"
+      }
+    ]
   },
   {
     "japanese": "し",
@@ -297,7 +441,13 @@
     "lesson": 22,
     "difficulty": "intermediate",
     "category": "place",
-    "example": "横浜市に住んでいます。"
+    "example": "横浜市に住んでいます。",
+    "kanji_search_results": [
+      {
+        "kanji": "市",
+        "mean": "THỊ"
+      }
+    ]
   },
   {
     "japanese": "く",
@@ -307,7 +457,13 @@
     "lesson": 22,
     "difficulty": "intermediate",
     "category": "place",
-    "example": "文京区に住んでいます。"
+    "example": "文京区に住んでいます。",
+    "kanji_search_results": [
+      {
+        "kanji": "区",
+        "mean": "KHU, ÂU"
+      }
+    ]
   },
   {
     "japanese": "さま",
@@ -317,7 +473,13 @@
     "lesson": 22,
     "difficulty": "intermediate",
     "category": "honorific",
-    "example": "田中様、お待ちしております。"
+    "example": "田中様、お待ちしております。",
+    "kanji_search_results": [
+      {
+        "kanji": "様",
+        "mean": "DẠNG"
+      }
+    ]
   },
   {
     "japanese": "ごめん",
@@ -337,7 +499,17 @@
     "lesson": 22,
     "difficulty": "intermediate",
     "category": "expression",
-    "example": "お世話になりました。ありがとうございました。"
+    "example": "お世話になりました。ありがとうございました。",
+    "kanji_search_results": [
+      {
+        "kanji": "話",
+        "mean": "THOẠI"
+      },
+      {
+        "kanji": "世",
+        "mean": "THẾ"
+      }
+    ]
   },
   {
     "japanese": "いいえ、こちらこそ",
@@ -357,7 +529,17 @@
     "lesson": 22,
     "difficulty": "intermediate",
     "category": "expression",
-    "example": "お元気で。また会いましょう。"
+    "example": "お元気で。また会いましょう。",
+    "kanji_search_results": [
+      {
+        "kanji": "気",
+        "mean": "KHÍ"
+      },
+      {
+        "kanji": "元",
+        "mean": "NGUYÊN"
+      }
+    ]
   },
   {
     "japanese": "おげんきですか",
@@ -367,7 +549,17 @@
     "lesson": 22,
     "difficulty": "beginner",
     "category": "expression",
-    "example": "お元気ですか。はい、元気です。"
+    "example": "お元気ですか。はい、元気です。",
+    "kanji_search_results": [
+      {
+        "kanji": "気",
+        "mean": "KHÍ"
+      },
+      {
+        "kanji": "元",
+        "mean": "NGUYÊN"
+      }
+    ]
   },
   {
     "japanese": "そうでしたね",
@@ -397,7 +589,21 @@
     "lesson": 22,
     "difficulty": "intermediate",
     "category": "place",
-    "example": "文京区に住んでいます。"
+    "example": "文京区に住んでいます。",
+    "kanji_search_results": [
+      {
+        "kanji": "京",
+        "mean": "KINH"
+      },
+      {
+        "kanji": "区",
+        "mean": "KHU, ÂU"
+      },
+      {
+        "kanji": "文",
+        "mean": "VĂN, VẤN"
+      }
+    ]
   },
   {
     "japanese": "こいしかわ",
@@ -407,7 +613,21 @@
     "lesson": 22,
     "difficulty": "intermediate",
     "category": "place",
-    "example": "小石川で会いましょう。"
+    "example": "小石川で会いましょう。",
+    "kanji_search_results": [
+      {
+        "kanji": "小",
+        "mean": "TIỂU"
+      },
+      {
+        "kanji": "石",
+        "mean": "THẠCH"
+      },
+      {
+        "kanji": "川",
+        "mean": "XUYÊN"
+      }
+    ]
   },
   {
     "japanese": "ながさき",
@@ -417,7 +637,17 @@
     "lesson": 22,
     "difficulty": "intermediate",
     "category": "place",
-    "example": "長崎県に住んでいます。"
+    "example": "長崎県に住んでいます。",
+    "kanji_search_results": [
+      {
+        "kanji": "崎",
+        "mean": "KHI"
+      },
+      {
+        "kanji": "長",
+        "mean": "TRƯỜNG, TRƯỞNG, TRƯỚNG"
+      }
+    ]
   },
   {
     "japanese": "うえだし",
@@ -427,7 +657,21 @@
     "lesson": 22,
     "difficulty": "intermediate",
     "category": "place",
-    "example": "上田市に住んでいます。"
+    "example": "上田市に住んでいます。",
+    "kanji_search_results": [
+      {
+        "kanji": "市",
+        "mean": "THỊ"
+      },
+      {
+        "kanji": "田",
+        "mean": "ĐIỀN"
+      },
+      {
+        "kanji": "上",
+        "mean": "THƯỢNG, THƯỚNG"
+      }
+    ]
   },
   {
     "japanese": "うえだ",
@@ -437,7 +681,17 @@
     "lesson": 22,
     "difficulty": "intermediate",
     "category": "place",
-    "example": "上田で会いましょう。"
+    "example": "上田で会いましょう。",
+    "kanji_search_results": [
+      {
+        "kanji": "田",
+        "mean": "ĐIỀN"
+      },
+      {
+        "kanji": "上",
+        "mean": "THƯỢNG, THƯỚNG"
+      }
+    ]
   },
   {
     "japanese": "ぼく",
@@ -447,7 +701,13 @@
     "lesson": 22,
     "difficulty": "beginner",
     "category": "pronoun",
-    "example": "僕は学生です。"
+    "example": "僕は学生です。",
+    "kanji_search_results": [
+      {
+        "kanji": "僕",
+        "mean": "PHÓ, BỘC"
+      }
+    ]
   },
   {
     "japanese": "けしゴム",
@@ -457,7 +717,13 @@
     "lesson": 22,
     "difficulty": "beginner",
     "category": "item",
-    "example": "消しゴムで消しました。"
+    "example": "消しゴムで消しました。",
+    "kanji_search_results": [
+      {
+        "kanji": "消",
+        "mean": "TIÊU"
+      }
+    ]
   },
   {
     "japanese": "ドア",
@@ -477,7 +743,21 @@
     "lesson": 22,
     "difficulty": "intermediate",
     "category": "education",
-    "example": "小学校で勉強しました。"
+    "example": "小学校で勉強しました。",
+    "kanji_search_results": [
+      {
+        "kanji": "小",
+        "mean": "TIỂU"
+      },
+      {
+        "kanji": "学",
+        "mean": "HỌC"
+      },
+      {
+        "kanji": "校",
+        "mean": "GIÁO, HIỆU, HÀO"
+      }
+    ]
   },
   {
     "japanese": "みんな",
@@ -497,7 +777,13 @@
     "lesson": 22,
     "difficulty": "beginner",
     "category": "abstract",
-    "example": "声がきれいです。"
+    "example": "声がきれいです。",
+    "kanji_search_results": [
+      {
+        "kanji": "声",
+        "mean": "THANH"
+      }
+    ]
   },
   {
     "japanese": "ぶん",
@@ -507,7 +793,13 @@
     "lesson": 22,
     "difficulty": "beginner",
     "category": "education",
-    "example": "文を作りました。"
+    "example": "文を作りました。",
+    "kanji_search_results": [
+      {
+        "kanji": "文",
+        "mean": "VĂN, VẤN"
+      }
+    ]
   },
   {
     "japanese": "おどろく",
@@ -517,7 +809,13 @@
     "lesson": 22,
     "difficulty": "intermediate",
     "category": "verb",
-    "example": "驚きました。"
+    "example": "驚きました。",
+    "kanji_search_results": [
+      {
+        "kanji": "驚",
+        "mean": "KINH"
+      }
+    ]
   },
   {
     "japanese": "さびしい",
@@ -527,7 +825,13 @@
     "lesson": 22,
     "difficulty": "intermediate",
     "category": "adjective",
-    "example": "寂しいです。"
+    "example": "寂しいです。",
+    "kanji_search_results": [
+      {
+        "kanji": "寂",
+        "mean": "TỊCH"
+      }
+    ]
   },
   {
     "japanese": "ある ～",
@@ -547,7 +851,13 @@
     "lesson": 22,
     "difficulty": "intermediate",
     "category": "grammar",
-    "example": "同じ色です。"
+    "example": "同じ色です。",
+    "kanji_search_results": [
+      {
+        "kanji": "同",
+        "mean": "ĐỒNG"
+      }
+    ]
   },
   {
     "japanese": "くん",
@@ -557,7 +867,13 @@
     "lesson": 22,
     "difficulty": "intermediate",
     "category": "honorific",
-    "example": "田中君、こんにちは。"
+    "example": "田中君、こんにちは。",
+    "kanji_search_results": [
+      {
+        "kanji": "君",
+        "mean": "QUÂN"
+      }
+    ]
   },
   {
     "japanese": "おめでとう",
@@ -577,7 +893,17 @@
     "lesson": 22,
     "difficulty": "intermediate",
     "category": "name",
-    "example": "石田さんに会いました。"
+    "example": "石田さんに会いました。",
+    "kanji_search_results": [
+      {
+        "kanji": "石",
+        "mean": "THẠCH"
+      },
+      {
+        "kanji": "田",
+        "mean": "ĐIỀN"
+      }
+    ]
   },
   {
     "japanese": "ゆうた",
@@ -587,6 +913,16 @@
     "lesson": 22,
     "difficulty": "intermediate",
     "category": "name",
-    "example": "勇太君、こんにちは。"
+    "example": "勇太君、こんにちは。",
+    "kanji_search_results": [
+      {
+        "kanji": "太",
+        "mean": "THÁI"
+      },
+      {
+        "kanji": "勇",
+        "mean": "DŨNG"
+      }
+    ]
   }
 ]

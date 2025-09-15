@@ -7,7 +7,13 @@
     "lesson": 21,
     "difficulty": "beginner",
     "category": "weather",
-    "example": "雪が降っています。"
+    "example": "雪が降っています。",
+    "kanji_search_results": [
+      {
+        "kanji": "雪",
+        "mean": "TUYẾT"
+      }
+    ]
   },
   {
     "japanese": "ざんぎょう",
@@ -17,7 +23,17 @@
     "lesson": 21,
     "difficulty": "intermediate",
     "category": "work",
-    "example": "残業をしました。"
+    "example": "残業をしました。",
+    "kanji_search_results": [
+      {
+        "kanji": "業",
+        "mean": "NGHIỆP"
+      },
+      {
+        "kanji": "残",
+        "mean": "TÀN"
+      }
+    ]
   },
   {
     "japanese": "びょうき",
@@ -27,7 +43,17 @@
     "lesson": 21,
     "difficulty": "beginner",
     "category": "health",
-    "example": "病気になりました。"
+    "example": "病気になりました。",
+    "kanji_search_results": [
+      {
+        "kanji": "病",
+        "mean": "BỆNH"
+      },
+      {
+        "kanji": "気",
+        "mean": "KHÍ"
+      }
+    ]
   },
   {
     "japanese": "みち",
@@ -37,7 +63,13 @@
     "lesson": 21,
     "difficulty": "beginner",
     "category": "place",
-    "example": "道を歩きました。"
+    "example": "道を歩きました。",
+    "kanji_search_results": [
+      {
+        "kanji": "道",
+        "mean": "ĐẠO, ĐÁO"
+      }
+    ]
   },
   {
     "japanese": "キャッシュカード",
@@ -57,7 +89,17 @@
     "lesson": 21,
     "difficulty": "intermediate",
     "category": "transport",
-    "example": "交通が便利です。"
+    "example": "交通が便利です。",
+    "kanji_search_results": [
+      {
+        "kanji": "交",
+        "mean": "GIAO"
+      },
+      {
+        "kanji": "通",
+        "mean": "THÔNG"
+      }
+    ]
   },
   {
     "japanese": "じこ",
@@ -67,7 +109,17 @@
     "lesson": 21,
     "difficulty": "intermediate",
     "category": "incident",
-    "example": "事故に遭いました。"
+    "example": "事故に遭いました。",
+    "kanji_search_results": [
+      {
+        "kanji": "故",
+        "mean": "CỐ"
+      },
+      {
+        "kanji": "事",
+        "mean": "SỰ"
+      }
+    ]
   },
   {
     "japanese": "こうつうじこ",
@@ -77,7 +129,25 @@
     "lesson": 21,
     "difficulty": "intermediate",
     "category": "incident",
-    "example": "交通事故に気をつけてください。"
+    "example": "交通事故に気をつけてください。",
+    "kanji_search_results": [
+      {
+        "kanji": "交",
+        "mean": "GIAO"
+      },
+      {
+        "kanji": "通",
+        "mean": "THÔNG"
+      },
+      {
+        "kanji": "故",
+        "mean": "CỐ"
+      },
+      {
+        "kanji": "事",
+        "mean": "SỰ"
+      }
+    ]
   },
   {
     "japanese": "じしん",
@@ -87,7 +157,17 @@
     "lesson": 21,
     "difficulty": "intermediate",
     "category": "disaster",
-    "example": "地震が起きました。"
+    "example": "地震が起きました。",
+    "kanji_search_results": [
+      {
+        "kanji": "地",
+        "mean": "ĐỊA"
+      },
+      {
+        "kanji": "震",
+        "mean": "CHẤN"
+      }
+    ]
   },
   {
     "japanese": "たいふう",
@@ -97,7 +177,17 @@
     "lesson": 21,
     "difficulty": "intermediate",
     "category": "disaster",
-    "example": "台風が来ています。"
+    "example": "台風が来ています。",
+    "kanji_search_results": [
+      {
+        "kanji": "風",
+        "mean": "PHONG"
+      },
+      {
+        "kanji": "台",
+        "mean": "THAI, ĐÀI, DI"
+      }
+    ]
   },
   {
     "japanese": "けいさつ",
@@ -107,7 +197,17 @@
     "lesson": 21,
     "difficulty": "beginner",
     "category": "person",
-    "example": "警察に連絡しました。"
+    "example": "警察に連絡しました。",
+    "kanji_search_results": [
+      {
+        "kanji": "察",
+        "mean": "SÁT"
+      },
+      {
+        "kanji": "警",
+        "mean": "CẢNH"
+      }
+    ]
   },
   {
     "japanese": "エンジン",
@@ -127,7 +227,17 @@
     "lesson": 21,
     "difficulty": "intermediate",
     "category": "abstract",
-    "example": "調子がいいです。"
+    "example": "調子がいいです。",
+    "kanji_search_results": [
+      {
+        "kanji": "調",
+        "mean": "ĐIỀU, ĐIỆU"
+      },
+      {
+        "kanji": "子",
+        "mean": "TỬ, TÍ"
+      }
+    ]
   },
   {
     "japanese": "じゅけんひょう",
@@ -137,7 +247,21 @@
     "lesson": 21,
     "difficulty": "intermediate",
     "category": "education",
-    "example": "受験票を忘れました。"
+    "example": "受験票を忘れました。",
+    "kanji_search_results": [
+      {
+        "kanji": "受",
+        "mean": "THỤ"
+      },
+      {
+        "kanji": "票",
+        "mean": "PHIẾU, TIÊU, PHIÊU"
+      },
+      {
+        "kanji": "験",
+        "mean": "NGHIỆM"
+      }
+    ]
   },
   {
     "japanese": "あさねぼう",
@@ -147,7 +271,21 @@
     "lesson": 21,
     "difficulty": "intermediate",
     "category": "activity",
-    "example": "朝寝坊をしました。"
+    "example": "朝寝坊をしました。",
+    "kanji_search_results": [
+      {
+        "kanji": "朝",
+        "mean": "TRIÊU, TRIỀU"
+      },
+      {
+        "kanji": "寝",
+        "mean": "TẨM"
+      },
+      {
+        "kanji": "坊",
+        "mean": "PHƯỜNG"
+      }
+    ]
   },
   {
     "japanese": "ラブレター",
@@ -167,7 +305,17 @@
     "lesson": 21,
     "difficulty": "intermediate",
     "category": "education",
-    "example": "成績が良かったです。"
+    "example": "成績が良かったです。",
+    "kanji_search_results": [
+      {
+        "kanji": "績",
+        "mean": "TÍCH"
+      },
+      {
+        "kanji": "成",
+        "mean": "THÀNH"
+      }
+    ]
   },
   {
     "japanese": "おしゃべり",
@@ -187,7 +335,13 @@
     "lesson": 21,
     "difficulty": "beginner",
     "category": "item",
-    "example": "図を見てください。"
+    "example": "図を見てください。",
+    "kanji_search_results": [
+      {
+        "kanji": "図",
+        "mean": "ĐỒ"
+      }
+    ]
   },
   {
     "japanese": "いえ",
@@ -197,7 +351,13 @@
     "lesson": 21,
     "difficulty": "beginner",
     "category": "place",
-    "example": "家に帰りました。"
+    "example": "家に帰りました。",
+    "kanji_search_results": [
+      {
+        "kanji": "家",
+        "mean": "GIA, CÔ"
+      }
+    ]
   },
   {
     "japanese": "ちから",
@@ -207,7 +367,13 @@
     "lesson": 21,
     "difficulty": "beginner",
     "category": "abstract",
-    "example": "力が強いです。"
+    "example": "力が強いです。",
+    "kanji_search_results": [
+      {
+        "kanji": "力",
+        "mean": "LỰC"
+      }
+    ]
   },
   {
     "japanese": "とし",
@@ -217,7 +383,13 @@
     "lesson": 21,
     "difficulty": "beginner",
     "category": "time",
-    "example": "年をとりました。"
+    "example": "年をとりました。",
+    "kanji_search_results": [
+      {
+        "kanji": "年",
+        "mean": "NIÊN"
+      }
+    ]
   },
   {
     "japanese": "おや",
@@ -227,7 +399,13 @@
     "lesson": 21,
     "difficulty": "beginner",
     "category": "family",
-    "example": "親に相談しました。"
+    "example": "親に相談しました。",
+    "kanji_search_results": [
+      {
+        "kanji": "親",
+        "mean": "THÂN, THẤN"
+      }
+    ]
   },
   {
     "japanese": "ふつう",
@@ -237,7 +415,17 @@
     "lesson": 21,
     "difficulty": "beginner",
     "category": "adjective",
-    "example": "普通の生活です。"
+    "example": "普通の生活です。",
+    "kanji_search_results": [
+      {
+        "kanji": "普",
+        "mean": "PHỔ"
+      },
+      {
+        "kanji": "通",
+        "mean": "THÔNG"
+      }
+    ]
   },
   {
     "japanese": "へび",
@@ -267,7 +455,17 @@
     "lesson": 21,
     "difficulty": "intermediate",
     "category": "activity",
-    "example": "申し込みをしました。"
+    "example": "申し込みをしました。",
+    "kanji_search_results": [
+      {
+        "kanji": "申",
+        "mean": "THÂN"
+      },
+      {
+        "kanji": "込",
+        "mean": ""
+      }
+    ]
   },
   {
     "japanese": "しょ",
@@ -277,7 +475,13 @@
     "lesson": 21,
     "difficulty": "intermediate",
     "category": "document",
-    "example": "申請書を書きました。"
+    "example": "申請書を書きました。",
+    "kanji_search_results": [
+      {
+        "kanji": "書",
+        "mean": "THƯ"
+      }
+    ]
   },
   {
     "japanese": "もうしこみしょ",
@@ -287,7 +491,21 @@
     "lesson": 21,
     "difficulty": "intermediate",
     "category": "document",
-    "example": "申込書に記入しました。"
+    "example": "申込書に記入しました。",
+    "kanji_search_results": [
+      {
+        "kanji": "申",
+        "mean": "THÂN"
+      },
+      {
+        "kanji": "書",
+        "mean": "THƯ"
+      },
+      {
+        "kanji": "込",
+        "mean": ""
+      }
+    ]
   },
   {
     "japanese": "ちゅうし",
@@ -297,7 +515,17 @@
     "lesson": 21,
     "difficulty": "intermediate",
     "category": "activity",
-    "example": "試合が中止になりました。"
+    "example": "試合が中止になりました。",
+    "kanji_search_results": [
+      {
+        "kanji": "中",
+        "mean": "TRUNG, TRÚNG"
+      },
+      {
+        "kanji": "止",
+        "mean": "CHỈ"
+      }
+    ]
   },
   {
     "japanese": "ふる",
@@ -307,7 +535,13 @@
     "lesson": 21,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "雨が降っています。"
+    "example": "雨が降っています。",
+    "kanji_search_results": [
+      {
+        "kanji": "降",
+        "mean": "HÀNG, GIÁNG"
+      }
+    ]
   },
   {
     "japanese": "まよう",
@@ -317,7 +551,13 @@
     "lesson": 21,
     "difficulty": "intermediate",
     "category": "verb",
-    "example": "道に迷いました。"
+    "example": "道に迷いました。",
+    "kanji_search_results": [
+      {
+        "kanji": "迷",
+        "mean": "MÊ"
+      }
+    ]
   },
   {
     "japanese": "なくす",
@@ -337,7 +577,13 @@
     "lesson": 21,
     "difficulty": "intermediate",
     "category": "verb",
-    "example": "事故に遭いました。"
+    "example": "事故に遭いました。",
+    "kanji_search_results": [
+      {
+        "kanji": "遭",
+        "mean": "TAO"
+      }
+    ]
   },
   {
     "japanese": "おきる",
@@ -347,7 +593,13 @@
     "lesson": 21,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "事件が起きました。"
+    "example": "事件が起きました。",
+    "kanji_search_results": [
+      {
+        "kanji": "起",
+        "mean": "KHỞI"
+      }
+    ]
   },
   {
     "japanese": "わすれる",
@@ -357,7 +609,13 @@
     "lesson": 21,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "約束を忘れました。"
+    "example": "約束を忘れました。",
+    "kanji_search_results": [
+      {
+        "kanji": "忘",
+        "mean": "VONG"
+      }
+    ]
   },
   {
     "japanese": "ひろう",
@@ -367,7 +625,13 @@
     "lesson": 21,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "お金を拾いました。"
+    "example": "お金を拾いました。",
+    "kanji_search_results": [
+      {
+        "kanji": "拾",
+        "mean": "THẬP, THIỆP, KIỆP"
+      }
+    ]
   },
   {
     "japanese": "たりる",
@@ -377,7 +641,13 @@
     "lesson": 21,
     "difficulty": "intermediate",
     "category": "verb",
-    "example": "お金が足りません。"
+    "example": "お金が足りません。",
+    "kanji_search_results": [
+      {
+        "kanji": "足",
+        "mean": "TÚC"
+      }
+    ]
   },
   {
     "japanese": "つく",
@@ -387,7 +657,13 @@
     "lesson": 21,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "駅に着きました。"
+    "example": "駅に着きました。",
+    "kanji_search_results": [
+      {
+        "kanji": "着",
+        "mean": "TRỨ, TRƯỚC, TRỮ"
+      }
+    ]
   },
   {
     "japanese": "とどく",
@@ -397,7 +673,13 @@
     "lesson": 21,
     "difficulty": "intermediate",
     "category": "verb",
-    "example": "荷物が届きました。"
+    "example": "荷物が届きました。",
+    "kanji_search_results": [
+      {
+        "kanji": "届",
+        "mean": "GIỚI"
+      }
+    ]
   },
   {
     "japanese": "さく",
@@ -407,7 +689,13 @@
     "lesson": 21,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "花が咲きました。"
+    "example": "花が咲きました。",
+    "kanji_search_results": [
+      {
+        "kanji": "咲",
+        "mean": "TIẾU"
+      }
+    ]
   },
   {
     "japanese": "しょうかいする",
@@ -417,7 +705,17 @@
     "lesson": 21,
     "difficulty": "intermediate",
     "category": "verb",
-    "example": "友達を紹介しました。"
+    "example": "友達を紹介しました。",
+    "kanji_search_results": [
+      {
+        "kanji": "紹",
+        "mean": "THIỆU"
+      },
+      {
+        "kanji": "介",
+        "mean": "GIỚI"
+      }
+    ]
   },
   {
     "japanese": "やめる",
@@ -437,7 +735,17 @@
     "lesson": 21,
     "difficulty": "intermediate",
     "category": "verb",
-    "example": "家具を組み立てました。"
+    "example": "家具を組み立てました。",
+    "kanji_search_results": [
+      {
+        "kanji": "組",
+        "mean": "TỔ"
+      },
+      {
+        "kanji": "立",
+        "mean": "LẬP"
+      }
+    ]
   },
   {
     "japanese": "ふとる",
@@ -447,7 +755,13 @@
     "lesson": 21,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "太りました。"
+    "example": "太りました。",
+    "kanji_search_results": [
+      {
+        "kanji": "太",
+        "mean": "THÁI"
+      }
+    ]
   },
   {
     "japanese": "やせる",
@@ -467,7 +781,13 @@
     "lesson": 21,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "お金を落としました。"
+    "example": "お金を落としました。",
+    "kanji_search_results": [
+      {
+        "kanji": "落",
+        "mean": "LẠC"
+      }
+    ]
   },
   {
     "japanese": "われる",
@@ -477,7 +797,13 @@
     "lesson": 21,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "コップが割れました。"
+    "example": "コップが割れました。",
+    "kanji_search_results": [
+      {
+        "kanji": "割",
+        "mean": "CÁT"
+      }
+    ]
   },
   {
     "japanese": "よう",
@@ -487,7 +813,13 @@
     "lesson": 21,
     "difficulty": "intermediate",
     "category": "verb",
-    "example": "お酒に酔いました。"
+    "example": "お酒に酔いました。",
+    "kanji_search_results": [
+      {
+        "kanji": "酔",
+        "mean": "TÚY"
+      }
+    ]
   },
   {
     "japanese": "こわれる",
@@ -497,7 +829,13 @@
     "lesson": 21,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "テレビが壊れました。"
+    "example": "テレビが壊れました。",
+    "kanji_search_results": [
+      {
+        "kanji": "壊",
+        "mean": "HOẠI"
+      }
+    ]
   },
   {
     "japanese": "ちゅういする",
@@ -507,7 +845,17 @@
     "lesson": 21,
     "difficulty": "intermediate",
     "category": "verb",
-    "example": "注意してください。"
+    "example": "注意してください。",
+    "kanji_search_results": [
+      {
+        "kanji": "注",
+        "mean": "CHÚ"
+      },
+      {
+        "kanji": "意",
+        "mean": "Ý"
+      }
+    ]
   },
   {
     "japanese": "けんかする",
@@ -527,7 +875,17 @@
     "lesson": 21,
     "difficulty": "intermediate",
     "category": "verb",
-    "example": "食べ物の好き嫌いをしないでください。"
+    "example": "食べ物の好き嫌いをしないでください。",
+    "kanji_search_results": [
+      {
+        "kanji": "好",
+        "mean": "HẢO, HIẾU"
+      },
+      {
+        "kanji": "嫌",
+        "mean": "HIỀM"
+      }
+    ]
   },
   {
     "japanese": "サボる",
@@ -547,7 +905,13 @@
     "lesson": 21,
     "difficulty": "beginner",
     "category": "adjective",
-    "example": "天気が悪いです。"
+    "example": "天気が悪いです。",
+    "kanji_search_results": [
+      {
+        "kanji": "悪",
+        "mean": "ÁC"
+      }
+    ]
   },
   {
     "japanese": "よわい",
@@ -557,7 +921,13 @@
     "lesson": 21,
     "difficulty": "beginner",
     "category": "adjective",
-    "example": "体が弱いです。"
+    "example": "体が弱いです。",
+    "kanji_search_results": [
+      {
+        "kanji": "弱",
+        "mean": "NHƯỢC"
+      }
+    ]
   },
   {
     "japanese": "つよい",
@@ -567,7 +937,13 @@
     "lesson": 21,
     "difficulty": "beginner",
     "category": "adjective",
-    "example": "力が強いです。"
+    "example": "力が強いです。",
+    "kanji_search_results": [
+      {
+        "kanji": "強",
+        "mean": "CƯỜNG, CƯỠNG"
+      }
+    ]
   },
   {
     "japanese": "あまい",
@@ -577,7 +953,13 @@
     "lesson": 21,
     "difficulty": "intermediate",
     "category": "adjective",
-    "example": "甘い親です。"
+    "example": "甘い親です。",
+    "kanji_search_results": [
+      {
+        "kanji": "甘",
+        "mean": "CAM"
+      }
+    ]
   },
   {
     "japanese": "しあわせ",
@@ -587,7 +969,13 @@
     "lesson": 21,
     "difficulty": "intermediate",
     "category": "adjective",
-    "example": "幸せな生活です。"
+    "example": "幸せな生活です。",
+    "kanji_search_results": [
+      {
+        "kanji": "幸",
+        "mean": "HẠNH"
+      }
+    ]
   },
   {
     "japanese": "しんぱい",
@@ -597,7 +985,17 @@
     "lesson": 21,
     "difficulty": "intermediate",
     "category": "adjective",
-    "example": "心配です。"
+    "example": "心配です。",
+    "kanji_search_results": [
+      {
+        "kanji": "配",
+        "mean": "PHỐI"
+      },
+      {
+        "kanji": "心",
+        "mean": "TÂM"
+      }
+    ]
   },
   {
     "japanese": "にんのり",
@@ -607,7 +1005,17 @@
     "lesson": 21,
     "difficulty": "intermediate",
     "category": "transport",
-    "example": "四人乗りの車です。"
+    "example": "四人乗りの車です。",
+    "kanji_search_results": [
+      {
+        "kanji": "乗",
+        "mean": "THỪA"
+      },
+      {
+        "kanji": "人",
+        "mean": "NHÂN"
+      }
+    ]
   },
   {
     "japanese": "いか",
@@ -617,7 +1025,17 @@
     "lesson": 21,
     "difficulty": "intermediate",
     "category": "comparison",
-    "example": "十八歳以下です。"
+    "example": "十八歳以下です。",
+    "kanji_search_results": [
+      {
+        "kanji": "以",
+        "mean": "DĨ"
+      },
+      {
+        "kanji": "下",
+        "mean": "HẠ, HÁ"
+      }
+    ]
   },
   {
     "japanese": "いじょう",
@@ -627,7 +1045,17 @@
     "lesson": 21,
     "difficulty": "intermediate",
     "category": "comparison",
-    "example": "十八歳以上です。"
+    "example": "十八歳以上です。",
+    "kanji_search_results": [
+      {
+        "kanji": "上",
+        "mean": "THƯỢNG, THƯỚNG"
+      },
+      {
+        "kanji": "以",
+        "mean": "DĨ"
+      }
+    ]
   },
   {
     "japanese": "までに",
