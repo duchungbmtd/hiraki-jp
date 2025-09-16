@@ -17,7 +17,13 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "object",
-    "example": "畳の上で座ります。"
+    "example": "畳の上で座ります。",
+    "kanji_search_results": [
+      {
+        "kanji": "畳",
+        "mean": "ĐIỆP"
+      }
+    ]
   },
   {
     "japanese": "かれ",
@@ -27,7 +33,13 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "person",
-    "example": "彼は学生です。"
+    "example": "彼は学生です。",
+    "kanji_search_results": [
+      {
+        "kanji": "彼",
+        "mean": "BỈ"
+      }
+    ]
   },
   {
     "japanese": "かのじょ",
@@ -37,7 +49,17 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "person",
-    "example": "彼女は教師です。"
+    "example": "彼女は教師です。",
+    "kanji_search_results": [
+      {
+        "kanji": "彼",
+        "mean": "BỈ"
+      },
+      {
+        "kanji": "女",
+        "mean": "NỮ, NỨ, NHỮ"
+      }
+    ]
   },
   {
     "japanese": "りょうきん",
@@ -47,7 +69,17 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "money",
-    "example": "料金を払います。"
+    "example": "料金を払います。",
+    "kanji_search_results": [
+      {
+        "kanji": "料",
+        "mean": "LIÊU, LIỆU"
+      },
+      {
+        "kanji": "金",
+        "mean": "KIM"
+      }
+    ]
   },
   {
     "japanese": "でんわりょうきん",
@@ -57,7 +89,25 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "money",
-    "example": "電話料金が高いです。"
+    "example": "電話料金が高いです。",
+    "kanji_search_results": [
+      {
+        "kanji": "電",
+        "mean": "ĐIỆN"
+      },
+      {
+        "kanji": "話",
+        "mean": "THOẠI"
+      },
+      {
+        "kanji": "料",
+        "mean": "LIÊU, LIỆU"
+      },
+      {
+        "kanji": "金",
+        "mean": "KIM"
+      }
+    ]
   },
   {
     "japanese": "いけばな",
@@ -67,7 +117,17 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "art",
-    "example": "生け花を習います。"
+    "example": "生け花を習います。",
+    "kanji_search_results": [
+      {
+        "kanji": "生",
+        "mean": "SANH, SINH"
+      },
+      {
+        "kanji": "花",
+        "mean": "HOA"
+      }
+    ]
   },
   {
     "japanese": "にんじゃ",
@@ -77,7 +137,17 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "person",
-    "example": "忍者について勉強します。"
+    "example": "忍者について勉強します。",
+    "kanji_search_results": [
+      {
+        "kanji": "忍",
+        "mean": "NHẪN"
+      },
+      {
+        "kanji": "者",
+        "mean": "GIẢ"
+      }
+    ]
   },
   {
     "japanese": "カラオケ",
@@ -97,7 +167,17 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "clothing",
-    "example": "浴衣を着ます。"
+    "example": "浴衣を着ます。",
+    "kanji_search_results": [
+      {
+        "kanji": "浴",
+        "mean": "DỤC"
+      },
+      {
+        "kanji": "衣",
+        "mean": "Y, Ý"
+      }
+    ]
   },
   {
     "japanese": "ペット",
@@ -137,7 +217,25 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "object",
-    "example": "目覚まし時計をセットします。"
+    "example": "目覚まし時計をセットします。",
+    "kanji_search_results": [
+      {
+        "kanji": "目",
+        "mean": "MỤC"
+      },
+      {
+        "kanji": "覚",
+        "mean": "GIÁC"
+      },
+      {
+        "kanji": "時",
+        "mean": "THÌ, THỜI"
+      },
+      {
+        "kanji": "計",
+        "mean": "KẾ, KÊ"
+      }
+    ]
   },
   {
     "japanese": "シャワー",
@@ -157,7 +255,13 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "body",
-    "example": "歯を磨きます。"
+    "example": "歯を磨きます。",
+    "kanji_search_results": [
+      {
+        "kanji": "歯",
+        "mean": "XỈ"
+      }
+    ]
   },
   {
     "japanese": "スピーチ",
@@ -227,7 +331,17 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "sport",
-    "example": "空手を習います。"
+    "example": "空手を習います。",
+    "kanji_search_results": [
+      {
+        "kanji": "空",
+        "mean": "KHÔNG, KHỐNG, KHỔNG"
+      },
+      {
+        "kanji": "手",
+        "mean": "THỦ"
+      }
+    ]
   },
   {
     "japanese": "きょく",
@@ -237,7 +351,13 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "music",
-    "example": "曲を歌います。"
+    "example": "曲を歌います。",
+    "kanji_search_results": [
+      {
+        "kanji": "曲",
+        "mean": "KHÚC"
+      }
+    ]
   },
   {
     "japanese": "まちます",
@@ -247,7 +367,13 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "友達を待ちます。"
+    "example": "友達を待ちます。",
+    "kanji_search_results": [
+      {
+        "kanji": "待",
+        "mean": "ĐÃI"
+      }
+    ]
   },
   {
     "japanese": "しにます",
@@ -257,7 +383,13 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "花が死にます。"
+    "example": "花が死にます。",
+    "kanji_search_results": [
+      {
+        "kanji": "死",
+        "mean": "TỬ"
+      }
+    ]
   },
   {
     "japanese": "ひきます",
@@ -267,7 +399,13 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "ピアノを弾きます。"
+    "example": "ピアノを弾きます。",
+    "kanji_search_results": [
+      {
+        "kanji": "弾",
+        "mean": "ĐÀN, ĐẠN"
+      }
+    ]
   },
   {
     "japanese": "できます",
@@ -287,7 +425,13 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "椅子に座ります。"
+    "example": "椅子に座ります。",
+    "kanji_search_results": [
+      {
+        "kanji": "座",
+        "mean": "TỌA"
+      }
+    ]
   },
   {
     "japanese": "たちます",
@@ -297,7 +441,13 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "立って話します。"
+    "example": "立って話します。",
+    "kanji_search_results": [
+      {
+        "kanji": "立",
+        "mean": "LẬP"
+      }
+    ]
   },
   {
     "japanese": "はらいます",
@@ -307,7 +457,13 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "料金を払います。"
+    "example": "料金を払います。",
+    "kanji_search_results": [
+      {
+        "kanji": "払",
+        "mean": "PHẤT"
+      }
+    ]
   },
   {
     "japanese": "セットします",
@@ -327,7 +483,13 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "シャワーを浴びます。"
+    "example": "シャワーを浴びます。",
+    "kanji_search_results": [
+      {
+        "kanji": "浴",
+        "mean": "DỤC"
+      }
+    ]
   },
   {
     "japanese": "みがきます",
@@ -337,7 +499,13 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "歯を磨きます。"
+    "example": "歯を磨きます。",
+    "kanji_search_results": [
+      {
+        "kanji": "磨",
+        "mean": "MA, MÁ"
+      }
+    ]
   },
   {
     "japanese": "けします",
@@ -347,7 +515,13 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "電気を消します。"
+    "example": "電気を消します。",
+    "kanji_search_results": [
+      {
+        "kanji": "消",
+        "mean": "TIÊU"
+      }
+    ]
   },
   {
     "japanese": "でかけます",
@@ -357,7 +531,13 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "買い物に出かけます。"
+    "example": "買い物に出かけます。",
+    "kanji_search_results": [
+      {
+        "kanji": "出",
+        "mean": "XUẤT, XÚY"
+      }
+    ]
   },
   {
     "japanese": "のります",
@@ -367,7 +547,13 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "電車に乗ります。"
+    "example": "電車に乗ります。",
+    "kanji_search_results": [
+      {
+        "kanji": "乗",
+        "mean": "THỪA"
+      }
+    ]
   },
   {
     "japanese": "おります",
@@ -377,7 +563,13 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "電車を降ります。"
+    "example": "電車を降ります。",
+    "kanji_search_results": [
+      {
+        "kanji": "降",
+        "mean": "HÀNG, GIÁNG"
+      }
+    ]
   },
   {
     "japanese": "はじめます",
@@ -387,7 +579,13 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "勉強を始めます。"
+    "example": "勉強を始めます。",
+    "kanji_search_results": [
+      {
+        "kanji": "始",
+        "mean": "THỦY, THÍ"
+      }
+    ]
   },
   {
     "japanese": "のせます",
@@ -397,7 +595,13 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "ブログに写真を載せます。"
+    "example": "ブログに写真を載せます。",
+    "kanji_search_results": [
+      {
+        "kanji": "載",
+        "mean": "TÁI, TẠI, TẢI"
+      }
+    ]
   },
   {
     "japanese": "みせます",
@@ -407,7 +611,13 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "写真を見せます。"
+    "example": "写真を見せます。",
+    "kanji_search_results": [
+      {
+        "kanji": "見",
+        "mean": "KIẾN, HIỆN"
+      }
+    ]
   },
   {
     "japanese": "なんメートル",
@@ -417,7 +627,13 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "question",
-    "example": "何メートルですか。"
+    "example": "何メートルですか。",
+    "kanji_search_results": [
+      {
+        "kanji": "何",
+        "mean": "HÀ"
+      }
+    ]
   },
   {
     "japanese": "この まえ",
@@ -427,7 +643,13 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "time",
-    "example": "この前会いました。"
+    "example": "この前会いました。",
+    "kanji_search_results": [
+      {
+        "kanji": "前",
+        "mean": "TIỀN"
+      }
+    ]
   },
   {
     "japanese": "じぶんで",
@@ -437,7 +659,17 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "adverb",
-    "example": "自分で作ります。"
+    "example": "自分で作ります。",
+    "kanji_search_results": [
+      {
+        "kanji": "自",
+        "mean": "TỰ"
+      },
+      {
+        "kanji": "分",
+        "mean": "PHÂN, PHẬN"
+      }
+    ]
   },
   {
     "japanese": "－メートル",
@@ -487,7 +719,17 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "place",
-    "example": "箱根に行きます。"
+    "example": "箱根に行きます。",
+    "kanji_search_results": [
+      {
+        "kanji": "箱",
+        "mean": "TƯƠNG, SƯƠNG"
+      },
+      {
+        "kanji": "根",
+        "mean": "CĂN"
+      }
+    ]
   },
   {
     "japanese": "ながの",
@@ -497,7 +739,17 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "place",
-    "example": "長野でスキーをします。"
+    "example": "長野でスキーをします。",
+    "kanji_search_results": [
+      {
+        "kanji": "長",
+        "mean": "TRƯỜNG, TRƯỞNG, TRƯỚNG"
+      },
+      {
+        "kanji": "野",
+        "mean": "DÃ"
+      }
+    ]
   },
   {
     "japanese": "みえ",
@@ -507,7 +759,17 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "place",
-    "example": "三重県に行きます。"
+    "example": "三重県に行きます。",
+    "kanji_search_results": [
+      {
+        "kanji": "三",
+        "mean": "TAM, TÁM"
+      },
+      {
+        "kanji": "重",
+        "mean": "TRỌNG, TRÙNG"
+      }
+    ]
   },
   {
     "japanese": "にんじゃむら",
@@ -517,7 +779,21 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "place",
-    "example": "忍者村を見学します。"
+    "example": "忍者村を見学します。",
+    "kanji_search_results": [
+      {
+        "kanji": "忍",
+        "mean": "NHẪN"
+      },
+      {
+        "kanji": "者",
+        "mean": "GIẢ"
+      },
+      {
+        "kanji": "村",
+        "mean": "THÔN"
+      }
+    ]
   },
   {
     "japanese": "ぶんかセンター",
@@ -527,7 +803,17 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "place",
-    "example": "文化センターで勉強します。"
+    "example": "文化センターで勉強します。",
+    "kanji_search_results": [
+      {
+        "kanji": "文",
+        "mean": "VĂN, VẤN"
+      },
+      {
+        "kanji": "化",
+        "mean": "HÓA"
+      }
+    ]
   },
   {
     "japanese": "ますけい",
@@ -537,7 +823,13 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "grammar",
-    "example": "ます形を勉強します。"
+    "example": "ます形を勉強します。",
+    "kanji_search_results": [
+      {
+        "kanji": "形",
+        "mean": "HÌNH"
+      }
+    ]
   },
   {
     "japanese": "じしょけい",
@@ -547,6 +839,20 @@
     "lesson": 14,
     "difficulty": "beginner",
     "category": "grammar",
-    "example": "辞書形を覚えます。"
+    "example": "辞書形を覚えます。",
+    "kanji_search_results": [
+      {
+        "kanji": "辞",
+        "mean": "TỪ"
+      },
+      {
+        "kanji": "書",
+        "mean": "THƯ"
+      },
+      {
+        "kanji": "形",
+        "mean": "HÌNH"
+      }
+    ]
   }
 ]

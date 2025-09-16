@@ -27,7 +27,13 @@
     "lesson": 10,
     "difficulty": "beginner",
     "category": "object",
-    "example": "絵はがきを送ります。"
+    "example": "絵はがきを送ります。",
+    "kanji_search_results": [
+      {
+        "kanji": "絵",
+        "mean": "HỘI"
+      }
+    ]
   },
   {
     "japanese": "せんぱい",
@@ -37,7 +43,17 @@
     "lesson": 10,
     "difficulty": "beginner",
     "category": "person",
-    "example": "先輩に教えてもらいます。"
+    "example": "先輩に教えてもらいます。",
+    "kanji_search_results": [
+      {
+        "kanji": "先",
+        "mean": "TIÊN, TIẾN"
+      },
+      {
+        "kanji": "輩",
+        "mean": "BỐI"
+      }
+    ]
   },
   {
     "japanese": "こうはい",
@@ -47,7 +63,17 @@
     "lesson": 10,
     "difficulty": "beginner",
     "category": "person",
-    "example": "後輩を教えます。"
+    "example": "後輩を教えます。",
+    "kanji_search_results": [
+      {
+        "kanji": "後",
+        "mean": "HẬU, HẤU"
+      },
+      {
+        "kanji": "輩",
+        "mean": "BỐI"
+      }
+    ]
   },
   {
     "japanese": "おちゃ",
@@ -57,7 +83,13 @@
     "lesson": 10,
     "difficulty": "beginner",
     "category": "food",
-    "example": "お茶を飲みます。"
+    "example": "お茶を飲みます。",
+    "kanji_search_results": [
+      {
+        "kanji": "茶",
+        "mean": "TRÀ"
+      }
+    ]
   },
   {
     "japanese": "ネックレス",
@@ -97,7 +129,13 @@
     "lesson": 10,
     "difficulty": "beginner",
     "category": "family",
-    "example": "夫は会社員です。"
+    "example": "夫は会社員です。",
+    "kanji_search_results": [
+      {
+        "kanji": "夫",
+        "mean": "PHU, PHÙ"
+      }
+    ]
   },
   {
     "japanese": "しゅじん",
@@ -107,7 +145,17 @@
     "lesson": 10,
     "difficulty": "beginner",
     "category": "family",
-    "example": "ご主人はお元気ですか。"
+    "example": "ご主人はお元気ですか。",
+    "kanji_search_results": [
+      {
+        "kanji": "主",
+        "mean": "CHỦ, CHÚA"
+      },
+      {
+        "kanji": "人",
+        "mean": "NHÂN"
+      }
+    ]
   },
   {
     "japanese": "つま",
@@ -117,7 +165,13 @@
     "lesson": 10,
     "difficulty": "beginner",
     "category": "family",
-    "example": "妻は看護師です。"
+    "example": "妻は看護師です。",
+    "kanji_search_results": [
+      {
+        "kanji": "妻",
+        "mean": "THÊ, THẾ"
+      }
+    ]
   },
   {
     "japanese": "おくさん",
@@ -127,7 +181,13 @@
     "lesson": 10,
     "difficulty": "beginner",
     "category": "family",
-    "example": "奥さんはお元気ですか。"
+    "example": "奥さんはお元気ですか。",
+    "kanji_search_results": [
+      {
+        "kanji": "奥",
+        "mean": "ÁO, ÚC"
+      }
+    ]
   },
   {
     "japanese": "こどもさん",
@@ -137,7 +197,17 @@
     "lesson": 10,
     "difficulty": "beginner",
     "category": "family",
-    "example": "子供さんは何人ですか。"
+    "example": "子供さんは何人ですか。",
+    "kanji_search_results": [
+      {
+        "kanji": "子",
+        "mean": "TỬ, TÍ"
+      },
+      {
+        "kanji": "供",
+        "mean": "CUNG"
+      }
+    ]
   },
   {
     "japanese": "せっけん",
@@ -147,7 +217,13 @@
     "lesson": 10,
     "difficulty": "beginner",
     "category": "object",
-    "example": "石けんで手を洗います。"
+    "example": "石けんで手を洗います。",
+    "kanji_search_results": [
+      {
+        "kanji": "石",
+        "mean": "THẠCH"
+      }
+    ]
   },
   {
     "japanese": "みかん",
@@ -167,7 +243,17 @@
     "lesson": 10,
     "difficulty": "beginner",
     "category": "activity",
-    "example": "注文をします。"
+    "example": "注文をします。",
+    "kanji_search_results": [
+      {
+        "kanji": "注",
+        "mean": "CHÚ"
+      },
+      {
+        "kanji": "文",
+        "mean": "VĂN, VẤN"
+      }
+    ]
   },
   {
     "japanese": "サンドイッチ",
@@ -247,7 +333,13 @@
     "lesson": 10,
     "difficulty": "beginner",
     "category": "body",
-    "example": "手を洗います。"
+    "example": "手を洗います。",
+    "kanji_search_results": [
+      {
+        "kanji": "手",
+        "mean": "THỦ"
+      }
+    ]
   },
   {
     "japanese": "レポート",
@@ -267,7 +359,21 @@
     "lesson": 10,
     "difficulty": "beginner",
     "category": "service",
-    "example": "航空便で送ります。"
+    "example": "航空便で送ります。",
+    "kanji_search_results": [
+      {
+        "kanji": "航",
+        "mean": "HÀNG"
+      },
+      {
+        "kanji": "空",
+        "mean": "KHÔNG, KHỐNG, KHỔNG"
+      },
+      {
+        "kanji": "便",
+        "mean": "TIỆN"
+      }
+    ]
   },
   {
     "japanese": "にもつ",
@@ -277,7 +383,17 @@
     "lesson": 10,
     "difficulty": "beginner",
     "category": "object",
-    "example": "荷物を送ります。"
+    "example": "荷物を送ります。",
+    "kanji_search_results": [
+      {
+        "kanji": "荷",
+        "mean": "HÀ, HẠ"
+      },
+      {
+        "kanji": "物",
+        "mean": "VẬT"
+      }
+    ]
   },
   {
     "japanese": "かきとめ",
@@ -287,7 +403,17 @@
     "lesson": 10,
     "difficulty": "beginner",
     "category": "service",
-    "example": "書留で送ります。"
+    "example": "書留で送ります。",
+    "kanji_search_results": [
+      {
+        "kanji": "書",
+        "mean": "THƯ"
+      },
+      {
+        "kanji": "留",
+        "mean": "LƯU"
+      }
+    ]
   },
   {
     "japanese": "いろ",
@@ -297,7 +423,13 @@
     "lesson": 10,
     "difficulty": "beginner",
     "category": "noun",
-    "example": "きれいな色です。"
+    "example": "きれいな色です。",
+    "kanji_search_results": [
+      {
+        "kanji": "色",
+        "mean": "SẮC"
+      }
+    ]
   },
   {
     "japanese": "セーター",
@@ -327,7 +459,13 @@
     "lesson": 10,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "本を貸します。"
+    "example": "本を貸します。",
+    "kanji_search_results": [
+      {
+        "kanji": "貸",
+        "mean": "THẢI, THẮC"
+      }
+    ]
   },
   {
     "japanese": "あげます",
@@ -347,7 +485,13 @@
     "lesson": 10,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "日本語を教えます。"
+    "example": "日本語を教えます。",
+    "kanji_search_results": [
+      {
+        "kanji": "教",
+        "mean": "GIÁO, GIAO"
+      }
+    ]
   },
   {
     "japanese": "おくります",
@@ -357,7 +501,13 @@
     "lesson": 10,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "手紙を送ります。"
+    "example": "手紙を送ります。",
+    "kanji_search_results": [
+      {
+        "kanji": "送",
+        "mean": "TỐNG"
+      }
+    ]
   },
   {
     "japanese": "かけます",
@@ -367,7 +517,13 @@
     "lesson": 10,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "電話をかけます。"
+    "example": "電話をかけます。",
+    "kanji_search_results": [
+      {
+        "kanji": "賭",
+        "mean": "ĐỔ"
+      }
+    ]
   },
   {
     "japanese": "かります",
@@ -377,7 +533,13 @@
     "lesson": 10,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "本を借ります。"
+    "example": "本を借ります。",
+    "kanji_search_results": [
+      {
+        "kanji": "借",
+        "mean": "TÁ"
+      }
+    ]
   },
   {
     "japanese": "ならいます",
@@ -387,7 +549,13 @@
     "lesson": 10,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "ピアノを習います。"
+    "example": "ピアノを習います。",
+    "kanji_search_results": [
+      {
+        "kanji": "習",
+        "mean": "TẬP"
+      }
+    ]
   },
   {
     "japanese": "もらいます",
@@ -417,7 +585,13 @@
     "lesson": 10,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "友達と話します。"
+    "example": "友達と話します。",
+    "kanji_search_results": [
+      {
+        "kanji": "話",
+        "mean": "THOẠI"
+      }
+    ]
   },
   {
     "japanese": "すてき",
@@ -527,7 +701,21 @@
     "lesson": 10,
     "difficulty": "beginner",
     "category": "number",
-    "example": "りんごを十買います。"
+    "example": "りんごを十買います。",
+    "kanji_search_results": [
+      {
+        "kanji": "瓧",
+        "mean": ""
+      },
+      {
+        "kanji": "磅",
+        "mean": "BÀNG, BẢNG"
+      },
+      {
+        "kanji": "碼",
+        "mean": "MÃ"
+      }
+    ]
   },
   {
     "japanese": "いくつ",
@@ -547,7 +735,13 @@
     "lesson": 10,
     "difficulty": "beginner",
     "category": "number",
-    "example": "車を一台買います。"
+    "example": "車を一台買います。",
+    "kanji_search_results": [
+      {
+        "kanji": "台",
+        "mean": "THAI, ĐÀI, DI"
+      }
+    ]
   },
   {
     "japanese": "なんだい",
@@ -557,7 +751,17 @@
     "lesson": 10,
     "difficulty": "beginner",
     "category": "question",
-    "example": "何台買いますか。"
+    "example": "何台買いますか。",
+    "kanji_search_results": [
+      {
+        "kanji": "何",
+        "mean": "HÀ"
+      },
+      {
+        "kanji": "台",
+        "mean": "THAI, ĐÀI, DI"
+      }
+    ]
   },
   {
     "japanese": "－まい",
@@ -567,7 +771,13 @@
     "lesson": 10,
     "difficulty": "beginner",
     "category": "number",
-    "example": "切手を一枚買います。"
+    "example": "切手を一枚買います。",
+    "kanji_search_results": [
+      {
+        "kanji": "枚",
+        "mean": "MAI"
+      }
+    ]
   },
   {
     "japanese": "なんまい",
@@ -577,7 +787,17 @@
     "lesson": 10,
     "difficulty": "beginner",
     "category": "question",
-    "example": "何枚買いますか。"
+    "example": "何枚買いますか。",
+    "kanji_search_results": [
+      {
+        "kanji": "何",
+        "mean": "HÀ"
+      },
+      {
+        "kanji": "枚",
+        "mean": "MAI"
+      }
+    ]
   },
   {
     "japanese": "また",
@@ -597,7 +817,13 @@
     "lesson": 10,
     "difficulty": "beginner",
     "category": "adverb",
-    "example": "初めて日本に来ました。"
+    "example": "初めて日本に来ました。",
+    "kanji_search_results": [
+      {
+        "kanji": "初",
+        "mean": "SƠ"
+      }
+    ]
   },
   {
     "japanese": "～を おねがいします",
@@ -607,7 +833,13 @@
     "lesson": 10,
     "difficulty": "beginner",
     "category": "expression",
-    "example": "コーヒーをお願いします。"
+    "example": "コーヒーをお願いします。",
+    "kanji_search_results": [
+      {
+        "kanji": "願",
+        "mean": "NGUYỆN"
+      }
+    ]
   },
   {
     "japanese": "いらっしゃいませ",

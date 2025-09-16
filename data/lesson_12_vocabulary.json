@@ -7,7 +7,13 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "time",
-    "example": "休みを取ります。"
+    "example": "休みを取ります。",
+    "kanji_search_results": [
+      {
+        "kanji": "休",
+        "mean": "HƯU"
+      }
+    ]
   },
   {
     "japanese": "ひるやすみ",
@@ -17,7 +23,17 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "time",
-    "example": "昼休みに昼ご飯を食べます。"
+    "example": "昼休みに昼ご飯を食べます。",
+    "kanji_search_results": [
+      {
+        "kanji": "昼",
+        "mean": "TRÚ"
+      },
+      {
+        "kanji": "休",
+        "mean": "HƯU"
+      }
+    ]
   },
   {
     "japanese": "はなみ",
@@ -27,7 +43,17 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "activity",
-    "example": "花見をします。"
+    "example": "花見をします。",
+    "kanji_search_results": [
+      {
+        "kanji": "花",
+        "mean": "HOA"
+      },
+      {
+        "kanji": "見",
+        "mean": "KIẾN, HIỆN"
+      }
+    ]
   },
   {
     "japanese": "おにぎり",
@@ -47,7 +73,17 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "activity",
-    "example": "準備をします。"
+    "example": "準備をします。",
+    "kanji_search_results": [
+      {
+        "kanji": "準",
+        "mean": "CHUẨN, CHUYẾT"
+      },
+      {
+        "kanji": "備",
+        "mean": "BỊ"
+      }
+    ]
   },
   {
     "japanese": "じゅぎょう",
@@ -57,7 +93,17 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "education",
-    "example": "授業を受けます。"
+    "example": "授業を受けます。",
+    "kanji_search_results": [
+      {
+        "kanji": "授",
+        "mean": "THỤ"
+      },
+      {
+        "kanji": "業",
+        "mean": "NGHIỆP"
+      }
+    ]
   },
   {
     "japanese": "きもの",
@@ -67,7 +113,17 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "clothing",
-    "example": "着物を着ます。"
+    "example": "着物を着ます。",
+    "kanji_search_results": [
+      {
+        "kanji": "着",
+        "mean": "TRỨ, TRƯỚC, TRỮ"
+      },
+      {
+        "kanji": "物",
+        "mean": "VẬT"
+      }
+    ]
   },
   {
     "japanese": "ホテル",
@@ -97,7 +153,17 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "place",
-    "example": "空港で待ちます。"
+    "example": "空港で待ちます。",
+    "kanji_search_results": [
+      {
+        "kanji": "空",
+        "mean": "KHÔNG, KHỐNG, KHỔNG"
+      },
+      {
+        "kanji": "港",
+        "mean": "CẢNG"
+      }
+    ]
   },
   {
     "japanese": "～たち",
@@ -127,7 +193,13 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "place",
-    "example": "橋を渡ります。"
+    "example": "橋を渡ります。",
+    "kanji_search_results": [
+      {
+        "kanji": "橋",
+        "mean": "KIỀU, KHIÊU, CAO"
+      }
+    ]
   },
   {
     "japanese": "あか",
@@ -137,7 +209,13 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "color",
-    "example": "赤い花です。"
+    "example": "赤い花です。",
+    "kanji_search_results": [
+      {
+        "kanji": "赤",
+        "mean": "XÍCH, THÍCH"
+      }
+    ]
   },
   {
     "japanese": "きいろ",
@@ -147,7 +225,17 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "color",
-    "example": "黄色い車です。"
+    "example": "黄色い車です。",
+    "kanji_search_results": [
+      {
+        "kanji": "黄",
+        "mean": "HOÀNG"
+      },
+      {
+        "kanji": "色",
+        "mean": "SẮC"
+      }
+    ]
   },
   {
     "japanese": "けしき",
@@ -157,7 +245,17 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "nature",
-    "example": "きれいな景色です。"
+    "example": "きれいな景色です。",
+    "kanji_search_results": [
+      {
+        "kanji": "景",
+        "mean": "CẢNH"
+      },
+      {
+        "kanji": "色",
+        "mean": "SẮC"
+      }
+    ]
   },
   {
     "japanese": "しま",
@@ -167,7 +265,13 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "place",
-    "example": "島に行きます。"
+    "example": "島に行きます。",
+    "kanji_search_results": [
+      {
+        "kanji": "島",
+        "mean": "ĐẢO"
+      }
+    ]
   },
   {
     "japanese": "はっぴょうします",
@@ -177,7 +281,17 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "研究を発表します。"
+    "example": "研究を発表します。",
+    "kanji_search_results": [
+      {
+        "kanji": "発",
+        "mean": "PHÁT"
+      },
+      {
+        "kanji": "表",
+        "mean": "BIỂU"
+      }
+    ]
   },
   {
     "japanese": "のぼります",
@@ -187,7 +301,13 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "山に登ります。"
+    "example": "山に登ります。",
+    "kanji_search_results": [
+      {
+        "kanji": "登",
+        "mean": "ĐĂNG"
+      }
+    ]
   },
   {
     "japanese": "とまります",
@@ -197,7 +317,13 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "ホテルに泊まります。"
+    "example": "ホテルに泊まります。",
+    "kanji_search_results": [
+      {
+        "kanji": "泊",
+        "mean": "BẠC, PHÁCH"
+      }
+    ]
   },
   {
     "japanese": "きます",
@@ -207,7 +333,13 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "服を着ます。"
+    "example": "服を着ます。",
+    "kanji_search_results": [
+      {
+        "kanji": "着",
+        "mean": "TRỨ, TRƯỚC, TRỮ"
+      }
+    ]
   },
   {
     "japanese": "ぬぎます",
@@ -217,7 +349,13 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "靴を脱ぎます。"
+    "example": "靴を脱ぎます。",
+    "kanji_search_results": [
+      {
+        "kanji": "脱",
+        "mean": "THOÁT, ĐOÁI"
+      }
+    ]
   },
   {
     "japanese": "かかります",
@@ -237,7 +375,13 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "写真を撮ります。"
+    "example": "写真を撮ります。",
+    "kanji_search_results": [
+      {
+        "kanji": "撮",
+        "mean": "TOÁT"
+      }
+    ]
   },
   {
     "japanese": "きびしい",
@@ -247,7 +391,13 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "adjective",
-    "example": "厳しい先生です。"
+    "example": "厳しい先生です。",
+    "kanji_search_results": [
+      {
+        "kanji": "厳",
+        "mean": "NGHIÊM"
+      }
+    ]
   },
   {
     "japanese": "こわい",
@@ -257,7 +407,13 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "adjective",
-    "example": "怖い映画です。"
+    "example": "怖い映画です。",
+    "kanji_search_results": [
+      {
+        "kanji": "怖",
+        "mean": "PHỐ, BỐ"
+      }
+    ]
   },
   {
     "japanese": "おもい",
@@ -267,7 +423,13 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "adjective",
-    "example": "重い荷物です。"
+    "example": "重い荷物です。",
+    "kanji_search_results": [
+      {
+        "kanji": "重",
+        "mean": "TRỌNG, TRÙNG"
+      }
+    ]
   },
   {
     "japanese": "かるい",
@@ -277,7 +439,13 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "adjective",
-    "example": "軽い荷物です。"
+    "example": "軽い荷物です。",
+    "kanji_search_results": [
+      {
+        "kanji": "軽",
+        "mean": "KHINH"
+      }
+    ]
   },
   {
     "japanese": "つめたい",
@@ -287,7 +455,13 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "adjective",
-    "example": "冷たい水です。"
+    "example": "冷たい水です。",
+    "kanji_search_results": [
+      {
+        "kanji": "冷",
+        "mean": "LÃNH"
+      }
+    ]
   },
   {
     "japanese": "－ふん",
@@ -297,7 +471,13 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "time",
-    "example": "三十分かかります。"
+    "example": "三十分かかります。",
+    "kanji_search_results": [
+      {
+        "kanji": "分",
+        "mean": "PHÂN, PHẬN"
+      }
+    ]
   },
   {
     "japanese": "－ぷん",
@@ -307,7 +487,13 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "time",
-    "example": "五分かかります。"
+    "example": "五分かかります。",
+    "kanji_search_results": [
+      {
+        "kanji": "分",
+        "mean": "PHÂN, PHẬN"
+      }
+    ]
   },
   {
     "japanese": "なんぷん",
@@ -317,7 +503,17 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "question",
-    "example": "何分かかりますか。"
+    "example": "何分かかりますか。",
+    "kanji_search_results": [
+      {
+        "kanji": "何",
+        "mean": "HÀ"
+      },
+      {
+        "kanji": "分",
+        "mean": "PHÂN, PHẬN"
+      }
+    ]
   },
   {
     "japanese": "－じかん",
@@ -327,7 +523,17 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "time",
-    "example": "三時間かかります。"
+    "example": "三時間かかります。",
+    "kanji_search_results": [
+      {
+        "kanji": "時",
+        "mean": "THÌ, THỜI"
+      },
+      {
+        "kanji": "間",
+        "mean": "GIAN"
+      }
+    ]
   },
   {
     "japanese": "なんじかん",
@@ -337,7 +543,21 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "question",
-    "example": "何時間かかりますか。"
+    "example": "何時間かかりますか。",
+    "kanji_search_results": [
+      {
+        "kanji": "何",
+        "mean": "HÀ"
+      },
+      {
+        "kanji": "時",
+        "mean": "THÌ, THỜI"
+      },
+      {
+        "kanji": "間",
+        "mean": "GIAN"
+      }
+    ]
   },
   {
     "japanese": "－にち",
@@ -347,7 +567,13 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "time",
-    "example": "三日かかります。"
+    "example": "三日かかります。",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
   },
   {
     "japanese": "なんにち",
@@ -357,7 +583,17 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "question",
-    "example": "何日かかりますか。"
+    "example": "何日かかりますか。",
+    "kanji_search_results": [
+      {
+        "kanji": "何",
+        "mean": "HÀ"
+      },
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
   },
   {
     "japanese": "－しゅうかん",
@@ -367,7 +603,17 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "time",
-    "example": "二週間かかります。"
+    "example": "二週間かかります。",
+    "kanji_search_results": [
+      {
+        "kanji": "週",
+        "mean": "CHU"
+      },
+      {
+        "kanji": "間",
+        "mean": "GIAN"
+      }
+    ]
   },
   {
     "japanese": "なんしゅうかん",
@@ -377,7 +623,21 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "question",
-    "example": "何週間かかりますか。"
+    "example": "何週間かかりますか。",
+    "kanji_search_results": [
+      {
+        "kanji": "何",
+        "mean": "HÀ"
+      },
+      {
+        "kanji": "週",
+        "mean": "CHU"
+      },
+      {
+        "kanji": "間",
+        "mean": "GIAN"
+      }
+    ]
   },
   {
     "japanese": "－かげつ",
@@ -387,7 +647,13 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "time",
-    "example": "三か月かかります。"
+    "example": "三か月かかります。",
+    "kanji_search_results": [
+      {
+        "kanji": "月",
+        "mean": "NGUYỆT"
+      }
+    ]
   },
   {
     "japanese": "なんかげつ",
@@ -397,7 +663,17 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "question",
-    "example": "何か月かかりますか。"
+    "example": "何か月かかりますか。",
+    "kanji_search_results": [
+      {
+        "kanji": "何",
+        "mean": "HÀ"
+      },
+      {
+        "kanji": "月",
+        "mean": "NGUYỆT"
+      }
+    ]
   },
   {
     "japanese": "－ねん",
@@ -407,7 +683,13 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "time",
-    "example": "一年かかります。"
+    "example": "一年かかります。",
+    "kanji_search_results": [
+      {
+        "kanji": "年",
+        "mean": "NIÊN"
+      }
+    ]
   },
   {
     "japanese": "なんねん",
@@ -417,7 +699,17 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "question",
-    "example": "何年かかりますか。"
+    "example": "何年かかりますか。",
+    "kanji_search_results": [
+      {
+        "kanji": "何",
+        "mean": "HÀ"
+      },
+      {
+        "kanji": "年",
+        "mean": "NIÊN"
+      }
+    ]
   },
   {
     "japanese": "はんとし",
@@ -427,7 +719,17 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "time",
-    "example": "半年かかります。"
+    "example": "半年かかります。",
+    "kanji_search_results": [
+      {
+        "kanji": "半",
+        "mean": "BÁN"
+      },
+      {
+        "kanji": "年",
+        "mean": "NIÊN"
+      }
+    ]
   },
   {
     "japanese": "どのぐらい",
@@ -527,7 +829,17 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "place",
-    "example": "福岡に行きます。"
+    "example": "福岡に行きます。",
+    "kanji_search_results": [
+      {
+        "kanji": "福",
+        "mean": "PHÚC"
+      },
+      {
+        "kanji": "岡",
+        "mean": "CƯƠNG"
+      }
+    ]
   },
   {
     "japanese": "かごしま",
@@ -537,7 +849,21 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "place",
-    "example": "鹿児島に行きます。"
+    "example": "鹿児島に行きます。",
+    "kanji_search_results": [
+      {
+        "kanji": "鹿",
+        "mean": "LỘC"
+      },
+      {
+        "kanji": "児",
+        "mean": "NHI"
+      },
+      {
+        "kanji": "島",
+        "mean": "ĐẢO"
+      }
+    ]
   },
   {
     "japanese": "なりた",
@@ -547,7 +873,17 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "place",
-    "example": "成田空港に行きます。"
+    "example": "成田空港に行きます。",
+    "kanji_search_results": [
+      {
+        "kanji": "成",
+        "mean": "THÀNH"
+      },
+      {
+        "kanji": "田",
+        "mean": "ĐIỀN"
+      }
+    ]
   },
   {
     "japanese": "みやじま",
@@ -557,6 +893,16 @@
     "lesson": 12,
     "difficulty": "beginner",
     "category": "place",
-    "example": "宮島を見学します。"
+    "example": "宮島を見学します。",
+    "kanji_search_results": [
+      {
+        "kanji": "宮",
+        "mean": "CUNG"
+      },
+      {
+        "kanji": "島",
+        "mean": "ĐẢO"
+      }
+    ]
   }
 ]

@@ -7,7 +7,17 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "person",
-    "example": "男の子が遊んでいます。"
+    "example": "男の子が遊んでいます。",
+    "kanji_search_results": [
+      {
+        "kanji": "男",
+        "mean": "NAM"
+      },
+      {
+        "kanji": "子",
+        "mean": "TỬ, TÍ"
+      }
+    ]
   },
   {
     "japanese": "おとこの ひと",
@@ -17,7 +27,17 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "person",
-    "example": "男の人が働いています。"
+    "example": "男の人が働いています。",
+    "kanji_search_results": [
+      {
+        "kanji": "男",
+        "mean": "NAM"
+      },
+      {
+        "kanji": "人",
+        "mean": "NHÂN"
+      }
+    ]
   },
   {
     "japanese": "おとこ",
@@ -27,7 +47,13 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "person",
-    "example": "男の先生です。"
+    "example": "男の先生です。",
+    "kanji_search_results": [
+      {
+        "kanji": "男",
+        "mean": "NAM"
+      }
+    ]
   },
   {
     "japanese": "おんなの こ",
@@ -37,7 +63,17 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "person",
-    "example": "女の子が歌っています。"
+    "example": "女の子が歌っています。",
+    "kanji_search_results": [
+      {
+        "kanji": "女",
+        "mean": "NỮ, NỨ, NHỮ"
+      },
+      {
+        "kanji": "子",
+        "mean": "TỬ, TÍ"
+      }
+    ]
   },
   {
     "japanese": "おんなの ひと",
@@ -47,7 +83,17 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "person",
-    "example": "女の人が教えています。"
+    "example": "女の人が教えています。",
+    "kanji_search_results": [
+      {
+        "kanji": "女",
+        "mean": "NỮ, NỨ, NHỮ"
+      },
+      {
+        "kanji": "人",
+        "mean": "NHÂN"
+      }
+    ]
   },
   {
     "japanese": "おんな",
@@ -57,7 +103,13 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "person",
-    "example": "女の学生です。"
+    "example": "女の学生です。",
+    "kanji_search_results": [
+      {
+        "kanji": "女",
+        "mean": "NỮ, NỨ, NHỮ"
+      }
+    ]
   },
   {
     "japanese": "こども",
@@ -67,7 +119,17 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "person",
-    "example": "子供が遊んでいます。"
+    "example": "子供が遊んでいます。",
+    "kanji_search_results": [
+      {
+        "kanji": "子",
+        "mean": "TỬ, TÍ"
+      },
+      {
+        "kanji": "供",
+        "mean": "CUNG"
+      }
+    ]
   },
   {
     "japanese": "いぬ",
@@ -77,7 +139,13 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "animal",
-    "example": "犬が走っています。"
+    "example": "犬が走っています。",
+    "kanji_search_results": [
+      {
+        "kanji": "犬",
+        "mean": "KHUYỂN"
+      }
+    ]
   },
   {
     "japanese": "き",
@@ -87,7 +155,13 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "nature",
-    "example": "高い木があります。"
+    "example": "高い木があります。",
+    "kanji_search_results": [
+      {
+        "kanji": "木",
+        "mean": "MỘC"
+      }
+    ]
   },
   {
     "japanese": "じどうはんばいき",
@@ -97,7 +171,29 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "object",
-    "example": "自動販売機でジュースを買います。"
+    "example": "自動販売機でジュースを買います。",
+    "kanji_search_results": [
+      {
+        "kanji": "自",
+        "mean": "TỰ"
+      },
+      {
+        "kanji": "動",
+        "mean": "ĐỘNG"
+      },
+      {
+        "kanji": "販",
+        "mean": "PHIẾN, PHÁN"
+      },
+      {
+        "kanji": "売",
+        "mean": "MẠI"
+      },
+      {
+        "kanji": "機",
+        "mean": "KI, CƠ"
+      }
+    ]
   },
   {
     "japanese": "ねこ",
@@ -107,7 +203,13 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "animal",
-    "example": "猫が寝ています。"
+    "example": "猫が寝ています。",
+    "kanji_search_results": [
+      {
+        "kanji": "猫",
+        "mean": "MIÊU"
+      }
+    ]
   },
   {
     "japanese": "はこ",
@@ -117,7 +219,13 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "object",
-    "example": "箱の中に本があります。"
+    "example": "箱の中に本があります。",
+    "kanji_search_results": [
+      {
+        "kanji": "箱",
+        "mean": "TƯƠNG, SƯƠNG"
+      }
+    ]
   },
   {
     "japanese": "つくえ",
@@ -127,7 +235,13 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "object",
-    "example": "机の上に本があります。"
+    "example": "机の上に本があります。",
+    "kanji_search_results": [
+      {
+        "kanji": "机",
+        "mean": "KY, CƠ"
+      }
+    ]
   },
   {
     "japanese": "パジャマ",
@@ -187,7 +301,17 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "place",
-    "example": "交番で道を聞きます。"
+    "example": "交番で道を聞きます。",
+    "kanji_search_results": [
+      {
+        "kanji": "交",
+        "mean": "GIAO"
+      },
+      {
+        "kanji": "番",
+        "mean": "PHIÊN, PHAN, BA, BÀ"
+      }
+    ]
   },
   {
     "japanese": "バスてい",
@@ -197,7 +321,13 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "place",
-    "example": "バス停でバスを待ちます。"
+    "example": "バス停でバスを待ちます。",
+    "kanji_search_results": [
+      {
+        "kanji": "停",
+        "mean": "ĐÌNH"
+      }
+    ]
   },
   {
     "japanese": "ポスト",
@@ -217,7 +347,17 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "object",
-    "example": "電話をかけます。"
+    "example": "電話をかけます。",
+    "kanji_search_results": [
+      {
+        "kanji": "電",
+        "mean": "ĐIỆN"
+      },
+      {
+        "kanji": "話",
+        "mean": "THOẠI"
+      }
+    ]
   },
   {
     "japanese": "ロッカー",
@@ -257,7 +397,17 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "place",
-    "example": "西口から出ます。"
+    "example": "西口から出ます。",
+    "kanji_search_results": [
+      {
+        "kanji": "西",
+        "mean": "TÂY, TÊ"
+      },
+      {
+        "kanji": "口",
+        "mean": "KHẨU"
+      }
+    ]
   },
   {
     "japanese": "ひがしぐち",
@@ -267,7 +417,17 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "place",
-    "example": "東口で待ち合わせをします。"
+    "example": "東口で待ち合わせをします。",
+    "kanji_search_results": [
+      {
+        "kanji": "東",
+        "mean": "ĐÔNG"
+      },
+      {
+        "kanji": "口",
+        "mean": "KHẨU"
+      }
+    ]
   },
   {
     "japanese": "みなみぐち",
@@ -277,7 +437,17 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "place",
-    "example": "南口から入ります。"
+    "example": "南口から入ります。",
+    "kanji_search_results": [
+      {
+        "kanji": "南",
+        "mean": "NAM"
+      },
+      {
+        "kanji": "口",
+        "mean": "KHẨU"
+      }
+    ]
   },
   {
     "japanese": "きたぐち",
@@ -287,7 +457,17 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "place",
-    "example": "北口で会いましょう。"
+    "example": "北口で会いましょう。",
+    "kanji_search_results": [
+      {
+        "kanji": "北",
+        "mean": "BẮC"
+      },
+      {
+        "kanji": "口",
+        "mean": "KHẨU"
+      }
+    ]
   },
   {
     "japanese": "きょうかい",
@@ -297,7 +477,17 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "place",
-    "example": "教会で結婚式をします。"
+    "example": "教会で結婚式をします。",
+    "kanji_search_results": [
+      {
+        "kanji": "教",
+        "mean": "GIÁO, GIAO"
+      },
+      {
+        "kanji": "会",
+        "mean": "HỘI, CỐI"
+      }
+    ]
   },
   {
     "japanese": "みずうみ",
@@ -307,7 +497,13 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "nature",
-    "example": "湖でボートに乗ります。"
+    "example": "湖でボートに乗ります。",
+    "kanji_search_results": [
+      {
+        "kanji": "湖",
+        "mean": "HỒ"
+      }
+    ]
   },
   {
     "japanese": "つり",
@@ -317,7 +513,13 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "activity",
-    "example": "釣りをします。"
+    "example": "釣りをします。",
+    "kanji_search_results": [
+      {
+        "kanji": "釣",
+        "mean": "ĐIẾU"
+      }
+    ]
   },
   {
     "japanese": "どうぶつ",
@@ -327,7 +529,17 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "animal",
-    "example": "動物が好きです。"
+    "example": "動物が好きです。",
+    "kanji_search_results": [
+      {
+        "kanji": "動",
+        "mean": "ĐỘNG"
+      },
+      {
+        "kanji": "物",
+        "mean": "VẬT"
+      }
+    ]
   },
   {
     "japanese": "みやげ",
@@ -337,7 +549,17 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "object",
-    "example": "お土産を買います。"
+    "example": "お土産を買います。",
+    "kanji_search_results": [
+      {
+        "kanji": "土",
+        "mean": "THỔ, ĐỘ, ĐỖ"
+      },
+      {
+        "kanji": "産",
+        "mean": "SẢN"
+      }
+    ]
   },
   {
     "japanese": "みせ",
@@ -347,7 +569,13 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "place",
-    "example": "店で買い物をします。"
+    "example": "店で買い物をします。",
+    "kanji_search_results": [
+      {
+        "kanji": "店",
+        "mean": "ĐIẾM"
+      }
+    ]
   },
   {
     "japanese": "うえ",
@@ -357,7 +585,13 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "position",
-    "example": "机の上に本があります。"
+    "example": "机の上に本があります。",
+    "kanji_search_results": [
+      {
+        "kanji": "上",
+        "mean": "THƯỢNG, THƯỚNG"
+      }
+    ]
   },
   {
     "japanese": "した",
@@ -367,7 +601,13 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "position",
-    "example": "机の下に猫がいます。"
+    "example": "机の下に猫がいます。",
+    "kanji_search_results": [
+      {
+        "kanji": "下",
+        "mean": "HẠ, HÁ"
+      }
+    ]
   },
   {
     "japanese": "まえ",
@@ -377,7 +617,13 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "position",
-    "example": "学校の前にバス停があります。"
+    "example": "学校の前にバス停があります。",
+    "kanji_search_results": [
+      {
+        "kanji": "前",
+        "mean": "TIỀN"
+      }
+    ]
   },
   {
     "japanese": "うしろ",
@@ -387,7 +633,13 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "position",
-    "example": "後ろに立ってください。"
+    "example": "後ろに立ってください。",
+    "kanji_search_results": [
+      {
+        "kanji": "後",
+        "mean": "HẬU, HẤU"
+      }
+    ]
   },
   {
     "japanese": "なか",
@@ -397,7 +649,13 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "position",
-    "example": "箱の中に何がありますか。"
+    "example": "箱の中に何がありますか。",
+    "kanji_search_results": [
+      {
+        "kanji": "中",
+        "mean": "TRUNG, TRÚNG"
+      }
+    ]
   },
   {
     "japanese": "そと",
@@ -407,7 +665,13 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "position",
-    "example": "外で遊びます。"
+    "example": "外で遊びます。",
+    "kanji_search_results": [
+      {
+        "kanji": "外",
+        "mean": "NGOẠI"
+      }
+    ]
   },
   {
     "japanese": "よこ",
@@ -417,7 +681,13 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "position",
-    "example": "横に座ってください。"
+    "example": "横に座ってください。",
+    "kanji_search_results": [
+      {
+        "kanji": "横",
+        "mean": "HOÀNH, HOẠNH, QUÁNG"
+      }
+    ]
   },
   {
     "japanese": "となり",
@@ -427,7 +697,13 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "position",
-    "example": "隣の家に住んでいます。"
+    "example": "隣の家に住んでいます。",
+    "kanji_search_results": [
+      {
+        "kanji": "隣",
+        "mean": "LÂN"
+      }
+    ]
   },
   {
     "japanese": "あいだ",
@@ -437,7 +713,13 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "position",
-    "example": "二人の間にテーブルがあります。"
+    "example": "二人の間にテーブルがあります。",
+    "kanji_search_results": [
+      {
+        "kanji": "間",
+        "mean": "GIAN"
+      }
+    ]
   },
   {
     "japanese": "ちかく",
@@ -447,7 +729,13 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "position",
-    "example": "近くにコンビニがあります。"
+    "example": "近くにコンビニがあります。",
+    "kanji_search_results": [
+      {
+        "kanji": "近",
+        "mean": "CẬN, CẤN, KÍ"
+      }
+    ]
   },
   {
     "japanese": "あります",
@@ -477,7 +765,13 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "歌を歌います。"
+    "example": "歌を歌います。",
+    "kanji_search_results": [
+      {
+        "kanji": "歌",
+        "mean": "CA"
+      }
+    ]
   },
   {
     "japanese": "おどります",
@@ -487,7 +781,13 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "ダンスを踊ります。"
+    "example": "ダンスを踊ります。",
+    "kanji_search_results": [
+      {
+        "kanji": "踊",
+        "mean": "DŨNG"
+      }
+    ]
   },
   {
     "japanese": "とおい",
@@ -497,7 +797,13 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "adjective",
-    "example": "遠い国に行きます。"
+    "example": "遠い国に行きます。",
+    "kanji_search_results": [
+      {
+        "kanji": "遠",
+        "mean": "VIỄN, VIỂN"
+      }
+    ]
   },
   {
     "japanese": "ちかい",
@@ -507,7 +813,13 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "adjective",
-    "example": "近い駅で降ります。"
+    "example": "近い駅で降ります。",
+    "kanji_search_results": [
+      {
+        "kanji": "近",
+        "mean": "CẬN, CẤN, KÍ"
+      }
+    ]
   },
   {
     "japanese": "いそがしい",
@@ -517,7 +829,13 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "adjective",
-    "example": "忙しい一日でした。"
+    "example": "忙しい一日でした。",
+    "kanji_search_results": [
+      {
+        "kanji": "忙",
+        "mean": "MANG"
+      }
+    ]
   },
   {
     "japanese": "ひま",
@@ -527,7 +845,13 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "adjective",
-    "example": "暇な時に映画を見ます。"
+    "example": "暇な時に映画を見ます。",
+    "kanji_search_results": [
+      {
+        "kanji": "暇",
+        "mean": "HẠ"
+      }
+    ]
   },
   {
     "japanese": "ひとり",
@@ -537,7 +861,13 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "number",
-    "example": "一人で旅行します。"
+    "example": "一人で旅行します。",
+    "kanji_search_results": [
+      {
+        "kanji": "人",
+        "mean": "NHÂN"
+      }
+    ]
   },
   {
     "japanese": "ふたり",
@@ -547,7 +877,13 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "number",
-    "example": "二人で映画を見ます。"
+    "example": "二人で映画を見ます。",
+    "kanji_search_results": [
+      {
+        "kanji": "人",
+        "mean": "NHÂN"
+      }
+    ]
   },
   {
     "japanese": "－にん",
@@ -557,7 +893,13 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "number",
-    "example": "三人で食事をします。"
+    "example": "三人で食事をします。",
+    "kanji_search_results": [
+      {
+        "kanji": "人",
+        "mean": "NHÂN"
+      }
+    ]
   },
   {
     "japanese": "なんにん",
@@ -567,7 +909,17 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "question",
-    "example": "何人で来ますか。"
+    "example": "何人で来ますか。",
+    "kanji_search_results": [
+      {
+        "kanji": "何",
+        "mean": "HÀ"
+      },
+      {
+        "kanji": "人",
+        "mean": "NHÂN"
+      }
+    ]
   },
   {
     "japanese": "たくさん",
@@ -637,7 +989,13 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "expression",
-    "example": "はい、分かりました。"
+    "example": "はい、分かりました。",
+    "kanji_search_results": [
+      {
+        "kanji": "分",
+        "mean": "PHÂN, PHẬN"
+      }
+    ]
   },
   {
     "japanese": "また あした",
@@ -667,6 +1025,12 @@
     "lesson": 8,
     "difficulty": "beginner",
     "category": "place",
-    "example": "みどり駅で降ります。"
+    "example": "みどり駅で降ります。",
+    "kanji_search_results": [
+      {
+        "kanji": "駅",
+        "mean": "DỊCH"
+      }
+    ]
   }
 ]

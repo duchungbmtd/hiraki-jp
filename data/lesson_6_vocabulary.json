@@ -7,7 +7,21 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "event",
-    "example": "誕生日パーティーをします。"
+    "example": "誕生日パーティーをします。",
+    "kanji_search_results": [
+      {
+        "kanji": "誕",
+        "mean": "ĐẢN"
+      },
+      {
+        "kanji": "生",
+        "mean": "SANH, SINH"
+      },
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
   },
   {
     "japanese": "バス",
@@ -27,7 +41,21 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "transportation",
-    "example": "飛行機で旅行します。"
+    "example": "飛行機で旅行します。",
+    "kanji_search_results": [
+      {
+        "kanji": "飛",
+        "mean": "PHI"
+      },
+      {
+        "kanji": "行",
+        "mean": "HÀNH, HẠNH, HÀNG, HẠNG"
+      },
+      {
+        "kanji": "機",
+        "mean": "KI, CƠ"
+      }
+    ]
   },
   {
     "japanese": "でんしゃ",
@@ -37,7 +65,17 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "transportation",
-    "example": "電車で通勤します。"
+    "example": "電車で通勤します。",
+    "kanji_search_results": [
+      {
+        "kanji": "電",
+        "mean": "ĐIỆN"
+      },
+      {
+        "kanji": "車",
+        "mean": "XA"
+      }
+    ]
   },
   {
     "japanese": "じてんしゃ",
@@ -47,7 +85,21 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "transportation",
-    "example": "自転車で買い物に行きます。"
+    "example": "自転車で買い物に行きます。",
+    "kanji_search_results": [
+      {
+        "kanji": "自",
+        "mean": "TỰ"
+      },
+      {
+        "kanji": "転",
+        "mean": "CHUYỂN"
+      },
+      {
+        "kanji": "車",
+        "mean": "XA"
+      }
+    ]
   },
   {
     "japanese": "ちかてつ",
@@ -57,7 +109,21 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "transportation",
-    "example": "地下鉄で東京に行きます。"
+    "example": "地下鉄で東京に行きます。",
+    "kanji_search_results": [
+      {
+        "kanji": "地",
+        "mean": "ĐỊA"
+      },
+      {
+        "kanji": "下",
+        "mean": "HẠ, HÁ"
+      },
+      {
+        "kanji": "鉄",
+        "mean": "THIẾT"
+      }
+    ]
   },
   {
     "japanese": "どうぶつえん",
@@ -67,7 +133,21 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "place",
-    "example": "動物園でパンダを見ます。"
+    "example": "動物園でパンダを見ます。",
+    "kanji_search_results": [
+      {
+        "kanji": "動",
+        "mean": "ĐỘNG"
+      },
+      {
+        "kanji": "物",
+        "mean": "VẬT"
+      },
+      {
+        "kanji": "園",
+        "mean": "VIÊN"
+      }
+    ]
   },
   {
     "japanese": "パンダ",
@@ -127,7 +207,13 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "event",
-    "example": "お祭りに行きます。"
+    "example": "お祭りに行きます。",
+    "kanji_search_results": [
+      {
+        "kanji": "祭",
+        "mean": "TẾ, SÁI"
+      }
+    ]
   },
   {
     "japanese": "バイク",
@@ -147,7 +233,17 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "entertainment",
-    "example": "花火を見に行きます。"
+    "example": "花火を見に行きます。",
+    "kanji_search_results": [
+      {
+        "kanji": "花",
+        "mean": "HOA"
+      },
+      {
+        "kanji": "火",
+        "mean": "HỎA"
+      }
+    ]
   },
   {
     "japanese": "てら",
@@ -157,7 +253,13 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "place",
-    "example": "お寺を参拝します。"
+    "example": "お寺を参拝します。",
+    "kanji_search_results": [
+      {
+        "kanji": "寺",
+        "mean": "TỰ"
+      }
+    ]
   },
   {
     "japanese": "しんかんせん",
@@ -167,7 +269,21 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "transportation",
-    "example": "新幹線で大阪に行きます。"
+    "example": "新幹線で大阪に行きます。",
+    "kanji_search_results": [
+      {
+        "kanji": "新",
+        "mean": "TÂN"
+      },
+      {
+        "kanji": "幹",
+        "mean": "CÁN, CAN"
+      },
+      {
+        "kanji": "線",
+        "mean": "TUYẾN"
+      }
+    ]
   },
   {
     "japanese": "おんせん",
@@ -177,7 +293,17 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "place",
-    "example": "温泉に入ります。"
+    "example": "温泉に入ります。",
+    "kanji_search_results": [
+      {
+        "kanji": "温",
+        "mean": "ÔN, UẨN"
+      },
+      {
+        "kanji": "泉",
+        "mean": "TUYỀN, TOÀN"
+      }
+    ]
   },
   {
     "japanese": "ふね",
@@ -187,7 +313,13 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "transportation",
-    "example": "船で旅行します。"
+    "example": "船で旅行します。",
+    "kanji_search_results": [
+      {
+        "kanji": "船",
+        "mean": "THUYỀN"
+      }
+    ]
   },
   {
     "japanese": "こうこうせい",
@@ -197,7 +329,21 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "person",
-    "example": "高校生の時、よく勉強しました。"
+    "example": "高校生の時、よく勉強しました。",
+    "kanji_search_results": [
+      {
+        "kanji": "高",
+        "mean": "CAO"
+      },
+      {
+        "kanji": "校",
+        "mean": "GIÁO, HIỆU, HÀO"
+      },
+      {
+        "kanji": "生",
+        "mean": "SANH, SINH"
+      }
+    ]
   },
   {
     "japanese": "しゅうまつ",
@@ -207,7 +353,17 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "time",
-    "example": "週末に映画を見ます。"
+    "example": "週末に映画を見ます。",
+    "kanji_search_results": [
+      {
+        "kanji": "週",
+        "mean": "CHU"
+      },
+      {
+        "kanji": "末",
+        "mean": "MẠT"
+      }
+    ]
   },
   {
     "japanese": "なつやすみ",
@@ -217,7 +373,17 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "time",
-    "example": "夏休みに旅行します。"
+    "example": "夏休みに旅行します。",
+    "kanji_search_results": [
+      {
+        "kanji": "夏",
+        "mean": "HẠ, GIẠ, GIÁ"
+      },
+      {
+        "kanji": "休",
+        "mean": "HƯU"
+      }
+    ]
   },
   {
     "japanese": "ふゆやすみ",
@@ -227,7 +393,17 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "time",
-    "example": "冬休みにスキーをします。"
+    "example": "冬休みにスキーをします。",
+    "kanji_search_results": [
+      {
+        "kanji": "冬",
+        "mean": "ĐÔNG"
+      },
+      {
+        "kanji": "休",
+        "mean": "HƯU"
+      }
+    ]
   },
   {
     "japanese": "らいげつ",
@@ -237,7 +413,17 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "time",
-    "example": "来月日本に行きます。"
+    "example": "来月日本に行きます。",
+    "kanji_search_results": [
+      {
+        "kanji": "来",
+        "mean": "LAI, LÃI"
+      },
+      {
+        "kanji": "月",
+        "mean": "NGUYỆT"
+      }
+    ]
   },
   {
     "japanese": "こんげつ",
@@ -247,7 +433,17 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "time",
-    "example": "今月忙しいです。"
+    "example": "今月忙しいです。",
+    "kanji_search_results": [
+      {
+        "kanji": "今",
+        "mean": "KIM"
+      },
+      {
+        "kanji": "月",
+        "mean": "NGUYỆT"
+      }
+    ]
   },
   {
     "japanese": "せんげつ",
@@ -257,7 +453,17 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "time",
-    "example": "先月結婚しました。"
+    "example": "先月結婚しました。",
+    "kanji_search_results": [
+      {
+        "kanji": "先",
+        "mean": "TIÊN, TIẾN"
+      },
+      {
+        "kanji": "月",
+        "mean": "NGUYỆT"
+      }
+    ]
   },
   {
     "japanese": "きょねん",
@@ -267,7 +473,17 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "time",
-    "example": "去年大学を卒業しました。"
+    "example": "去年大学を卒業しました。",
+    "kanji_search_results": [
+      {
+        "kanji": "去",
+        "mean": "KHỨ, KHU"
+      },
+      {
+        "kanji": "年",
+        "mean": "NIÊN"
+      }
+    ]
   },
   {
     "japanese": "ことし",
@@ -277,7 +493,17 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "time",
-    "example": "今年新しい仕事を始めます。"
+    "example": "今年新しい仕事を始めます。",
+    "kanji_search_results": [
+      {
+        "kanji": "今",
+        "mean": "KIM"
+      },
+      {
+        "kanji": "年",
+        "mean": "NIÊN"
+      }
+    ]
   },
   {
     "japanese": "らいねん",
@@ -287,7 +513,17 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "time",
-    "example": "来年結婚します。"
+    "example": "来年結婚します。",
+    "kanji_search_results": [
+      {
+        "kanji": "来",
+        "mean": "LAI, LÃI"
+      },
+      {
+        "kanji": "年",
+        "mean": "NIÊN"
+      }
+    ]
   },
   {
     "japanese": "いきます",
@@ -297,7 +533,13 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "学校に行きます。"
+    "example": "学校に行きます。",
+    "kanji_search_results": [
+      {
+        "kanji": "行",
+        "mean": "HÀNH, HẠNH, HÀNG, HẠNG"
+      }
+    ]
   },
   {
     "japanese": "かえります",
@@ -307,7 +549,13 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "家に帰ります。"
+    "example": "家に帰ります。",
+    "kanji_search_results": [
+      {
+        "kanji": "帰",
+        "mean": "QUY"
+      }
+    ]
   },
   {
     "japanese": "きます",
@@ -317,7 +565,13 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "日本に来ます。"
+    "example": "日本に来ます。",
+    "kanji_search_results": [
+      {
+        "kanji": "来",
+        "mean": "LAI, LÃI"
+      }
+    ]
   },
   {
     "japanese": "しょくじします",
@@ -327,7 +581,17 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "家族と食事します。"
+    "example": "家族と食事します。",
+    "kanji_search_results": [
+      {
+        "kanji": "食",
+        "mean": "THỰC, TỰ"
+      },
+      {
+        "kanji": "事",
+        "mean": "SỰ"
+      }
+    ]
   },
   {
     "japanese": "あいます",
@@ -337,7 +601,13 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "友達に会います。"
+    "example": "友達に会います。",
+    "kanji_search_results": [
+      {
+        "kanji": "会",
+        "mean": "HỘI, CỐI"
+      }
+    ]
   },
   {
     "japanese": "－がつ",
@@ -347,7 +617,13 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "time",
-    "example": "三月に卒業します。"
+    "example": "三月に卒業します。",
+    "kanji_search_results": [
+      {
+        "kanji": "月",
+        "mean": "NGUYỆT"
+      }
+    ]
   },
   {
     "japanese": "なんがつ",
@@ -357,7 +633,17 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "question",
-    "example": "何月に日本に行きますか。"
+    "example": "何月に日本に行きますか。",
+    "kanji_search_results": [
+      {
+        "kanji": "何",
+        "mean": "HÀ"
+      },
+      {
+        "kanji": "月",
+        "mean": "NGUYỆT"
+      }
+    ]
   },
   {
     "japanese": "－にち",
@@ -367,7 +653,13 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "time",
-    "example": "十五日に会議があります。"
+    "example": "十五日に会議があります。",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
   },
   {
     "japanese": "なんにち",
@@ -377,7 +669,17 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "question",
-    "example": "何日に来ますか。"
+    "example": "何日に来ますか。",
+    "kanji_search_results": [
+      {
+        "kanji": "何",
+        "mean": "HÀ"
+      },
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
   },
   {
     "japanese": "ついたち",
@@ -387,7 +689,13 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "time",
-    "example": "一月一日は元旦です。"
+    "example": "一月一日は元旦です。",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
   },
   {
     "japanese": "ふつか",
@@ -397,7 +705,13 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "time",
-    "example": "二日間旅行します。"
+    "example": "二日間旅行します。",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
   },
   {
     "japanese": "みっか",
@@ -407,7 +721,13 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "time",
-    "example": "三日間休みます。"
+    "example": "三日間休みます。",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
   },
   {
     "japanese": "よっか",
@@ -417,7 +737,13 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "time",
-    "example": "四日間勉強します。"
+    "example": "四日間勉強します。",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
   },
   {
     "japanese": "いつか",
@@ -427,7 +753,13 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "time",
-    "example": "五日間会議があります。"
+    "example": "五日間会議があります。",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
   },
   {
     "japanese": "むいか",
@@ -437,7 +769,13 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "time",
-    "example": "六日間旅行します。"
+    "example": "六日間旅行します。",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
   },
   {
     "japanese": "なのか",
@@ -447,7 +785,13 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "time",
-    "example": "七日間休みます。"
+    "example": "七日間休みます。",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
   },
   {
     "japanese": "ようか",
@@ -457,7 +801,13 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "time",
-    "example": "八日間勉強します。"
+    "example": "八日間勉強します。",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
   },
   {
     "japanese": "ここのか",
@@ -467,7 +817,13 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "time",
-    "example": "九日間会議があります。"
+    "example": "九日間会議があります。",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
   },
   {
     "japanese": "とおか",
@@ -477,7 +833,13 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "time",
-    "example": "十日間旅行します。"
+    "example": "十日間旅行します。",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
   },
   {
     "japanese": "じゅうよっか",
@@ -487,7 +849,13 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "time",
-    "example": "十四日に誕生日です。"
+    "example": "十四日に誕生日です。",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
   },
   {
     "japanese": "はつか",
@@ -497,7 +865,13 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "time",
-    "example": "二十日に会議があります。"
+    "example": "二十日に会議があります。",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
   },
   {
     "japanese": "にじゅうよっか",
@@ -507,7 +881,13 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "time",
-    "example": "二十四日に旅行します。"
+    "example": "二十四日に旅行します。",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
   },
   {
     "japanese": "いつ",
@@ -527,7 +907,13 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "歩いて学校に行きます。"
+    "example": "歩いて学校に行きます。",
+    "kanji_search_results": [
+      {
+        "kanji": "歩",
+        "mean": "BỘ"
+      }
+    ]
   },
   {
     "japanese": "いっしょに",
@@ -537,7 +923,17 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "adverb",
-    "example": "一緒に映画を見ます。"
+    "example": "一緒に映画を見ます。",
+    "kanji_search_results": [
+      {
+        "kanji": "一",
+        "mean": "NHẤT"
+      },
+      {
+        "kanji": "緒",
+        "mean": "TỰ"
+      }
+    ]
   },
   {
     "japanese": "ひとりで",
@@ -547,7 +943,17 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "adverb",
-    "example": "一人で旅行します。"
+    "example": "一人で旅行します。",
+    "kanji_search_results": [
+      {
+        "kanji": "一",
+        "mean": "NHẤT"
+      },
+      {
+        "kanji": "人",
+        "mean": "NHÂN"
+      }
+    ]
   },
   {
     "japanese": "こんど",
@@ -557,7 +963,17 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "time",
-    "example": "今度一緒に行きましょう。"
+    "example": "今度一緒に行きましょう。",
+    "kanji_search_results": [
+      {
+        "kanji": "今",
+        "mean": "KIM"
+      },
+      {
+        "kanji": "度",
+        "mean": "ĐỘ, ĐẠC"
+      }
+    ]
   },
   {
     "japanese": "ええ",
@@ -617,7 +1033,21 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "place",
-    "example": "北海道でスキーをします。"
+    "example": "北海道でスキーをします。",
+    "kanji_search_results": [
+      {
+        "kanji": "北",
+        "mean": "BẮC"
+      },
+      {
+        "kanji": "海",
+        "mean": "HẢI"
+      },
+      {
+        "kanji": "道",
+        "mean": "ĐẠO, ĐÁO"
+      }
+    ]
   },
   {
     "japanese": "さっぽろ",
@@ -627,7 +1057,17 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "place",
-    "example": "札幌で雪祭りを見ます。"
+    "example": "札幌で雪祭りを見ます。",
+    "kanji_search_results": [
+      {
+        "kanji": "札",
+        "mean": "TRÁT"
+      },
+      {
+        "kanji": "幌",
+        "mean": "HOẢNG"
+      }
+    ]
   },
   {
     "japanese": "せんだい",
@@ -637,7 +1077,17 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "place",
-    "example": "仙台で牛タンを食べます。"
+    "example": "仙台で牛タンを食べます。",
+    "kanji_search_results": [
+      {
+        "kanji": "仙",
+        "mean": "TIÊN"
+      },
+      {
+        "kanji": "台",
+        "mean": "THAI, ĐÀI, DI"
+      }
+    ]
   },
   {
     "japanese": "よこはま",
@@ -647,7 +1097,17 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "place",
-    "example": "横浜で中華街を散歩します。"
+    "example": "横浜で中華街を散歩します。",
+    "kanji_search_results": [
+      {
+        "kanji": "横",
+        "mean": "HOÀNH, HOẠNH, QUÁNG"
+      },
+      {
+        "kanji": "浜",
+        "mean": "BANH"
+      }
+    ]
   },
   {
     "japanese": "なごや",
@@ -657,7 +1117,21 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "place",
-    "example": "名古屋で味噌カツを食べます。"
+    "example": "名古屋で味噌カツを食べます。",
+    "kanji_search_results": [
+      {
+        "kanji": "名",
+        "mean": "DANH"
+      },
+      {
+        "kanji": "古",
+        "mean": "CỔ"
+      },
+      {
+        "kanji": "屋",
+        "mean": "ỐC"
+      }
+    ]
   },
   {
     "japanese": "きょうと",
@@ -667,7 +1141,17 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "place",
-    "example": "京都でお寺を参拝します。"
+    "example": "京都でお寺を参拝します。",
+    "kanji_search_results": [
+      {
+        "kanji": "京",
+        "mean": "KINH"
+      },
+      {
+        "kanji": "都",
+        "mean": "ĐÔ"
+      }
+    ]
   },
   {
     "japanese": "おおさか",
@@ -677,7 +1161,17 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "place",
-    "example": "大阪でたこ焼きを食べます。"
+    "example": "大阪でたこ焼きを食べます。",
+    "kanji_search_results": [
+      {
+        "kanji": "大",
+        "mean": "ĐẠI, THÁI"
+      },
+      {
+        "kanji": "阪",
+        "mean": "PHẢN"
+      }
+    ]
   },
   {
     "japanese": "ひろしま",
@@ -687,7 +1181,17 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "place",
-    "example": "広島で原爆ドームを見学します。"
+    "example": "広島で原爆ドームを見学します。",
+    "kanji_search_results": [
+      {
+        "kanji": "広",
+        "mean": "QUẢNG"
+      },
+      {
+        "kanji": "島",
+        "mean": "ĐẢO"
+      }
+    ]
   },
   {
     "japanese": "べっぷ",
@@ -697,7 +1201,17 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "place",
-    "example": "別府で温泉に入ります。"
+    "example": "別府で温泉に入ります。",
+    "kanji_search_results": [
+      {
+        "kanji": "別",
+        "mean": "BIỆT"
+      },
+      {
+        "kanji": "府",
+        "mean": "PHỦ"
+      }
+    ]
   },
   {
     "japanese": "おおさかじょう",
@@ -707,7 +1221,21 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "place",
-    "example": "大阪城を見学します。"
+    "example": "大阪城を見学します。",
+    "kanji_search_results": [
+      {
+        "kanji": "大",
+        "mean": "ĐẠI, THÁI"
+      },
+      {
+        "kanji": "阪",
+        "mean": "PHẢN"
+      },
+      {
+        "kanji": "城",
+        "mean": "THÀNH"
+      }
+    ]
   },
   {
     "japanese": "げんばくドーム",
@@ -717,7 +1245,17 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "place",
-    "example": "原爆ドームを見学します。"
+    "example": "原爆ドームを見学します。",
+    "kanji_search_results": [
+      {
+        "kanji": "原",
+        "mean": "NGUYÊN"
+      },
+      {
+        "kanji": "爆",
+        "mean": "BẠO, BẠC, BỘC"
+      }
+    ]
   },
   {
     "japanese": "たなか まさお",
@@ -727,6 +1265,24 @@
     "lesson": 6,
     "difficulty": "beginner",
     "category": "person",
-    "example": "田中正男さんに会います。"
+    "example": "田中正男さんに会います。",
+    "kanji_search_results": [
+      {
+        "kanji": "田",
+        "mean": "ĐIỀN"
+      },
+      {
+        "kanji": "中",
+        "mean": "TRUNG, TRÚNG"
+      },
+      {
+        "kanji": "正",
+        "mean": "CHÁNH, CHÍNH"
+      },
+      {
+        "kanji": "男",
+        "mean": "NAM"
+      }
+    ]
   }
 ]

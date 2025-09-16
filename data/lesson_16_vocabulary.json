@@ -7,7 +7,17 @@
     "lesson": 16,
     "difficulty": "beginner",
     "category": "food",
-    "example": "お菓子を買いました。"
+    "example": "お菓子を買いました。",
+    "kanji_search_results": [
+      {
+        "kanji": "菓",
+        "mean": "QUẢ"
+      },
+      {
+        "kanji": "子",
+        "mean": "TỬ, TÍ"
+      }
+    ]
   },
   {
     "japanese": "たばこ",
@@ -27,7 +37,21 @@
     "lesson": 16,
     "difficulty": "intermediate",
     "category": "person",
-    "example": "中学生の時、野球をしていました。"
+    "example": "中学生の時、野球をしていました。",
+    "kanji_search_results": [
+      {
+        "kanji": "中",
+        "mean": "TRUNG, TRÚNG"
+      },
+      {
+        "kanji": "学",
+        "mean": "HỌC"
+      },
+      {
+        "kanji": "生",
+        "mean": "SANH, SINH"
+      }
+    ]
   },
   {
     "japanese": "びじゅつかん",
@@ -37,7 +61,21 @@
     "lesson": 16,
     "difficulty": "intermediate",
     "category": "place",
-    "example": "美術館で絵を見ました。"
+    "example": "美術館で絵を見ました。",
+    "kanji_search_results": [
+      {
+        "kanji": "美",
+        "mean": "MĨ"
+      },
+      {
+        "kanji": "術",
+        "mean": "THUẬT"
+      },
+      {
+        "kanji": "館",
+        "mean": "QUÁN"
+      }
+    ]
   },
   {
     "japanese": "ふく",
@@ -47,7 +85,13 @@
     "lesson": 16,
     "difficulty": "beginner",
     "category": "clothing",
-    "example": "新しい服を買いました。"
+    "example": "新しい服を買いました。",
+    "kanji_search_results": [
+      {
+        "kanji": "服",
+        "mean": "PHỤC"
+      }
+    ]
   },
   {
     "japanese": "デザイン",
@@ -67,7 +111,17 @@
     "lesson": 16,
     "difficulty": "beginner",
     "category": "work",
-    "example": "会社で働いています。"
+    "example": "会社で働いています。",
+    "kanji_search_results": [
+      {
+        "kanji": "会",
+        "mean": "HỘI, CỐI"
+      },
+      {
+        "kanji": "社",
+        "mean": "XÃ"
+      }
+    ]
   },
   {
     "japanese": "ばしょ",
@@ -77,7 +131,17 @@
     "lesson": 16,
     "difficulty": "beginner",
     "category": "location",
-    "example": "会議の場所を教えてください。"
+    "example": "会議の場所を教えてください。",
+    "kanji_search_results": [
+      {
+        "kanji": "場",
+        "mean": "TRÀNG, TRƯỜNG"
+      },
+      {
+        "kanji": "所",
+        "mean": "SỞ"
+      }
+    ]
   },
   {
     "japanese": "ばんごう",
@@ -87,7 +151,17 @@
     "lesson": 16,
     "difficulty": "beginner",
     "category": "number",
-    "example": "番号を確認してください。"
+    "example": "番号を確認してください。",
+    "kanji_search_results": [
+      {
+        "kanji": "番",
+        "mean": "PHIÊN, PHAN, BA, BÀ"
+      },
+      {
+        "kanji": "号",
+        "mean": "HÀO, HIỆU"
+      }
+    ]
   },
   {
     "japanese": "でんわばんごう",
@@ -97,7 +171,25 @@
     "lesson": 16,
     "difficulty": "beginner",
     "category": "contact",
-    "example": "電話番号を教えてください。"
+    "example": "電話番号を教えてください。",
+    "kanji_search_results": [
+      {
+        "kanji": "電",
+        "mean": "ĐIỆN"
+      },
+      {
+        "kanji": "話",
+        "mean": "THOẠI"
+      },
+      {
+        "kanji": "番",
+        "mean": "PHIÊN, PHAN, BA, BÀ"
+      },
+      {
+        "kanji": "号",
+        "mean": "HÀO, HIỆU"
+      }
+    ]
   },
   {
     "japanese": "メールアドレス",
@@ -127,7 +219,13 @@
     "lesson": 16,
     "difficulty": "intermediate",
     "category": "building",
-    "example": "お城を見学しました。"
+    "example": "お城を見学しました。",
+    "kanji_search_results": [
+      {
+        "kanji": "城",
+        "mean": "THÀNH"
+      }
+    ]
   },
   {
     "japanese": "おひめさま",
@@ -137,7 +235,17 @@
     "lesson": 16,
     "difficulty": "intermediate",
     "category": "person",
-    "example": "お姫様のような人です。"
+    "example": "お姫様のような人です。",
+    "kanji_search_results": [
+      {
+        "kanji": "姫",
+        "mean": "CƠ"
+      },
+      {
+        "kanji": "様",
+        "mean": "DẠNG"
+      }
+    ]
   },
   {
     "japanese": "おどり",
@@ -147,7 +255,13 @@
     "lesson": 16,
     "difficulty": "intermediate",
     "category": "activity",
-    "example": "踊りを習っています。"
+    "example": "踊りを習っています。",
+    "kanji_search_results": [
+      {
+        "kanji": "踊",
+        "mean": "DŨNG"
+      }
+    ]
   },
   {
     "japanese": "そぼ",
@@ -157,7 +271,17 @@
     "lesson": 16,
     "difficulty": "beginner",
     "category": "family",
-    "example": "祖母は元気です。"
+    "example": "祖母は元気です。",
+    "kanji_search_results": [
+      {
+        "kanji": "祖",
+        "mean": "TỔ"
+      },
+      {
+        "kanji": "母",
+        "mean": "MẪU, MÔ"
+      }
+    ]
   },
   {
     "japanese": "そふ",
@@ -167,7 +291,17 @@
     "lesson": 16,
     "difficulty": "beginner",
     "category": "family",
-    "example": "祖父と散歩しました。"
+    "example": "祖父と散歩しました。",
+    "kanji_search_results": [
+      {
+        "kanji": "祖",
+        "mean": "TỔ"
+      },
+      {
+        "kanji": "父",
+        "mean": "PHỤ, PHỦ"
+      }
+    ]
   },
   {
     "japanese": "おばあさん",
@@ -197,7 +331,17 @@
     "lesson": 16,
     "difficulty": "intermediate",
     "category": "work",
-    "example": "翻訳の仕事をしています。"
+    "example": "翻訳の仕事をしています。",
+    "kanji_search_results": [
+      {
+        "kanji": "翻",
+        "mean": "PHIÊN"
+      },
+      {
+        "kanji": "訳",
+        "mean": "DỊCH"
+      }
+    ]
   },
   {
     "japanese": "きかい",
@@ -207,7 +351,17 @@
     "lesson": 16,
     "difficulty": "intermediate",
     "category": "technology",
-    "example": "機械を操作します。"
+    "example": "機械を操作します。",
+    "kanji_search_results": [
+      {
+        "kanji": "機",
+        "mean": "KI, CƠ"
+      },
+      {
+        "kanji": "械",
+        "mean": "GIỚI"
+      }
+    ]
   },
   {
     "japanese": "きかいこうがく",
@@ -217,7 +371,25 @@
     "lesson": 16,
     "difficulty": "advanced",
     "category": "education",
-    "example": "機械工学を勉強しています。"
+    "example": "機械工学を勉強しています。",
+    "kanji_search_results": [
+      {
+        "kanji": "機",
+        "mean": "KI, CƠ"
+      },
+      {
+        "kanji": "械",
+        "mean": "GIỚI"
+      },
+      {
+        "kanji": "工",
+        "mean": "CÔNG"
+      },
+      {
+        "kanji": "学",
+        "mean": "HỌC"
+      }
+    ]
   },
   {
     "japanese": "なか",
@@ -227,7 +399,13 @@
     "lesson": 16,
     "difficulty": "intermediate",
     "category": "abstract",
-    "example": "仲がいいです。"
+    "example": "仲がいいです。",
+    "kanji_search_results": [
+      {
+        "kanji": "仲",
+        "mean": "TRỌNG"
+      }
+    ]
   },
   {
     "japanese": "てつだい",
@@ -237,7 +415,17 @@
     "lesson": 16,
     "difficulty": "intermediate",
     "category": "activity",
-    "example": "お手伝いをします。"
+    "example": "お手伝いをします。",
+    "kanji_search_results": [
+      {
+        "kanji": "手",
+        "mean": "THỦ"
+      },
+      {
+        "kanji": "伝",
+        "mean": "TRUYỀN"
+      }
+    ]
   },
   {
     "japanese": "ほんとう",
@@ -247,7 +435,17 @@
     "lesson": 16,
     "difficulty": "beginner",
     "category": "adjective",
-    "example": "本当ですか。"
+    "example": "本当ですか。",
+    "kanji_search_results": [
+      {
+        "kanji": "本",
+        "mean": "BỔN, BẢN"
+      },
+      {
+        "kanji": "当",
+        "mean": "ĐƯƠNG, ĐANG, ĐÁNG"
+      }
+    ]
   },
   {
     "japanese": "まいとし",
@@ -257,7 +455,17 @@
     "lesson": 16,
     "difficulty": "beginner",
     "category": "time",
-    "example": "毎年旅行をします。"
+    "example": "毎年旅行をします。",
+    "kanji_search_results": [
+      {
+        "kanji": "毎",
+        "mean": "MỖI"
+      },
+      {
+        "kanji": "年",
+        "mean": "NIÊN"
+      }
+    ]
   },
   {
     "japanese": "まいつき",
@@ -267,7 +475,17 @@
     "lesson": 16,
     "difficulty": "beginner",
     "category": "time",
-    "example": "毎月会議があります。"
+    "example": "毎月会議があります。",
+    "kanji_search_results": [
+      {
+        "kanji": "毎",
+        "mean": "MỖI"
+      },
+      {
+        "kanji": "月",
+        "mean": "NGUYỆT"
+      }
+    ]
   },
   {
     "japanese": "チェックする",
@@ -287,7 +505,13 @@
     "lesson": 16,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "本を机に置いてください。"
+    "example": "本を机に置いてください。",
+    "kanji_search_results": [
+      {
+        "kanji": "置",
+        "mean": "TRÍ"
+      }
+    ]
   },
   {
     "japanese": "とめる",
@@ -297,7 +521,13 @@
     "lesson": 16,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "車を止めてください。"
+    "example": "車を止めてください。",
+    "kanji_search_results": [
+      {
+        "kanji": "止",
+        "mean": "CHỈ"
+      }
+    ]
   },
   {
     "japanese": "すう",
@@ -307,7 +537,13 @@
     "lesson": 16,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "たばこを吸わないでください。"
+    "example": "たばこを吸わないでください。",
+    "kanji_search_results": [
+      {
+        "kanji": "吸",
+        "mean": "HẤP"
+      }
+    ]
   },
   {
     "japanese": "けっこんする",
@@ -317,7 +553,17 @@
     "lesson": 16,
     "difficulty": "intermediate",
     "category": "verb",
-    "example": "来年結婚する予定です。"
+    "example": "来年結婚する予定です。",
+    "kanji_search_results": [
+      {
+        "kanji": "結",
+        "mean": "KẾT"
+      },
+      {
+        "kanji": "婚",
+        "mean": "HÔN"
+      }
+    ]
   },
   {
     "japanese": "すむ",
@@ -327,7 +573,13 @@
     "lesson": 16,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "東京に住んでいます。"
+    "example": "東京に住んでいます。",
+    "kanji_search_results": [
+      {
+        "kanji": "住",
+        "mean": "TRỤ, TRÚ"
+      }
+    ]
   },
   {
     "japanese": "けいえいする",
@@ -337,7 +589,17 @@
     "lesson": 16,
     "difficulty": "intermediate",
     "category": "verb",
-    "example": "会社を経営しています。"
+    "example": "会社を経営しています。",
+    "kanji_search_results": [
+      {
+        "kanji": "経",
+        "mean": "KINH"
+      },
+      {
+        "kanji": "営",
+        "mean": "DOANH, DINH"
+      }
+    ]
   },
   {
     "japanese": "しる",
@@ -347,7 +609,13 @@
     "lesson": 16,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "その人を知っていますか。"
+    "example": "その人を知っていますか。",
+    "kanji_search_results": [
+      {
+        "kanji": "知",
+        "mean": "TRI, TRÍ"
+      }
+    ]
   },
   {
     "japanese": "きく",
@@ -357,7 +625,13 @@
     "lesson": 16,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "先生に聞いてください。"
+    "example": "先生に聞いてください。",
+    "kanji_search_results": [
+      {
+        "kanji": "聞",
+        "mean": "VĂN, VẤN, VẶN"
+      }
+    ]
   },
   {
     "japanese": "たすける",
@@ -367,7 +641,13 @@
     "lesson": 16,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "困っている人を助けてください。"
+    "example": "困っている人を助けてください。",
+    "kanji_search_results": [
+      {
+        "kanji": "助",
+        "mean": "TRỢ"
+      }
+    ]
   },
   {
     "japanese": "のりかえる",
@@ -377,7 +657,17 @@
     "lesson": 16,
     "difficulty": "intermediate",
     "category": "verb",
-    "example": "新宿で電車を乗り換えます。"
+    "example": "新宿で電車を乗り換えます。",
+    "kanji_search_results": [
+      {
+        "kanji": "乗",
+        "mean": "THỪA"
+      },
+      {
+        "kanji": "換",
+        "mean": "HOÁN"
+      }
+    ]
   },
   {
     "japanese": "たいしょくする",
@@ -387,7 +677,17 @@
     "lesson": 16,
     "difficulty": "intermediate",
     "category": "verb",
-    "example": "来年退職する予定です。"
+    "example": "来年退職する予定です。",
+    "kanji_search_results": [
+      {
+        "kanji": "退",
+        "mean": "THỐI, THOÁI"
+      },
+      {
+        "kanji": "職",
+        "mean": "CHỨC"
+      }
+    ]
   },
   {
     "japanese": "さわる",
@@ -397,7 +697,13 @@
     "lesson": 16,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "触らないでください。"
+    "example": "触らないでください。",
+    "kanji_search_results": [
+      {
+        "kanji": "触",
+        "mean": "XÚC"
+      }
+    ]
   },
   {
     "japanese": "いれる",
@@ -407,7 +713,13 @@
     "lesson": 16,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "お茶を入れてください。"
+    "example": "お茶を入れてください。",
+    "kanji_search_results": [
+      {
+        "kanji": "入",
+        "mean": "NHẬP"
+      }
+    ]
   },
   {
     "japanese": "やく",
@@ -417,7 +729,13 @@
     "lesson": 16,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "パンを焼いてください。"
+    "example": "パンを焼いてください。",
+    "kanji_search_results": [
+      {
+        "kanji": "焼",
+        "mean": "THIÊU"
+      }
+    ]
   },
   {
     "japanese": "もって くる",
@@ -427,7 +745,17 @@
     "lesson": 16,
     "difficulty": "intermediate",
     "category": "verb",
-    "example": "お土産を持って来ました。"
+    "example": "お土産を持って来ました。",
+    "kanji_search_results": [
+      {
+        "kanji": "持",
+        "mean": "TRÌ"
+      },
+      {
+        "kanji": "来",
+        "mean": "LAI, LÃI"
+      }
+    ]
   },
   {
     "japanese": "もって いく",
@@ -437,7 +765,17 @@
     "lesson": 16,
     "difficulty": "intermediate",
     "category": "verb",
-    "example": "荷物を持って行きます。"
+    "example": "荷物を持って行きます。",
+    "kanji_search_results": [
+      {
+        "kanji": "持",
+        "mean": "TRÌ"
+      },
+      {
+        "kanji": "行",
+        "mean": "HÀNH, HẠNH, HÀNG, HẠNG"
+      }
+    ]
   },
   {
     "japanese": "やくに たつ",
@@ -447,7 +785,17 @@
     "lesson": 16,
     "difficulty": "intermediate",
     "category": "verb",
-    "example": "この本は役に立ちます。"
+    "example": "この本は役に立ちます。",
+    "kanji_search_results": [
+      {
+        "kanji": "役",
+        "mean": "DỊCH"
+      },
+      {
+        "kanji": "立",
+        "mean": "LẬP"
+      }
+    ]
   },
   {
     "japanese": "すごい",
@@ -517,7 +865,17 @@
     "lesson": 16,
     "difficulty": "intermediate",
     "category": "place",
-    "example": "新宿で買い物をしました。"
+    "example": "新宿で買い物をしました。",
+    "kanji_search_results": [
+      {
+        "kanji": "新",
+        "mean": "TÂN"
+      },
+      {
+        "kanji": "宿",
+        "mean": "TÚC, TÚ"
+      }
+    ]
   },
   {
     "japanese": "うえの",
@@ -527,6 +885,16 @@
     "lesson": 16,
     "difficulty": "intermediate",
     "category": "place",
-    "example": "上野の美術館に行きました。"
+    "example": "上野の美術館に行きました。",
+    "kanji_search_results": [
+      {
+        "kanji": "上",
+        "mean": "THƯỢNG, THƯỚNG"
+      },
+      {
+        "kanji": "野",
+        "mean": "DÃ"
+      }
+    ]
   }
 ]

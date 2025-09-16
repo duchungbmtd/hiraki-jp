@@ -77,7 +77,13 @@
     "lesson": 2,
     "difficulty": "beginner",
     "category": "stationery",
-    "example": "本を読みます。"
+    "example": "本を読みます。",
+    "kanji_search_results": [
+      {
+        "kanji": "本",
+        "mean": "BỔN, BẢN"
+      }
+    ]
   },
   {
     "japanese": "ざっし",
@@ -87,7 +93,17 @@
     "lesson": 2,
     "difficulty": "beginner",
     "category": "stationery",
-    "example": "雑誌を買いました。"
+    "example": "雑誌を買いました。",
+    "kanji_search_results": [
+      {
+        "kanji": "雑",
+        "mean": "TẠP"
+      },
+      {
+        "kanji": "誌",
+        "mean": "CHÍ"
+      }
+    ]
   },
   {
     "japanese": "パソコン",
@@ -107,7 +123,13 @@
     "lesson": 2,
     "difficulty": "beginner",
     "category": "object",
-    "example": "傘を持って行きます。"
+    "example": "傘を持って行きます。",
+    "kanji_search_results": [
+      {
+        "kanji": "傘",
+        "mean": "TÁN, TẢN"
+      }
+    ]
   },
   {
     "japanese": "かばん",
@@ -147,7 +169,17 @@
     "lesson": 2,
     "difficulty": "beginner",
     "category": "object",
-    "example": "財布を忘れました。"
+    "example": "財布を忘れました。",
+    "kanji_search_results": [
+      {
+        "kanji": "財",
+        "mean": "TÀI"
+      },
+      {
+        "kanji": "布",
+        "mean": "BỐ"
+      }
+    ]
   },
   {
     "japanese": "しんぶん",
@@ -157,7 +189,17 @@
     "lesson": 2,
     "difficulty": "beginner",
     "category": "stationery",
-    "example": "新聞を読みます。"
+    "example": "新聞を読みます。",
+    "kanji_search_results": [
+      {
+        "kanji": "新",
+        "mean": "TÂN"
+      },
+      {
+        "kanji": "聞",
+        "mean": "VĂN, VẤN, VẶN"
+      }
+    ]
   },
   {
     "japanese": "さとう",
@@ -167,7 +209,17 @@
     "lesson": 2,
     "difficulty": "beginner",
     "category": "food",
-    "example": "砂糖を入れます。"
+    "example": "砂糖を入れます。",
+    "kanji_search_results": [
+      {
+        "kanji": "砂",
+        "mean": "SA"
+      },
+      {
+        "kanji": "糖",
+        "mean": "ĐƯỜNG"
+      }
+    ]
   },
   {
     "japanese": "しお",
@@ -177,7 +229,13 @@
     "lesson": 2,
     "difficulty": "beginner",
     "category": "food",
-    "example": "塩を少しかけます。"
+    "example": "塩を少しかけます。",
+    "kanji_search_results": [
+      {
+        "kanji": "塩",
+        "mean": "DIÊM"
+      }
+    ]
   },
   {
     "japanese": "しょうゆ",
@@ -227,7 +285,13 @@
     "lesson": 2,
     "difficulty": "beginner",
     "category": "drink",
-    "example": "水を飲みます。"
+    "example": "水を飲みます。",
+    "kanji_search_results": [
+      {
+        "kanji": "水",
+        "mean": "THỦY"
+      }
+    ]
   },
   {
     "japanese": "ジュース",
@@ -247,7 +311,17 @@
     "lesson": 2,
     "difficulty": "beginner",
     "category": "drink",
-    "example": "紅茶を飲みます。"
+    "example": "紅茶を飲みます。",
+    "kanji_search_results": [
+      {
+        "kanji": "紅",
+        "mean": "HỒNG"
+      },
+      {
+        "kanji": "茶",
+        "mean": "TRÀ"
+      }
+    ]
   },
   {
     "japanese": "コーヒー",
@@ -297,7 +371,25 @@
     "lesson": 2,
     "difficulty": "beginner",
     "category": "electronics",
-    "example": "携帯電話で話します。"
+    "example": "携帯電話で話します。",
+    "kanji_search_results": [
+      {
+        "kanji": "携",
+        "mean": "HUỀ"
+      },
+      {
+        "kanji": "帯",
+        "mean": "ĐỚI"
+      },
+      {
+        "kanji": "電",
+        "mean": "ĐIỆN"
+      },
+      {
+        "kanji": "話",
+        "mean": "THOẠI"
+      }
+    ]
   },
   {
     "japanese": "くるま",
@@ -307,7 +399,13 @@
     "lesson": 2,
     "difficulty": "beginner",
     "category": "vehicle",
-    "example": "車で行きます。"
+    "example": "車で行きます。",
+    "kanji_search_results": [
+      {
+        "kanji": "車",
+        "mean": "XA"
+      }
+    ]
   },
   {
     "japanese": "～せい",
@@ -317,7 +415,13 @@
     "lesson": 2,
     "difficulty": "beginner",
     "category": "suffix",
-    "example": "日本製の時計です。"
+    "example": "日本製の時計です。",
+    "kanji_search_results": [
+      {
+        "kanji": "製",
+        "mean": "CHẾ"
+      }
+    ]
   },
   {
     "japanese": "ひと",
@@ -327,7 +431,13 @@
     "lesson": 2,
     "difficulty": "beginner",
     "category": "person",
-    "example": "あの人は先生です。"
+    "example": "あの人は先生です。",
+    "kanji_search_results": [
+      {
+        "kanji": "人",
+        "mean": "NHÂN"
+      }
+    ]
   },
   {
     "japanese": "シャープペンシル",
@@ -347,7 +457,13 @@
     "lesson": 2,
     "difficulty": "beginner",
     "category": "food",
-    "example": "とり肉を食べます。"
+    "example": "とり肉を食べます。",
+    "kanji_search_results": [
+      {
+        "kanji": "肉",
+        "mean": "NHỤC, NHỤ, NẬU"
+      }
+    ]
   },
   {
     "japanese": "ぶたにく",
@@ -357,7 +473,17 @@
     "lesson": 2,
     "difficulty": "beginner",
     "category": "food",
-    "example": "豚肉を買います。"
+    "example": "豚肉を買います。",
+    "kanji_search_results": [
+      {
+        "kanji": "豚",
+        "mean": "ĐỒN, ĐỘN"
+      },
+      {
+        "kanji": "肉",
+        "mean": "NHỤC, NHỤ, NẬU"
+      }
+    ]
   },
   {
     "japanese": "ぎゅうどん",
@@ -367,7 +493,13 @@
     "lesson": 2,
     "difficulty": "beginner",
     "category": "food",
-    "example": "牛どんを食べます。"
+    "example": "牛どんを食べます。",
+    "kanji_search_results": [
+      {
+        "kanji": "牛",
+        "mean": "NGƯU"
+      }
+    ]
   },
   {
     "japanese": "ぎゅうにく",
@@ -377,7 +509,17 @@
     "lesson": 2,
     "difficulty": "beginner",
     "category": "food",
-    "example": "牛肉を焼きます。"
+    "example": "牛肉を焼きます。",
+    "kanji_search_results": [
+      {
+        "kanji": "牛",
+        "mean": "NGƯU"
+      },
+      {
+        "kanji": "肉",
+        "mean": "NHỤC, NHỤ, NẬU"
+      }
+    ]
   },
   {
     "japanese": "にく",
@@ -387,7 +529,13 @@
     "lesson": 2,
     "difficulty": "beginner",
     "category": "food",
-    "example": "肉を食べます。"
+    "example": "肉を食べます。",
+    "kanji_search_results": [
+      {
+        "kanji": "肉",
+        "mean": "NHỤC, NHỤ, NẬU"
+      }
+    ]
   },
   {
     "japanese": "おやこどん",
@@ -397,7 +545,17 @@
     "lesson": 2,
     "difficulty": "beginner",
     "category": "food",
-    "example": "親子どんを注文します。"
+    "example": "親子どんを注文します。",
+    "kanji_search_results": [
+      {
+        "kanji": "親",
+        "mean": "THÂN, THẤN"
+      },
+      {
+        "kanji": "子",
+        "mean": "TỬ, TÍ"
+      }
+    ]
   },
   {
     "japanese": "すきやき",
@@ -407,7 +565,13 @@
     "lesson": 2,
     "difficulty": "beginner",
     "category": "food",
-    "example": "すき焼きを食べます。"
+    "example": "すき焼きを食べます。",
+    "kanji_search_results": [
+      {
+        "kanji": "焼",
+        "mean": "THIÊU"
+      }
+    ]
   },
   {
     "japanese": "ラーメン",
@@ -427,7 +591,25 @@
     "lesson": 2,
     "difficulty": "beginner",
     "category": "food",
-    "example": "焼肉定食を注文します。"
+    "example": "焼肉定食を注文します。",
+    "kanji_search_results": [
+      {
+        "kanji": "焼",
+        "mean": "THIÊU"
+      },
+      {
+        "kanji": "肉",
+        "mean": "NHỤC, NHỤ, NẬU"
+      },
+      {
+        "kanji": "定",
+        "mean": "ĐỊNH, ĐÍNH"
+      },
+      {
+        "kanji": "食",
+        "mean": "THỰC, TỰ"
+      }
+    ]
   },
   {
     "japanese": "ＣＤ",
@@ -447,7 +629,13 @@
     "lesson": 2,
     "difficulty": "beginner",
     "category": "suffix",
-    "example": "日本語を勉強します。"
+    "example": "日本語を勉強します。",
+    "kanji_search_results": [
+      {
+        "kanji": "語",
+        "mean": "NGỮ, NGỨ"
+      }
+    ]
   },
   {
     "japanese": "なん",
@@ -457,7 +645,13 @@
     "lesson": 2,
     "difficulty": "beginner",
     "category": "question",
-    "example": "何ですか。"
+    "example": "何ですか。",
+    "kanji_search_results": [
+      {
+        "kanji": "何",
+        "mean": "HÀ"
+      }
+    ]
   },
   {
     "japanese": "だれ",
@@ -507,7 +701,17 @@
     "lesson": 2,
     "difficulty": "beginner",
     "category": "name",
-    "example": "渡辺あきさんです。"
+    "example": "渡辺あきさんです。",
+    "kanji_search_results": [
+      {
+        "kanji": "渡",
+        "mean": "ĐỘ"
+      },
+      {
+        "kanji": "辺",
+        "mean": "BIÊN"
+      }
+    ]
   },
   {
     "japanese": "トム・ジョーダン",

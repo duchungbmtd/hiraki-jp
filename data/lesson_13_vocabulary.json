@@ -7,7 +7,17 @@
     "lesson": 13,
     "difficulty": "beginner",
     "category": "object",
-    "example": "布団で寝ます。"
+    "example": "布団で寝ます。",
+    "kanji_search_results": [
+      {
+        "kanji": "布",
+        "mean": "BỐ"
+      },
+      {
+        "kanji": "団",
+        "mean": "ĐOÀN"
+      }
+    ]
   },
   {
     "japanese": "さら",
@@ -17,7 +27,13 @@
     "lesson": 13,
     "difficulty": "beginner",
     "category": "object",
-    "example": "皿を洗います。"
+    "example": "皿を洗います。",
+    "kanji_search_results": [
+      {
+        "kanji": "皿",
+        "mean": "MÃNH"
+      }
+    ]
   },
   {
     "japanese": "コップ",
@@ -47,7 +63,21 @@
     "lesson": 13,
     "difficulty": "beginner",
     "category": "place",
-    "example": "市役所に行きます。"
+    "example": "市役所に行きます。",
+    "kanji_search_results": [
+      {
+        "kanji": "市",
+        "mean": "THỊ"
+      },
+      {
+        "kanji": "役",
+        "mean": "DỊCH"
+      },
+      {
+        "kanji": "所",
+        "mean": "SỞ"
+      }
+    ]
   },
   {
     "japanese": "しちょう",
@@ -57,7 +87,17 @@
     "lesson": 13,
     "difficulty": "beginner",
     "category": "person",
-    "example": "市長に会います。"
+    "example": "市長に会います。",
+    "kanji_search_results": [
+      {
+        "kanji": "市",
+        "mean": "THỊ"
+      },
+      {
+        "kanji": "長",
+        "mean": "TRƯỜNG, TRƯỞNG, TRƯỚNG"
+      }
+    ]
   },
   {
     "japanese": "こうじょう",
@@ -67,7 +107,17 @@
     "lesson": 13,
     "difficulty": "beginner",
     "category": "place",
-    "example": "工場を見学します。"
+    "example": "工場を見学します。",
+    "kanji_search_results": [
+      {
+        "kanji": "工",
+        "mean": "CÔNG"
+      },
+      {
+        "kanji": "場",
+        "mean": "TRÀNG, TRƯỜNG"
+      }
+    ]
   },
   {
     "japanese": "けんがく",
@@ -77,7 +127,17 @@
     "lesson": 13,
     "difficulty": "beginner",
     "category": "activity",
-    "example": "工場を見学します。"
+    "example": "工場を見学します。",
+    "kanji_search_results": [
+      {
+        "kanji": "見",
+        "mean": "KIẾN, HIỆN"
+      },
+      {
+        "kanji": "学",
+        "mean": "HỌC"
+      }
+    ]
   },
   {
     "japanese": "がいこくじんとうろく",
@@ -87,7 +147,29 @@
     "lesson": 13,
     "difficulty": "beginner",
     "category": "activity",
-    "example": "外国人登録をします。"
+    "example": "外国人登録をします。",
+    "kanji_search_results": [
+      {
+        "kanji": "外",
+        "mean": "NGOẠI"
+      },
+      {
+        "kanji": "国",
+        "mean": "QUỐC"
+      },
+      {
+        "kanji": "人",
+        "mean": "NHÂN"
+      },
+      {
+        "kanji": "登",
+        "mean": "ĐĂNG"
+      },
+      {
+        "kanji": "録",
+        "mean": "LỤC"
+      }
+    ]
   },
   {
     "japanese": "スキー",
@@ -107,7 +189,13 @@
     "lesson": 13,
     "difficulty": "beginner",
     "category": "noun",
-    "example": "作り方を教えます。"
+    "example": "作り方を教えます。",
+    "kanji_search_results": [
+      {
+        "kanji": "方",
+        "mean": "PHƯƠNG"
+      }
+    ]
   },
   {
     "japanese": "つくりかた",
@@ -117,7 +205,17 @@
     "lesson": 13,
     "difficulty": "beginner",
     "category": "noun",
-    "example": "料理の作り方を覚えます。"
+    "example": "料理の作り方を覚えます。",
+    "kanji_search_results": [
+      {
+        "kanji": "作",
+        "mean": "TÁC"
+      },
+      {
+        "kanji": "方",
+        "mean": "PHƯƠNG"
+      }
+    ]
   },
   {
     "japanese": "すもう",
@@ -127,7 +225,17 @@
     "lesson": 13,
     "difficulty": "beginner",
     "category": "sport",
-    "example": "相撲を見ます。"
+    "example": "相撲を見ます。",
+    "kanji_search_results": [
+      {
+        "kanji": "相",
+        "mean": "TƯƠNG, TƯỚNG"
+      },
+      {
+        "kanji": "撲",
+        "mean": "PHÁC, BẠC, PHỐC"
+      }
+    ]
   },
   {
     "japanese": "チケット",
@@ -147,7 +255,21 @@
     "lesson": 13,
     "difficulty": "beginner",
     "category": "education",
-    "example": "大学院で勉強します。"
+    "example": "大学院で勉強します。",
+    "kanji_search_results": [
+      {
+        "kanji": "大",
+        "mean": "ĐẠI, THÁI"
+      },
+      {
+        "kanji": "学",
+        "mean": "HỌC"
+      },
+      {
+        "kanji": "院",
+        "mean": "VIỆN"
+      }
+    ]
   },
   {
     "japanese": "ロボット",
@@ -167,7 +289,17 @@
     "lesson": 13,
     "difficulty": "beginner",
     "category": "education",
-    "example": "工学を勉強します。"
+    "example": "工学を勉強します。",
+    "kanji_search_results": [
+      {
+        "kanji": "工",
+        "mean": "CÔNG"
+      },
+      {
+        "kanji": "学",
+        "mean": "HỌC"
+      }
+    ]
   },
   {
     "japanese": "ロボットこうがく",
@@ -177,7 +309,17 @@
     "lesson": 13,
     "difficulty": "beginner",
     "category": "education",
-    "example": "ロボット工学を勉強します。"
+    "example": "ロボット工学を勉強します。",
+    "kanji_search_results": [
+      {
+        "kanji": "工",
+        "mean": "CÔNG"
+      },
+      {
+        "kanji": "学",
+        "mean": "HỌC"
+      }
+    ]
   },
   {
     "japanese": "しょうらい",
@@ -187,7 +329,17 @@
     "lesson": 13,
     "difficulty": "beginner",
     "category": "time",
-    "example": "将来の夢を話します。"
+    "example": "将来の夢を話します。",
+    "kanji_search_results": [
+      {
+        "kanji": "将",
+        "mean": "TƯƠNG, THƯƠNG, TƯỚNG"
+      },
+      {
+        "kanji": "来",
+        "mean": "LAI, LÃI"
+      }
+    ]
   },
   {
     "japanese": "あそびます",
@@ -197,7 +349,13 @@
     "lesson": 13,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "友達と遊びます。"
+    "example": "友達と遊びます。",
+    "kanji_search_results": [
+      {
+        "kanji": "遊",
+        "mean": "DU"
+      }
+    ]
   },
   {
     "japanese": "かえします",
@@ -207,7 +365,13 @@
     "lesson": 13,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "本を返します。"
+    "example": "本を返します。",
+    "kanji_search_results": [
+      {
+        "kanji": "返",
+        "mean": "PHẢN"
+      }
+    ]
   },
   {
     "japanese": "むかえます",
@@ -217,7 +381,13 @@
     "lesson": 13,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "空港で迎えます。"
+    "example": "空港で迎えます。",
+    "kanji_search_results": [
+      {
+        "kanji": "迎",
+        "mean": "NGHÊNH, NGHỊNH"
+      }
+    ]
   },
   {
     "japanese": "もちます",
@@ -227,7 +397,13 @@
     "lesson": 13,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "荷物を持ちます。"
+    "example": "荷物を持ちます。",
+    "kanji_search_results": [
+      {
+        "kanji": "持",
+        "mean": "TRÌ"
+      }
+    ]
   },
   {
     "japanese": "てつだいます",
@@ -237,7 +413,17 @@
     "lesson": 13,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "家事を手伝います。"
+    "example": "家事を手伝います。",
+    "kanji_search_results": [
+      {
+        "kanji": "手",
+        "mean": "THỦ"
+      },
+      {
+        "kanji": "伝",
+        "mean": "TRUYỀN"
+      }
+    ]
   },
   {
     "japanese": "あらいます",
@@ -247,7 +433,13 @@
     "lesson": 13,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "皿を洗います。"
+    "example": "皿を洗います。",
+    "kanji_search_results": [
+      {
+        "kanji": "洗",
+        "mean": "TẨY, TIỂN"
+      }
+    ]
   },
   {
     "japanese": "つかいます",
@@ -257,7 +449,13 @@
     "lesson": 13,
     "difficulty": "beginner",
     "category": "verb",
-    "example": "コンピューターを使います。"
+    "example": "コンピューターを使います。",
+    "kanji_search_results": [
+      {
+        "kanji": "使",
+        "mean": "SỬ, SỨ"
+      }
+    ]
   },
   {
     "japanese": "ほしい",
@@ -267,7 +465,13 @@
     "lesson": 13,
     "difficulty": "beginner",
     "category": "adjective",
-    "example": "新しい車が欲しいです。"
+    "example": "新しい車が欲しいです。",
+    "kanji_search_results": [
+      {
+        "kanji": "欲",
+        "mean": "DỤC"
+      }
+    ]
   },
   {
     "japanese": "いたい",
@@ -277,7 +481,13 @@
     "lesson": 13,
     "difficulty": "beginner",
     "category": "adjective",
-    "example": "頭が痛いです。"
+    "example": "頭が痛いです。",
+    "kanji_search_results": [
+      {
+        "kanji": "痛",
+        "mean": "THỐNG"
+      }
+    ]
   },
   {
     "japanese": "だいじょうぶ",
@@ -287,7 +497,21 @@
     "lesson": 13,
     "difficulty": "beginner",
     "category": "adjective",
-    "example": "大丈夫です。"
+    "example": "大丈夫です。",
+    "kanji_search_results": [
+      {
+        "kanji": "大",
+        "mean": "ĐẠI, THÁI"
+      },
+      {
+        "kanji": "丈",
+        "mean": "TRƯỢNG"
+      },
+      {
+        "kanji": "夫",
+        "mean": "PHU, PHÙ"
+      }
+    ]
   },
   {
     "japanese": "－ねんせい",
@@ -297,7 +521,17 @@
     "lesson": 13,
     "difficulty": "beginner",
     "category": "education",
-    "example": "一年生です。"
+    "example": "一年生です。",
+    "kanji_search_results": [
+      {
+        "kanji": "年",
+        "mean": "NIÊN"
+      },
+      {
+        "kanji": "生",
+        "mean": "SANH, SINH"
+      }
+    ]
   },
   {
     "japanese": "－まえに",
@@ -307,7 +541,13 @@
     "lesson": 13,
     "difficulty": "beginner",
     "category": "time",
-    "example": "三年前に日本に来ました。"
+    "example": "三年前に日本に来ました。",
+    "kanji_search_results": [
+      {
+        "kanji": "前",
+        "mean": "TIỀN"
+      }
+    ]
   },
   {
     "japanese": "ありがとう ございます",
@@ -327,7 +567,17 @@
     "lesson": 13,
     "difficulty": "beginner",
     "category": "expression",
-    "example": "頑張ってください。"
+    "example": "頑張ってください。",
+    "kanji_search_results": [
+      {
+        "kanji": "頑",
+        "mean": "NGOAN"
+      },
+      {
+        "kanji": "張",
+        "mean": "TRƯƠNG, TRƯỚNG"
+      }
+    ]
   },
   {
     "japanese": "どう しますか",
@@ -347,7 +597,13 @@
     "lesson": 13,
     "difficulty": "beginner",
     "category": "expression",
-    "example": "疲れました。"
+    "example": "疲れました。",
+    "kanji_search_results": [
+      {
+        "kanji": "疲",
+        "mean": "BÌ"
+      }
+    ]
   },
   {
     "japanese": "のどが かわきました",
@@ -357,7 +613,13 @@
     "lesson": 13,
     "difficulty": "beginner",
     "category": "expression",
-    "example": "のどが渇きました。"
+    "example": "のどが渇きました。",
+    "kanji_search_results": [
+      {
+        "kanji": "渇",
+        "mean": "KHÁT"
+      }
+    ]
   },
   {
     "japanese": "おなかが すきました",
@@ -377,7 +639,25 @@
     "lesson": 13,
     "difficulty": "beginner",
     "category": "place",
-    "example": "歌舞伎座で歌舞伎を見ます。"
+    "example": "歌舞伎座で歌舞伎を見ます。",
+    "kanji_search_results": [
+      {
+        "kanji": "歌",
+        "mean": "CA"
+      },
+      {
+        "kanji": "舞",
+        "mean": "VŨ"
+      },
+      {
+        "kanji": "伎",
+        "mean": "KĨ"
+      },
+      {
+        "kanji": "座",
+        "mean": "TỌA"
+      }
+    ]
   },
   {
     "japanese": "ただいま",

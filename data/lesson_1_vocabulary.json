@@ -7,7 +7,13 @@
     "lesson": 1,
     "difficulty": "beginner",
     "category": "pronoun",
-    "example": "わたしは学生です。"
+    "example": "わたしは学生です。",
+    "kanji_search_results": [
+      {
+        "kanji": "私",
+        "mean": "TƯ"
+      }
+    ]
   },
   {
     "japanese": "がくせい",
@@ -17,7 +23,17 @@
     "lesson": 1,
     "difficulty": "beginner",
     "category": "occupation",
-    "example": "私は学生です。"
+    "example": "私は学生です。",
+    "kanji_search_results": [
+      {
+        "kanji": "学",
+        "mean": "HỌC"
+      },
+      {
+        "kanji": "生",
+        "mean": "SANH, SINH"
+      }
+    ]
   },
   {
     "japanese": "～じん",
@@ -27,7 +43,13 @@
     "lesson": 1,
     "difficulty": "beginner",
     "category": "suffix",
-    "example": "ベトナム人です。"
+    "example": "ベトナム人です。",
+    "kanji_search_results": [
+      {
+        "kanji": "人",
+        "mean": "NHÂN"
+      }
+    ]
   },
   {
     "japanese": "エンジニア",
@@ -47,7 +69,13 @@
     "lesson": 1,
     "difficulty": "beginner",
     "category": "suffix",
-    "example": "銀行員です。"
+    "example": "銀行員です。",
+    "kanji_search_results": [
+      {
+        "kanji": "員",
+        "mean": "VIÊN, VÂN"
+      }
+    ]
   },
   {
     "japanese": "ぎんこういん",
@@ -57,7 +85,21 @@
     "lesson": 1,
     "difficulty": "beginner",
     "category": "occupation",
-    "example": "銀行員をしています。"
+    "example": "銀行員をしています。",
+    "kanji_search_results": [
+      {
+        "kanji": "銀",
+        "mean": "NGÂN"
+      },
+      {
+        "kanji": "行",
+        "mean": "HÀNH, HẠNH, HÀNG, HẠNG"
+      },
+      {
+        "kanji": "員",
+        "mean": "VIÊN, VÂN"
+      }
+    ]
   },
   {
     "japanese": "かいしゃいん",
@@ -67,7 +109,21 @@
     "lesson": 1,
     "difficulty": "beginner",
     "category": "occupation",
-    "example": "会社員です。"
+    "example": "会社員です。",
+    "kanji_search_results": [
+      {
+        "kanji": "会",
+        "mean": "HỘI, CỐI"
+      },
+      {
+        "kanji": "社",
+        "mean": "XÃ"
+      },
+      {
+        "kanji": "員",
+        "mean": "VIÊN, VÂN"
+      }
+    ]
   },
   {
     "japanese": "せんせい",
@@ -77,7 +133,17 @@
     "lesson": 1,
     "difficulty": "beginner",
     "category": "occupation",
-    "example": "田中先生です。"
+    "example": "田中先生です。",
+    "kanji_search_results": [
+      {
+        "kanji": "先",
+        "mean": "TIÊN, TIẾN"
+      },
+      {
+        "kanji": "生",
+        "mean": "SANH, SINH"
+      }
+    ]
   },
   {
     "japanese": "けんきゅういん",
@@ -87,7 +153,21 @@
     "lesson": 1,
     "difficulty": "beginner",
     "category": "occupation",
-    "example": "研究員として働いています。"
+    "example": "研究員として働いています。",
+    "kanji_search_results": [
+      {
+        "kanji": "研",
+        "mean": "NGHIÊN"
+      },
+      {
+        "kanji": "究",
+        "mean": "CỨU"
+      },
+      {
+        "kanji": "員",
+        "mean": "VIÊN, VÂN"
+      }
+    ]
   },
   {
     "japanese": "にほんごがっこう",
@@ -97,7 +177,29 @@
     "lesson": 1,
     "difficulty": "beginner",
     "category": "place",
-    "example": "日本語学校で勉強しています。"
+    "example": "日本語学校で勉強しています。",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      },
+      {
+        "kanji": "本",
+        "mean": "BỔN, BẢN"
+      },
+      {
+        "kanji": "語",
+        "mean": "NGỮ, NGỨ"
+      },
+      {
+        "kanji": "学",
+        "mean": "HỌC"
+      },
+      {
+        "kanji": "校",
+        "mean": "GIÁO, HIỆU, HÀO"
+      }
+    ]
   },
   {
     "japanese": "だいがく",
@@ -107,7 +209,17 @@
     "lesson": 1,
     "difficulty": "beginner",
     "category": "place",
-    "example": "大学で経済を勉強しています。"
+    "example": "大学で経済を勉強しています。",
+    "kanji_search_results": [
+      {
+        "kanji": "大",
+        "mean": "ĐẠI, THÁI"
+      },
+      {
+        "kanji": "学",
+        "mean": "HỌC"
+      }
+    ]
   },
   {
     "japanese": "りょう",
@@ -117,7 +229,13 @@
     "lesson": 1,
     "difficulty": "beginner",
     "category": "place",
-    "example": "寮に住んでいます。"
+    "example": "寮に住んでいます。",
+    "kanji_search_results": [
+      {
+        "kanji": "寮",
+        "mean": "LIÊU"
+      }
+    ]
   },
   {
     "japanese": "かんりにん",
@@ -127,7 +245,21 @@
     "lesson": 1,
     "difficulty": "beginner",
     "category": "occupation",
-    "example": "寮の管理人です。"
+    "example": "寮の管理人です。",
+    "kanji_search_results": [
+      {
+        "kanji": "管",
+        "mean": "QUẢN"
+      },
+      {
+        "kanji": "理",
+        "mean": "LÍ"
+      },
+      {
+        "kanji": "人",
+        "mean": "NHÂN"
+      }
+    ]
   },
   {
     "japanese": "がっこう",
@@ -137,7 +269,17 @@
     "lesson": 1,
     "difficulty": "beginner",
     "category": "place",
-    "example": "学校はどこですか。"
+    "example": "学校はどこですか。",
+    "kanji_search_results": [
+      {
+        "kanji": "学",
+        "mean": "HỌC"
+      },
+      {
+        "kanji": "校",
+        "mean": "GIÁO, HIỆU, HÀO"
+      }
+    ]
   },
   {
     "japanese": "なまえ",
@@ -147,7 +289,17 @@
     "lesson": 1,
     "difficulty": "beginner",
     "category": "personal_info",
-    "example": "お名前は何ですか。"
+    "example": "お名前は何ですか。",
+    "kanji_search_results": [
+      {
+        "kanji": "名",
+        "mean": "DANH"
+      },
+      {
+        "kanji": "前",
+        "mean": "TIỀN"
+      }
+    ]
   },
   {
     "japanese": "くに",
@@ -157,7 +309,13 @@
     "lesson": 1,
     "difficulty": "beginner",
     "category": "personal_info",
-    "example": "お国はどちらですか。"
+    "example": "お国はどちらですか。",
+    "kanji_search_results": [
+      {
+        "kanji": "国",
+        "mean": "QUỐC"
+      }
+    ]
   },
   {
     "japanese": "しゅみ",
@@ -167,7 +325,17 @@
     "lesson": 1,
     "difficulty": "beginner",
     "category": "personal_info",
-    "example": "趣味は何ですか。"
+    "example": "趣味は何ですか。",
+    "kanji_search_results": [
+      {
+        "kanji": "趣",
+        "mean": "THÚ, XÚC"
+      },
+      {
+        "kanji": "味",
+        "mean": "VỊ"
+      }
+    ]
   },
   {
     "japanese": "すいえい",
@@ -177,7 +345,17 @@
     "lesson": 1,
     "difficulty": "beginner",
     "category": "hobby",
-    "example": "水泳が好きです。"
+    "example": "水泳が好きです。",
+    "kanji_search_results": [
+      {
+        "kanji": "水",
+        "mean": "THỦY"
+      },
+      {
+        "kanji": "泳",
+        "mean": "VỊNH"
+      }
+    ]
   },
   {
     "japanese": "ともだち",
@@ -187,7 +365,17 @@
     "lesson": 1,
     "difficulty": "beginner",
     "category": "relationship",
-    "example": "友達と映画を見ました。"
+    "example": "友達と映画を見ました。",
+    "kanji_search_results": [
+      {
+        "kanji": "友",
+        "mean": "HỮU"
+      },
+      {
+        "kanji": "達",
+        "mean": "ĐẠT"
+      }
+    ]
   },
   {
     "japanese": "はい",
@@ -237,7 +425,13 @@
     "lesson": 1,
     "difficulty": "beginner",
     "category": "greeting",
-    "example": "はじめまして。田中です。"
+    "example": "はじめまして。田中です。",
+    "kanji_search_results": [
+      {
+        "kanji": "初",
+        "mean": "SƠ"
+      }
+    ]
   },
   {
     "japanese": "どうぞ よろしく おねがいします",
@@ -247,7 +441,13 @@
     "lesson": 1,
     "difficulty": "beginner",
     "category": "greeting",
-    "example": "はじめまして。どうぞよろしくお願いします。"
+    "example": "はじめまして。どうぞよろしくお願いします。",
+    "kanji_search_results": [
+      {
+        "kanji": "願",
+        "mean": "NGUYỆN"
+      }
+    ]
   },
   {
     "japanese": "こちらこそ どうぞ よろしく おねがいします",
@@ -257,7 +457,13 @@
     "lesson": 1,
     "difficulty": "beginner",
     "category": "greeting",
-    "example": "こちらこそ、どうぞよろしくお願いします。"
+    "example": "こちらこそ、どうぞよろしくお願いします。",
+    "kanji_search_results": [
+      {
+        "kanji": "願",
+        "mean": "NGUYỆN"
+      }
+    ]
   },
   {
     "japanese": "すみません",
@@ -277,7 +483,17 @@
     "lesson": 1,
     "difficulty": "beginner",
     "category": "question",
-    "example": "お名前は何ですか。"
+    "example": "お名前は何ですか。",
+    "kanji_search_results": [
+      {
+        "kanji": "名",
+        "mean": "DANH"
+      },
+      {
+        "kanji": "前",
+        "mean": "TIỀN"
+      }
+    ]
   },
   {
     "japanese": "おくには どちらですか",
@@ -287,7 +503,13 @@
     "lesson": 1,
     "difficulty": "beginner",
     "category": "question",
-    "example": "お国はどちらですか。"
+    "example": "お国はどちらですか。",
+    "kanji_search_results": [
+      {
+        "kanji": "国",
+        "mean": "QUỐC"
+      }
+    ]
   },
   {
     "japanese": "～から きました",
@@ -297,7 +519,13 @@
     "lesson": 1,
     "difficulty": "beginner",
     "category": "response",
-    "example": "ベトナムから来ました。"
+    "example": "ベトナムから来ました。",
+    "kanji_search_results": [
+      {
+        "kanji": "来",
+        "mean": "LAI, LÃI"
+      }
+    ]
   },
   {
     "japanese": "～は",
@@ -327,7 +555,17 @@
     "lesson": 1,
     "difficulty": "beginner",
     "category": "country",
-    "example": "中国から来ました。"
+    "example": "中国から来ました。",
+    "kanji_search_results": [
+      {
+        "kanji": "中",
+        "mean": "TRUNG, TRÚNG"
+      },
+      {
+        "kanji": "国",
+        "mean": "QUỐC"
+      }
+    ]
   },
   {
     "japanese": "ペルー",
@@ -387,7 +625,17 @@
     "lesson": 1,
     "difficulty": "beginner",
     "category": "country",
-    "example": "日本に住んでいます。"
+    "example": "日本に住んでいます。",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      },
+      {
+        "kanji": "本",
+        "mean": "BỔN, BẢN"
+      }
+    ]
   },
   {
     "japanese": "アメリカ",
@@ -407,7 +655,17 @@
     "lesson": 1,
     "difficulty": "beginner",
     "category": "country",
-    "example": "韓国人です。"
+    "example": "韓国人です。",
+    "kanji_search_results": [
+      {
+        "kanji": "韓",
+        "mean": "HÀN"
+      },
+      {
+        "kanji": "国",
+        "mean": "QUỐC"
+      }
+    ]
   },
   {
     "japanese": "つかいましょう",
@@ -417,6 +675,12 @@
     "lesson": 1,
     "difficulty": "beginner",
     "category": "instruction",
-    "example": "この辞書を使いましょう。"
+    "example": "この辞書を使いましょう。",
+    "kanji_search_results": [
+      {
+        "kanji": "使",
+        "mean": "SỬ, SỨ"
+      }
+    ]
   }
 ]
