@@ -94,6 +94,7 @@ class JapaneseVocabApp {
         document.getElementById('lessons-btn')?.addEventListener('click', () => this.showLessons());
         document.getElementById('flashcard-btn')?.addEventListener('click', () => this.showFlashcard());
         document.getElementById('quiz-btn')?.addEventListener('click', () => this.showQuiz());
+        document.getElementById('kanji-flashcard-btn')?.addEventListener('click', () => this.showKanjiFlashcard());
         document.getElementById('verb-conjugation-btn')?.addEventListener('click', () => this.showVerbConjugation());
         
         // Reload data button
@@ -124,6 +125,11 @@ class JapaneseVocabApp {
     // Hiển thị Quiz (redirect to separate page)
     showQuiz() {
         window.location.href = 'quiz.html';
+    }
+
+    // Hiển thị Kanji Flashcard (redirect to separate page)
+    showKanjiFlashcard() {
+        window.location.href = 'kanji_flashcard.html';
     }
 
     // Hiển thị trang chia động từ (redirect to separate page)

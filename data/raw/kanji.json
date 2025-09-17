@@ -1,0 +1,4006 @@
+[
+  {
+    "word": "先生",
+    "phonetic": "せんせい",
+    "short_mean": "giáo viên; giảng viên; thầy; ông giáo; ông thầy; thầy giáo; tiên sinh",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "先",
+        "mean": "TIÊN, TIẾN"
+      },
+      {
+        "kanji": "生",
+        "mean": "SANH, SINH"
+      }
+    ]
+  },
+  {
+    "word": "先月",
+    "phonetic": "せんげつ",
+    "short_mean": "tháng trước",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "先",
+        "mean": "TIÊN, TIẾN"
+      },
+      {
+        "kanji": "月",
+        "mean": "NGUYỆT"
+      }
+    ]
+  },
+  {
+    "word": "お先に",
+    "phonetic": "おさきに",
+    "short_mean": "trước; trước đây; xa hơn về phía trước",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "先",
+        "mean": "TIÊN, TIẾN"
+      }
+    ]
+  },
+  {
+    "word": "生徒",
+    "phonetic": "せいと",
+    "short_mean": "học sinh; học trò",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "生",
+        "mean": "SANH, SINH"
+      },
+      {
+        "kanji": "徒",
+        "mean": "ĐỒ"
+      }
+    ]
+  },
+  {
+    "word": "生活",
+    "phonetic": "せいかつ",
+    "short_mean": "cuộc sống; sinh hoạt; đời sống; sinh sống",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "生",
+        "mean": "SANH, SINH"
+      },
+      {
+        "kanji": "活",
+        "mean": "HOẠT, QUẠT"
+      }
+    ]
+  },
+  {
+    "word": "誕生日",
+    "phonetic": "たんじょうび",
+    "short_mean": "ngày sinh; ngày sinh nhật",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "誕",
+        "mean": "ĐẢN"
+      },
+      {
+        "kanji": "生",
+        "mean": "SANH, SINH"
+      },
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
+  },
+  {
+    "word": "学生",
+    "phonetic": "がくしょう がくそう がくせい",
+    "short_mean": "sinh viên; học sinh",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "学",
+        "mean": "HỌC"
+      },
+      {
+        "kanji": "生",
+        "mean": "SANH, SINH"
+      }
+    ]
+  },
+  {
+    "word": "学校",
+    "phonetic": "がっこう",
+    "short_mean": "trường học",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "学",
+        "mean": "HỌC"
+      },
+      {
+        "kanji": "校",
+        "mean": "GIÁO, HIỆU, HÀO"
+      }
+    ]
+  },
+  {
+    "word": "日本人",
+    "phonetic": "にほんじん にっぽんじん",
+    "short_mean": "người nhật",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      },
+      {
+        "kanji": "本",
+        "mean": "BỔN, BẢN"
+      },
+      {
+        "kanji": "人",
+        "mean": "NHÂN"
+      }
+    ]
+  },
+  {
+    "word": "外国人",
+    "phonetic": "がいこくじん",
+    "short_mean": "ngoại nhân; người nước ngoài; người ngoại quốc",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "外",
+        "mean": "NGOẠI"
+      },
+      {
+        "kanji": "国",
+        "mean": "QUỐC"
+      },
+      {
+        "kanji": "人",
+        "mean": "NHÂN"
+      }
+    ]
+  },
+  {
+    "word": "～人",
+    "phonetic": "～にん",
+    "short_mean": "hậu tố đếm người; số người",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "人",
+        "mean": "NHÂN"
+      }
+    ]
+  },
+  {
+    "word": "一人",
+    "phonetic": "ひとり",
+    "short_mean": "một người",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "一",
+        "mean": "NHẤT"
+      },
+      {
+        "kanji": "人",
+        "mean": "NHÂN"
+      }
+    ]
+  },
+  {
+    "word": "二人",
+    "phonetic": "ふたり",
+    "short_mean": "hai người",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "二",
+        "mean": "NHỊ"
+      },
+      {
+        "kanji": "人",
+        "mean": "NHÂN"
+      }
+    ]
+  },
+  {
+    "word": "三人",
+    "phonetic": "さんにん みたり",
+    "short_mean": "ba người",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "三",
+        "mean": "TAM, TÁM"
+      },
+      {
+        "kanji": "人",
+        "mean": "NHÂN"
+      }
+    ]
+  },
+  {
+    "word": "四人",
+    "phonetic": "よにん よたり よったり",
+    "short_mean": "bốn người",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "四",
+        "mean": "TỨ"
+      },
+      {
+        "kanji": "人",
+        "mean": "NHÂN"
+      }
+    ]
+  },
+  {
+    "word": "人",
+    "phonetic": "ひと じん にん たり り と",
+    "short_mean": "con người; nhân loại; người; người khác; người ta; tôi; người ta (nói về mình ở ngôi thứ 3); vợ gọi chồng",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "人",
+        "mean": "NHÂN"
+      }
+    ]
+  },
+  {
+    "word": "大人",
+    "phonetic": "おとな だいにん たいじん",
+    "short_mean": "người lớn; người trưởng thành",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "大",
+        "mean": "ĐẠI, THÁI"
+      },
+      {
+        "kanji": "人",
+        "mean": "NHÂN"
+      }
+    ]
+  },
+  {
+    "word": "外国",
+    "phonetic": "がいこく",
+    "short_mean": "đất khách; ngoại quốc; nước ngoài",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "外",
+        "mean": "NGOẠI"
+      },
+      {
+        "kanji": "国",
+        "mean": "QUỐC"
+      }
+    ]
+  },
+  {
+    "word": "国",
+    "phonetic": "くに",
+    "short_mean": "đất nước; quốc gia; quê nhà",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "国",
+        "mean": "QUỐC"
+      }
+    ]
+  },
+  {
+    "word": "男の人",
+    "phonetic": "おとこのひと",
+    "short_mean": "người đàn ông",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "男",
+        "mean": "NAM"
+      },
+      {
+        "kanji": "人",
+        "mean": "NHÂN"
+      }
+    ]
+  },
+  {
+    "word": "男の子",
+    "phonetic": "おとこのこ おとこのコ",
+    "short_mean": "cậu bé; con đực",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "男",
+        "mean": "NAM"
+      },
+      {
+        "kanji": "子",
+        "mean": "TỬ, TÍ"
+      }
+    ]
+  },
+  {
+    "word": "女の人",
+    "phonetic": "おんなのひと",
+    "short_mean": "phụ nữ; đàn bà; nữ",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "女",
+        "mean": "NỮ, NỨ, NHỮ"
+      },
+      {
+        "kanji": "人",
+        "mean": "NHÂN"
+      }
+    ]
+  },
+  {
+    "word": "女の子",
+    "phonetic": "めのこ おんなのこ おんなのコ おんにゃのこ",
+    "short_mean": "cô gái; cô bé",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "女",
+        "mean": "NỮ, NỨ, NHỮ"
+      },
+      {
+        "kanji": "子",
+        "mean": "TỬ, TÍ"
+      }
+    ]
+  },
+  {
+    "word": "かの女",
+    "phonetic": "かのじょ",
+    "short_mean": "cô ấy; bạn gái",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "女",
+        "mean": "NỮ, NỨ, NHỮ"
+      }
+    ]
+  },
+  {
+    "word": "子ども",
+    "phonetic": "こども",
+    "short_mean": "trẻ em; trẻ con",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "子",
+        "mean": "TỬ, TÍ"
+      }
+    ]
+  },
+  {
+    "word": "友だち",
+    "phonetic": "ともだち",
+    "short_mean": "bạn bè",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "友",
+        "mean": "HỮU"
+      }
+    ]
+  },
+  {
+    "word": "父",
+    "phonetic": "ちち とと ちゃん てて かぞ かそ しし あて",
+    "short_mean": "bố; cha; gia phụ; phụ thân; thân phụ; thầy",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "父",
+        "mean": "PHỤ, PHỦ"
+      }
+    ]
+  },
+  {
+    "word": "お父さん",
+    "phonetic": "おとうさん おとっさん",
+    "short_mean": "bố",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "父",
+        "mean": "PHỤ, PHỦ"
+      }
+    ]
+  },
+  {
+    "word": "有名な",
+    "phonetic": "ゆうめいな",
+    "short_mean": "danh; danh tiếng; lẫy lừng; nổi danh; nổi tiếng",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "有",
+        "mean": "HỮU, DỰU"
+      },
+      {
+        "kanji": "名",
+        "mean": "DANH"
+      }
+    ]
+  },
+  {
+    "word": "名前",
+    "phonetic": "なまえ",
+    "short_mean": "tên; họ tên",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "名",
+        "mean": "DANH"
+      },
+      {
+        "kanji": "前",
+        "mean": "TIỀN"
+      }
+    ]
+  },
+  {
+    "word": "田中さん",
+    "phonetic": "たなかさん",
+    "short_mean": "anh/chị Tanaka",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "田",
+        "mean": "ĐIỀN"
+      },
+      {
+        "kanji": "中",
+        "mean": "TRUNG, TRÚNG"
+      }
+    ]
+  },
+  {
+    "word": "山田さん",
+    "phonetic": "やまださん",
+    "short_mean": "anh/chị Yamada",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "山",
+        "mean": "SAN, SƠN"
+      },
+      {
+        "kanji": "田",
+        "mean": "ĐIỀN"
+      }
+    ]
+  },
+  {
+    "word": "ふじ山",
+    "phonetic": "ふじさん",
+    "short_mean": "núi Phú Sĩ",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "山",
+        "mean": "SAN, SƠN"
+      }
+    ]
+  },
+  {
+    "word": "山",
+    "phonetic": "さん ざん むれ やま",
+    "short_mean": "núi; sơn; ngọn núi",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "山",
+        "mean": "SAN, SƠN"
+      }
+    ]
+  },
+  {
+    "word": "日本語",
+    "phonetic": "にほんご にっぽんご",
+    "short_mean": "tiếng nhật",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      },
+      {
+        "kanji": "本",
+        "mean": "BỔN, BẢN"
+      },
+      {
+        "kanji": "語",
+        "mean": "NGỮ, NGỨ"
+      }
+    ]
+  },
+  {
+    "word": "英語",
+    "phonetic": "えいご",
+    "short_mean": "tiếng anh",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "英",
+        "mean": "ANH"
+      },
+      {
+        "kanji": "語",
+        "mean": "NGỮ, NGỨ"
+      }
+    ]
+  },
+  {
+    "word": "本",
+    "phonetic": "ほん もと",
+    "short_mean": "nguồn; nguồn gốc; căn nguyên",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "本",
+        "mean": "BỔN, BẢN"
+      }
+    ]
+  },
+  {
+    "word": "日本",
+    "phonetic": "にほん にっぽん",
+    "short_mean": "nhật bản",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      },
+      {
+        "kanji": "本",
+        "mean": "BỔN, BẢN"
+      }
+    ]
+  },
+  {
+    "word": "～本",
+    "phonetic": "～ほん／～ぼん／～ぽん",
+    "short_mean": "hậu tố đếm vật thon dài",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "本",
+        "mean": "BỔN, BẢN"
+      }
+    ]
+  },
+  {
+    "word": "何時",
+    "phonetic": "なんどき なんじ いつ",
+    "short_mean": "mấy giờ",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "何",
+        "mean": "HÀ"
+      },
+      {
+        "kanji": "時",
+        "mean": "THÌ, THỜI"
+      }
+    ]
+  },
+  {
+    "word": "何",
+    "phonetic": "なに なん",
+    "short_mean": "cái gì",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "何",
+        "mean": "HÀ"
+      }
+    ]
+  },
+  {
+    "word": "何語",
+    "phonetic": "なんご なにご",
+    "short_mean": "tiếng gì",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "何",
+        "mean": "HÀ"
+      },
+      {
+        "kanji": "語",
+        "mean": "NGỮ, NGỨ"
+      }
+    ]
+  },
+  {
+    "word": "何時間",
+    "phonetic": "なんじかん",
+    "short_mean": "mấy tiếng; mấy giờ",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "何",
+        "mean": "HÀ"
+      },
+      {
+        "kanji": "時",
+        "mean": "THÌ, THỜI"
+      },
+      {
+        "kanji": "間",
+        "mean": "GIAN"
+      }
+    ]
+  },
+  {
+    "word": "九時",
+    "phonetic": "くじ",
+    "short_mean": "9 giờ",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "九",
+        "mean": "CỬU, CƯU"
+      },
+      {
+        "kanji": "時",
+        "mean": "THÌ, THỜI"
+      }
+    ]
+  },
+  {
+    "word": "四時間",
+    "phonetic": "よじかん",
+    "short_mean": "bốn tiếng đồng hồ",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "四",
+        "mean": "TỨ"
+      },
+      {
+        "kanji": "時",
+        "mean": "THÌ, THỜI"
+      },
+      {
+        "kanji": "間",
+        "mean": "GIAN"
+      }
+    ]
+  },
+  {
+    "word": "時計",
+    "phonetic": "とけい ときはかり とけい ときはかり",
+    "short_mean": "đồng hồ",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "時",
+        "mean": "THÌ, THỜI"
+      },
+      {
+        "kanji": "計",
+        "mean": "KẾ, KÊ"
+      }
+    ]
+  },
+  {
+    "word": "五分",
+    "phonetic": "ごふん ごぶん ごぶ",
+    "short_mean": "một nửa; năm mươi phần trăm; 50 phần trăm; sự ngang bằng; sự cân bằng; ngang bằng; cân bằng; năm mươi năm mươi",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "五",
+        "mean": "NGŨ"
+      },
+      {
+        "kanji": "分",
+        "mean": "PHÂN, PHẬN"
+      }
+    ]
+  },
+  {
+    "word": "三十分",
+    "phonetic": "",
+    "short_mean": "",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "三",
+        "mean": "TAM, TÁM"
+      },
+      {
+        "kanji": "十",
+        "mean": "THẬP"
+      },
+      {
+        "kanji": "分",
+        "mean": "PHÂN, PHẬN"
+      }
+    ]
+  },
+  {
+    "word": "半分",
+    "phonetic": "はんぶん はんぷん",
+    "short_mean": "một nửa",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "半",
+        "mean": "BÁN"
+      },
+      {
+        "kanji": "分",
+        "mean": "PHÂN, PHẬN"
+      }
+    ]
+  },
+  {
+    "word": "時間",
+    "phonetic": "じかん",
+    "short_mean": "giờ đồng hồ; giờ giấc; thì giờ; thời buổi; thời điểm; thời giờ; tiếng đồng hồ; thời gian; giờ",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "時",
+        "mean": "THÌ, THỜI"
+      },
+      {
+        "kanji": "間",
+        "mean": "GIAN"
+      }
+    ]
+  },
+  {
+    "word": "一週間",
+    "phonetic": "いっしゅうかん",
+    "short_mean": "tuần lễ",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "一",
+        "mean": "NHẤT"
+      },
+      {
+        "kanji": "週",
+        "mean": "CHU"
+      },
+      {
+        "kanji": "間",
+        "mean": "GIAN"
+      }
+    ]
+  },
+  {
+    "word": "間",
+    "phonetic": "あいだ あわい けん かん ま",
+    "short_mean": "phòng; khoảng trống; kẽ hở; khoảng thời gian",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "間",
+        "mean": "GIAN"
+      }
+    ]
+  },
+  {
+    "word": "この間",
+    "phonetic": "このあいだ このかん",
+    "short_mean": "độ này; gần đây; hôm nọ",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "間",
+        "mean": "GIAN"
+      }
+    ]
+  },
+  {
+    "word": "間に合う",
+    "phonetic": "まにあう",
+    "short_mean": "kịp thời; vừa đủ; theo kịp",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "間",
+        "mean": "GIAN"
+      },
+      {
+        "kanji": "合",
+        "mean": "HỢP, CÁP, HIỆP"
+      }
+    ]
+  },
+  {
+    "word": "七時半",
+    "phonetic": "しちじはん",
+    "short_mean": "7 giờ rưỡi",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "七",
+        "mean": "THẤT"
+      },
+      {
+        "kanji": "時",
+        "mean": "THÌ, THỜI"
+      },
+      {
+        "kanji": "半",
+        "mean": "BÁN"
+      }
+    ]
+  },
+  {
+    "word": "一時間半",
+    "phonetic": "いちじかんはん",
+    "short_mean": "một tiếng rưỡi",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "一",
+        "mean": "NHẤT"
+      },
+      {
+        "kanji": "時",
+        "mean": "THÌ, THỜI"
+      },
+      {
+        "kanji": "間",
+        "mean": "GIAN"
+      },
+      {
+        "kanji": "半",
+        "mean": "BÁN"
+      }
+    ]
+  },
+  {
+    "word": "午後",
+    "phonetic": "ごご",
+    "short_mean": "vào buổi chiều; sau 12 giờ trưa; buổi chiều; chiều",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "午",
+        "mean": "NGỌ"
+      },
+      {
+        "kanji": "後",
+        "mean": "HẬU, HẤU"
+      }
+    ]
+  },
+  {
+    "word": "午前",
+    "phonetic": "ごぜん",
+    "short_mean": "buổi sáng; vào buổi sáng; sáng",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "午",
+        "mean": "NGỌ"
+      },
+      {
+        "kanji": "前",
+        "mean": "TIỀN"
+      }
+    ]
+  },
+  {
+    "word": "前",
+    "phonetic": "まえ ぜん",
+    "short_mean": "đằng trước; phần đầu; phần trước; trước đây",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "前",
+        "mean": "TIỀN"
+      }
+    ]
+  },
+  {
+    "word": "後で",
+    "phonetic": "あとで",
+    "short_mean": "chốc nữa; lát; lát nữa",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "後",
+        "mean": "HẬU, HẤU"
+      }
+    ]
+  },
+  {
+    "word": "後ろ",
+    "phonetic": "うしろ",
+    "short_mean": "sau; đằng sau; phía sau",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "後",
+        "mean": "HẬU, HẤU"
+      }
+    ]
+  },
+  {
+    "word": "今月",
+    "phonetic": "こんげつ",
+    "short_mean": "tháng này",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "今",
+        "mean": "KIM"
+      },
+      {
+        "kanji": "月",
+        "mean": "NGUYỆT"
+      }
+    ]
+  },
+  {
+    "word": "今週",
+    "phonetic": "こんしゅう",
+    "short_mean": "tuần lễ này; tuần này",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "今",
+        "mean": "KIM"
+      },
+      {
+        "kanji": "週",
+        "mean": "CHU"
+      }
+    ]
+  },
+  {
+    "word": "今",
+    "phonetic": "いま こん",
+    "short_mean": "bây giờ",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "今",
+        "mean": "KIM"
+      }
+    ]
+  },
+  {
+    "word": "今日",
+    "phonetic": "きょう こんにち こんち こんじつ",
+    "short_mean": "ngày nay",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "今",
+        "mean": "KIM"
+      },
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
+  },
+  {
+    "word": "今年",
+    "phonetic": "ことし こんねん",
+    "short_mean": "năm nay",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "今",
+        "mean": "KIM"
+      },
+      {
+        "kanji": "年",
+        "mean": "NIÊN"
+      }
+    ]
+  },
+  {
+    "word": "今朝",
+    "phonetic": "けさ",
+    "short_mean": "sáng nay",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "今",
+        "mean": "KIM"
+      },
+      {
+        "kanji": "朝",
+        "mean": "TRIÊU, TRIỀU"
+      }
+    ]
+  },
+  {
+    "word": "先週",
+    "phonetic": "せんしゅう",
+    "short_mean": "tuần lễ trước; tuần trước",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "先",
+        "mean": "TIÊN, TIẾN"
+      },
+      {
+        "kanji": "週",
+        "mean": "CHU"
+      }
+    ]
+  },
+  {
+    "word": "来週",
+    "phonetic": "らいしゅう",
+    "short_mean": "tuần lễ sau; tuần sau",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "来",
+        "mean": "LAI, LÃI"
+      },
+      {
+        "kanji": "週",
+        "mean": "CHU"
+      }
+    ]
+  },
+  {
+    "word": "一年",
+    "phonetic": "いちねん ひととし ひととせ",
+    "short_mean": "một năm",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "一",
+        "mean": "NHẤT"
+      },
+      {
+        "kanji": "年",
+        "mean": "NIÊN"
+      }
+    ]
+  },
+  {
+    "word": "去年",
+    "phonetic": "きょねん こぞ",
+    "short_mean": "năm ngoái; năm trước; năm qua",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "去",
+        "mean": "KHỨ, KHU"
+      },
+      {
+        "kanji": "年",
+        "mean": "NIÊN"
+      }
+    ]
+  },
+  {
+    "word": "来年",
+    "phonetic": "らいねん",
+    "short_mean": "năm sau",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "来",
+        "mean": "LAI, LÃI"
+      },
+      {
+        "kanji": "年",
+        "mean": "NIÊN"
+      }
+    ]
+  },
+  {
+    "word": "半年",
+    "phonetic": "はんとし はんねん",
+    "short_mean": "nửa năm",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "半",
+        "mean": "BÁN"
+      },
+      {
+        "kanji": "年",
+        "mean": "NIÊN"
+      }
+    ]
+  },
+  {
+    "word": "毎年",
+    "phonetic": "まいとし まいねん",
+    "short_mean": "hàng năm; mỗi năm; mọi năm",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "毎",
+        "mean": "MỖI"
+      },
+      {
+        "kanji": "年",
+        "mean": "NIÊN"
+      }
+    ]
+  },
+  {
+    "word": "毎日",
+    "phonetic": "まいにち",
+    "short_mean": "hàng ngày; mỗi ngày; mọi ngày; ngày ngày; thường ngày",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "毎",
+        "mean": "MỖI"
+      },
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
+  },
+  {
+    "word": "毎月",
+    "phonetic": "まいつき まいげつ",
+    "short_mean": "hàng tháng; mỗi tháng; mọi tháng",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "毎",
+        "mean": "MỖI"
+      },
+      {
+        "kanji": "月",
+        "mean": "NGUYỆT"
+      }
+    ]
+  },
+  {
+    "word": "少し",
+    "phonetic": "すこし",
+    "short_mean": "chút đỉnh; chút ít; hơi; hơi hơi; một chút; một ít; một tí; tí; tí ti; tí tị",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "少",
+        "mean": "THIỂU, THIẾU"
+      }
+    ]
+  },
+  {
+    "word": "少ない",
+    "phonetic": "すくない",
+    "short_mean": "ít; hiếm; thiểu",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "少",
+        "mean": "THIỂU, THIẾU"
+      }
+    ]
+  },
+  {
+    "word": "小さい",
+    "phonetic": "ちいさい",
+    "short_mean": "bé; bé bỏng; bé nhỏ; còm; nhỏ; nhỏ bé; thấp bé; tí; tí hon",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "小",
+        "mean": "TIỂU"
+      }
+    ]
+  },
+  {
+    "word": "小学校",
+    "phonetic": "しょうがっこう",
+    "short_mean": "tiểu học; trường tiểu học",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "小",
+        "mean": "TIỂU"
+      },
+      {
+        "kanji": "学",
+        "mean": "HỌC"
+      },
+      {
+        "kanji": "校",
+        "mean": "GIÁO, HIỆU, HÀO"
+      }
+    ]
+  },
+  {
+    "word": "大学",
+    "phonetic": "だいがく",
+    "short_mean": "đại học; trường đại học",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "大",
+        "mean": "ĐẠI, THÁI"
+      },
+      {
+        "kanji": "学",
+        "mean": "HỌC"
+      }
+    ]
+  },
+  {
+    "word": "大変",
+    "phonetic": "たいへん",
+    "short_mean": "chết rồi; không xong rồi; kinh khủng quá.v.v..; kinh khủng; ghê gớm; mệt mỏi; khó khăn; vất vả; quá; vô cùng; rất",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "大",
+        "mean": "ĐẠI, THÁI"
+      },
+      {
+        "kanji": "変",
+        "mean": "BIẾN"
+      }
+    ]
+  },
+  {
+    "word": "大切",
+    "phonetic": "たいせつ たいせち",
+    "short_mean": "quan trọng; sự quan trọng",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "大",
+        "mean": "ĐẠI, THÁI"
+      },
+      {
+        "kanji": "切",
+        "mean": "THIẾT, THẾ"
+      }
+    ]
+  },
+  {
+    "word": "大きい",
+    "phonetic": "おおきい",
+    "short_mean": "bự; to lớn; lớn; to; lớn",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "大",
+        "mean": "ĐẠI, THÁI"
+      }
+    ]
+  },
+  {
+    "word": "安全",
+    "phonetic": "あんぜん",
+    "short_mean": "an toàn",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "安",
+        "mean": "AN, YÊN"
+      },
+      {
+        "kanji": "全",
+        "mean": "TOÀN"
+      }
+    ]
+  },
+  {
+    "word": "安心",
+    "phonetic": "あんしん あんじん",
+    "short_mean": "sự yên tâm; sự an tâm; yên tâm; an tâm; yên bụng; yên lòng; có được sự bình yên trong tâm trí thông qua đức tin hoặc thực hành khổ hạnh",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "安",
+        "mean": "AN, YÊN"
+      },
+      {
+        "kanji": "心",
+        "mean": "TÂM"
+      }
+    ]
+  },
+  {
+    "word": "安い",
+    "phonetic": "やすい",
+    "short_mean": "điềm tĩnh; yên tâm; rẻ; rẻ tiền; thấp",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "安",
+        "mean": "AN, YÊN"
+      }
+    ]
+  },
+  {
+    "word": "高校",
+    "phonetic": "こうこう",
+    "short_mean": "trường cấp 3; trường trung học",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "高",
+        "mean": "CAO"
+      },
+      {
+        "kanji": "校",
+        "mean": "GIÁO, HIỆU, HÀO"
+      }
+    ]
+  },
+  {
+    "word": "高い",
+    "phonetic": "たかい",
+    "short_mean": "cao; đắt; đắt tiền",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "高",
+        "mean": "CAO"
+      }
+    ]
+  },
+  {
+    "word": "新聞",
+    "phonetic": "しんぶん",
+    "short_mean": "báo; tờ báo; nhật báo; tờ báo; báo",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "新",
+        "mean": "TÂN"
+      },
+      {
+        "kanji": "聞",
+        "mean": "VĂN, VẤN, VẶN"
+      }
+    ]
+  },
+  {
+    "word": "新しい",
+    "phonetic": "あたらしい",
+    "short_mean": "mới; mới mẻ",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "新",
+        "mean": "TÂN"
+      }
+    ]
+  },
+  {
+    "word": "古い",
+    "phonetic": "ふるい",
+    "short_mean": "cũ; cổ; già",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "古",
+        "mean": "CỔ"
+      }
+    ]
+  },
+  {
+    "word": "早い",
+    "phonetic": "はやい",
+    "short_mean": "sớm; nhanh chóng",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "早",
+        "mean": "TẢO"
+      }
+    ]
+  },
+  {
+    "word": "社長",
+    "phonetic": "しゃちょう",
+    "short_mean": "chủ tịch công ty; giám đốc",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "社",
+        "mean": "XÃ"
+      },
+      {
+        "kanji": "長",
+        "mean": "TRƯỜNG, TRƯỞNG, TRƯỚNG"
+      }
+    ]
+  },
+  {
+    "word": "長い",
+    "phonetic": "ながい",
+    "short_mean": "bao lâu; dài; lâu",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "長",
+        "mean": "TRƯỜNG, TRƯỞNG, TRƯỚNG"
+      }
+    ]
+  },
+  {
+    "word": "円",
+    "phonetic": "えん まる",
+    "short_mean": "tròn; vòng tròn; hình tròn",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "円",
+        "mean": "VIÊN"
+      }
+    ]
+  },
+  {
+    "word": "校長",
+    "phonetic": "こうちょう",
+    "short_mean": "hiệu trưởng",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "校",
+        "mean": "GIÁO, HIỆU, HÀO"
+      },
+      {
+        "kanji": "長",
+        "mean": "TRƯỜNG, TRƯỞNG, TRƯỚNG"
+      }
+    ]
+  },
+  {
+    "word": "会社",
+    "phonetic": "かいしゃ",
+    "short_mean": "công ty; hãng",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "会",
+        "mean": "HỘI, CỐI"
+      },
+      {
+        "kanji": "社",
+        "mean": "XÃ"
+      }
+    ]
+  },
+  {
+    "word": "社員",
+    "phonetic": "しゃいん",
+    "short_mean": "nhân viên công ty; xã viên",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "社",
+        "mean": "XÃ"
+      },
+      {
+        "kanji": "員",
+        "mean": "VIÊN, VÂN"
+      }
+    ]
+  },
+  {
+    "word": "中学校",
+    "phonetic": "ちゅうがっこう",
+    "short_mean": "trường trung học",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "中",
+        "mean": "TRUNG, TRÚNG"
+      },
+      {
+        "kanji": "学",
+        "mean": "HỌC"
+      },
+      {
+        "kanji": "校",
+        "mean": "GIÁO, HIỆU, HÀO"
+      }
+    ]
+  },
+  {
+    "word": "一日中",
+    "phonetic": "いちにちじゅう いちにちぢゅう",
+    "short_mean": "cả ngày; suốt cả ngày; suốt ngày",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "一",
+        "mean": "NHẤT"
+      },
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      },
+      {
+        "kanji": "中",
+        "mean": "TRUNG, TRÚNG"
+      }
+    ]
+  },
+  {
+    "word": "中",
+    "phonetic": "ちゅう チュン じゅう ぢゅう なか",
+    "short_mean": "bên trong; giữa; trong khi; trong; ở trong; red dragon tile",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "中",
+        "mean": "TRUNG, TRÚNG"
+      }
+    ]
+  },
+  {
+    "word": "聞く",
+    "phonetic": "きく",
+    "short_mean": "nghe; hỏi",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "聞",
+        "mean": "VĂN, VẤN, VẶN"
+      }
+    ]
+  },
+  {
+    "word": "聞こえる",
+    "phonetic": "きこえる",
+    "short_mean": "có thể nghe; nghe được; nghe thấy",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "聞",
+        "mean": "VĂN, VẤN, VẶN"
+      }
+    ]
+  },
+  {
+    "word": "駅",
+    "phonetic": "えき",
+    "short_mean": "ga; nhà ga",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "駅",
+        "mean": "DỊCH"
+      }
+    ]
+  },
+  {
+    "word": "口",
+    "phonetic": "くち く こう",
+    "short_mean": "cửa; miệng; chỗ cho vào; chỗ ra vào; mồm; miệng; mỏ; miệng; lời nói",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "口",
+        "mean": "KHẨU"
+      }
+    ]
+  },
+  {
+    "word": "出る",
+    "phonetic": "でる",
+    "short_mean": "đi ra; ngoi; xuất hiện; đi ra khỏi",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "出",
+        "mean": "XUẤT, XÚY"
+      }
+    ]
+  },
+  {
+    "word": "出かける",
+    "phonetic": "でかける",
+    "short_mean": "đăng trình; ra; rời khỏi",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "出",
+        "mean": "XUẤT, XÚY"
+      }
+    ]
+  },
+  {
+    "word": "出す",
+    "phonetic": "だす",
+    "short_mean": "gửi đi; cho ra khỏi; xuất bản",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "出",
+        "mean": "XUẤT, XÚY"
+      }
+    ]
+  },
+  {
+    "word": "入る",
+    "phonetic": "いる はいる",
+    "short_mean": "đi vào; vào; bước vào; đi vô; vô",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "入",
+        "mean": "NHẬP"
+      }
+    ]
+  },
+  {
+    "word": "入口",
+    "phonetic": "いりぐち いりくち はいりぐち はいりくち",
+    "short_mean": "cổng vào; cửa vào; lối vào; sự bắt đầu",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "入",
+        "mean": "NHẬP"
+      },
+      {
+        "kanji": "口",
+        "mean": "KHẨU"
+      }
+    ]
+  },
+  {
+    "word": "出口",
+    "phonetic": "でぐち",
+    "short_mean": "cổng ra; cửa ra; lối ra",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "出",
+        "mean": "XUẤT, XÚY"
+      },
+      {
+        "kanji": "口",
+        "mean": "KHẨU"
+      }
+    ]
+  },
+  {
+    "word": "入れる",
+    "phonetic": "いる はいる",
+    "short_mean": "đi vào; vào; bước vào; đi vô; vô",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "入",
+        "mean": "NHẬP"
+      }
+    ]
+  },
+  {
+    "word": "東京",
+    "phonetic": "とうきょう",
+    "short_mean": "tokyo nhật bản)",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "東",
+        "mean": "ĐÔNG"
+      },
+      {
+        "kanji": "京",
+        "mean": "KINH"
+      }
+    ]
+  },
+  {
+    "word": "東",
+    "phonetic": "ひがし ひむかし ひんがし あずま あづま",
+    "short_mean": "đông; hướng đông",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "東",
+        "mean": "ĐÔNG"
+      }
+    ]
+  },
+  {
+    "word": "東口",
+    "phonetic": "ひがしぐち",
+    "short_mean": "cửa đông; lối vào phía đông",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "東",
+        "mean": "ĐÔNG"
+      },
+      {
+        "kanji": "口",
+        "mean": "KHẨU"
+      }
+    ]
+  },
+  {
+    "word": "西洋",
+    "phonetic": "せいよう",
+    "short_mean": "phương tây; các nước phương tây; tây phương",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "西",
+        "mean": "TÂY, TÊ"
+      },
+      {
+        "kanji": "洋",
+        "mean": "DƯƠNG"
+      }
+    ]
+  },
+  {
+    "word": "西",
+    "phonetic": "にし",
+    "short_mean": "hướng tây; phía tây",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "西",
+        "mean": "TÂY, TÊ"
+      }
+    ]
+  },
+  {
+    "word": "西口",
+    "phonetic": "にしぐち",
+    "short_mean": "cổng phía tây",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "西",
+        "mean": "TÂY, TÊ"
+      },
+      {
+        "kanji": "口",
+        "mean": "KHẨU"
+      }
+    ]
+  },
+  {
+    "word": "南",
+    "phonetic": "みなみ",
+    "short_mean": "nam; phía nam; phương nam",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "南",
+        "mean": "NAM"
+      }
+    ]
+  },
+  {
+    "word": "南口",
+    "phonetic": "みなみぐち",
+    "short_mean": "đường về phương nam",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "南",
+        "mean": "NAM"
+      },
+      {
+        "kanji": "口",
+        "mean": "KHẨU"
+      }
+    ]
+  },
+  {
+    "word": "北海道",
+    "phonetic": "ほっかいどう",
+    "short_mean": "northernmost bốn hòn đảo chính nhật bản",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "北",
+        "mean": "BẮC"
+      },
+      {
+        "kanji": "海",
+        "mean": "HẢI"
+      },
+      {
+        "kanji": "道",
+        "mean": "ĐẠO, ĐÁO"
+      }
+    ]
+  },
+  {
+    "word": "北",
+    "phonetic": "きた",
+    "short_mean": "phía bắc; miền bắc",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "北",
+        "mean": "BẮC"
+      }
+    ]
+  },
+  {
+    "word": "北口",
+    "phonetic": "きたぐち",
+    "short_mean": "lối vào phía bắc; cổng phía bắc; cổng bắc",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "北",
+        "mean": "BẮC"
+      },
+      {
+        "kanji": "口",
+        "mean": "KHẨU"
+      }
+    ]
+  },
+  {
+    "word": "上手",
+    "phonetic": "じょうず",
+    "short_mean": "giỏi; cừ",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "上",
+        "mean": "THƯỢNG, THƯỚNG"
+      },
+      {
+        "kanji": "手",
+        "mean": "THỦ"
+      }
+    ]
+  },
+  {
+    "word": "上",
+    "phonetic": "かみ うわ じょう うえ",
+    "short_mean": "hơn nữa; hơn tuổi; già hơn; người có địa vị cao quý; nơi cao quý; trên",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "上",
+        "mean": "THƯỢNG, THƯỚNG"
+      }
+    ]
+  },
+  {
+    "word": "上着",
+    "phonetic": "うわぎ じょうい",
+    "short_mean": "áo vét; áo khoác",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "上",
+        "mean": "THƯỢNG, THƯỚNG"
+      },
+      {
+        "kanji": "着",
+        "mean": "TRỨ, TRƯỚC, TRỮ"
+      }
+    ]
+  },
+  {
+    "word": "地下鉄",
+    "phonetic": "ちかてつ",
+    "short_mean": "tàu điện ngầm; xe điện ngầm",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "地",
+        "mean": "ĐỊA"
+      },
+      {
+        "kanji": "下",
+        "mean": "HẠ, HÁ"
+      },
+      {
+        "kanji": "鉄",
+        "mean": "THIẾT"
+      }
+    ]
+  },
+  {
+    "word": "下",
+    "phonetic": "げ か しも もと した",
+    "short_mean": "dưới; phía dưới; bên dưới; phần dưới; phần sau; tập sau",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "下",
+        "mean": "HẠ, HÁ"
+      }
+    ]
+  },
+  {
+    "word": "下手",
+    "phonetic": "しもて したて したで へた",
+    "short_mean": "kém; dốt; phần phía dưới; vị trí thấp kém; thứ hạng thấp",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "下",
+        "mean": "HẠ, HÁ"
+      },
+      {
+        "kanji": "手",
+        "mean": "THỦ"
+      }
+    ]
+  },
+  {
+    "word": "左",
+    "phonetic": "さ ひだり",
+    "short_mean": "bên trái; tả; trái",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "左",
+        "mean": "TẢ, TÁ"
+      }
+    ]
+  },
+  {
+    "word": "右",
+    "phonetic": "みぎ",
+    "short_mean": "bên phải; phía bên phải; hữu",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "右",
+        "mean": "HỮU"
+      }
+    ]
+  },
+  {
+    "word": "外",
+    "phonetic": "そと と がい ほか",
+    "short_mean": "ngoài ra",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "外",
+        "mean": "NGOẠI"
+      }
+    ]
+  },
+  {
+    "word": "休む",
+    "phonetic": "やすむ",
+    "short_mean": "nghỉ ngơi; nghỉ; vắng mặt; ngủ",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "休",
+        "mean": "HƯU"
+      }
+    ]
+  },
+  {
+    "word": "休み",
+    "phonetic": "やすみ",
+    "short_mean": "nghỉ; vắng mặt",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "休",
+        "mean": "HƯU"
+      }
+    ]
+  },
+  {
+    "word": "昼休み",
+    "phonetic": "ひるやすみ",
+    "short_mean": "nghỉ trưa",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "昼",
+        "mean": "TRÚ"
+      },
+      {
+        "kanji": "休",
+        "mean": "HƯU"
+      }
+    ]
+  },
+  {
+    "word": "見学",
+    "phonetic": "けんがく",
+    "short_mean": "tham quan với mục đích học tập; tham quan",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "見",
+        "mean": "KIẾN, HIỆN"
+      },
+      {
+        "kanji": "学",
+        "mean": "HỌC"
+      }
+    ]
+  },
+  {
+    "word": "見物",
+    "phonetic": "みもの けんぶつ",
+    "short_mean": "sự tham quan; sự dạo chơi; việc thưởng ngoạn cảnh vật; tham quan; dạo chơi; thưởng ngoạn; ngắm cảnh; ngắm",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "見",
+        "mean": "KIẾN, HIỆN"
+      },
+      {
+        "kanji": "物",
+        "mean": "VẬT"
+      }
+    ]
+  },
+  {
+    "word": "見る",
+    "phonetic": "みる",
+    "short_mean": "coi; ngắm; ngó; nhìn thấy; nhìn xem; nhìn; xem; nhòm; nhòm ngó",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "見",
+        "mean": "KIẾN, HIỆN"
+      }
+    ]
+  },
+  {
+    "word": "見える",
+    "phonetic": "みえる まみえる",
+    "short_mean": "đến; nhìn thấy; thấy; trông có vẻ; trông thấy",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "見",
+        "mean": "KIẾN, HIỆN"
+      }
+    ]
+  },
+  {
+    "word": "見せる",
+    "phonetic": "めす",
+    "short_mean": "nhìn; xem",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "見",
+        "mean": "KIẾN, HIỆN"
+      }
+    ]
+  },
+  {
+    "word": "言う",
+    "phonetic": "いう",
+    "short_mean": "nói",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "言",
+        "mean": "NGÔN, NGÂN"
+      }
+    ]
+  },
+  {
+    "word": "言葉",
+    "phonetic": "ことば けとば",
+    "short_mean": "câu nói; ngôn ngữ; tiếng nói; lời ăn tiếng nói; từ ngữ; lời nói; lời",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "言",
+        "mean": "NGÔN, NGÂN"
+      },
+      {
+        "kanji": "葉",
+        "mean": "DIỆP, DIẾP"
+      }
+    ]
+  },
+  {
+    "word": "銀行",
+    "phonetic": "ぎんこう",
+    "short_mean": "ngân hàng; nhà băng",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "銀",
+        "mean": "NGÂN"
+      },
+      {
+        "kanji": "行",
+        "mean": "HÀNH, HẠNH, HÀNG, HẠNG"
+      }
+    ]
+  },
+  {
+    "word": "旅行",
+    "phonetic": "りょこう",
+    "short_mean": "lữ hành; sự đi lại; sự du lịch; du lịch",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "旅",
+        "mean": "LỮ"
+      },
+      {
+        "kanji": "行",
+        "mean": "HÀNH, HẠNH, HÀNG, HẠNG"
+      }
+    ]
+  },
+  {
+    "word": "行く",
+    "phonetic": "いく ゆく",
+    "short_mean": "đi",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "行",
+        "mean": "HÀNH, HẠNH, HÀNG, HẠNG"
+      }
+    ]
+  },
+  {
+    "word": "辞書",
+    "phonetic": "じしょ",
+    "short_mean": "tự điển; từ điển",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "辞",
+        "mean": "TỪ"
+      },
+      {
+        "kanji": "書",
+        "mean": "THƯ"
+      }
+    ]
+  },
+  {
+    "word": "書く",
+    "phonetic": "かく",
+    "short_mean": "vẽ; viết; viết lách",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "書",
+        "mean": "THƯ"
+      }
+    ]
+  },
+  {
+    "word": "読む",
+    "phonetic": "よむ",
+    "short_mean": "đọc",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "読",
+        "mean": "ĐỘC"
+      }
+    ]
+  },
+  {
+    "word": "買う",
+    "phonetic": "かう",
+    "short_mean": "đánh giá cao; tán dương thưởng thức; gây ra; chuốc lấy; làm cho; mua; sắm; tậu",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "買",
+        "mean": "MÃI"
+      }
+    ]
+  },
+  {
+    "word": "買い物",
+    "phonetic": "かいもの",
+    "short_mean": "món hàng mua được; sự mua hàng; thứ cần mua",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "買",
+        "mean": "MÃI"
+      },
+      {
+        "kanji": "物",
+        "mean": "VẬT"
+      }
+    ]
+  },
+  {
+    "word": "来月",
+    "phonetic": "らいげつ",
+    "short_mean": "tháng sau",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "来",
+        "mean": "LAI, LÃI"
+      },
+      {
+        "kanji": "月",
+        "mean": "NGUYỆT"
+      }
+    ]
+  },
+  {
+    "word": "来る",
+    "phonetic": "くる きたる",
+    "short_mean": "đến; tới; tới",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "来",
+        "mean": "LAI, LÃI"
+      }
+    ]
+  },
+  {
+    "word": "立つ",
+    "phonetic": "たつ",
+    "short_mean": "đứng; đứng lên; đứng dậy",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "立",
+        "mean": "LẬP"
+      }
+    ]
+  },
+  {
+    "word": "食事",
+    "phonetic": "しょくじ",
+    "short_mean": "bữa ăn; bữa cơm; buổi ăn; dùng bữa",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "食",
+        "mean": "THỰC, TỰ"
+      },
+      {
+        "kanji": "事",
+        "mean": "SỰ"
+      }
+    ]
+  },
+  {
+    "word": "食堂",
+    "phonetic": "じきどう しょくどう",
+    "short_mean": "buồng ăn; nhà ăn; bếp ăn; phòng ăn",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "食",
+        "mean": "THỰC, TỰ"
+      },
+      {
+        "kanji": "堂",
+        "mean": "ĐƯỜNG"
+      }
+    ]
+  },
+  {
+    "word": "食料品",
+    "phonetic": "しょくりょうひん",
+    "short_mean": "thực phẩm; nguyên liệu nấu ăn; thực phẩm",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "食",
+        "mean": "THỰC, TỰ"
+      },
+      {
+        "kanji": "料",
+        "mean": "LIÊU, LIỆU"
+      },
+      {
+        "kanji": "品",
+        "mean": "PHẨM"
+      }
+    ]
+  },
+  {
+    "word": "食べる",
+    "phonetic": "たべる",
+    "short_mean": "ăn",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "食",
+        "mean": "THỰC, TỰ"
+      }
+    ]
+  },
+  {
+    "word": "食べ物",
+    "phonetic": "たべもの",
+    "short_mean": "đồ ăn; món ăn; thức; thức ăn",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "食",
+        "mean": "THỰC, TỰ"
+      },
+      {
+        "kanji": "物",
+        "mean": "VẬT"
+      }
+    ]
+  },
+  {
+    "word": "飲む",
+    "phonetic": "のむ",
+    "short_mean": "húp; uống",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "飲",
+        "mean": "ẨM, ẤM"
+      }
+    ]
+  },
+  {
+    "word": "飲み物",
+    "phonetic": "のみもの",
+    "short_mean": "đồ uống; thức uống",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "飲",
+        "mean": "ẨM, ẤM"
+      },
+      {
+        "kanji": "物",
+        "mean": "VẬT"
+      }
+    ]
+  },
+  {
+    "word": "会話",
+    "phonetic": "かいわ",
+    "short_mean": "đối thoại; hội thoại; sự nói chuyện",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "会",
+        "mean": "HỘI, CỐI"
+      },
+      {
+        "kanji": "話",
+        "mean": "THOẠI"
+      }
+    ]
+  },
+  {
+    "word": "会う",
+    "phonetic": "あう",
+    "short_mean": "gặp; hội ngộ",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "会",
+        "mean": "HỘI, CỐI"
+      }
+    ]
+  },
+  {
+    "word": "電車",
+    "phonetic": "でんしゃ",
+    "short_mean": "tàu điện; tàu lửa; xe điện; xe lửa",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "電",
+        "mean": "ĐIỆN"
+      },
+      {
+        "kanji": "車",
+        "mean": "XA"
+      }
+    ]
+  },
+  {
+    "word": "電気",
+    "phonetic": "でんき",
+    "short_mean": "điện khí; điện; đèn điện; điện; điện lực",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "電",
+        "mean": "ĐIỆN"
+      },
+      {
+        "kanji": "気",
+        "mean": "KHÍ"
+      }
+    ]
+  },
+  {
+    "word": "電話",
+    "phonetic": "でんわ",
+    "short_mean": "điện thoại; máy điện thoại",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "電",
+        "mean": "ĐIỆN"
+      },
+      {
+        "kanji": "話",
+        "mean": "THOẠI"
+      }
+    ]
+  },
+  {
+    "word": "話す",
+    "phonetic": "はなす",
+    "short_mean": "bàn tán; chuyện; chuyện trò; kể lại; thuật lại; nói lại; mở miệng; nói; nói chuyện; nói; thốt",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "話",
+        "mean": "THOẠI"
+      }
+    ]
+  },
+  {
+    "word": "話",
+    "phonetic": "わ はなし",
+    "short_mean": "câu chuyện; sự nói chuyện; sự hội thoại",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "話",
+        "mean": "THOẠI"
+      }
+    ]
+  },
+  {
+    "word": "自動車",
+    "phonetic": "じどうしゃ",
+    "short_mean": "xe con; xe hơi; xe ô tô; ô tô",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "自",
+        "mean": "TỰ"
+      },
+      {
+        "kanji": "動",
+        "mean": "ĐỘNG"
+      },
+      {
+        "kanji": "車",
+        "mean": "XA"
+      }
+    ]
+  },
+  {
+    "word": "自転車",
+    "phonetic": "じてんしゃ じでんしゃ",
+    "short_mean": "xe đạp",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "自",
+        "mean": "TỰ"
+      },
+      {
+        "kanji": "転",
+        "mean": "CHUYỂN"
+      },
+      {
+        "kanji": "車",
+        "mean": "XA"
+      }
+    ]
+  },
+  {
+    "word": "車",
+    "phonetic": "くるま しゃ",
+    "short_mean": "bánh xe; mô tô; ô tô; xe; xe cộ; xe hơi; xe chở hàng; xe ô-tô",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "車",
+        "mean": "XA"
+      }
+    ]
+  },
+  {
+    "word": "花",
+    "phonetic": "はな",
+    "short_mean": "bông hoa; đóa hoa; hoa; huê",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "花",
+        "mean": "HOA"
+      }
+    ]
+  },
+  {
+    "word": "花びん",
+    "phonetic": "かびん",
+    "short_mean": "bình hoa",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "花",
+        "mean": "HOA"
+      }
+    ]
+  },
+  {
+    "word": "花火",
+    "phonetic": "はなび",
+    "short_mean": "pháo bông; pháo hoa",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "花",
+        "mean": "HOA"
+      },
+      {
+        "kanji": "火",
+        "mean": "HỎA"
+      }
+    ]
+  },
+  {
+    "word": "花見",
+    "phonetic": "はなみ",
+    "short_mean": "ngắm hoa anh đào nở; hội ngắm hoa; hội xem hoa",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "花",
+        "mean": "HOA"
+      },
+      {
+        "kanji": "見",
+        "mean": "KIẾN, HIỆN"
+      }
+    ]
+  },
+  {
+    "word": "天気",
+    "phonetic": "てんき",
+    "short_mean": "thời tiết; thời tiết; trạng thái thời tiết",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "天",
+        "mean": "THIÊN"
+      },
+      {
+        "kanji": "気",
+        "mean": "KHÍ"
+      }
+    ]
+  },
+  {
+    "word": "病気",
+    "phonetic": "びょうき",
+    "short_mean": "bệnh tật; bệnh; sự ốm; bịnh; đau ốm; ốm; ốm đau; tật bệnh; thói xấu; chứng; tật",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "病",
+        "mean": "BỆNH"
+      },
+      {
+        "kanji": "気",
+        "mean": "KHÍ"
+      }
+    ]
+  },
+  {
+    "word": "元気",
+    "phonetic": "げんき",
+    "short_mean": "khoẻ; khoẻ mạnh; khoẻ khoắn; sức khoẻ; sự khoẻ mạnh",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "元",
+        "mean": "NGUYÊN"
+      },
+      {
+        "kanji": "気",
+        "mean": "KHÍ"
+      }
+    ]
+  },
+  {
+    "word": "耳",
+    "phonetic": "みみ",
+    "short_mean": "cái tai; tai",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "耳",
+        "mean": "NHĨ"
+      }
+    ]
+  },
+  {
+    "word": "手",
+    "phonetic": "て",
+    "short_mean": "bàn tay; tay",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "手",
+        "mean": "THỦ"
+      }
+    ]
+  },
+  {
+    "word": "お手洗い",
+    "phonetic": "おてあらい",
+    "short_mean": "toa-lét; nhà vệ sinh",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "手",
+        "mean": "THỦ"
+      },
+      {
+        "kanji": "洗",
+        "mean": "TẨY, TIỂN"
+      }
+    ]
+  },
+  {
+    "word": "足",
+    "phonetic": "あし",
+    "short_mean": "chân",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "足",
+        "mean": "TÚC"
+      }
+    ]
+  },
+  {
+    "word": "足りる",
+    "phonetic": "たりる",
+    "short_mean": "có đủ; đủ",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "足",
+        "mean": "TÚC"
+      }
+    ]
+  },
+  {
+    "word": "足す",
+    "phonetic": "たす",
+    "short_mean": "cộng; thêm vào; cộng vào",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "足",
+        "mean": "TÚC"
+      }
+    ]
+  },
+  {
+    "word": "目",
+    "phonetic": "もく め",
+    "short_mean": "con mắt; mắt",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "目",
+        "mean": "MỤC"
+      }
+    ]
+  },
+  {
+    "word": "一つ目",
+    "phonetic": "ひとつめ",
+    "short_mean": "cái thứ nhất; điều đầu tiên",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "一",
+        "mean": "NHẤT"
+      },
+      {
+        "kanji": "目",
+        "mean": "MỤC"
+      }
+    ]
+  },
+  {
+    "word": "二つ目",
+    "phonetic": "ふたつめ",
+    "short_mean": "điều thứ 2; cái thứ 2",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "二",
+        "mean": "NHỊ"
+      },
+      {
+        "kanji": "目",
+        "mean": "MỤC"
+      }
+    ]
+  },
+  {
+    "word": "三つ目",
+    "phonetic": "みっつめ",
+    "short_mean": "cái/thứ ba",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "三",
+        "mean": "TAM, TÁM"
+      },
+      {
+        "kanji": "目",
+        "mean": "MỤC"
+      }
+    ]
+  },
+  {
+    "word": "力",
+    "phonetic": "りょく りき ちから",
+    "short_mean": "lực; sức; lực; sức mạnh",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "力",
+        "mean": "LỰC"
+      }
+    ]
+  },
+  {
+    "word": "力持ち",
+    "phonetic": "ちからもち",
+    "short_mean": "người lực lưỡng; người cường tráng; người sung sức",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "力",
+        "mean": "LỰC"
+      },
+      {
+        "kanji": "持",
+        "mean": "TRÌ"
+      }
+    ]
+  },
+  {
+    "word": "川",
+    "phonetic": "かわ がわ",
+    "short_mean": "con sông; sông",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "川",
+        "mean": "XUYÊN"
+      }
+    ]
+  },
+  {
+    "word": "牛肉",
+    "phonetic": "ぎゅうにく",
+    "short_mean": "thịt bò",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "牛",
+        "mean": "NGƯU"
+      },
+      {
+        "kanji": "肉",
+        "mean": "NHỤC, NHỤ, NẬU"
+      }
+    ]
+  },
+  {
+    "word": "牛乳",
+    "phonetic": "ぎゅうにゅう",
+    "short_mean": "sữa; sữa bò",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "牛",
+        "mean": "NGƯU"
+      },
+      {
+        "kanji": "乳",
+        "mean": "NHŨ"
+      }
+    ]
+  },
+  {
+    "word": "牛",
+    "phonetic": "うし ぎゅう ウシ",
+    "short_mean": "con bò; chòm sao mục phu",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "牛",
+        "mean": "NGƯU"
+      }
+    ]
+  },
+  {
+    "word": "魚",
+    "phonetic": "さかな うお",
+    "short_mean": "cá",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "魚",
+        "mean": "NGƯ"
+      }
+    ]
+  },
+  {
+    "word": "魚屋",
+    "phonetic": "さかなや",
+    "short_mean": "chợ cá; người buôn cá; cửa hàng cá",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "魚",
+        "mean": "NGƯ"
+      },
+      {
+        "kanji": "屋",
+        "mean": "ỐC"
+      }
+    ]
+  },
+  {
+    "word": "喫茶店",
+    "phonetic": "きっさてん きっちゃてん",
+    "short_mean": "quán cà phê; quán trà; quán nước; tiệm giải khát; quán giải khát",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "喫",
+        "mean": "KHIẾT"
+      },
+      {
+        "kanji": "茶",
+        "mean": "TRÀ"
+      },
+      {
+        "kanji": "店",
+        "mean": "ĐIẾM"
+      }
+    ]
+  },
+  {
+    "word": "店",
+    "phonetic": "みせ たな てん",
+    "short_mean": "cửa hàng; cửa hiệu; cơ sở; hiệu buôn; tiệm",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "店",
+        "mean": "ĐIẾM"
+      }
+    ]
+  },
+  {
+    "word": "道",
+    "phonetic": "どう みち",
+    "short_mean": "con đường; con phố; đạo; đường; đường đi; lĩnh vực; phương tiện; cách thức",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "道",
+        "mean": "ĐẠO, ĐÁO"
+      }
+    ]
+  },
+  {
+    "word": "門",
+    "phonetic": "もん かど",
+    "short_mean": "cổng; một trong những giai đoạn phân loại sinh học",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "門",
+        "mean": "MÔN"
+      }
+    ]
+  },
+  {
+    "word": "雨",
+    "phonetic": "あめ",
+    "short_mean": "cơn mưa; mưa; trận mưa",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "雨",
+        "mean": "VŨ, VÚ"
+      }
+    ]
+  },
+  {
+    "word": "空",
+    "phonetic": "そら から くう",
+    "short_mean": "bầu trời; tất cả mọi thứ đều là những hình vẽ dự kiến ​​do số phận tạo ra; và không có thực thể hay bản ngã vĩnh viễn",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "空",
+        "mean": "KHÔNG, KHỐNG, KHỔNG"
+      }
+    ]
+  },
+  {
+    "word": "空港",
+    "phonetic": "くうこう",
+    "short_mean": "sân bay; không cảng; phi trường; sân bay",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "空",
+        "mean": "KHÔNG, KHỐNG, KHỔNG"
+      },
+      {
+        "kanji": "港",
+        "mean": "CẢNG"
+      }
+    ]
+  },
+  {
+    "word": "空気",
+    "phonetic": "くうき",
+    "short_mean": "không khí; khí; không khí",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "空",
+        "mean": "KHÔNG, KHỐNG, KHỔNG"
+      },
+      {
+        "kanji": "気",
+        "mean": "KHÍ"
+      }
+    ]
+  },
+  {
+    "word": "白",
+    "phonetic": "しら はく しろ",
+    "short_mean": "bên trắng; màu trắng; người da trắng; vật màu trắng; vô tội; trong trắng",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "白",
+        "mean": "BẠCH"
+      }
+    ]
+  },
+  {
+    "word": "白い",
+    "phonetic": "しろい",
+    "short_mean": "màu trắng; sạch sẽ; trắng muốt; trắng; trắng trẻo; vô tội",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "白",
+        "mean": "BẠCH"
+      }
+    ]
+  },
+  {
+    "word": "一つ",
+    "phonetic": "ひとつ",
+    "short_mean": "một",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "一",
+        "mean": "NHẤT"
+      }
+    ]
+  },
+  {
+    "word": "二つ",
+    "phonetic": "ふたつ",
+    "short_mean": "hai",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "二",
+        "mean": "NHỊ"
+      }
+    ]
+  },
+  {
+    "word": "三つ",
+    "phonetic": "みっつ みつ",
+    "short_mean": "ba cái",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "三",
+        "mean": "TAM, TÁM"
+      }
+    ]
+  },
+  {
+    "word": "四つ",
+    "phonetic": "よっつ よつ",
+    "short_mean": "bốn",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "四",
+        "mean": "TỨ"
+      }
+    ]
+  },
+  {
+    "word": "五つ",
+    "phonetic": "いつつ",
+    "short_mean": "năm cái; năm chiếc",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "五",
+        "mean": "NGŨ"
+      }
+    ]
+  },
+  {
+    "word": "六つ",
+    "phonetic": "むっつ むつ",
+    "short_mean": "sáu",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "六",
+        "mean": "LỤC"
+      }
+    ]
+  },
+  {
+    "word": "七つ",
+    "phonetic": "ななつ",
+    "short_mean": "bảy cái",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "七",
+        "mean": "THẤT"
+      }
+    ]
+  },
+  {
+    "word": "八つ",
+    "phonetic": "やっつ やつ",
+    "short_mean": "tám; thứ tám",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "八",
+        "mean": "BÁT"
+      }
+    ]
+  },
+  {
+    "word": "九つ",
+    "phonetic": "ここのつ",
+    "short_mean": "9 cái; 9 chiếc",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "九",
+        "mean": "CỬU, CƯU"
+      }
+    ]
+  },
+  {
+    "word": "十",
+    "phonetic": "シー じゅう とお と",
+    "short_mean": "mười",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "十",
+        "mean": "THẬP"
+      }
+    ]
+  },
+  {
+    "word": "百",
+    "phonetic": "ひゃく もも",
+    "short_mean": "một trăm; trăm",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "百",
+        "mean": "BÁCH, BÁ, MẠCH"
+      }
+    ]
+  },
+  {
+    "word": "二百",
+    "phonetic": "にひゃく",
+    "short_mean": "hai trăm",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "二",
+        "mean": "NHỊ"
+      },
+      {
+        "kanji": "百",
+        "mean": "BÁCH, BÁ, MẠCH"
+      }
+    ]
+  },
+  {
+    "word": "三百",
+    "phonetic": "さんびゃく さん びゃく",
+    "short_mean": "300; ba trăm",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "三",
+        "mean": "TAM, TÁM"
+      },
+      {
+        "kanji": "百",
+        "mean": "BÁCH, BÁ, MẠCH"
+      }
+    ]
+  },
+  {
+    "word": "四百",
+    "phonetic": "よんひゃく",
+    "short_mean": "bốn trăm",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "四",
+        "mean": "TỨ"
+      },
+      {
+        "kanji": "百",
+        "mean": "BÁCH, BÁ, MẠCH"
+      }
+    ]
+  },
+  {
+    "word": "五百",
+    "phonetic": "ごひゃく いお",
+    "short_mean": "500",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "五",
+        "mean": "NGŨ"
+      },
+      {
+        "kanji": "百",
+        "mean": "BÁCH, BÁ, MẠCH"
+      }
+    ]
+  },
+  {
+    "word": "六百",
+    "phonetic": "ろっぴゃく",
+    "short_mean": "sáu trăm",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "六",
+        "mean": "LỤC"
+      },
+      {
+        "kanji": "百",
+        "mean": "BÁCH, BÁ, MẠCH"
+      }
+    ]
+  },
+  {
+    "word": "七百",
+    "phonetic": "ななひゃく しちひゃく",
+    "short_mean": "700",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "七",
+        "mean": "THẤT"
+      },
+      {
+        "kanji": "百",
+        "mean": "BÁCH, BÁ, MẠCH"
+      }
+    ]
+  },
+  {
+    "word": "八百",
+    "phonetic": "はっぴゃく やお",
+    "short_mean": "800",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "八",
+        "mean": "BÁT"
+      },
+      {
+        "kanji": "百",
+        "mean": "BÁCH, BÁ, MẠCH"
+      }
+    ]
+  },
+  {
+    "word": "九百",
+    "phonetic": "きゅうひゃく くひゃく",
+    "short_mean": "900",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "九",
+        "mean": "CỬU, CƯU"
+      },
+      {
+        "kanji": "百",
+        "mean": "BÁCH, BÁ, MẠCH"
+      }
+    ]
+  },
+  {
+    "word": "千",
+    "phonetic": "せん ち",
+    "short_mean": "con số một nghìn; rất nhiều; nghìn",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "千",
+        "mean": "THIÊN"
+      }
+    ]
+  },
+  {
+    "word": "二千",
+    "phonetic": "にせん",
+    "short_mean": "hai nghìn",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "二",
+        "mean": "NHỊ"
+      },
+      {
+        "kanji": "千",
+        "mean": "THIÊN"
+      }
+    ]
+  },
+  {
+    "word": "三千",
+    "phonetic": "さんぜん さん ぜん",
+    "short_mean": "3000; nhiều",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "三",
+        "mean": "TAM, TÁM"
+      },
+      {
+        "kanji": "千",
+        "mean": "THIÊN"
+      }
+    ]
+  },
+  {
+    "word": "四千",
+    "phonetic": "よんせん",
+    "short_mean": "bốn nghìn",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "四",
+        "mean": "TỨ"
+      },
+      {
+        "kanji": "千",
+        "mean": "THIÊN"
+      }
+    ]
+  },
+  {
+    "word": "五千",
+    "phonetic": "ごせん",
+    "short_mean": "năm nghìn",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "五",
+        "mean": "NGŨ"
+      },
+      {
+        "kanji": "千",
+        "mean": "THIÊN"
+      }
+    ]
+  },
+  {
+    "word": "六千",
+    "phonetic": "ろくせん",
+    "short_mean": "sáu nghìn",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "六",
+        "mean": "LỤC"
+      },
+      {
+        "kanji": "千",
+        "mean": "THIÊN"
+      }
+    ]
+  },
+  {
+    "word": "七千",
+    "phonetic": "ななせん しちせん",
+    "short_mean": "bảy nghìn",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "七",
+        "mean": "THẤT"
+      },
+      {
+        "kanji": "千",
+        "mean": "THIÊN"
+      }
+    ]
+  },
+  {
+    "word": "八千",
+    "phonetic": "はっせん やち",
+    "short_mean": "8000",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "八",
+        "mean": "BÁT"
+      },
+      {
+        "kanji": "千",
+        "mean": "THIÊN"
+      }
+    ]
+  },
+  {
+    "word": "九千",
+    "phonetic": "きゅうせん くせん",
+    "short_mean": "chín nghìn",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "九",
+        "mean": "CỬU, CƯU"
+      },
+      {
+        "kanji": "千",
+        "mean": "THIÊN"
+      }
+    ]
+  },
+  {
+    "word": "一万",
+    "phonetic": "いちまん",
+    "short_mean": "1 vạn; 10000",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "一",
+        "mean": "NHẤT"
+      },
+      {
+        "kanji": "万",
+        "mean": "VẠN, MẶC"
+      }
+    ]
+  },
+  {
+    "word": "二万",
+    "phonetic": "にまん",
+    "short_mean": "hai vạn; 20.000",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "二",
+        "mean": "NHỊ"
+      },
+      {
+        "kanji": "万",
+        "mean": "VẠN, MẶC"
+      }
+    ]
+  },
+  {
+    "word": "三万",
+    "phonetic": "さんまん",
+    "short_mean": "ba vạn; 30.000",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "三",
+        "mean": "TAM, TÁM"
+      },
+      {
+        "kanji": "万",
+        "mean": "VẠN, MẶC"
+      }
+    ]
+  },
+  {
+    "word": "四万",
+    "phonetic": "よんまん",
+    "short_mean": "bốn vạn; 40.000",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "四",
+        "mean": "TỨ"
+      },
+      {
+        "kanji": "万",
+        "mean": "VẠN, MẶC"
+      }
+    ]
+  },
+  {
+    "word": "五万",
+    "phonetic": "ごまん",
+    "short_mean": "năm vạn; 50.000",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "五",
+        "mean": "NGŨ"
+      },
+      {
+        "kanji": "万",
+        "mean": "VẠN, MẶC"
+      }
+    ]
+  },
+  {
+    "word": "六万",
+    "phonetic": "ろくまん",
+    "short_mean": "sáu vạn; 60.000",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "六",
+        "mean": "LỤC"
+      },
+      {
+        "kanji": "万",
+        "mean": "VẠN, MẶC"
+      }
+    ]
+  },
+  {
+    "word": "七万",
+    "phonetic": "ななまん しちまん",
+    "short_mean": "bảy vạn; 70.000",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "七",
+        "mean": "THẤT"
+      },
+      {
+        "kanji": "万",
+        "mean": "VẠN, MẶC"
+      }
+    ]
+  },
+  {
+    "word": "八万",
+    "phonetic": "はちまん やよろず",
+    "short_mean": "80000",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "八",
+        "mean": "BÁT"
+      },
+      {
+        "kanji": "万",
+        "mean": "VẠN, MẶC"
+      }
+    ]
+  },
+  {
+    "word": "九万",
+    "phonetic": "きゅうまん くまん",
+    "short_mean": "chín vạn; 90.000",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "九",
+        "mean": "CỬU, CƯU"
+      },
+      {
+        "kanji": "万",
+        "mean": "VẠN, MẶC"
+      }
+    ]
+  },
+  {
+    "word": "十万",
+    "phonetic": "じゅうまん",
+    "short_mean": "trăm ngàn",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "十",
+        "mean": "THẬP"
+      },
+      {
+        "kanji": "万",
+        "mean": "VẠN, MẶC"
+      }
+    ]
+  },
+  {
+    "word": "百万",
+    "phonetic": "ひゃくまん",
+    "short_mean": "trăm vạn; một triệu; triệu; một triệu",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "百",
+        "mean": "BÁCH, BÁ, MẠCH"
+      },
+      {
+        "kanji": "万",
+        "mean": "VẠN, MẶC"
+      }
+    ]
+  },
+  {
+    "word": "一千万",
+    "phonetic": "いっせんまん",
+    "short_mean": "mười triệu; 10.000.000",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "一",
+        "mean": "NHẤT"
+      },
+      {
+        "kanji": "千",
+        "mean": "THIÊN"
+      },
+      {
+        "kanji": "万",
+        "mean": "VẠN, MẶC"
+      }
+    ]
+  },
+  {
+    "word": "一月",
+    "phonetic": "ひとつき いちげつ いちがつ",
+    "short_mean": "một tháng",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "一",
+        "mean": "NHẤT"
+      },
+      {
+        "kanji": "月",
+        "mean": "NGUYỆT"
+      }
+    ]
+  },
+  {
+    "word": "二月",
+    "phonetic": "にがつ ふたつき",
+    "short_mean": "tháng hai",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "二",
+        "mean": "NHỊ"
+      },
+      {
+        "kanji": "月",
+        "mean": "NGUYỆT"
+      }
+    ]
+  },
+  {
+    "word": "四月",
+    "phonetic": "しがつ",
+    "short_mean": "tháng tư",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "四",
+        "mean": "TỨ"
+      },
+      {
+        "kanji": "月",
+        "mean": "NGUYỆT"
+      }
+    ]
+  },
+  {
+    "word": "七月",
+    "phonetic": "しちがつ",
+    "short_mean": "tháng bảy",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "七",
+        "mean": "THẤT"
+      },
+      {
+        "kanji": "月",
+        "mean": "NGUYỆT"
+      }
+    ]
+  },
+  {
+    "word": "九月",
+    "phonetic": "くがつ",
+    "short_mean": "tháng chín",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "九",
+        "mean": "CỬU, CƯU"
+      },
+      {
+        "kanji": "月",
+        "mean": "NGUYỆT"
+      }
+    ]
+  },
+  {
+    "word": "十二月",
+    "phonetic": "じゅうにがつ",
+    "short_mean": "tháng chạp",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "十",
+        "mean": "THẬP"
+      },
+      {
+        "kanji": "二",
+        "mean": "NHỊ"
+      },
+      {
+        "kanji": "月",
+        "mean": "NGUYỆT"
+      }
+    ]
+  },
+  {
+    "word": "1日",
+    "phonetic": "ついたち",
+    "short_mean": "mùng 1; ngày đầu tháng",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
+  },
+  {
+    "word": "2日",
+    "phonetic": "ふつか",
+    "short_mean": "mùng 2",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
+  },
+  {
+    "word": "3日",
+    "phonetic": "みっか",
+    "short_mean": "mùng 3",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
+  },
+  {
+    "word": "4日",
+    "phonetic": "よっか",
+    "short_mean": "mùng 4",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
+  },
+  {
+    "word": "5日",
+    "phonetic": "いつか",
+    "short_mean": "mùng 5",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
+  },
+  {
+    "word": "6日",
+    "phonetic": "むいか",
+    "short_mean": "mùng 6",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
+  },
+  {
+    "word": "7日",
+    "phonetic": "なのか",
+    "short_mean": "ngày bảy; mồng bảy",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
+  },
+  {
+    "word": "8日",
+    "phonetic": "ようか",
+    "short_mean": "mùng 8",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
+  },
+  {
+    "word": "9日",
+    "phonetic": "ここのか",
+    "short_mean": "mùng 9",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
+  },
+  {
+    "word": "十日",
+    "phonetic": "とおか",
+    "short_mean": "mười ngày; ngày mùng mười; ngày mười",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "十",
+        "mean": "THẬP"
+      },
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
+  },
+  {
+    "word": "14日",
+    "phonetic": "じゅうよっか",
+    "short_mean": "ngày 14",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
+  },
+  {
+    "word": "20日",
+    "phonetic": "はつか",
+    "short_mean": "ngày 20; hai mươi",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
+  },
+  {
+    "word": "27日",
+    "phonetic": "にじゅうしちにち／にじゅうななにち",
+    "short_mean": "ngày 27",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
+  },
+  {
+    "word": "29日",
+    "phonetic": "にじゅうくにち",
+    "short_mean": "ngày 29",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
+  },
+  {
+    "word": "月よう日",
+    "phonetic": "げつようび",
+    "short_mean": "thứ hai",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "月",
+        "mean": "NGUYỆT"
+      },
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
+  },
+  {
+    "word": "火よう日",
+    "phonetic": "かようび",
+    "short_mean": "thứ ba",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "火",
+        "mean": "HỎA"
+      },
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
+  },
+  {
+    "word": "水よう日",
+    "phonetic": "すいようび",
+    "short_mean": "thứ tư",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "水",
+        "mean": "THỦY"
+      },
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
+  },
+  {
+    "word": "木よう日",
+    "phonetic": "もくようび",
+    "short_mean": "thứ năm",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "木",
+        "mean": "MỘC"
+      },
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
+  },
+  {
+    "word": "金よう日",
+    "phonetic": "きんようび",
+    "short_mean": "thứ sáu",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "金",
+        "mean": "KIM"
+      },
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
+  },
+  {
+    "word": "土よう日",
+    "phonetic": "どようび",
+    "short_mean": "thứ bảy",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "土",
+        "mean": "THỔ, ĐỘ, ĐỖ"
+      },
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
+  },
+  {
+    "word": "日よう日",
+    "phonetic": "にちようび",
+    "short_mean": "chủ nhật",
+    "romaji": "",
+    "kanji_search_results": [
+      {
+        "kanji": "日",
+        "mean": "NHẬT, NHỰT"
+      }
+    ]
+  }
+]
