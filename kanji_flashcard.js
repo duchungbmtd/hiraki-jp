@@ -5,12 +5,14 @@ class KanjiFlashcardApp {
         this.currentCardIndex = 0;
         this.isCardFlipped = false;
         this.userProgress = this.loadProgress();
+        this.tts = null; // TTS instance
         
         this.init();
     }
 
     async init() {
         await this.loadKanjiData();
+        this.initTTS();
         this.setupEventListeners();
         this.loadKanjiCard();
     }
@@ -28,6 +30,16 @@ class KanjiFlashcardApp {
         }
     }
 
+    // Khởi tạo TTS
+    initTTS() {
+        try {
+            this.tts = new JapaneseTTS();
+            console.log('TTS initialized successfully for Kanji');
+        } catch (error) {
+            console.error('Failed to initialize TTS:', error);
+        }
+    }
+
     setupEventListeners() {
         // Kanji flashcard controls
         document.getElementById('kanji-flashcard')?.addEventListener('click', () => this.flipCard());
@@ -37,6 +49,14 @@ class KanjiFlashcardApp {
         document.getElementById('kanji-next-card-btn')?.addEventListener('click', () => this.nextCard());
         document.getElementById('kanji-prev-card-btn')?.addEventListener('click', () => this.prevCard());
         document.getElementById('kanji-shuffle-btn')?.addEventListener('click', () => this.shuffleCards());
+        
+        // TTS controls
+        document.getElementById('kanji-tts-play-kanji')?.addEventListener('click', () => this.playKanji());
+        document.getElementById('kanji-tts-play-reading')?.addEventListener('click', () => this.playReading());
+        document.getElementById('kanji-tts-stop')?.addEventListener('click', () => this.stopTTS());
+        document.getElementById('kanji-tts-auto-play')?.addEventListener('change', (e) => this.updateTTSAutoPlay(e.target.checked));
+        document.getElementById('kanji-tts-rate')?.addEventListener('input', (e) => this.updateTTSRate(parseFloat(e.target.value)));
+        document.getElementById('kanji-tts-volume')?.addEventListener('input', (e) => this.updateTTSVolume(parseFloat(e.target.value)));
         
         // Back button
         const backButton = document.querySelector('.back-btn');
@@ -79,6 +99,11 @@ class KanjiFlashcardApp {
                 case 'S':
                     e.preventDefault();
                     this.shuffleCards();
+                    break;
+                case 'p':
+                case 'P':
+                    e.preventDefault();
+                    this.playKanji();
                     break;
             }
         });
@@ -131,8 +156,16 @@ class KanjiFlashcardApp {
         this.isCardFlipped = !this.isCardFlipped;
         if (this.isCardFlipped) {
             card.classList.add('flipped');
+            // Tự động phát âm cách đọc khi lật thẻ (nếu bật auto-play)
+            if (this.tts && this.tts.settings.autoPlay) {
+                setTimeout(() => this.playReading(), 500);
+            }
         } else {
             card.classList.remove('flipped');
+            // Tự động phát âm kanji khi lật về mặt trước (nếu bật auto-play)
+            if (this.tts && this.tts.settings.autoPlay) {
+                setTimeout(() => this.playKanji(), 500);
+            }
         }
     }
 
@@ -261,6 +294,57 @@ class KanjiFlashcardApp {
     // Lưu tiến độ vào localStorage
     saveProgress() {
         localStorage.setItem('japaneseVocabProgress', JSON.stringify(this.userProgress));
+    }
+
+    // TTS Methods
+    async playKanji() {
+        if (!this.tts || this.kanjiData.length === 0) return;
+        
+        const kanji = this.kanjiData[this.currentCardIndex];
+        if (kanji.word) {
+            try {
+                await this.tts.speakJapanese(kanji.word);
+            } catch (error) {
+                console.error('TTS Error:', error);
+            }
+        }
+    }
+
+    async playReading() {
+        if (!this.tts || this.kanjiData.length === 0) return;
+        
+        const kanji = this.kanjiData[this.currentCardIndex];
+        if (kanji.phonetic) {
+            try {
+                await this.tts.speakJapanese(kanji.phonetic);
+            } catch (error) {
+                console.error('TTS Error:', error);
+            }
+        }
+    }
+
+    stopTTS() {
+        if (this.tts) {
+            this.tts.stop();
+        }
+    }
+
+    updateTTSAutoPlay(enabled) {
+        if (this.tts) {
+            this.tts.updateSettings({ autoPlay: enabled });
+        }
+    }
+
+    updateTTSRate(rate) {
+        if (this.tts) {
+            this.tts.updateSettings({ rate: rate });
+        }
+    }
+
+    updateTTSVolume(volume) {
+        if (this.tts) {
+            this.tts.updateSettings({ volume: volume });
+        }
     }
 }
 

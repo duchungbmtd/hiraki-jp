@@ -7,12 +7,14 @@ class FlashcardApp {
         this.isCardFlipped = false;
         this.currentLesson = 0;
         this.userProgress = this.loadProgress();
+        this.tts = null; // TTS instance
         
         this.init();
     }
 
     async init() {
         await this.loadVocabularyData();
+        this.initTTS();
         this.setupEventListeners();
         
         // Kiểm tra xem có dữ liệu từ lessons page không
@@ -84,6 +86,16 @@ class FlashcardApp {
         this.saveVocabularyDataToCache();
     }
 
+    // Khởi tạo TTS
+    initTTS() {
+        try {
+            this.tts = new JapaneseTTS();
+            console.log('TTS initialized successfully');
+        } catch (error) {
+            console.error('Failed to initialize TTS:', error);
+        }
+    }
+
     // Lưu dữ liệu từ vựng vào localStorage
     saveVocabularyDataToCache() {
         try {
@@ -112,6 +124,14 @@ class FlashcardApp {
             });
         }
 
+        // TTS controls
+        document.getElementById('tts-play-japanese')?.addEventListener('click', () => this.playJapanese());
+        document.getElementById('tts-play-vietnamese')?.addEventListener('click', () => this.playVietnamese());
+        document.getElementById('tts-stop')?.addEventListener('click', () => this.stopTTS());
+        document.getElementById('tts-auto-play')?.addEventListener('change', (e) => this.updateTTSAutoPlay(e.target.checked));
+        document.getElementById('tts-rate')?.addEventListener('input', (e) => this.updateTTSRate(parseFloat(e.target.value)));
+        document.getElementById('tts-volume')?.addEventListener('input', (e) => this.updateTTSVolume(parseFloat(e.target.value)));
+
         // Keyboard shortcuts
         document.addEventListener('keydown', (e) => {
             switch(e.key) {
@@ -139,6 +159,11 @@ class FlashcardApp {
                 case '3':
                     e.preventDefault();
                     this.markEasy();
+                    break;
+                case 'p':
+                case 'P':
+                    e.preventDefault();
+                    this.playJapanese();
                     break;
             }
         });
@@ -272,8 +297,16 @@ class FlashcardApp {
         this.isCardFlipped = !this.isCardFlipped;
         if (this.isCardFlipped) {
             card.classList.add('flipped');
+            // Tự động phát âm tiếng Việt khi lật thẻ (nếu bật auto-play)
+            if (this.tts && this.tts.settings.autoPlay) {
+                setTimeout(() => this.playVietnamese(), 500);
+            }
         } else {
             card.classList.remove('flipped');
+            // Tự động phát âm tiếng Nhật khi lật về mặt trước (nếu bật auto-play)
+            if (this.tts && this.tts.settings.autoPlay) {
+                setTimeout(() => this.playJapanese(), 500);
+            }
         }
     }
 
@@ -358,6 +391,57 @@ class FlashcardApp {
     backToLessons() {
         document.getElementById('lesson-selection').classList.remove('hidden');
         document.getElementById('flashcard-interface').classList.add('hidden');
+    }
+
+    // TTS Methods
+    async playJapanese() {
+        if (!this.tts || this.currentLessonData.length === 0) return;
+        
+        const word = this.currentLessonData[this.currentCardIndex];
+        if (word.japanese) {
+            try {
+                await this.tts.speakJapanese(word.japanese);
+            } catch (error) {
+                console.error('TTS Error:', error);
+            }
+        }
+    }
+
+    async playVietnamese() {
+        if (!this.tts || this.currentLessonData.length === 0) return;
+        
+        const word = this.currentLessonData[this.currentCardIndex];
+        if (word.vietnamese) {
+            try {
+                await this.tts.speakVietnamese(word.vietnamese);
+            } catch (error) {
+                console.error('TTS Error:', error);
+            }
+        }
+    }
+
+    stopTTS() {
+        if (this.tts) {
+            this.tts.stop();
+        }
+    }
+
+    updateTTSAutoPlay(enabled) {
+        if (this.tts) {
+            this.tts.updateSettings({ autoPlay: enabled });
+        }
+    }
+
+    updateTTSRate(rate) {
+        if (this.tts) {
+            this.tts.updateSettings({ rate: rate });
+        }
+    }
+
+    updateTTSVolume(volume) {
+        if (this.tts) {
+            this.tts.updateSettings({ volume: volume });
+        }
     }
 }
 

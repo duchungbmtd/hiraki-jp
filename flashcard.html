@@ -116,7 +116,7 @@
                     </div>
                     
                     <div class="mb-4 text-xs text-gray-500 bg-gray-100 rounded-lg p-2">
-                        <strong>Phím tắt:</strong> ← → (chuyển thẻ) | Enter/Click (lật thẻ qua lại) | 1,2,3 (đánh giá) | Space (tiếp theo)
+                        <strong>Phím tắt:</strong> ← → (chuyển thẻ) | Enter/Click (lật thẻ qua lại) | 1,2,3 (đánh giá) | Space (tiếp theo) | P (phát âm)
                     </div>
                     
                     <div class="card-3d-container rounded-xl mb-6">
@@ -140,6 +140,53 @@
                     </div>
 
                     <div class="flex flex-col items-center space-y-4">
+                        <!-- TTS Controls -->
+                        <div class="w-full max-w-md mb-4">
+                            <div class="bg-white rounded-lg p-4 shadow-sm border">
+                                <div class="flex items-center justify-between mb-3">
+                                    <h4 class="font-semibold text-gray-800 flex items-center">
+                                        <span class="mr-2">🔊</span>
+                                        Phát âm
+                                    </h4>
+                                    <div class="flex items-center space-x-2">
+                                        <label class="flex items-center text-sm">
+                                            <input type="checkbox" id="tts-auto-play" class="mr-1">
+                                            Tự động phát
+                                        </label>
+                                    </div>
+                                </div>
+                                
+                                <div class="flex space-x-2 mb-3">
+                                    <button id="tts-play-japanese" class="flex-1 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg font-medium transition-all flex items-center justify-center">
+                                        <span class="mr-2">🔊</span>
+                                        Tiếng Nhật
+                                    </button>
+                                    <button id="tts-play-vietnamese" class="flex-1 bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg font-medium transition-all flex items-center justify-center">
+                                        <span class="mr-2">🔊</span>
+                                        Tiếng Việt
+                                    </button>
+                                    <button id="tts-stop" class="bg-gray-500 hover:bg-gray-600 text-white px-4 py-2 rounded-lg font-medium transition-all">
+                                        ⏹️
+                                    </button>
+                                </div>
+                                
+                                <div class="grid grid-cols-2 gap-3">
+                                    <div>
+                                        <label class="block text-xs font-medium text-gray-700 mb-1">Tốc độ</label>
+                                        <input type="range" id="tts-rate" min="0.5" max="1.5" step="0.1" 
+                                               value="0.8" 
+                                               class="w-full h-1 bg-gray-200 rounded-lg appearance-none cursor-pointer">
+                                    </div>
+                                    <div>
+                                        <label class="block text-xs font-medium text-gray-700 mb-1">Âm lượng</label>
+                                        <input type="range" id="tts-volume" min="0.1" max="1.0" step="0.1" 
+                                               value="0.8" 
+                                               class="w-full h-1 bg-gray-200 rounded-lg appearance-none cursor-pointer">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
                         <div class="flex justify-center space-x-4">
                             <button id="difficult-btn" class="bg-red-100 hover:bg-red-200 text-red-700 px-6 py-3 rounded-lg transition-all transform hover:scale-105 font-medium">
                                 😰 Khó
@@ -166,6 +213,7 @@
     </main>
 
     <!-- Include JavaScript -->
+    <script src="tts.js"></script>
     <script src="flashcard.js"></script>
 </body>
 </html>

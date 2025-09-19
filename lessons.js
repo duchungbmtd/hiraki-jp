@@ -6,6 +6,7 @@ class LessonsApp {
         this.currentLesson = 0;
         this.userProgress = this.loadProgress();
         this.filteredVocabulary = [];
+        this.tts = null; // TTS instance
         
         this.init();
     }
@@ -14,6 +15,7 @@ class LessonsApp {
         console.log('LessonsApp initializing...');
         await this.loadVocabularyData();
         console.log(`Loaded ${this.vocabularyData.length} lessons`);
+        this.initTTS();
         this.setupEventListeners();
         this.showLessonsList();
         console.log('LessonsApp initialized successfully');
@@ -82,6 +84,16 @@ class LessonsApp {
         this.saveVocabularyDataToCache();
     }
 
+    // Khởi tạo TTS
+    initTTS() {
+        try {
+            this.tts = new JapaneseTTS();
+            console.log('TTS initialized successfully');
+        } catch (error) {
+            console.error('Failed to initialize TTS:', error);
+        }
+    }
+
     // Lưu dữ liệu từ vựng vào localStorage
     saveVocabularyDataToCache() {
         try {
@@ -117,6 +129,23 @@ class LessonsApp {
         if (searchInput) searchInput.addEventListener('input', (e) => this.filterVocabulary());
         if (categoryFilter) categoryFilter.addEventListener('change', (e) => this.filterVocabulary());
         if (difficultyFilter) difficultyFilter.addEventListener('change', (e) => this.filterVocabulary());
+
+        // TTS controls
+        document.getElementById('tts-play-all')?.addEventListener('click', () => this.playAllVocabulary());
+        document.getElementById('tts-stop')?.addEventListener('click', () => this.stopTTS());
+        document.getElementById('tts-auto-play')?.addEventListener('change', (e) => this.updateTTSAutoPlay(e.target.checked));
+        document.getElementById('tts-rate')?.addEventListener('input', (e) => this.updateTTSRate(parseFloat(e.target.value)));
+        document.getElementById('tts-volume')?.addEventListener('input', (e) => this.updateTTSVolume(parseFloat(e.target.value)));
+
+        // TTS buttons in vocabulary cards (delegated event listener)
+        document.addEventListener('click', (e) => {
+            const ttsButton = e.target.closest('.tts-play-word');
+            if (ttsButton) {
+                e.preventDefault();
+                const wordData = JSON.parse(ttsButton.dataset.word);
+                this.playWord(wordData);
+            }
+        });
         
         // Back button
         const backButton = document.querySelector('.back-btn');
@@ -266,9 +295,13 @@ class LessonsApp {
                     ` : ''}
                 </div>
                 
-                <!-- Difficulty Badge (sticky bottom) -->
-                ${word.difficulty ? `
-                    <div class="mt-3 flex justify-end">
+                <!-- TTS Button & Difficulty Badge (sticky bottom) -->
+                <div class="mt-3 flex justify-between items-center">
+                    <button class="tts-play-word bg-blue-100 hover:bg-blue-200 text-blue-700 px-3 py-1 rounded-lg text-sm font-medium transition-all flex items-center" data-word='${JSON.stringify(word)}'>
+                        <span class="mr-1">🔊</span>
+                        Phát âm
+                    </button>
+                    ${word.difficulty ? `
                         <span class="inline-block px-2 py-1 text-xs font-medium rounded-full ${
                             word.difficulty === 'beginner' ? 'bg-green-100 text-green-800' :
                             word.difficulty === 'intermediate' ? 'bg-yellow-100 text-yellow-800' :
@@ -277,8 +310,8 @@ class LessonsApp {
                             ${word.difficulty === 'beginner' ? 'Cơ bản' :
                               word.difficulty === 'intermediate' ? 'Trung bình' : 'Nâng cao'}
                         </span>
-                    </div>
-                ` : ''}
+                    ` : ''}
+                </div>
             </div>
         `).join('');
     }
@@ -401,6 +434,71 @@ class LessonsApp {
                 console.warn(`Element with id '${viewId}' not found`);
             }
         });
+    }
+
+    // TTS Methods
+    async playAllVocabulary() {
+        if (!this.tts || this.filteredVocabulary.length === 0) return;
+        
+        const playButton = document.getElementById('tts-play-all');
+        if (playButton) {
+            playButton.disabled = true;
+            playButton.innerHTML = '<span class="mr-2">⏳</span>Đang phát...';
+        }
+
+        try {
+            for (let i = 0; i < this.filteredVocabulary.length; i++) {
+                const word = this.filteredVocabulary[i];
+                if (word.japanese) {
+                    await this.tts.speakJapanese(word.japanese);
+                    // Nghỉ 1 giây giữa các từ
+                    if (i < this.filteredVocabulary.length - 1) {
+                        await new Promise(resolve => setTimeout(resolve, 1000));
+                    }
+                }
+            }
+        } catch (error) {
+            console.error('TTS Error:', error);
+        } finally {
+            if (playButton) {
+                playButton.innerHTML = '<span class="mr-2">🔊</span>Phát tất cả từ';
+                playButton.disabled = false;
+            }
+        }
+    }
+
+    async playWord(word) {
+        if (!this.tts || !word.japanese) return;
+        
+        try {
+            await this.tts.speakJapanese(word.japanese);
+        } catch (error) {
+            console.error('TTS Error:', error);
+        }
+    }
+
+    stopTTS() {
+        if (this.tts) {
+            this.tts.stop();
+        }
+    }
+
+    updateTTSAutoPlay(enabled) {
+        if (this.tts) {
+            this.tts.updateSettings({ autoPlay: enabled });
+        }
+    }
+
+    updateTTSRate(rate) {
+        if (this.tts) {
+            this.tts.updateSettings({ rate: rate });
+        }
+    }
+
+    updateTTSVolume(volume) {
+        if (this.tts) {
+            this.tts.updateSettings({ volume: volume });
+        }
     }
 }
 

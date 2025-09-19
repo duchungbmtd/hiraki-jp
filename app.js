@@ -6,12 +6,14 @@ class JapaneseVocabApp {
         this.currentLesson = 0;
         this.userProgress = this.loadProgress();
         this.filteredVocabulary = [];
+        this.tts = null; // TTS instance
         
         this.init();
     }
 
     async init() {
         await this.loadVocabularyData();
+        this.initTTS();
         this.setupEventListeners();
         this.showDashboard();
     }
@@ -79,6 +81,17 @@ class JapaneseVocabApp {
         this.saveVocabularyDataToCache();
     }
 
+    // Khởi tạo TTS
+    initTTS() {
+        try {
+            this.tts = new JapaneseTTS();
+            console.log('TTS initialized successfully');
+            this.setupTTSSettings();
+        } catch (error) {
+            console.error('Failed to initialize TTS:', error);
+        }
+    }
+
     // Lưu dữ liệu từ vựng vào localStorage
     saveVocabularyDataToCache() {
         try {
@@ -99,6 +112,12 @@ class JapaneseVocabApp {
         
         // Reload data button
         document.getElementById('reload-data-btn')?.addEventListener('click', () => this.reloadData());
+        
+        // TTS Settings
+        document.getElementById('tts-rate')?.addEventListener('input', (e) => this.updateTTSRate(parseFloat(e.target.value)));
+        document.getElementById('tts-volume')?.addEventListener('input', (e) => this.updateTTSVolume(parseFloat(e.target.value)));
+        document.getElementById('tts-voice')?.addEventListener('change', (e) => this.updateTTSVoice(e.target.value));
+        document.getElementById('tts-auto-play')?.addEventListener('change', (e) => this.updateTTSAutoPlay(e.target.checked));
         
         // Vocabulary list controls removed - now handled in separate pages
     }
@@ -218,6 +237,64 @@ class JapaneseVocabApp {
                 element.classList.add('hidden');
             }
         });
+    }
+
+    // TTS Methods
+    setupTTSSettings() {
+        if (!this.tts) return;
+
+        // Populate voice selector
+        const voiceSelect = document.getElementById('tts-voice');
+        if (voiceSelect) {
+            this.tts.populateVoiceSelector(voiceSelect);
+        }
+
+        // Update display values
+        this.updateTTSDisplayValues();
+    }
+
+    updateTTSDisplayValues() {
+        const rateValue = document.getElementById('tts-rate-value');
+        const volumeValue = document.getElementById('tts-volume-value');
+        
+        if (rateValue) {
+            rateValue.textContent = this.tts.settings.rate;
+        }
+        if (volumeValue) {
+            volumeValue.textContent = Math.round(this.tts.settings.volume * 100);
+        }
+    }
+
+    updateTTSRate(rate) {
+        if (this.tts) {
+            this.tts.updateSettings({ rate: rate });
+            const rateValue = document.getElementById('tts-rate-value');
+            if (rateValue) {
+                rateValue.textContent = rate;
+            }
+        }
+    }
+
+    updateTTSVolume(volume) {
+        if (this.tts) {
+            this.tts.updateSettings({ volume: volume });
+            const volumeValue = document.getElementById('tts-volume-value');
+            if (volumeValue) {
+                volumeValue.textContent = Math.round(volume * 100);
+            }
+        }
+    }
+
+    updateTTSVoice(voiceName) {
+        if (this.tts) {
+            this.tts.setVoice(voiceName);
+        }
+    }
+
+    updateTTSAutoPlay(enabled) {
+        if (this.tts) {
+            this.tts.updateSettings({ autoPlay: enabled });
+        }
     }
 }
 

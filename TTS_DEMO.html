@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TTS Demo - Hikari N5</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .japanese-text { font-family: 'Noto Sans JP', sans-serif; }
+        .vietnamese-text { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-pink-50 min-h-screen vietnamese-text">
+    <div class="max-w-4xl mx-auto px-4 py-8">
+        <div class="bg-white rounded-xl shadow-lg p-8">
+            <h1 class="text-3xl font-bold text-gray-800 mb-8 text-center">🔊 Text-to-Speech Demo</h1>
+            
+            <!-- TTS Controls -->
+            <div id="tts-controls-container" class="mb-8">
+                <!-- Controls will be generated here -->
+            </div>
+
+            <!-- Test Words -->
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="space-y-4">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Từ vựng tiếng Nhật</h3>
+                    
+                    <div class="border border-gray-200 rounded-lg p-4">
+                        <div class="japanese-text text-2xl font-medium text-gray-800 mb-2">こんにちは</div>
+                        <div class="text-gray-600 mb-2">Xin chào</div>
+                        <div class="text-sm text-gray-500 italic mb-3">konnichiwa</div>
+                        <div id="play-konnichiwa"></div>
+                    </div>
+
+                    <div class="border border-gray-200 rounded-lg p-4">
+                        <div class="japanese-text text-2xl font-medium text-gray-800 mb-2">ありがとう</div>
+                        <div class="text-gray-600 mb-2">Cảm ơn</div>
+                        <div class="text-sm text-gray-500 italic mb-3">arigatou</div>
+                        <div id="play-arigatou"></div>
+                    </div>
+
+                    <div class="border border-gray-200 rounded-lg p-4">
+                        <div class="japanese-text text-2xl font-medium text-gray-800 mb-2">すみません</div>
+                        <div class="text-gray-600 mb-2">Xin lỗi</div>
+                        <div class="text-sm text-gray-500 italic mb-3">sumimasen</div>
+                        <div id="play-sumimasen"></div>
+                    </div>
+                </div>
+
+                <div class="space-y-4">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Từ vựng phức tạp</h3>
+                    
+                    <div class="border border-gray-200 rounded-lg p-4">
+                        <div class="japanese-text text-2xl font-medium text-gray-800 mb-2">大学</div>
+                        <div class="text-gray-600 mb-2">Đại học</div>
+                        <div class="text-sm text-gray-500 italic mb-3">daigaku</div>
+                        <div id="play-daigaku"></div>
+                    </div>
+
+                    <div class="border border-gray-200 rounded-lg p-4">
+                        <div class="japanese-text text-2xl font-medium text-gray-800 mb-2">先生</div>
+                        <div class="text-gray-600 mb-2">Giáo viên</div>
+                        <div class="text-sm text-gray-500 italic mb-3">sensei</div>
+                        <div id="play-sensei"></div>
+                    </div>
+
+                    <div class="border border-gray-200 rounded-lg p-4">
+                        <div class="japanese-text text-2xl font-medium text-gray-800 mb-2">図書館</div>
+                        <div class="text-gray-600 mb-2">Thư viện</div>
+                        <div class="text-sm text-gray-500 italic mb-3">toshokan</div>
+                        <div id="play-toshokan"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Test Sentences -->
+            <div class="mt-8">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">Câu ví dụ</h3>
+                <div class="space-y-4">
+                    <div class="border border-gray-200 rounded-lg p-4">
+                        <div class="japanese-text text-lg text-gray-800 mb-2">こんにちは、私は学生です。</div>
+                        <div class="text-gray-600 mb-2">Xin chào, tôi là sinh viên.</div>
+                        <div class="text-sm text-gray-500 italic mb-3">konnichiwa, watashi wa gakusei desu</div>
+                        <div id="play-sentence1"></div>
+                    </div>
+
+                    <div class="border border-gray-200 rounded-lg p-4">
+                        <div class="japanese-text text-lg text-gray-800 mb-2">ありがとうございます。</div>
+                        <div class="text-gray-600 mb-2">Cảm ơn bạn rất nhiều.</div>
+                        <div class="text-sm text-gray-500 italic mb-3">arigatou gozaimasu</div>
+                        <div id="play-sentence2"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kanji Test -->
+            <div class="mt-8">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">Kanji Test</h3>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="space-y-4">
+                        <h4 class="font-semibold text-gray-700">Kanji cơ bản</h4>
+                        
+                        <div class="border border-gray-200 rounded-lg p-4">
+                            <div class="japanese-text text-4xl font-bold text-gray-800 mb-2">人</div>
+                            <div class="text-gray-600 mb-2">Người</div>
+                            <div class="text-sm text-gray-500 italic mb-3">hito, jin, nin</div>
+                            <div class="flex space-x-2">
+                                <button onclick="playKanji('人')" class="bg-orange-100 hover:bg-orange-200 text-orange-700 px-3 py-1 rounded-lg text-sm font-medium transition-all">
+                                    🔤 Kanji
+                                </button>
+                                <button onclick="playReading('ひと')" class="bg-blue-100 hover:bg-blue-200 text-blue-700 px-3 py-1 rounded-lg text-sm font-medium transition-all">
+                                    🔊 Cách đọc
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="border border-gray-200 rounded-lg p-4">
+                            <div class="japanese-text text-4xl font-bold text-gray-800 mb-2">水</div>
+                            <div class="text-gray-600 mb-2">Nước</div>
+                            <div class="text-sm text-gray-500 italic mb-3">mizu, sui</div>
+                            <div class="flex space-x-2">
+                                <button onclick="playKanji('水')" class="bg-orange-100 hover:bg-orange-200 text-orange-700 px-3 py-1 rounded-lg text-sm font-medium transition-all">
+                                    🔤 Kanji
+                                </button>
+                                <button onclick="playReading('みず')" class="bg-blue-100 hover:bg-blue-200 text-blue-700 px-3 py-1 rounded-lg text-sm font-medium transition-all">
+                                    🔊 Cách đọc
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="space-y-4">
+                        <h4 class="font-semibold text-gray-700">Kanji phức tạp</h4>
+                        
+                        <div class="border border-gray-200 rounded-lg p-4">
+                            <div class="japanese-text text-4xl font-bold text-gray-800 mb-2">学校</div>
+                            <div class="text-gray-600 mb-2">Trường học</div>
+                            <div class="text-sm text-gray-500 italic mb-3">gakkou</div>
+                            <div class="flex space-x-2">
+                                <button onclick="playKanji('学校')" class="bg-orange-100 hover:bg-orange-200 text-orange-700 px-3 py-1 rounded-lg text-sm font-medium transition-all">
+                                    🔤 Kanji
+                                </button>
+                                <button onclick="playReading('がっこう')" class="bg-blue-100 hover:bg-blue-200 text-blue-700 px-3 py-1 rounded-lg text-sm font-medium transition-all">
+                                    🔊 Cách đọc
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="border border-gray-200 rounded-lg p-4">
+                            <div class="japanese-text text-4xl font-bold text-gray-800 mb-2">電車</div>
+                            <div class="text-gray-600 mb-2">Tàu điện</div>
+                            <div class="text-sm text-gray-500 italic mb-3">densha</div>
+                            <div class="flex space-x-2">
+                                <button onclick="playKanji('電車')" class="bg-orange-100 hover:bg-orange-200 text-orange-700 px-3 py-1 rounded-lg text-sm font-medium transition-all">
+                                    🔤 Kanji
+                                </button>
+                                <button onclick="playReading('でんしゃ')" class="bg-blue-100 hover:bg-blue-200 text-blue-700 px-3 py-1 rounded-lg text-sm font-medium transition-all">
+                                    🔊 Cách đọc
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Status -->
+            <div class="mt-8 p-4 bg-gray-100 rounded-lg">
+                <h4 class="font-semibold text-gray-800 mb-2">Trạng thái TTS:</h4>
+                <div id="tts-status" class="text-sm text-gray-600">
+                    Đang khởi tạo...
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="tts.js"></script>
+    <script>
+        let tts = null;
+
+        document.addEventListener('DOMContentLoaded', () => {
+            try {
+                tts = new JapaneseTTS();
+                
+                // Setup TTS controls
+                tts.createTTSControls('tts-controls-container', {
+                    onPlay: () => {
+                        console.log('Play button clicked');
+                    }
+                });
+
+                // Create play buttons for each word
+                tts.createSimplePlayButton('こんにちは', 'play-konnichiwa');
+                tts.createSimplePlayButton('ありがとう', 'play-arigatou');
+                tts.createSimplePlayButton('すみません', 'play-sumimasen');
+                tts.createSimplePlayButton('大学', 'play-daigaku');
+                tts.createSimplePlayButton('先生', 'play-sensei');
+                tts.createSimplePlayButton('図書館', 'play-toshokan');
+                tts.createSimplePlayButton('こんにちは、私は学生です。', 'play-sentence1');
+                tts.createSimplePlayButton('ありがとうございます。', 'play-sentence2');
+
+                // Update status
+                document.getElementById('tts-status').innerHTML = `
+                    ✅ TTS đã sẵn sàng<br>
+                    🔊 Giọng: ${tts.settings.voice?.name || 'Mặc định'}<br>
+                    ⚡ Tốc độ: ${tts.settings.rate}x<br>
+                    🔊 Âm lượng: ${Math.round(tts.settings.volume * 100)}%
+                `;
+
+            } catch (error) {
+                console.error('TTS initialization failed:', error);
+                document.getElementById('tts-status').innerHTML = `
+                    ❌ Lỗi khởi tạo TTS: ${error.message}<br>
+                    💡 Hãy thử trên trình duyệt Chrome hoặc Edge
+                `;
+            }
+        });
+
+        // Global functions for Kanji test
+        window.playKanji = async function(kanji) {
+            if (tts) {
+                try {
+                    await tts.speakJapanese(kanji);
+                } catch (error) {
+                    console.error('Kanji TTS Error:', error);
+                }
+            }
+        };
+
+        window.playReading = async function(reading) {
+            if (tts) {
+                try {
+                    await tts.speakJapanese(reading);
+                } catch (error) {
+                    console.error('Reading TTS Error:', error);
+                }
+            }
+        };
+    </script>
+</body>
+</html>
