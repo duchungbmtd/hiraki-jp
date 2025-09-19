@@ -11,14 +11,12 @@ class QuizApp {
         this.startTime = null;
         this.correctAnswer = '';
         this.userProgress = this.loadProgress();
-        this.tts = null; // TTS instance
         
         this.init();
     }
 
     async init() {
         await this.loadVocabularyData();
-        this.initTTS();
         this.setupEventListeners();
         
         // Kiểm tra xem có dữ liệu từ lessons page không
@@ -90,16 +88,6 @@ class QuizApp {
         this.saveVocabularyDataToCache();
     }
 
-    // Khởi tạo TTS
-    initTTS() {
-        try {
-            this.tts = new JapaneseTTS();
-            console.log('TTS initialized successfully');
-        } catch (error) {
-            console.error('Failed to initialize TTS:', error);
-        }
-    }
-
     // Lưu dữ liệu từ vựng vào localStorage
     saveVocabularyDataToCache() {
         try {
@@ -115,11 +103,6 @@ class QuizApp {
         document.getElementById('submit-answer')?.addEventListener('click', () => this.submitAnswer());
         document.getElementById('retry-quiz')?.addEventListener('click', () => this.retryQuiz());
         document.getElementById('back-to-lessons')?.addEventListener('click', () => this.backToLessons());
-        
-        // TTS controls
-        document.getElementById('tts-play-question')?.addEventListener('click', () => this.playQuestion());
-        document.getElementById('tts-stop')?.addEventListener('click', () => this.stopTTS());
-        document.getElementById('tts-auto-play')?.addEventListener('change', (e) => this.updateTTSAutoPlay(e.target.checked));
         
         // Back button
         const backButton = document.querySelector('.back-btn');
@@ -265,11 +248,6 @@ class QuizApp {
             document.getElementById('question-text').innerHTML = 
                 `Từ "<span class="japanese-text text-xl font-bold text-blue-600">${word.japanese}</span>" có nghĩa là gì?`;
             this.correctAnswer = word.vietnamese;
-            
-            // Auto-play TTS nếu bật
-            if (this.tts && this.tts.settings.autoPlay) {
-                setTimeout(() => this.playQuestion(), 500);
-            }
         } else {
             // Hỏi từ tiếng Nhật
             document.getElementById('question-text').innerHTML = 
@@ -471,32 +449,6 @@ class QuizApp {
     // Lưu tiến độ vào localStorage
     saveProgress() {
         localStorage.setItem('japaneseVocabProgress', JSON.stringify(this.userProgress));
-    }
-
-    // TTS Methods
-    async playQuestion() {
-        if (!this.tts || this.quizData.length === 0) return;
-        
-        const currentQuestion = this.quizData[this.currentQuizIndex];
-        if (currentQuestion && currentQuestion.question) {
-            try {
-                await this.tts.speakJapanese(currentQuestion.question);
-            } catch (error) {
-                console.error('TTS Error:', error);
-            }
-        }
-    }
-
-    stopTTS() {
-        if (this.tts) {
-            this.tts.stop();
-        }
-    }
-
-    updateTTSAutoPlay(enabled) {
-        if (this.tts) {
-            this.tts.updateSettings({ autoPlay: enabled });
-        }
     }
 }
 
