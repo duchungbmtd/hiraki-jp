@@ -3,9 +3,12 @@ class FlashcardApp {
     constructor() {
         this.vocabularyData = [];
         this.currentLessonData = [];
+        this.originalLessonData = []; // Lưu danh sách gốc để có thể reset
         this.currentCardIndex = 0;
         this.isCardFlipped = false;
         this.currentLesson = 0;
+        this.displayMode = 'jp-vn'; // 'jp-vn' hoặc 'vn-jp'
+        this.isShuffled = false; // Theo dõi trạng thái shuffle
         this.userProgress = this.loadProgress();
         
         this.init();
@@ -102,6 +105,7 @@ class FlashcardApp {
         document.getElementById('easy-btn')?.addEventListener('click', () => this.markEasy());
         document.getElementById('next-card-btn')?.addEventListener('click', () => this.nextCard());
         document.getElementById('prev-card-btn')?.addEventListener('click', () => this.prevCard());
+        document.getElementById('shuffle-btn')?.addEventListener('click', () => this.shuffleWords());
         
         // Back button
         const backButton = document.querySelector('.back-btn');
@@ -140,8 +144,17 @@ class FlashcardApp {
                     e.preventDefault();
                     this.markEasy();
                     break;
+                case 's':
+                case 'S':
+                    e.preventDefault();
+                    this.shuffleWords();
+                    break;
             }
         });
+
+        // Mode selector
+        document.getElementById('jp-vn-mode')?.addEventListener('click', () => this.setDisplayMode('jp-vn'));
+        document.getElementById('vn-jp-mode')?.addEventListener('click', () => this.setDisplayMode('vn-jp'));
 
         // Lesson selection
         document.addEventListener('click', (e) => {
@@ -176,12 +189,42 @@ class FlashcardApp {
         `).join('');
     }
 
+    // Thiết lập chế độ hiển thị
+    setDisplayMode(mode) {
+        this.displayMode = mode;
+        
+        // Cập nhật UI buttons
+        const jpVnBtn = document.getElementById('jp-vn-mode');
+        const vnJpBtn = document.getElementById('vn-jp-mode');
+        
+        if (jpVnBtn && vnJpBtn) {
+            if (mode === 'jp-vn') {
+                jpVnBtn.classList.add('active');
+                vnJpBtn.classList.remove('active');
+            } else {
+                vnJpBtn.classList.add('active');
+                jpVnBtn.classList.remove('active');
+            }
+        }
+        
+        // Reload flashcard với mode mới
+        this.loadFlashcard();
+        
+        // Lưu preference
+        this.saveDisplayModePreference(mode);
+    }
+
     // Chọn bài học
     selectLesson(lessonNumber) {
         this.currentLesson = lessonNumber;
-        this.currentLessonData = this.vocabularyData[lessonNumber].words;
+        this.originalLessonData = [...this.vocabularyData[lessonNumber].words]; // Lưu bản sao gốc
+        this.currentLessonData = [...this.originalLessonData]; // Tạo bản sao để làm việc
         this.currentCardIndex = 0;
         this.isCardFlipped = false;
+        this.isShuffled = false; // Reset trạng thái shuffle
+        
+        // Load display mode preference
+        this.loadDisplayModePreference();
         
         // Ẩn lesson selection và hiện flashcard interface
         document.getElementById('lesson-selection').classList.add('hidden');
@@ -190,6 +233,7 @@ class FlashcardApp {
         // Cập nhật thông tin bài học
         document.getElementById('lesson-title').textContent = this.vocabularyData[lessonNumber].lesson;
         
+        this.updateShuffleButtonText();
         this.loadFlashcard();
     }
 
@@ -199,9 +243,14 @@ class FlashcardApp {
         if (savedData) {
             const data = JSON.parse(savedData);
             this.currentLesson = data.lessonId;
-            this.currentLessonData = data.words;
+            this.originalLessonData = [...data.words]; // Lưu bản sao gốc
+            this.currentLessonData = [...this.originalLessonData]; // Tạo bản sao để làm việc
             this.currentCardIndex = 0;
             this.isCardFlipped = false;
+            this.isShuffled = false; // Reset trạng thái shuffle
+            
+            // Load display mode preference
+            this.loadDisplayModePreference();
             
             // Ẩn lesson selection và hiện flashcard interface
             document.getElementById('lesson-selection').classList.add('hidden');
@@ -210,6 +259,7 @@ class FlashcardApp {
             // Cập nhật thông tin bài học
             document.getElementById('lesson-title').textContent = data.lessonName;
             
+            this.updateShuffleButtonText();
             this.loadFlashcard();
             
             // Xóa dữ liệu tạm thời
@@ -234,12 +284,21 @@ class FlashcardApp {
         const card = document.getElementById('flashcard');
         if (card) card.classList.remove('flipped');
         
-        // Cập nhật nội dung thẻ
-        document.getElementById('japanese-word').textContent = word.japanese || '';
-        document.getElementById('vietnamese-meaning').textContent = word.vietnamese || '';
-        document.getElementById('romanji-text').textContent = word.romanji || '';
-        document.getElementById('usage-note').textContent = word.example || '';
+        // Cập nhật nội dung thẻ dựa trên display mode
+        if (this.displayMode === 'jp-vn') {
+            // Mặt trước: Tiếng Nhật, Mặt sau: Tiếng Việt
+            this.loadJapaneseVietnameseMode(word);
+        } else {
+            // Mặt trước: Tiếng Việt, Mặt sau: Tiếng Nhật
+            this.loadVietnameseJapaneseMode(word);
+        }
+    }
 
+    // Load mode Nhật-Việt (mặt trước tiếng Nhật)
+    loadJapaneseVietnameseMode(word) {
+        // Mặt trước: Tiếng Nhật + Kanji
+        document.getElementById('japanese-word').textContent = word.japanese || '';
+        
         // Show Kanji on front if available
         const kanjiTextEl = document.getElementById('kanji-text');
         if (kanjiTextEl) {
@@ -247,6 +306,14 @@ class FlashcardApp {
             kanjiTextEl.textContent = hasKanji ? word.kanji : '';
             kanjiTextEl.classList.toggle('hidden', !hasKanji);
         }
+
+        // Mặt sau: Tiếng Việt + thông tin bổ sung
+        document.getElementById('vietnamese-meaning').textContent = word.vietnamese || '';
+        document.getElementById('romanji-text').textContent = word.romanji || '';
+        document.getElementById('usage-note').textContent = word.example || '';
+
+        // Cập nhật hướng dẫn cho mặt trước và sau
+        this.updateCardInstructions('Nhấn Enter hoặc click để xem nghĩa', 'Nhấn để xem lại tiếng Nhật');
 
         // Show Hán-Việt meanings on back if available
         const hvSection = document.getElementById('hanviet-section');
@@ -262,6 +329,62 @@ class FlashcardApp {
                 hvList.innerHTML = '';
                 hvSection.classList.add('hidden');
             }
+        }
+    }
+
+    // Load mode Việt-Nhật (mặt trước tiếng Việt)
+    loadVietnameseJapaneseMode(word) {
+        // Mặt trước: Tiếng Việt
+        document.getElementById('japanese-word').textContent = word.vietnamese || '';
+        
+        // Ẩn kanji trên mặt trước khi mode Việt-Nhật
+        const kanjiTextEl = document.getElementById('kanji-text');
+        if (kanjiTextEl) {
+            kanjiTextEl.textContent = '';
+            kanjiTextEl.classList.add('hidden');
+        }
+
+        // Mặt sau: Tiếng Nhật + thông tin bổ sung
+        const japaneseText = word.japanese || '';
+        const kanjiText = (typeof word.kanji === 'string' && word.kanji.trim().length > 0) ? 
+                         ` (${word.kanji})` : '';
+        document.getElementById('vietnamese-meaning').textContent = japaneseText + kanjiText;
+        
+        document.getElementById('romanji-text').textContent = word.romanji || '';
+        document.getElementById('usage-note').textContent = word.example || '';
+
+        // Cập nhật hướng dẫn cho mặt trước và sau (ngược lại so với jp-vn)
+        this.updateCardInstructions('Nhấn Enter hoặc click để xem từ tiếng Nhật', 'Nhấn để xem lại nghĩa tiếng Việt');
+
+        // Show Hán-Việt meanings on back if available
+        const hvSection = document.getElementById('hanviet-section');
+        const hvList = document.getElementById('hanviet-list');
+        if (hvSection && hvList) {
+            const list = Array.isArray(word.kanji_search_results) ? word.kanji_search_results.slice(0, 5) : [];
+            if (list.length) {
+                hvList.innerHTML = list.map(r => `
+                    <div class=\"text-sm text-gray-700\"><span class=\"japanese-text mr-2\">${r.kanji}</span><span class=\"text-gray-600\">${r.mean}</span></div>
+                `).join('');
+                hvSection.classList.remove('hidden');
+            } else {
+                hvList.innerHTML = '';
+                hvSection.classList.add('hidden');
+            }
+        }
+    }
+
+    // Cập nhật text hướng dẫn cho mặt trước và sau
+    updateCardInstructions(frontInstruction, backInstruction) {
+        // Tìm và cập nhật text hướng dẫn mặt trước
+        const frontInstructionEl = document.getElementById('front-instruction');
+        if (frontInstructionEl) {
+            frontInstructionEl.textContent = frontInstruction;
+        }
+        
+        // Tìm và cập nhật text hướng dẫn mặt sau
+        const backInstructionEl = document.getElementById('back-instruction');
+        if (backInstructionEl) {
+            backInstructionEl.textContent = backInstruction;
         }
     }
 
@@ -352,6 +475,126 @@ class FlashcardApp {
     // Lưu tiến độ vào localStorage
     saveProgress() {
         localStorage.setItem('japaneseVocabProgress', JSON.stringify(this.userProgress));
+    }
+
+    // Lưu display mode preference
+    saveDisplayModePreference(mode) {
+        try {
+            localStorage.setItem('flashcardDisplayMode', mode);
+        } catch (error) {
+            console.warn('Could not save display mode preference:', error);
+        }
+    }
+
+    // Load display mode preference
+    loadDisplayModePreference() {
+        try {
+            const savedMode = localStorage.getItem('flashcardDisplayMode');
+            if (savedMode && (savedMode === 'jp-vn' || savedMode === 'vn-jp')) {
+                this.displayMode = savedMode;
+                
+                // Cập nhật UI buttons
+                const jpVnBtn = document.getElementById('jp-vn-mode');
+                const vnJpBtn = document.getElementById('vn-jp-mode');
+                
+                if (jpVnBtn && vnJpBtn) {
+                    if (savedMode === 'jp-vn') {
+                        jpVnBtn.classList.add('active');
+                        vnJpBtn.classList.remove('active');
+                    } else {
+                        vnJpBtn.classList.add('active');
+                        jpVnBtn.classList.remove('active');
+                    }
+                }
+            }
+        } catch (error) {
+            console.warn('Could not load display mode preference:', error);
+            this.displayMode = 'jp-vn'; // Default fallback
+        }
+    }
+
+    // Xáo trộn danh sách từ
+    shuffleWords() {
+        if (this.originalLessonData.length === 0) return;
+        
+        if (this.isShuffled) {
+            // Nếu đang shuffle, reset về thứ tự gốc
+            this.resetToOriginalOrder();
+        } else {
+            // Nếu chưa shuffle, thực hiện shuffle
+            this.performShuffle();
+        }
+        
+        this.updateShuffleButtonText();
+        this.showShuffleNotification();
+    }
+
+    // Thực hiện shuffle với Fisher-Yates algorithm
+    performShuffle() {
+        // Tạo bản sao mới từ danh sách gốc
+        this.currentLessonData = [...this.originalLessonData];
+        
+        // Fisher-Yates shuffle algorithm
+        for (let i = this.currentLessonData.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [this.currentLessonData[i], this.currentLessonData[j]] = 
+            [this.currentLessonData[j], this.currentLessonData[i]];
+        }
+        
+        this.currentCardIndex = 0; // Reset về thẻ đầu tiên
+        this.isShuffled = true;
+        this.loadFlashcard();
+    }
+
+    // Reset về thứ tự gốc
+    resetToOriginalOrder() {
+        this.currentLessonData = [...this.originalLessonData];
+        this.currentCardIndex = 0; // Reset về thẻ đầu tiên
+        this.isShuffled = false;
+        this.loadFlashcard();
+    }
+
+    // Cập nhật text của nút shuffle
+    updateShuffleButtonText() {
+        const shuffleBtn = document.getElementById('shuffle-btn');
+        if (shuffleBtn) {
+            if (this.isShuffled) {
+                shuffleBtn.innerHTML = '↺ Thứ tự gốc';
+                shuffleBtn.className = 'bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-lg transition-all transform hover:scale-105 font-medium';
+            } else {
+                shuffleBtn.innerHTML = '🔀 Xáo trộn';
+                shuffleBtn.className = 'bg-purple-500 hover:bg-purple-600 text-white px-6 py-3 rounded-lg transition-all transform hover:scale-105 font-medium';
+            }
+        }
+    }
+
+    // Hiển thị thông báo shuffle/reset
+    showShuffleNotification() {
+        const message = this.isShuffled ? 
+            '🔀 Đã xáo trộn danh sách từ!' : 
+            '↺ Đã khôi phục thứ tự gốc!';
+        
+        // Tạo thông báo tạm thời
+        const notification = document.createElement('div');
+        notification.className = 'fixed top-4 right-4 bg-green-500 text-white px-6 py-3 rounded-lg shadow-lg z-50 transition-all transform translate-x-full';
+        notification.innerHTML = message;
+        
+        document.body.appendChild(notification);
+        
+        // Hiển thị thông báo
+        setTimeout(() => {
+            notification.classList.remove('translate-x-full');
+        }, 100);
+        
+        // Ẩn thông báo sau 2.5 giây
+        setTimeout(() => {
+            notification.classList.add('translate-x-full');
+            setTimeout(() => {
+                if (document.body.contains(notification)) {
+                    document.body.removeChild(notification);
+                }
+            }, 300);
+        }, 2500);
     }
 
     // Quay về chọn bài học

@@ -39,6 +39,26 @@
             transform: rotateY(180deg);
         }
 
+        /* Mode selector styles */
+        .mode-btn {
+            transition: all 0.2s ease;
+            background: transparent;
+        }
+        .mode-btn.active {
+            background: white !important;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            color: rgb(17, 24, 39) !important;
+        }
+        .mode-btn:not(.active) {
+            background: transparent !important;
+            color: rgb(107, 114, 128) !important;
+            box-shadow: none !important;
+        }
+        .mode-btn:not(.active):hover {
+            color: rgb(17, 24, 39) !important;
+            background: rgba(255, 255, 255, 0.5) !important;
+        }
+
         .back-btn {
             position: absolute;
             left: 30px;
@@ -115,8 +135,20 @@
                         <span id="card-progress">1/10</span> • <span id="lesson-title">Bài học</span>
                     </div>
                     
+                    <!-- Mode Selector -->
+                    <div class="mb-4 flex justify-center">
+                        <div class="bg-gray-100 rounded-lg p-1 inline-flex">
+                            <button id="jp-vn-mode" class="mode-btn active px-4 py-2 rounded-md text-sm font-medium transition-all">
+                                🇯🇵 → 🇻🇳 Nhật-Việt
+                            </button>
+                            <button id="vn-jp-mode" class="mode-btn px-4 py-2 rounded-md text-sm font-medium transition-all">
+                                🇻🇳 → 🇯🇵 Việt-Nhật
+                            </button>
+                        </div>
+                    </div>
+                    
                     <div class="mb-4 text-xs text-gray-500 bg-gray-100 rounded-lg p-2">
-                        <strong>Phím tắt:</strong> ← → (chuyển thẻ) | Enter/Click (lật thẻ qua lại) | 1,2,3 (đánh giá) | Space (tiếp theo)
+                        <strong>Phím tắt:</strong> ← → (chuyển thẻ) | Enter/Click (lật thẻ) | 1,2,3 (đánh giá) | Space (tiếp theo) | S (xáo trộn)
                     </div>
                     
                     <div class="card-3d-container rounded-xl mb-6">
@@ -124,7 +156,7 @@
                             <div id="card-front" class="card-face text-center">
                                 <div class="japanese-text text-4xl font-medium text-gray-800 mb-2" id="japanese-word">Chọn bài học để bắt đầu</div>
                                 <div id="kanji-text" class="japanese-text text-3xl text-gray-600 mb-3 hidden"></div>
-                                <div class="text-gray-500 text-sm">Nhấn Enter hoặc click để xem nghĩa</div>
+                                <div class="text-gray-500 text-sm" id="front-instruction">Nhấn Enter hoặc click để xem nghĩa</div>
                             </div>
                             <div id="card-back" class="card-face card-back-3d text-center">
                                 <div class="text-2xl font-medium text-gray-800 mb-2" id="vietnamese-meaning">Nghĩa tiếng Việt</div>
@@ -134,7 +166,7 @@
                                     <div id="hanviet-list" class="space-y-1"></div>
                                 </div>
                                 <div class="text-gray-500 text-xs italic mb-4" id="usage-note">Ví dụ</div>
-                                <div class="text-gray-500 text-sm">Nhấn để xem lại tiếng Nhật</div>
+                                <div class="text-gray-500 text-sm" id="back-instruction">Nhấn để xem lại tiếng Nhật</div>
                             </div>
                         </div>
                     </div>
@@ -154,6 +186,9 @@
                         <div class="flex justify-center space-x-4">
                             <button id="prev-card-btn" class="bg-gray-500 hover:bg-gray-600 text-white px-8 py-3 rounded-lg transition-all transform hover:scale-105 font-medium">
                                 Trước đó
+                            </button>
+                            <button id="shuffle-btn" class="bg-purple-500 hover:bg-purple-600 text-white px-6 py-3 rounded-lg transition-all transform hover:scale-105 font-medium">
+                                🔀 Xáo trộn
                             </button>
                             <button id="next-card-btn" class="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-lg transition-all transform hover:scale-105 font-medium">
                                 Tiếp theo
