@@ -2,7 +2,7 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Flashcard - Hikari N5</title>
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="alternate icon" href="favicon.ico">
@@ -11,6 +11,36 @@
     <style>
         .japanese-text { font-family: 'Noto Sans JP', sans-serif; }
         .vietnamese-text { font-family: 'Inter', sans-serif; }
+        
+        /* Disable double-tap zoom on mobile and double-click globally */
+        * {
+            touch-action: manipulation;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            -webkit-tap-highlight-color: transparent;
+        }
+        
+        /* Specific disable for flashcard */
+        #flashcard {
+            touch-action: manipulation;
+            -webkit-touch-callout: none;
+        }
+        
+        /* Disable double-tap zoom on buttons */
+        button {
+            touch-action: manipulation;
+            -webkit-touch-callout: none;
+        }
+        
+        /* Re-enable text selection for input fields if needed */
+        input, textarea {
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+        }
         
         .card-flip-animation {
             transition: transform 0.9s;

@@ -604,6 +604,22 @@ class FlashcardApp {
     }
 }
 
+// Disable double-click globally
+document.addEventListener('dblclick', (event) => {
+    event.preventDefault();
+    return false;
+}, false);
+
+// Disable double-tap zoom globally for mobile
+let lastTouchEnd = 0;
+document.addEventListener('touchend', (event) => {
+    const now = (new Date()).getTime();
+    if (now - lastTouchEnd <= 300) {
+        event.preventDefault();
+    }
+    lastTouchEnd = now;
+}, false);
+
 // Khởi tạo ứng dụng khi DOM loaded
 document.addEventListener('DOMContentLoaded', () => {
     window.flashcardApp = new FlashcardApp();
