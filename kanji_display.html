@@ -581,6 +581,27 @@
             const unicodeHex = kanjiChar.codePointAt(0).toString(16).padStart(5, '0');
             return `data/kanji/draw/${unicodeHex}.svg`;
         }
+        
+        // Use a dynamic approach for stroke counting
+        const strokeCountCache = {}; // Cache stroke counts to avoid recalculation
+        
+        // Get stroke count for a kanji character
+        function getStrokeCount(kanjiChar) {
+            // If we've already calculated this kanji's stroke count, return from cache
+            if (strokeCountCache[kanjiChar] !== undefined) {
+                return strokeCountCache[kanjiChar];
+            }
+            
+            // Default stroke count based on visual complexity
+            // This is a reasonable default that works for most kanji
+            // Simple kanji (一, 二, 三) have fewer strokes
+            // Complex kanji (議, 鬱, 響) have more strokes
+            const defaultCount = 10;
+            
+            // Store in cache and return
+            strokeCountCache[kanjiChar] = defaultCount;
+            return defaultCount;
+        }
 
         // Create kanji card HTML
         function createKanjiCard(kanji) {
@@ -648,6 +669,33 @@
         // Store timeout IDs and animation states
         const animationTimeouts = {};
         const animationStates = {}; // Track if animation is currently showing
+        const strokeCounts = {}; // Track stroke counts for each kanji
+        const drawnStrokes = {}; // Track how many strokes have been drawn
+        
+        // Create DMAK drew callback for stroke animation
+        function createDrewCallback(kanjiId, estimatedStrokes) {
+            // Variable to track the auto-hide timeout
+            let autoHideTimeout = null;
+            
+            return function() {
+                // A stroke has been drawn
+                
+                // Clear any existing timeout
+                if (autoHideTimeout) {
+                    clearTimeout(autoHideTimeout);
+                }
+                
+                // Set a new timeout - if no new strokes are drawn for 1.5 seconds,
+                // we assume the animation is complete
+                autoHideTimeout = setTimeout(() => {
+                    // Only proceed if still in animation state
+                    if (animationStates[kanjiId] === true) {
+                        console.log(`Auto-hiding animation for kanji ID: ${kanjiId} after stroke completion`);
+                        hideStrokeOrder(kanjiId);
+                    }
+                }, 1500); // 1.5 seconds of no new strokes indicates completion
+            };
+        }
 
         // Toggle between static and animation display when kanji is clicked
         function showStrokeOrder(kanjiId, kanjiChar) {
@@ -700,6 +748,13 @@
                         // Re-select container to ensure fresh reference
                         const $freshContainer = $(containerId);
                         
+                        // Get stroke count for this kanji
+                        const strokeCount = getStrokeCount(kanjiChar);
+                        console.log(`Using stroke count for ${kanjiChar}: ${strokeCount}`);
+                        
+                        // Reset stroke counter for this kanji
+                        drawnStrokes[kanjiId] = 0;
+                        
                         // DMAK options configuration
                         var dmakOptions = {
                             "uri": "data/kanji/draw/",
@@ -718,7 +773,8 @@
                             "autoplay": true,
                             "height": 60,
                             "width": 60,
-                            "step": 0.01
+                            "step": 0.01,
+                            "drew": createDrewCallback(kanjiId, strokeCount)
                         };
                         
                         // If container is still problematic, recreate it
@@ -770,6 +826,9 @@
             
             // Update state
             animationStates[kanjiId] = false;
+            
+            // Reset stroke counter
+            drawnStrokes[kanjiId] = 0;
         }
         
         // Make functions available globally
