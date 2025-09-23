@@ -96,6 +96,7 @@ class JapaneseVocabApp {
         document.getElementById('quiz-btn')?.addEventListener('click', () => this.showQuiz());
         document.getElementById('kanji-flashcard-btn')?.addEventListener('click', () => this.showKanjiFlashcard());
         document.getElementById('verb-conjugation-btn')?.addEventListener('click', () => this.showVerbConjugation());
+        document.getElementById('kanji-display-btn')?.addEventListener('click', () => this.showKanjiDisplay());
         
         // Reload data button
         document.getElementById('reload-data-btn')?.addEventListener('click', () => this.reloadData());
@@ -135,6 +136,11 @@ class JapaneseVocabApp {
     // Hiển thị trang chia động từ (redirect to separate page)
     showVerbConjugation() {
         window.location.href = 'verb_conjugation.html';
+    }
+
+    // Hiển thị trang danh sách Kanji (redirect to separate page)
+    showKanjiDisplay() {
+        window.location.href = 'kanji_display.html';
     }
 
     // Cập nhật thống kê dashboard

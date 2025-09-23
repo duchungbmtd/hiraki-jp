@@ -1,0 +1,751 @@
+[
+  {
+    "id": 1,
+    "kanji": "先",
+    "han_viet": "Tiên",
+    "meaning": "Trước, đầu tiên",
+    "category": "time"
+  },
+  {
+    "id": 2,
+    "kanji": "生",
+    "han_viet": "Sinh",
+    "meaning": "Sinh, sống",
+    "category": "life"
+  },
+  {
+    "id": 3,
+    "kanji": "学",
+    "han_viet": "Học",
+    "meaning": "Học",
+    "category": "education"
+  },
+  {
+    "id": 4,
+    "kanji": "人",
+    "han_viet": "Nhân",
+    "meaning": "Người",
+    "category": "people"
+  },
+  {
+    "id": 5,
+    "kanji": "国",
+    "han_viet": "Quốc",
+    "meaning": "Nước",
+    "category": "place"
+  },
+  {
+    "id": 6,
+    "kanji": "男",
+    "han_viet": "Nam",
+    "meaning": "Nam, đàn ông",
+    "category": "people"
+  },
+  {
+    "id": 7,
+    "kanji": "女",
+    "han_viet": "Nữ",
+    "meaning": "Nữ, đàn bà",
+    "category": "people"
+  },
+  {
+    "id": 8,
+    "kanji": "友",
+    "han_viet": "Hữu",
+    "meaning": "Bạn",
+    "category": "people"
+  },
+  {
+    "id": 9,
+    "kanji": "父",
+    "han_viet": "Phụ",
+    "meaning": "Cha",
+    "category": "family"
+  },
+  {
+    "id": 10,
+    "kanji": "母",
+    "han_viet": "Mẫu",
+    "meaning": "Mẹ",
+    "category": "family"
+  },
+  {
+    "id": 11,
+    "kanji": "名",
+    "han_viet": "Danh",
+    "meaning": "Tên",
+    "category": "abstract"
+  },
+  {
+    "id": 12,
+    "kanji": "田",
+    "han_viet": "Điền",
+    "meaning": "Ruộng",
+    "category": "nature"
+  },
+  {
+    "id": 13,
+    "kanji": "山",
+    "han_viet": "Sơn",
+    "meaning": "Núi",
+    "category": "nature"
+  },
+  {
+    "id": 14,
+    "kanji": "語",
+    "han_viet": "Ngữ",
+    "meaning": "Ngôn ngữ",
+    "category": "language"
+  },
+  {
+    "id": 15,
+    "kanji": "本",
+    "han_viet": "Bản",
+    "meaning": "Sách, gốc",
+    "category": "object"
+  },
+  {
+    "id": 16,
+    "kanji": "何",
+    "han_viet": "Hà",
+    "meaning": "Gì, cái gì",
+    "category": "question"
+  },
+  {
+    "id": 17,
+    "kanji": "時",
+    "han_viet": "Thời",
+    "meaning": "Thời gian",
+    "category": "time"
+  },
+  {
+    "id": 18,
+    "kanji": "分",
+    "han_viet": "Phân",
+    "meaning": "Phút, phân",
+    "category": "time"
+  },
+  {
+    "id": 19,
+    "kanji": "間",
+    "han_viet": "Gian",
+    "meaning": "Khoảng, giữa",
+    "category": "space"
+  },
+  {
+    "id": 20,
+    "kanji": "半",
+    "han_viet": "Bán",
+    "meaning": "Nửa",
+    "category": "number"
+  },
+  {
+    "id": 21,
+    "kanji": "午",
+    "han_viet": "Ngọ",
+    "meaning": "Trưa",
+    "category": "time"
+  },
+  {
+    "id": 22,
+    "kanji": "前",
+    "han_viet": "Tiền",
+    "meaning": "Trước",
+    "category": "position"
+  },
+  {
+    "id": 23,
+    "kanji": "後",
+    "han_viet": "Hậu",
+    "meaning": "Sau",
+    "category": "position"
+  },
+  {
+    "id": 24,
+    "kanji": "今",
+    "han_viet": "Kim",
+    "meaning": "Bây giờ",
+    "category": "time"
+  },
+  {
+    "id": 25,
+    "kanji": "週",
+    "han_viet": "Chu",
+    "meaning": "Tuần",
+    "category": "time"
+  },
+  {
+    "id": 26,
+    "kanji": "年",
+    "han_viet": "Niên",
+    "meaning": "Năm",
+    "category": "time"
+  },
+  {
+    "id": 27,
+    "kanji": "毎",
+    "han_viet": "Mỗi",
+    "meaning": "Mỗi",
+    "category": "frequency"
+  },
+  {
+    "id": 28,
+    "kanji": "少",
+    "han_viet": "Thiểu",
+    "meaning": "Ít",
+    "category": "quantity"
+  },
+  {
+    "id": 29,
+    "kanji": "多",
+    "han_viet": "Đa",
+    "meaning": "Nhiều",
+    "category": "quantity"
+  },
+  {
+    "id": 30,
+    "kanji": "小",
+    "han_viet": "Tiểu",
+    "meaning": "Nhỏ",
+    "category": "size"
+  },
+  {
+    "id": 31,
+    "kanji": "大",
+    "han_viet": "Đại",
+    "meaning": "Lớn",
+    "category": "size"
+  },
+  {
+    "id": 32,
+    "kanji": "安",
+    "han_viet": "An",
+    "meaning": "Rẻ, yên",
+    "category": "quality"
+  },
+  {
+    "id": 33,
+    "kanji": "高",
+    "han_viet": "Cao",
+    "meaning": "Cao",
+    "category": "size"
+  },
+  {
+    "id": 34,
+    "kanji": "新",
+    "han_viet": "Tân",
+    "meaning": "Mới",
+    "category": "quality"
+  },
+  {
+    "id": 35,
+    "kanji": "古",
+    "han_viet": "Cổ",
+    "meaning": "Cũ",
+    "category": "quality"
+  },
+  {
+    "id": 36,
+    "kanji": "早",
+    "han_viet": "Tảo",
+    "meaning": "Sớm",
+    "category": "time"
+  },
+  {
+    "id": 37,
+    "kanji": "長",
+    "han_viet": "Trường/Trưởng",
+    "meaning": "Dài, trưởng",
+    "category": "size"
+  },
+  {
+    "id": 38,
+    "kanji": "円",
+    "han_viet": "Viên",
+    "meaning": "Tròn, yên (tiền)",
+    "category": "shape"
+  },
+  {
+    "id": 39,
+    "kanji": "校",
+    "han_viet": "Hiệu",
+    "meaning": "Trường",
+    "category": "place"
+  },
+  {
+    "id": 40,
+    "kanji": "社",
+    "han_viet": "Xã",
+    "meaning": "Công ty",
+    "category": "organization"
+  },
+  {
+    "id": 41,
+    "kanji": "中",
+    "han_viet": "Trung",
+    "meaning": "Trong, giữa",
+    "category": "position"
+  },
+  {
+    "id": 42,
+    "kanji": "聞",
+    "han_viet": "Văn",
+    "meaning": "Nghe, hỏi",
+    "category": "action"
+  },
+  {
+    "id": 43,
+    "kanji": "駅",
+    "han_viet": "Dịch",
+    "meaning": "Ga tàu",
+    "category": "place"
+  },
+  {
+    "id": 44,
+    "kanji": "口",
+    "han_viet": "Khẩu",
+    "meaning": "Miệng",
+    "category": "body"
+  },
+  {
+    "id": 45,
+    "kanji": "出",
+    "han_viet": "Xuất",
+    "meaning": "Ra",
+    "category": "action"
+  },
+  {
+    "id": 46,
+    "kanji": "入",
+    "han_viet": "Nhập",
+    "meaning": "Vào",
+    "category": "action"
+  },
+  {
+    "id": 47,
+    "kanji": "東",
+    "han_viet": "Đông",
+    "meaning": "Đông",
+    "category": "direction"
+  },
+  {
+    "id": 48,
+    "kanji": "西",
+    "han_viet": "Tây",
+    "meaning": "Tây",
+    "category": "direction"
+  },
+  {
+    "id": 49,
+    "kanji": "南",
+    "han_viet": "Nam",
+    "meaning": "Nam",
+    "category": "direction"
+  },
+  {
+    "id": 50,
+    "kanji": "北",
+    "han_viet": "Bắc",
+    "meaning": "Bắc",
+    "category": "direction"
+  },
+  {
+    "id": 51,
+    "kanji": "上",
+    "han_viet": "Thượng",
+    "meaning": "Trên",
+    "category": "position"
+  },
+  {
+    "id": 52,
+    "kanji": "下",
+    "han_viet": "Hạ",
+    "meaning": "Dưới",
+    "category": "position"
+  },
+  {
+    "id": 53,
+    "kanji": "左",
+    "han_viet": "Tả",
+    "meaning": "Trái",
+    "category": "position"
+  },
+  {
+    "id": 54,
+    "kanji": "右",
+    "han_viet": "Hữu",
+    "meaning": "Phải",
+    "category": "position"
+  },
+  {
+    "id": 55,
+    "kanji": "外",
+    "han_viet": "Ngoại",
+    "meaning": "Ngoài",
+    "category": "position"
+  },
+  {
+    "id": 56,
+    "kanji": "休",
+    "han_viet": "Hưu",
+    "meaning": "Nghỉ",
+    "category": "action"
+  },
+  {
+    "id": 57,
+    "kanji": "見",
+    "han_viet": "Kiến",
+    "meaning": "Thấy",
+    "category": "action"
+  },
+  {
+    "id": 58,
+    "kanji": "言",
+    "han_viet": "Ngôn",
+    "meaning": "Nói",
+    "category": "action"
+  },
+  {
+    "id": 59,
+    "kanji": "行",
+    "han_viet": "Hành",
+    "meaning": "Đi",
+    "category": "action"
+  },
+  {
+    "id": 60,
+    "kanji": "書",
+    "han_viet": "Thư",
+    "meaning": "Viết",
+    "category": "action"
+  },
+  {
+    "id": 61,
+    "kanji": "読",
+    "han_viet": "Độc",
+    "meaning": "Đọc",
+    "category": "action"
+  },
+  {
+    "id": 62,
+    "kanji": "買",
+    "han_viet": "Mãi",
+    "meaning": "Mua",
+    "category": "action"
+  },
+  {
+    "id": 63,
+    "kanji": "来",
+    "han_viet": "Lai",
+    "meaning": "Đến",
+    "category": "action"
+  },
+  {
+    "id": 64,
+    "kanji": "立",
+    "han_viet": "Lập",
+    "meaning": "Đứng",
+    "category": "action"
+  },
+  {
+    "id": 65,
+    "kanji": "食",
+    "han_viet": "Thực",
+    "meaning": "Ăn",
+    "category": "action"
+  },
+  {
+    "id": 66,
+    "kanji": "飲",
+    "han_viet": "Ẩm",
+    "meaning": "Uống",
+    "category": "action"
+  },
+  {
+    "id": 67,
+    "kanji": "会",
+    "han_viet": "Hội",
+    "meaning": "Gặp",
+    "category": "action"
+  },
+  {
+    "id": 68,
+    "kanji": "電",
+    "han_viet": "Điện",
+    "meaning": "Điện",
+    "category": "technology"
+  },
+  {
+    "id": 69,
+    "kanji": "話",
+    "han_viet": "Thoại",
+    "meaning": "Nói",
+    "category": "action"
+  },
+  {
+    "id": 70,
+    "kanji": "車",
+    "han_viet": "Xa",
+    "meaning": "Xe",
+    "category": "transport"
+  },
+  {
+    "id": 71,
+    "kanji": "花",
+    "han_viet": "Hoa",
+    "meaning": "Hoa",
+    "category": "nature"
+  },
+  {
+    "id": 72,
+    "kanji": "天",
+    "han_viet": "Thiên",
+    "meaning": "Trời",
+    "category": "nature"
+  },
+  {
+    "id": 73,
+    "kanji": "気",
+    "han_viet": "Khí",
+    "meaning": "Khí, tâm trạng",
+    "category": "abstract"
+  },
+  {
+    "id": 74,
+    "kanji": "耳",
+    "han_viet": "Nhĩ",
+    "meaning": "Tai",
+    "category": "body"
+  },
+  {
+    "id": 75,
+    "kanji": "手",
+    "han_viet": "Thủ",
+    "meaning": "Tay",
+    "category": "body"
+  },
+  {
+    "id": 76,
+    "kanji": "足",
+    "han_viet": "Túc",
+    "meaning": "Chân",
+    "category": "body"
+  },
+  {
+    "id": 77,
+    "kanji": "目",
+    "han_viet": "Mục",
+    "meaning": "Mắt",
+    "category": "body"
+  },
+  {
+    "id": 78,
+    "kanji": "力",
+    "han_viet": "Lực",
+    "meaning": "Sức",
+    "category": "abstract"
+  },
+  {
+    "id": 79,
+    "kanji": "川",
+    "han_viet": "Xuyên",
+    "meaning": "Sông",
+    "category": "nature"
+  },
+  {
+    "id": 80,
+    "kanji": "牛",
+    "han_viet": "Ngưu",
+    "meaning": "Bò",
+    "category": "animal"
+  },
+  {
+    "id": 81,
+    "kanji": "魚",
+    "han_viet": "Ngư",
+    "meaning": "Cá",
+    "category": "animal"
+  },
+  {
+    "id": 82,
+    "kanji": "店",
+    "han_viet": "Điếm",
+    "meaning": "Cửa hàng",
+    "category": "place"
+  },
+  {
+    "id": 83,
+    "kanji": "道",
+    "han_viet": "Đạo",
+    "meaning": "Đường",
+    "category": "place"
+  },
+  {
+    "id": 84,
+    "kanji": "門",
+    "han_viet": "Môn",
+    "meaning": "Cửa",
+    "category": "object"
+  },
+  {
+    "id": 85,
+    "kanji": "雨",
+    "han_viet": "Vũ",
+    "meaning": "Mưa",
+    "category": "weather"
+  },
+  {
+    "id": 86,
+    "kanji": "空",
+    "han_viet": "Không",
+    "meaning": "Trời, không",
+    "category": "nature"
+  },
+  {
+    "id": 87,
+    "kanji": "白",
+    "han_viet": "Bạch",
+    "meaning": "Trắng",
+    "category": "color"
+  },
+  {
+    "id": 88,
+    "kanji": "月",
+    "han_viet": "Nguyệt",
+    "meaning": "Tháng, mặt trăng",
+    "category": "time"
+  },
+  {
+    "id": 89,
+    "kanji": "火",
+    "han_viet": "Hỏa",
+    "meaning": "Lửa",
+    "category": "element"
+  },
+  {
+    "id": 90,
+    "kanji": "水",
+    "han_viet": "Thủy",
+    "meaning": "Nước",
+    "category": "element"
+  },
+  {
+    "id": 91,
+    "kanji": "木",
+    "han_viet": "Mộc",
+    "meaning": "Gỗ",
+    "category": "element"
+  },
+  {
+    "id": 92,
+    "kanji": "金",
+    "han_viet": "Kim",
+    "meaning": "Vàng, tiền",
+    "category": "element"
+  },
+  {
+    "id": 93,
+    "kanji": "土",
+    "han_viet": "Thổ",
+    "meaning": "Đất",
+    "category": "element"
+  },
+  {
+    "id": 94,
+    "kanji": "日",
+    "han_viet": "Nhật",
+    "meaning": "Ngày, mặt trời",
+    "category": "time"
+  },
+  {
+    "id": 95,
+    "kanji": "一",
+    "han_viet": "Nhất",
+    "meaning": "Một",
+    "category": "number"
+  },
+  {
+    "id": 96,
+    "kanji": "二",
+    "han_viet": "Nhị",
+    "meaning": "Hai",
+    "category": "number"
+  },
+  {
+    "id": 97,
+    "kanji": "三",
+    "han_viet": "Tam",
+    "meaning": "Ba",
+    "category": "number"
+  },
+  {
+    "id": 98,
+    "kanji": "四",
+    "han_viet": "Tứ",
+    "meaning": "Bốn",
+    "category": "number"
+  },
+  {
+    "id": 99,
+    "kanji": "五",
+    "han_viet": "Ngũ",
+    "meaning": "Năm",
+    "category": "number"
+  },
+  {
+    "id": 100,
+    "kanji": "六",
+    "han_viet": "Lục",
+    "meaning": "Sáu",
+    "category": "number"
+  },
+  {
+    "id": 101,
+    "kanji": "七",
+    "han_viet": "Thất",
+    "meaning": "Bảy",
+    "category": "number"
+  },
+  {
+    "id": 102,
+    "kanji": "八",
+    "han_viet": "Bát",
+    "meaning": "Tám",
+    "category": "number"
+  },
+  {
+    "id": 103,
+    "kanji": "九",
+    "han_viet": "Cửu",
+    "meaning": "Chín",
+    "category": "number"
+  },
+  {
+    "id": 104,
+    "kanji": "十",
+    "han_viet": "Thập",
+    "meaning": "Mười",
+    "category": "number"
+  },
+  {
+    "id": 105,
+    "kanji": "百",
+    "han_viet": "Bách",
+    "meaning": "Trăm",
+    "category": "number"
+  },
+  {
+    "id": 106,
+    "kanji": "千",
+    "han_viet": "Thiên",
+    "meaning": "Nghìn",
+    "category": "number"
+  },
+  {
+    "id": 107,
+    "kanji": "万",
+    "han_viet": "Vạn",
+    "meaning": "Mười nghìn",
+    "category": "number"
+  }
+]

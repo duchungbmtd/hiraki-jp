@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách Kanji N5 - Hikari N5</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="alternate icon" href="favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- DMAK - Draw Me A Kanji -->
+    <link rel="stylesheet" href="assets/css/dmak.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js"></script>
+    <script src="assets/js/kanji/dmak.min.js"></script>
+    <script src="assets/js/kanji/jquery.dmak.min.js"></script>
+    <style>
+        .japanese-text { font-family: 'Noto Sans JP', sans-serif; }
+        .vietnamese-text { font-family: 'Inter', sans-serif; }
+        
+        /* Custom styles theo UI design guide */
+        :root {
+            --sakura-pink: #FFB7C5;
+            --deep-blue: #003366;
+            --warm-white: #FFFEF7;
+            --red-accent: #E60012;
+            --gray-text: #4A5568;
+            --success: #48BB78;
+            --warning: #ED8936;
+        }
+        
+        .kanji-card {
+            transition: all 0.3s ease;
+            transform: translateY(0);
+            background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+            border: 1px solid #e2e8f0;
+        }
+        
+        .kanji-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            border-color: #cbd5e0;
+        }
+        
+        .kanji-display {
+            font-size: 4rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, #e53e3e 0%, #c53030 50%, #9c2626 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-shadow: 0 4px 8px rgba(229, 62, 62, 0.2);
+            line-height: 1;
+        }
+        
+        .kanji-display-container {
+            position: relative;
+            min-height: 180px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .kanji-static-display {
+            cursor: pointer;
+            transition: all 0.3s ease;
+            padding: 1rem;
+            border-radius: 12px;
+            position: relative;
+        }
+        
+        .kanji-static-display:hover {
+            background: rgba(102, 126, 234, 0.05);
+            transform: scale(1.05);
+        }
+        
+        .kanji-animation-display {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .kanji-animation-display:hover {
+            background: rgba(102, 126, 234, 0.05);
+            border-radius: 12px;
+        }
+        
+        .kanji-svg-image {
+            width: 120px;
+            height: 120px;
+            display: block;
+            margin: 0 auto;
+            filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));
+            transition: all 0.3s ease;
+        }
+        
+        .kanji-svg-image:hover {
+            filter: drop-shadow(0 6px 12px rgba(229, 62, 62, 0.3));
+        }
+        
+        .kanji-fallback {
+            font-size: 4rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, #e53e3e 0%, #c53030 50%, #9c2626 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-shadow: 0 4px 8px rgba(229, 62, 62, 0.2);
+            line-height: 1;
+        }
+        
+        .click-hint {
+            font-size: 0.8em;
+            color: #667eea;
+            margin-top: 0.5rem;
+            opacity: 0.8;
+            font-weight: 500;
+        }
+        
+        .animation-hint {
+            font-size: 0.8em;
+            color: #e53e3e;
+            margin-top: 0.5rem;
+            opacity: 0.8;
+            font-weight: 500;
+        }
+        
+        .action-button-small {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.2);
+        }
+        
+        .action-button-small:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.3);
+        }
+        
+        .animation-controls {
+            margin-top: 1rem;
+        }
+        
+        .han-viet-display {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 700;
+            font-size: 1.3em;
+            letter-spacing: 0.05em;
+        }
+        
+        .meaning-display {
+            color: #2d3748;
+            font-size: 1em;
+            font-weight: 500;
+            line-height: 1.4;
+        }
+        
+        .category-tag {
+            display: inline-flex;
+            align-items: center;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.025em;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        /* Category colors */
+        .tag-people { background: linear-gradient(135deg, #fed7d7, #feb2b2); color: #c53030; }
+        .tag-family { background: linear-gradient(135deg, #fbb6ce, #f687b3); color: #97266d; }
+        .tag-time { background: linear-gradient(135deg, #bee3f8, #90cdf4); color: #2c5282; }
+        .tag-nature { background: linear-gradient(135deg, #c6f6d5, #9ae6b4); color: #22543d; }
+        .tag-number { background: linear-gradient(135deg, #faf089, #f6e05e); color: #744210; }
+        .tag-action { background: linear-gradient(135deg, #fed7e2, #fbb6ce); color: #97266d; }
+        .tag-body { background: linear-gradient(135deg, #e9d8fd, #d6bcfa); color: #553c9a; }
+        .tag-direction { background: linear-gradient(135deg, #e9d8fd, #d6bcfa); color: #553c9a; }
+        .tag-position { background: linear-gradient(135deg, #e9d8fd, #d6bcfa); color: #553c9a; }
+        .tag-place { background: linear-gradient(135deg, #c6f6d5, #9ae6b4); color: #22543d; }
+        .tag-default { background: linear-gradient(135deg, #e2e8f0, #cbd5e0); color: #4a5568; }
+        
+        .search-input {
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+        
+        .search-input:focus {
+            box-shadow: 0 4px 20px rgba(102, 126, 234, 0.15);
+        }
+        
+        .filter-select {
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .filter-select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        
+        .grid-layout {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        @media (max-width: 640px) {
+            .grid-layout {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+            
+            .kanji-display {
+                font-size: 3rem;
+            }
+            
+            .han-viet-display {
+                font-size: 1.1em;
+            }
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.5s ease forwards;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .loading-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 300px;
+        }
+        
+        .loading-spinner {
+            width: 50px;
+            height: 50px;
+            border: 4px solid #e2e8f0;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 1rem;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .action-button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 0.95em;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+        }
+        
+        .action-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+        }
+        
+        .action-button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .action-button:disabled:hover {
+            transform: none;
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+        }
+        
+        .clear-filter-button {
+            background: linear-gradient(135deg, #ef4444 0%, #ec4899 100%);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 0.95em;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3);
+        }
+        
+        .clear-filter-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(239, 68, 68, 0.4);
+            background: linear-gradient(135deg, #dc2626 0%, #db2777 100%);
+        }
+        
+        .clear-filter-button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .clear-filter-button:disabled:hover {
+            transform: none;
+            box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3);
+            background: linear-gradient(135deg, #ef4444 0%, #ec4899 100%);
+        }
+        
+        .back-btn {
+            position: absolute;
+            left: 30px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .back-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+            border-color: rgba(255, 255, 255, 0.5);
+            transform: translateY(-50%) translateX(-5px);
+        }
+
+        @media (max-width: 768px) {
+            .back-btn {
+                position: static;
+                transform: none;
+                margin-bottom: 20px;
+                align-self: flex-start;
+            }
+            
+            .header {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-blue-50 via-white to-pink-50 min-h-screen vietnamese-text">
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-red-500 to-pink-500 text-white shadow-lg relative">
+        <div class="max-w-7xl mx-auto px-4 py-6">
+            <a href="index.html" class="back-btn">
+                ← Trở về trang chủ
+            </a>
+            <div class="text-center">
+                <div class="flex items-center justify-center space-x-3 mb-2">
+                    <div class="w-12 h-12 bg-white bg-opacity-20 rounded-xl flex items-center justify-center shadow-lg">
+                        <span class="text-white font-bold text-xl japanese-text">漢</span>
+                    </div>
+                    <h1 class="text-3xl font-bold">Danh sách Kanji N5</h1>
+                </div>
+                <p class="text-white text-opacity-90">107 chữ Kanji cơ bản</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 py-8">
+
+        <!-- Search and Filter Section -->
+        <div class="bg-white/70 backdrop-blur-sm rounded-2xl shadow-xl p-8 mb-8 border border-white/20">
+            <div class="text-center mb-6">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">🔍 Tìm kiếm Kanji</h2>
+                <p class="text-gray-600">Tìm kiếm theo chữ kanji, âm hán việt hoặc nghĩa tiếng Việt</p>
+            </div>
+            
+            <div class="max-w-2xl mx-auto mb-6">
+                <input type="text" id="searchInput" 
+                       class="search-input w-full px-6 py-4 text-lg border-2 border-gray-200 rounded-2xl focus:border-blue-500 focus:ring-0 transition-all" 
+                       placeholder="Nhập kanji, hán việt hoặc nghĩa để tìm kiếm...">
+            </div>
+            
+            <div class="flex flex-wrap justify-center gap-4">
+                <select id="categoryFilter" class="filter-select px-4 py-3 border-2 border-gray-200 rounded-xl bg-white font-medium">
+                    <option value="">🏷️ Tất cả chủ đề</option>
+                    <option value="number">🔢 Số đếm</option>
+                    <option value="people">👥 Con người</option>
+                    <option value="family">👨‍👩‍👧‍👦 Gia đình</option>
+                    <option value="time">⏰ Thời gian</option>
+                    <option value="nature">🌿 Tự nhiên</option>
+                    <option value="action">🏃 Hành động</option>
+                    <option value="body">👤 Cơ thể</option>
+                    <option value="direction">🧭 Phương hướng</option>
+                    <option value="place">📍 Địa điểm</option>
+                </select>
+                
+                <button id="clearFilters" class="clear-filter-button">
+                    Xóa bộ lọc
+                </button>
+                
+            </div>
+        </div>
+
+        <!-- Loading State -->
+        <div id="loadingState" class="loading-container">
+            <div class="loading-spinner"></div>
+            <p class="text-gray-600 text-lg">Đang tải dữ liệu Kanji...</p>
+        </div>
+
+        <!-- Kanji Grid -->
+        <div id="kanjiContainer" class="hidden">
+            <div id="kanjiGrid" class="grid-layout">
+                <!-- Kanji cards will be inserted here -->
+            </div>
+        </div>
+
+        <!-- No Results State -->
+        <div id="noResultsState" class="hidden text-center py-16">
+            <div class="text-8xl mb-6">🔍</div>
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">Không tìm thấy Kanji nào</h2>
+            <p class="text-gray-600 mb-8 max-w-md mx-auto">
+                Không có Kanji nào khớp với từ khóa tìm kiếm của bạn. 
+                Hãy thử tìm kiếm với từ khóa khác hoặc xóa bộ lọc.
+            </p>
+            <button onclick="clearAllFilters()" class="clear-filter-button">
+                🗑️ Xóa bộ lọc và hiển thị tất cả
+            </button>
+        </div>
+    </main>
+
+    <script>
+        // Global variables
+        let kanjiData = [];
+        let filteredKanji = [];
+        
+        // DOM elements
+        const searchInput = document.getElementById('searchInput');
+        const categoryFilter = document.getElementById('categoryFilter');
+        const clearFilters = document.getElementById('clearFilters');
+        const loadingState = document.getElementById('loadingState');
+        const kanjiContainer = document.getElementById('kanjiContainer');
+        const kanjiGrid = document.getElementById('kanjiGrid');
+        const noResultsState = document.getElementById('noResultsState');
+
+        // Initialize app
+        async function initializeApp() {
+            try {
+                await loadKanjiData();
+                setupEventListeners();
+                applyFilters();
+                hideLoading();
+            } catch (error) {
+                console.error('Lỗi khởi tạo ứng dụng:', error);
+                showError('Không thể tải dữ liệu. Vui lòng thử lại sau.');
+            }
+        }
+
+        // Load kanji data from JSON
+        async function loadKanjiData() {
+            const response = await fetch('data/kanji_list.json');
+            if (!response.ok) {
+                throw new Error('Không thể tải dữ liệu kanji');
+            }
+            kanjiData = await response.json();
+            filteredKanji = [...kanjiData];
+        }
+
+        // Setup event listeners
+        function setupEventListeners() {
+            searchInput.addEventListener('input', debounce(applyFilters, 300));
+            categoryFilter.addEventListener('change', applyFilters);
+            clearFilters.addEventListener('click', clearAllFilters);
+            
+            // Keyboard shortcuts
+            document.addEventListener('keydown', handleKeyboardShortcuts);
+        }
+
+        // Debounce function for search input
+        function debounce(func, wait) {
+            let timeout;
+            return function executedFunction(...args) {
+                const later = () => {
+                    clearTimeout(timeout);
+                    func(...args);
+                };
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+            };
+        }
+
+        // Handle keyboard shortcuts
+        function handleKeyboardShortcuts(event) {
+            if (event.key === 'Escape') {
+                clearAllFilters();
+            }
+        }
+
+        // Get category tag class
+        function getCategoryTagClass(category) {
+            const categoryMap = {
+                'people': 'tag-people',
+                'family': 'tag-family', 
+                'time': 'tag-time',
+                'nature': 'tag-nature',
+                'number': 'tag-number',
+                'action': 'tag-action',
+                'body': 'tag-body',
+                'direction': 'tag-direction',
+                'position': 'tag-position',
+                'place': 'tag-place'
+            };
+            return categoryMap[category] || 'tag-default';
+        }
+
+        // Get SVG filename for kanji
+        function getKanjiSVGPath(kanjiChar) {
+            const unicodeHex = kanjiChar.codePointAt(0).toString(16).padStart(5, '0');
+            return `data/kanji/draw/${unicodeHex}.svg`;
+        }
+
+        // Create kanji card HTML
+        function createKanjiCard(kanji) {
+            const svgPath = getKanjiSVGPath(kanji.kanji);
+            return `
+                <div class="kanji-card rounded-2xl p-6 fade-in">
+                    <div class="text-center">
+                        <div class="category-tag ${getCategoryTagClass(kanji.category)} mb-4">
+                            ${kanji.category}
+                        </div>
+                        
+                        <!-- Kanji Display Area (Static SVG or Animation) -->
+                        <div class="kanji-display-container mb-4">
+                            <!-- Static SVG Display (clickable to show animation) -->
+                            <div class="kanji-static-display" id="kanji-static-${kanji.id}" onclick="showStrokeOrder(${kanji.id}, '${kanji.kanji}')">
+                                <img src="${svgPath}" alt="${kanji.kanji}" class="kanji-svg-image" 
+                                     onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                                <div class="kanji-fallback japanese-text" style="display:none;">${kanji.kanji}</div>
+                                <div class="click-hint">👆 Click để xem cách viết</div>
+                            </div>
+                            
+                            <!-- Animation Display (hidden by default, replaces static when active) -->
+                            <div class="kanji-animation-display hidden" id="kanji-animation-${kanji.id}" onclick="showStrokeOrder(${kanji.id}, '${kanji.kanji}')">
+                                <div id="kanji-draw-${kanji.id}" class="kanji-stroke-animation">
+                                </div>
+                                <div class="animation-hint">👆 Click để về hình tĩnh</div>
+                            </div>
+                        </div>
+                        
+                        <div class="han-viet-display mb-3">
+                            ${kanji.han_viet}
+                        </div>
+                        
+                        <div class="meaning-display mb-4">
+                            ${kanji.meaning}
+                        </div>
+                    </div>
+                    
+                    <div class="text-center text-xs text-gray-400 font-mono">
+                        #${kanji.id}
+                    </div>
+                </div>
+            `;
+        }
+
+        // Apply filters and search
+        function applyFilters() {
+            const searchTerm = searchInput.value.toLowerCase().trim();
+            const selectedCategory = categoryFilter.value;
+
+            filteredKanji = kanjiData.filter(kanji => {
+                // Search filter
+                const matchesSearch = !searchTerm || 
+                    kanji.kanji.toLowerCase().includes(searchTerm) ||
+                    kanji.han_viet.toLowerCase().includes(searchTerm) ||
+                    kanji.meaning.toLowerCase().includes(searchTerm);
+
+                // Category filter
+                const matchesCategory = !selectedCategory || kanji.category === selectedCategory;
+
+                return matchesSearch && matchesCategory;
+            });
+
+            renderKanjiGrid();
+        }
+
+        // Store timeout IDs and animation states
+        const animationTimeouts = {};
+        const animationStates = {}; // Track if animation is currently showing
+
+        // Toggle between static and animation display when kanji is clicked
+        function showStrokeOrder(kanjiId, kanjiChar) {
+            const staticDisplayId = `#kanji-static-${kanjiId}`;
+            const animationDisplayId = `#kanji-animation-${kanjiId}`;
+            const containerId = `#kanji-draw-${kanjiId}`;
+            
+            const $staticDisplay = $(staticDisplayId);
+            const $animationDisplay = $(animationDisplayId);
+            const $container = $(containerId);
+            
+            if ($container.length === 0) return;
+            
+            // Clear any existing timeout for this kanji
+            if (animationTimeouts[kanjiId]) {
+                clearTimeout(animationTimeouts[kanjiId]);
+                delete animationTimeouts[kanjiId];
+            }
+            
+            // Check current state based on actual DOM visibility instead of just stored state
+            const isAnimationVisible = !$animationDisplay.hasClass('hidden');
+            
+            console.log(`Kanji ${kanjiId}: stored state = ${animationStates[kanjiId]}, DOM visible = ${isAnimationVisible}`);
+            
+            if (isAnimationVisible) {
+                // Currently showing animation, switch to static
+                console.log(`Switching kanji ${kanjiId} to static`);
+                $staticDisplay.removeClass('hidden');
+                $animationDisplay.addClass('hidden');
+                animationStates[kanjiId] = false;
+            } else {
+                // Currently showing static, switch to animation
+                console.log(`Switching kanji ${kanjiId} to animation`);
+                $staticDisplay.addClass('hidden');
+                $animationDisplay.removeClass('hidden');
+                animationStates[kanjiId] = true;
+                
+                // Always restart the animation from the beginning
+                // Force clear the container completely
+                $container.empty();
+                $container.removeClass('dmak-loaded');
+                $container.removeData(); // Clear jQuery data
+                $container.off(); // Remove event handlers
+                
+                // Add a small delay to ensure DOM is updated
+                setTimeout(function() {
+                    try {
+                        console.log(`Loading DMAK animation for kanji ${kanjiChar} (ID: ${kanjiId})`);
+                        
+                        // Re-select container to ensure fresh reference
+                        const $freshContainer = $(containerId);
+                        
+                        // DMAK options configuration
+                        var dmakOptions = {
+                            "uri": "data/kanji/draw/",
+                            "stroke": {
+                                "order": {
+                                    "visible": true,
+                                    "attr": {
+                                        "stroke-width": 8,
+                                        "stroke": "#e53e3e"
+                                    }
+                                }
+                            },
+                            "grid": {
+                                "show": false
+                            },
+                            "autoplay": true,
+                            "height": 150,
+                            "width": 150,
+                            "step": 0.01
+                        };
+                        
+                        // If container is still problematic, recreate it
+                        if ($freshContainer.length === 0 || $freshContainer.hasClass('dmak-error')) {
+                            console.log(`Recreating container for kanji ${kanjiId}`);
+                            $animationDisplay.html(`<div id="kanji-draw-${kanjiId}" class="kanji-stroke-animation"></div><div class="animation-hint">👆 Click để về hình tĩnh</div>`);
+                            const $newContainer = $(containerId);
+                            
+                            $newContainer.dmak(kanjiChar, dmakOptions);
+                            $newContainer.addClass('dmak-loaded');
+                            console.log(`DMAK animation recreated successfully for kanji ${kanjiChar}`);
+                            return;
+                        }
+                        
+                        $freshContainer.dmak(kanjiChar, dmakOptions);
+                        
+                        // Mark as loaded
+                        $freshContainer.addClass('dmak-loaded');
+                        console.log(`DMAK animation loaded successfully for kanji ${kanjiChar}`);
+                        
+                    } catch (error) {
+                        console.error(`Không thể tải animation cho kanji ${kanjiChar}:`, error);
+                        // If animation fails, go back to static display
+                        $staticDisplay.removeClass('hidden');
+                        $animationDisplay.addClass('hidden');
+                        animationStates[kanjiId] = false;
+                    }
+                }, 50); // 50ms delay
+            }
+        }
+        
+        // Hide stroke order animation and show static display
+        function hideStrokeOrder(kanjiId) {
+            const staticDisplayId = `#kanji-static-${kanjiId}`;
+            const animationDisplayId = `#kanji-animation-${kanjiId}`;
+            
+            const $staticDisplay = $(staticDisplayId);
+            const $animationDisplay = $(animationDisplayId);
+            
+            // Clear any existing timeout for this kanji
+            if (animationTimeouts[kanjiId]) {
+                clearTimeout(animationTimeouts[kanjiId]);
+                delete animationTimeouts[kanjiId];
+            }
+            
+            // Show static display and hide animation display
+            $staticDisplay.removeClass('hidden');
+            $animationDisplay.addClass('hidden');
+            
+            // Update state
+            animationStates[kanjiId] = false;
+        }
+        
+        // Make functions available globally
+        window.showStrokeOrder = showStrokeOrder;
+        window.hideStrokeOrder = hideStrokeOrder;
+
+        // Render kanji grid
+        function renderKanjiGrid() {
+            if (filteredKanji.length === 0) {
+                kanjiContainer.classList.add('hidden');
+                noResultsState.classList.remove('hidden');
+                return;
+            }
+
+            kanjiContainer.classList.remove('hidden');
+            noResultsState.classList.add('hidden');
+
+            kanjiGrid.innerHTML = filteredKanji
+                .map(kanji => createKanjiCard(kanji))
+                .join('');
+                
+            // No auto-initialization of stroke animations
+            // Animations will be loaded on-demand when user clicks the button
+        }
+
+
+        // Clear all filters
+        function clearAllFilters() {
+            searchInput.value = '';
+            categoryFilter.value = '';
+            applyFilters();
+        }
+
+
+        // Hide loading state
+        function hideLoading() {
+            loadingState.classList.add('hidden');
+        }
+
+        // Show error state
+        function showError(message) {
+            loadingState.innerHTML = `
+                <div class="text-center">
+                    <div class="text-6xl mb-4">😞</div>
+                    <h2 class="text-xl font-bold text-gray-800 mb-2">Đã xảy ra lỗi</h2>
+                    <p class="text-gray-600 mb-4">${message}</p>
+                    <button onclick="location.reload()" class="action-button">
+                        🔄 Thử lại
+                    </button>
+                </div>
+            `;
+        }
+
+
+        // Wait for DMAK library to load, then configure and initialize
+        $(document).ready(function() {
+            // Configure DMAK global settings
+            if (typeof Dmak !== 'undefined' && Dmak.prototype) {
+                Dmak.prototype.options = Dmak.prototype.options || {};
+                Dmak.prototype.options.uri = "data/kanji/draw/";
+            }
+            
+            initializeApp();
+        });
+    </script>
+</body>
+</html>
+
