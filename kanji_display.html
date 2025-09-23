@@ -35,6 +35,7 @@
             transform: translateY(0);
             background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
             border: 1px solid #e2e8f0;
+            position: relative;
         }
         
         .kanji-card:hover {
@@ -183,17 +184,7 @@
             line-height: 1.3;
         }
         
-        .category-tag {
-            display: inline-flex;
-            align-items: center;
-            padding: 3px 8px;
-            border-radius: 16px;
-            font-size: 0.7em;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.025em;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-        }
+        /* category-tag base styles were removed; hidden globally below */
         
         /* Category colors */
         .tag-people { background: linear-gradient(135deg, #fed7d7, #feb2b2); color: #c53030; }
@@ -249,31 +240,106 @@
         }
         
         @media (max-width: 640px) {
+            /* Sync static and animation containers on SP */
+            .kanji-static-display,
+            .kanji-animation-display {
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 0.25rem;
+                border-radius: 12px;
+                width: 100%;
+                background: transparent;
+                cursor: pointer;
+            }
+            .kanji-static-display:hover,
+            .kanji-animation-display:hover {
+                background: rgba(102, 126, 234, 0.05);
+            }
+
             .grid-layout {
                 grid-template-columns: 1fr;
-                gap: 1rem;
+                gap: 0.5rem;
+            }
+            
+            .kanji-card {
+                padding: 0.5rem 0.75rem;
+                margin-bottom: 0;
+            }
+            
+            .kanji-card-mobile {
+                display: flex;
+                align-items: center;
+                text-align: left;
+            }
+            
+            .kanji-left-section {
+                flex: 0 0 auto;
+                margin-right: 0.75rem;
+            }
+            
+            .kanji-right-section {
+                flex: 1;
+                min-width: 0; /* Prevent text overflow */
             }
             
             .kanji-display {
-                font-size: 2.5rem;
+                font-size: 2.2rem;
             }
             
             .han-viet-display {
-                font-size: 1em;
+                font-size: 0.85em;
+                margin-bottom: 0.15rem;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
             }
             
             .meaning-display {
-                font-size: 0.8em;
+                font-size: 0.7em;
+                line-height: 1.2;
+                margin-bottom: 0.15rem;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
             }
             
             .category-tag {
-                font-size: 0.65em;
-                padding: 2px 6px;
+                font-size: 0.6em;
+                padding: 1px 4px;
+                margin-bottom: 0;
+                display: inline-block;
+            }
+            
+            .kanji-display-container {
+                min-height: 50px;
+                margin-bottom: 0;
+            }
+            
+            .kanji-svg-image {
+                width: 45px;
+                height: 45px;
+            }
+            
+            .kanji-stroke-animation {
+                width: 45px;
+                height: 45px;
             }
         }
         
         .fade-in {
             animation: fadeIn 0.5s ease forwards;
+        }
+        
+        /* ID badge bottom-right */
+        .kanji-id {
+            position: absolute;
+            right: 8px;
+            bottom: 8px;
+            font-size: 10px;
+            color: #9CA3AF; /* gray-400 */
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
         }
         
         @keyframes fadeIn {
@@ -338,6 +404,9 @@
             transform: none;
             box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
         }
+        
+        /* Hide category tags on all viewports (PC & SP) */
+        .category-tag { display: none !important; }
         
         .clear-filter-button {
             background: linear-gradient(135deg, #ef4444 0%, #ec4899 100%);
@@ -606,27 +675,62 @@
         // Create kanji card HTML
         function createKanjiCard(kanji) {
             const svgPath = getKanjiSVGPath(kanji.kanji);
+            
+            // Create unique IDs for desktop and mobile to avoid conflicts
+            const desktopStaticId = `kanji-static-desktop-${kanji.id}`;
+            const desktopAnimId = `kanji-animation-desktop-${kanji.id}`;
+            const desktopDrawId = `kanji-draw-desktop-${kanji.id}`;
+            
+            const mobileStaticId = `kanji-static-mobile-${kanji.id}`;
+            const mobileAnimId = `kanji-animation-mobile-${kanji.id}`;
+            const mobileDrawId = `kanji-draw-mobile-${kanji.id}`;
+            
+            // Desktop elements
+            const desktopStaticDisplay = `
+                <div class="kanji-static-display" id="${desktopStaticId}" onclick="showStrokeOrder('${desktopStaticId}', '${desktopAnimId}', '${desktopDrawId}', '${kanji.kanji}')">
+                    <img src="${svgPath}" alt="${kanji.kanji}" class="kanji-svg-image" 
+                         onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                    <div class="kanji-fallback japanese-text" style="display:none;">${kanji.kanji}</div>
+                </div>
+            `;
+            
+            const desktopAnimationDisplay = `
+                <div class="kanji-animation-display hidden" id="${desktopAnimId}" onclick="showStrokeOrder('${desktopStaticId}', '${desktopAnimId}', '${desktopDrawId}', '${kanji.kanji}')">
+                    <div id="${desktopDrawId}" class="kanji-stroke-animation"></div>
+                </div>
+            `;
+            
+            // Mobile elements
+            const mobileStaticDisplay = `
+                <div class="kanji-static-display" id="${mobileStaticId}" onclick="showStrokeOrder('${mobileStaticId}', '${mobileAnimId}', '${mobileDrawId}', '${kanji.kanji}')">
+                    <img src="${svgPath}" alt="${kanji.kanji}" class="kanji-svg-image" 
+                         onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                    <div class="kanji-fallback japanese-text" style="display:none;">${kanji.kanji}</div>
+                </div>
+            `;
+            
+            const mobileAnimationDisplay = `
+                <div class="kanji-animation-display hidden" id="${mobileAnimId}" onclick="showStrokeOrder('${mobileStaticId}', '${mobileAnimId}', '${mobileDrawId}', '${kanji.kanji}')">
+                    <div id="${mobileDrawId}" class="kanji-stroke-animation"></div>
+                </div>
+            `;
+            
+            // Return HTML with responsive layout
             return `
                 <div class="kanji-card rounded-2xl p-4 fade-in">
-                    <div class="text-center">
+                    <!-- Desktop Layout (centered) -->
+                    <div class="text-center hidden md:block">
                         <div class="category-tag ${getCategoryTagClass(kanji.category)} mb-3">
                             ${kanji.category}
                         </div>
                         
                         <!-- Kanji Display Area (Static SVG or Animation) -->
                         <div class="kanji-display-container mb-3">
-                            <!-- Static SVG Display (clickable to show animation) -->
-                            <div class="kanji-static-display" id="kanji-static-${kanji.id}" onclick="showStrokeOrder(${kanji.id}, '${kanji.kanji}')">
-                                <img src="${svgPath}" alt="${kanji.kanji}" class="kanji-svg-image" 
-                                     onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-                                <div class="kanji-fallback japanese-text" style="display:none;">${kanji.kanji}</div>
-                            </div>
+                            <!-- Static SVG Display -->
+                            ${desktopStaticDisplay}
                             
-                            <!-- Animation Display (hidden by default, replaces static when active) -->
-                            <div class="kanji-animation-display hidden" id="kanji-animation-${kanji.id}" onclick="showStrokeOrder(${kanji.id}, '${kanji.kanji}')">
-                                <div id="kanji-draw-${kanji.id}" class="kanji-stroke-animation">
-                                </div>
-                            </div>
+                            <!-- Animation Display -->
+                            ${desktopAnimationDisplay}
                         </div>
                         
                         <div class="han-viet-display mb-2">
@@ -636,11 +740,41 @@
                         <div class="meaning-display mb-3">
                             ${kanji.meaning}
                         </div>
+                        
+                        
                     </div>
                     
-                    <div class="text-center text-xs text-gray-400 font-mono">
-                        #${kanji.id}
+                    <!-- Mobile Layout (horizontal) -->
+                    <div class="kanji-card-mobile md:hidden">
+                        <div class="kanji-left-section">
+                            <!-- Kanji Display Area (Static SVG or Animation) -->
+                            <div class="kanji-display-container">
+                                <!-- Static SVG Display -->
+                                ${mobileStaticDisplay}
+                                
+                                <!-- Animation Display -->
+                                ${mobileAnimationDisplay}
+                            </div>
+                        </div>
+                        
+                        <div class="kanji-right-section">
+                            <div class="han-viet-display mb-1">
+                                ${kanji.han_viet}
+                            </div>
+                            
+                            <div class="meaning-display mb-1">
+                                ${kanji.meaning}
+                            </div>
+                            
+                            <div class="flex items-center justify-between">
+                                <div class="category-tag ${getCategoryTagClass(kanji.category)}">
+                                    ${kanji.category}
+                                </div>
+                                
+                            </div>
+                        </div>
                     </div>
+                    <div class="kanji-id">#${kanji.id}</div>
                 </div>
             `;
         }
@@ -698,10 +832,14 @@
         }
 
         // Toggle between static and animation display when kanji is clicked
-        function showStrokeOrder(kanjiId, kanjiChar) {
-            const staticDisplayId = `#kanji-static-${kanjiId}`;
-            const animationDisplayId = `#kanji-animation-${kanjiId}`;
-            const containerId = `#kanji-draw-${kanjiId}`;
+        function showStrokeOrder(staticId, animId, drawId, kanjiChar) {
+            // Use direct IDs without # prefix for tracking
+            const elementId = staticId.replace('kanji-static-', '');
+            
+            // Add # for jQuery selectors
+            const staticDisplayId = `#${staticId}`;
+            const animationDisplayId = `#${animId}`;
+            const containerId = `#${drawId}`;
             
             const $staticDisplay = $(staticDisplayId);
             const $animationDisplay = $(animationDisplayId);
@@ -709,29 +847,29 @@
             
             if ($container.length === 0) return;
             
-            // Clear any existing timeout for this kanji
-            if (animationTimeouts[kanjiId]) {
-                clearTimeout(animationTimeouts[kanjiId]);
-                delete animationTimeouts[kanjiId];
+            // Clear any existing timeout for this element
+            if (animationTimeouts[elementId]) {
+                clearTimeout(animationTimeouts[elementId]);
+                delete animationTimeouts[elementId];
             }
             
-            // Check current state based on actual DOM visibility instead of just stored state
+            // Check current state based on actual DOM visibility
             const isAnimationVisible = !$animationDisplay.hasClass('hidden');
             
-            console.log(`Kanji ${kanjiId}: stored state = ${animationStates[kanjiId]}, DOM visible = ${isAnimationVisible}`);
+            console.log(`Kanji ${elementId}: DOM visible = ${isAnimationVisible}`);
             
             if (isAnimationVisible) {
                 // Currently showing animation, switch to static
-                console.log(`Switching kanji ${kanjiId} to static`);
+                console.log(`Switching kanji ${elementId} to static`);
                 $staticDisplay.removeClass('hidden');
                 $animationDisplay.addClass('hidden');
-                animationStates[kanjiId] = false;
+                animationStates[elementId] = false;
             } else {
                 // Currently showing static, switch to animation
-                console.log(`Switching kanji ${kanjiId} to animation`);
+                console.log(`Switching kanji ${elementId} to animation`);
                 $staticDisplay.addClass('hidden');
                 $animationDisplay.removeClass('hidden');
-                animationStates[kanjiId] = true;
+                animationStates[elementId] = true;
                 
                 // Always restart the animation from the beginning
                 // Force clear the container completely
@@ -743,7 +881,7 @@
                 // Add a small delay to ensure DOM is updated
                 setTimeout(function() {
                     try {
-                        console.log(`Loading DMAK animation for kanji ${kanjiChar} (ID: ${kanjiId})`);
+                        console.log(`Loading DMAK animation for kanji ${kanjiChar} (element: ${elementId})`);
                         
                         // Re-select container to ensure fresh reference
                         const $freshContainer = $(containerId);
@@ -752,8 +890,13 @@
                         const strokeCount = getStrokeCount(kanjiChar);
                         console.log(`Using stroke count for ${kanjiChar}: ${strokeCount}`);
                         
-                        // Reset stroke counter for this kanji
-                        drawnStrokes[kanjiId] = 0;
+                        // Reset stroke counter for this element
+                        drawnStrokes[elementId] = 0;
+                        
+                        // Check if we're on mobile
+                        const isMobile = window.innerWidth <= 640;
+                        const kanjiSize = isMobile ? 45 : 60;
+                        const strokeWidth = isMobile ? 6 : 8;
                         
                         // DMAK options configuration
                         var dmakOptions = {
@@ -762,7 +905,7 @@
                                 "order": {
                                     "visible": true,
                                     "attr": {
-                                        "stroke-width": 8,
+                                        "stroke-width": strokeWidth,
                                         "stroke": "#e53e3e"
                                     }
                                 }
@@ -771,16 +914,16 @@
                                 "show": false
                             },
                             "autoplay": true,
-                            "height": 60,
-                            "width": 60,
+                            "height": kanjiSize,
+                            "width": kanjiSize,
                             "step": 0.01,
-                            "drew": createDrewCallback(kanjiId, strokeCount)
+                            "drew": createDrewCallback(elementId, strokeCount)
                         };
                         
                         // If container is still problematic, recreate it
                         if ($freshContainer.length === 0 || $freshContainer.hasClass('dmak-error')) {
-                            console.log(`Recreating container for kanji ${kanjiId}`);
-                            $animationDisplay.html(`<div id="kanji-draw-${kanjiId}" class="kanji-stroke-animation"></div>`);
+                            console.log(`Recreating container for element ${elementId}`);
+                            $animationDisplay.html(`<div id="${drawId}" class="kanji-stroke-animation"></div>`);
                             const $newContainer = $(containerId);
                             
                             $newContainer.dmak(kanjiChar, dmakOptions);
@@ -800,24 +943,50 @@
                         // If animation fails, go back to static display
                         $staticDisplay.removeClass('hidden');
                         $animationDisplay.addClass('hidden');
-                        animationStates[kanjiId] = false;
+                        animationStates[elementId] = false;
                     }
                 }, 50); // 50ms delay
             }
         }
         
         // Hide stroke order animation and show static display
-        function hideStrokeOrder(kanjiId) {
-            const staticDisplayId = `#kanji-static-${kanjiId}`;
-            const animationDisplayId = `#kanji-animation-${kanjiId}`;
+        function hideStrokeOrder(elementId) {
+            // Check if this is a full ID or just the identifier
+            const staticId = elementId.includes('static') ? elementId : `kanji-static-${elementId}`;
+            const animId = elementId.includes('animation') ? elementId : `kanji-animation-${elementId}`;
+            
+            // Add # for jQuery selectors
+            const staticDisplayId = `#${staticId}`;
+            const animationDisplayId = `#${animId}`;
             
             const $staticDisplay = $(staticDisplayId);
             const $animationDisplay = $(animationDisplayId);
             
-            // Clear any existing timeout for this kanji
-            if (animationTimeouts[kanjiId]) {
-                clearTimeout(animationTimeouts[kanjiId]);
-                delete animationTimeouts[kanjiId];
+            // If we can't find the elements with these selectors, try alternative formats
+            if ($staticDisplay.length === 0 || $animationDisplay.length === 0) {
+                console.log(`Could not find elements for ${elementId}, trying alternative selectors`);
+                // Try to find by partial match
+                const partialId = elementId.replace('desktop-', '').replace('mobile-', '');
+                const $allStatic = $(`[id*='${partialId}']`).filter('.kanji-static-display');
+                const $allAnim = $(`[id*='${partialId}']`).filter('.kanji-animation-display');
+                
+                console.log(`Found ${$allStatic.length} static and ${$allAnim.length} animation elements`);
+                
+                if ($allStatic.length > 0) $allStatic.removeClass('hidden');
+                if ($allAnim.length > 0) $allAnim.addClass('hidden');
+                
+                // Update state
+                animationStates[elementId] = false;
+                
+                // Reset stroke counter
+                drawnStrokes[elementId] = 0;
+                return;
+            }
+            
+            // Clear any existing timeout for this element
+            if (animationTimeouts[elementId]) {
+                clearTimeout(animationTimeouts[elementId]);
+                delete animationTimeouts[elementId];
             }
             
             // Show static display and hide animation display
@@ -825,10 +994,10 @@
             $animationDisplay.addClass('hidden');
             
             // Update state
-            animationStates[kanjiId] = false;
+            animationStates[elementId] = false;
             
             // Reset stroke counter
-            drawnStrokes[kanjiId] = 0;
+            drawnStrokes[elementId] = 0;
         }
         
         // Make functions available globally
