@@ -44,7 +44,7 @@
         }
         
         .kanji-display {
-            font-size: 4rem;
+            font-size: 3.2rem;
             font-weight: 900;
             background: linear-gradient(135deg, #e53e3e 0%, #c53030 50%, #9c2626 100%);
             -webkit-background-clip: text;
@@ -56,7 +56,7 @@
         
         .kanji-display-container {
             position: relative;
-            min-height: 180px;
+            min-height: 100px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -87,16 +87,18 @@
             justify-content: center;
             cursor: pointer;
             transition: all 0.3s ease;
+            padding: 1rem;
+            border-radius: 12px;
         }
-        
+
         .kanji-animation-display:hover {
             background: rgba(102, 126, 234, 0.05);
-            border-radius: 12px;
+            transform: translateX(-50%) scale(1.05);
         }
         
         .kanji-svg-image {
-            width: 120px;
-            height: 120px;
+            width: 60px;
+            height: 60px;
             display: block;
             margin: 0 auto;
             filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));
@@ -107,8 +109,16 @@
             filter: drop-shadow(0 6px 12px rgba(229, 62, 62, 0.3));
         }
         
+        .kanji-stroke-animation {
+            width: 60px;
+            height: 60px;
+            display: block;
+            margin: 0 auto;
+            transition: all 0.3s ease;
+        }
+        
         .kanji-fallback {
-            font-size: 4rem;
+            font-size: 3.2rem;
             font-weight: 900;
             background: linear-gradient(135deg, #e53e3e 0%, #c53030 50%, #9c2626 100%);
             -webkit-background-clip: text;
@@ -162,27 +172,27 @@
             -webkit-text-fill-color: transparent;
             background-clip: text;
             font-weight: 700;
-            font-size: 1.3em;
+            font-size: 1.1em;
             letter-spacing: 0.05em;
         }
         
         .meaning-display {
             color: #2d3748;
-            font-size: 1em;
+            font-size: 0.9em;
             font-weight: 500;
-            line-height: 1.4;
+            line-height: 1.3;
         }
         
         .category-tag {
             display: inline-flex;
             align-items: center;
-            padding: 4px 12px;
-            border-radius: 20px;
-            font-size: 0.8em;
+            padding: 3px 8px;
+            border-radius: 16px;
+            font-size: 0.7em;
             font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 0.025em;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
         }
         
         /* Category colors */
@@ -245,11 +255,20 @@
             }
             
             .kanji-display {
-                font-size: 3rem;
+                font-size: 2.5rem;
             }
             
             .han-viet-display {
-                font-size: 1.1em;
+                font-size: 1em;
+            }
+            
+            .meaning-display {
+                font-size: 0.8em;
+            }
+            
+            .category-tag {
+                font-size: 0.65em;
+                padding: 2px 6px;
             }
         }
         
@@ -567,35 +586,33 @@
         function createKanjiCard(kanji) {
             const svgPath = getKanjiSVGPath(kanji.kanji);
             return `
-                <div class="kanji-card rounded-2xl p-6 fade-in">
+                <div class="kanji-card rounded-2xl p-4 fade-in">
                     <div class="text-center">
-                        <div class="category-tag ${getCategoryTagClass(kanji.category)} mb-4">
+                        <div class="category-tag ${getCategoryTagClass(kanji.category)} mb-3">
                             ${kanji.category}
                         </div>
                         
                         <!-- Kanji Display Area (Static SVG or Animation) -->
-                        <div class="kanji-display-container mb-4">
+                        <div class="kanji-display-container mb-3">
                             <!-- Static SVG Display (clickable to show animation) -->
                             <div class="kanji-static-display" id="kanji-static-${kanji.id}" onclick="showStrokeOrder(${kanji.id}, '${kanji.kanji}')">
                                 <img src="${svgPath}" alt="${kanji.kanji}" class="kanji-svg-image" 
                                      onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
                                 <div class="kanji-fallback japanese-text" style="display:none;">${kanji.kanji}</div>
-                                <div class="click-hint">👆 Click để xem cách viết</div>
                             </div>
                             
                             <!-- Animation Display (hidden by default, replaces static when active) -->
                             <div class="kanji-animation-display hidden" id="kanji-animation-${kanji.id}" onclick="showStrokeOrder(${kanji.id}, '${kanji.kanji}')">
                                 <div id="kanji-draw-${kanji.id}" class="kanji-stroke-animation">
                                 </div>
-                                <div class="animation-hint">👆 Click để về hình tĩnh</div>
                             </div>
                         </div>
                         
-                        <div class="han-viet-display mb-3">
+                        <div class="han-viet-display mb-2">
                             ${kanji.han_viet}
                         </div>
                         
-                        <div class="meaning-display mb-4">
+                        <div class="meaning-display mb-3">
                             ${kanji.meaning}
                         </div>
                     </div>
@@ -699,15 +716,15 @@
                                 "show": false
                             },
                             "autoplay": true,
-                            "height": 150,
-                            "width": 150,
+                            "height": 60,
+                            "width": 60,
                             "step": 0.01
                         };
                         
                         // If container is still problematic, recreate it
                         if ($freshContainer.length === 0 || $freshContainer.hasClass('dmak-error')) {
                             console.log(`Recreating container for kanji ${kanjiId}`);
-                            $animationDisplay.html(`<div id="kanji-draw-${kanjiId}" class="kanji-stroke-animation"></div><div class="animation-hint">👆 Click để về hình tĩnh</div>`);
+                            $animationDisplay.html(`<div id="kanji-draw-${kanjiId}" class="kanji-stroke-animation"></div>`);
                             const $newContainer = $(containerId);
                             
                             $newContainer.dmak(kanjiChar, dmakOptions);
